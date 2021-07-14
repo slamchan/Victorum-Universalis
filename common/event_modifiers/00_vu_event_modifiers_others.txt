@@ -1,0 +1,387 @@
+
+#Beyond Typus work done by all contributors other than Draiocht
+#Remember to add estuaries to the new estuary check in scripted triggers -----
+
+##################################################################################################
+##################################################################################################
+##################################################################################################
+# HR's work (original BtP dev)
+##################################################################################################
+##################################################################################################
+##################################################################################################
+
+mersey_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+clyde_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+tribes_of_galway_modifier = {
+	province_trade_power_value = 10
+	picture = "province_trade_power_value"
+}
+
+btp_kingdom_of_god = {
+	missionaries = 2
+	prestige = 1
+	stability_cost_modifier = -0.1
+	advisor_pool = 1
+	advisor_cost = -0.2
+	free_leader_pool = 1
+	ae_impact = -0.2
+	#icon = 9
+}
+
+btp_dano_scottish_wedding = {
+	diplomatic_upkeep = 1
+}
+
+minho_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+##################################################################################################
+##################################################################################################
+##################################################################################################
+# Dub's work
+##################################################################################################
+##################################################################################################
+##################################################################################################
+#Scandinavia flavour stuff
+
+swe_settled_finland = {
+	local_manpower_modifier = 0.20
+}
+swe_imperial_influence = {
+	spy_offence = 0.20
+	diplomatic_reputation = 1
+}
+swe_conquered_prussia = {
+	discipline = 0.03
+}
+swe_golden_age = {
+	all_power_cost = -0.05
+}
+dan_curtailed_hansa = {
+	legitimacy = 1
+	trade_efficiency = 0.1
+}
+dan_dominance_asserted = {
+	global_trade_power = 0.2
+}
+dan_sound_toll_strengthened = {
+	trade_efficiency = 0.2
+}
+nor_markland_timber = {
+	local_development_cost = -1			 #Meant to work with glacial + arctic modifiers, hence the size.
+}
+nor_haakons_legacy = {
+	legitimacy = 1
+	ae_impact = -0.1
+}
+nor_harder_than_hardrade = {
+	global_autonomy = -0.05
+	prestige = 1
+}
+
+dtt_bread_bonus_prod = {
+	trade_goods_size_modifier = 0.25
+}
+
+##################################################################################################
+##################################################################################################
+##################################################################################################
+# Cinnamon Ryce's work
+##################################################################################################
+##################################################################################################
+##################################################################################################
+
+mlc_sound_toll = {
+	province_trade_power_value = 10
+}
+
+ayu_portuguese_treaty = {
+	tolerance_heathen = 3
+}
+
+##################################################################################################
+##################################################################################################
+##################################################################################################
+# Chairman Meow (JP)'s work
+##################################################################################################
+##################################################################################################
+##################################################################################################
+
+tweed_estuary_modifier = {
+	picture = "estuary_icon"
+	province_trade_power_value = 10
+}
+
+humber_estuary_modifier = {
+	picture = "estuary_icon"
+	province_trade_power_value = 10
+}
+
+waterford_harbour_modifier = {
+	province_trade_power_value = 10
+	picture = "province_trade_power_value"
+}
+
+cinque_ports_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 2
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	local_defensiveness = 0.25
+}
+
+wealth_of_carbery_modifier = {
+	trade_goods_size = 0.5
+	local_development_cost = -0.20
+}
+
+stannery_law_modifier = {
+	trade_goods_size = 1
+}
+
+##################################################################################################
+##################################################################################################
+##################################################################################################
+# TCOP Additions by San Felipe 1.31.3
+##################################################################################################
+##################################################################################################
+##################################################################################################
+
+hired_mercenaries_I = {
+	land_forcelimit = 1
+}
+hired_mercenaries_IV = {
+	land_forcelimit = 4
+}
+hired_mercenaries_V = {
+	land_forcelimit = 5
+}
+hired_mercenaries_VIII = {
+	land_forcelimit = 8
+}
+hired_mercenaries_X = {
+	land_forcelimit = 10
+}
+hired_mercenaries_XII = {
+	land_forcelimit = 12
+}
+hired_mercenaries_XV = {
+	land_forcelimit = 15
+}
+hired_mercenaries_XX = {
+	land_forcelimit = 20
+}
+hired_mercenaries_XXV = {
+	land_forcelimit = 25
+}
+hired_mercenaries_XXX = {
+	land_forcelimit = 30
+}
+hired_mercenaries_XXXV = {
+	land_forcelimit = 35
+}
+hired_mercenaries_XL = {
+	land_forcelimit = 40
+}
+hired_mercenaries_XLV = {
+	land_forcelimit = 45
+}
+hired_mercenaries_L = {
+	land_forcelimit = 50
+}
+hired_mercenaries_LX = {
+	land_forcelimit = 60
+}
+hired_mercenaries_LXX = {
+	land_forcelimit = 70
+}
+hired_mercenaries_LXXX = {
+	land_forcelimit = 80
+}
+hired_mercenaries_XC = {
+	land_forcelimit = 90
+}
+hired_mercenaries_C = {
+	land_forcelimit = 100
+}
+hired_mercenaries_CXXX = {
+	land_forcelimit = 130
+}
+hired_mercenaries_CLX = {
+	land_forcelimit = 160
+}
+hired_mercenaries_CC = {
+	land_forcelimit = 200
+}
+hired_mercenaries_CCL = {
+	land_forcelimit = 250
+}
+
+#MORE TCOP Additions
+
+#Specifically a 1.31.3 feature to lower western/chinese forcelimits BY TCOP - San Felipe
+#Army - Multiplicative Debuff
+
+#Army - Additive Debuff
+mercenary_upkeep_V = {
+	land_forcelimit = -5
+}
+
+mercenary_upkeep_X = {
+	land_forcelimit = -10
+}
+
+mercenary_upkeep_XV = {
+	land_forcelimit = -15
+}
+
+mercenary_upkeep_XX = {
+	land_forcelimit = -20
+}
+
+mercenary_upkeep_XXV = {
+	land_forcelimit = -25
+}
+
+mercenary_upkeep_XXX = {
+	land_forcelimit = -30
+}
+
+mercenary_upkeep_XXXV = {
+	land_forcelimit = -35
+}
+
+mercenary_upkeep_XL = {
+	land_forcelimit = -40
+}
+
+mercenary_upkeep_XLV = {
+	land_forcelimit = -45
+}
+
+mercenary_upkeep_L = {
+	land_forcelimit = -50
+}
+
+mercenary_upkeep_LX = {
+	land_forcelimit = -60
+}
+
+mercenary_upkeep_LXX = {
+	land_forcelimit = -70
+}
+
+mercenary_upkeep_LXXX = {
+	land_forcelimit = -80
+}
+
+mercenary_upkeep_XC = {
+	land_forcelimit = -90
+}
+
+mercenary_upkeep_C = {
+	land_forcelimit = -100
+}
+
+mercenary_upkeep_CXXX = {
+	land_forcelimit = -130
+}
+
+mercenary_upkeep_CLX = {
+	land_forcelimit = -160
+}
+
+mercenary_upkeep_CC = {
+	land_forcelimit = -200
+}
+
+mercenary_upkeep_CCL = {
+	land_forcelimit = -250
+}
+
+#Naval - Additive Debuff
+ship_upkeep_V = {
+	naval_forcelimit = -5
+}
+
+ship_upkeep_X = {
+	naval_forcelimit = -10
+}
+
+ship_upkeep_XV = {
+	naval_forcelimit = -15
+}
+
+ship_upkeep_XX = {
+	naval_forcelimit = -20
+}
+
+ship_upkeep_XXV = {
+	naval_forcelimit = -25
+}
+
+ship_upkeep_XXX = {
+	naval_forcelimit = -30
+}
+
+ship_upkeep_XXXV = {
+	naval_forcelimit = -35
+}
+
+ship_upkeep_XL = {
+	naval_forcelimit = -40
+}
+
+ship_upkeep_XLV = {
+	naval_forcelimit = -45
+}
+
+ship_upkeep_L = {
+	naval_forcelimit = -50
+}
+
+ship_upkeep_LX = {
+	naval_forcelimit = -60
+}
+
+ship_upkeep_LXX = {
+	naval_forcelimit = -70
+}
+
+ship_upkeep_LXXX = {
+	naval_forcelimit = -80
+}
+
+ship_upkeep_XC = {
+	naval_forcelimit = -90
+}
+
+ship_upkeep_C = {
+	naval_forcelimit = -100
+}
+
+ship_upkeep_CXXX = {
+	naval_forcelimit = -130
+}
+
+ship_upkeep_CLX = {
+	naval_forcelimit = -160
+}
+
+ship_upkeep_CC = {
+	naval_forcelimit = -200
+}
+
+ship_upkeep_CCL = {
+	naval_forcelimit = -250
+}

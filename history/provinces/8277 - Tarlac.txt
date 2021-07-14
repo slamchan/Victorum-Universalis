@@ -1,0 +1,15 @@
+#Tarlac
+
+owner = TDO
+controller = TDO
+add_core = TDO
+culture = filipino
+religion = animism
+capital = "Tarlac"
+trade_goods = citrus
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 4
+is_city = yes
+discovered_by = chinese

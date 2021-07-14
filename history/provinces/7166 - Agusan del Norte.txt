@@ -1,0 +1,17 @@
+#Agusan del Norte
+
+culture = danao
+religion = animism
+capital = "Cabadbaran"
+trade_goods = cloves
+hre = no
+base_tax = 2  
+base_production = 2 
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+owner = BTU
+controller = BTU
+add_core = BTU
+
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan

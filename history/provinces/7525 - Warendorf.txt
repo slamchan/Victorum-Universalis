@@ -1,0 +1,33 @@
+#6271 - Warendorf
+#Region - Germany
+#Area - Westphalia
+
+owner = TCK
+controller = TCK
+add_core = TCK
+culture = hannoverian
+religion = catholic
+trade_goods = beer
+capital = "Warendorf"
+base_tax = 3
+base_production = 2
+base_manpower = 3
+hre = yes
+is_city = yes
+
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = russian
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+#Documented 789 AD
+1566.1.1 = { religion = reformed }
+1585.1.1 = { religion = catholic } # Jesuites are efficient in restoring the catholic faith
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

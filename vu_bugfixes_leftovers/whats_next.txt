@@ -1,0 +1,87 @@
+This file means to detail all the things that need direct fixing that has not yet been fixed, but has fixing potential:
+
+Asia fixes:
+-Manchu-Qing missions
+-Korean missions
+-Ming missions
+
+Asia additions:
+Sinicization of Mongols, Korean, Japanese and cultures. Happens if controlling the Mandate of Heaven and passing a decision. Not decided yet whether it would be worthwhile making separate tags or not.
+Altaic tags, most likely as part of forming Yuan:
+	-Merges Altaic cultures into Chinese:
+		-Mongol -> Menggu
+		-Korchin -> Huoqin
+		-Oirat -> ???
+		-Khalka -> ???
+Korean. Separate decision:
+	-Merges Korean into Chinese, naming it Hanguo.
+	-Renames country to ???
+Dai Viet. Separate decision:
+	-Merges Vietnamese intto Chinese, naming it Nan
+	-Renames country to Yue, with current Yue tag being renamed to Yuyue, which is what its flag says.
+Japan. Separate decision or triggered by mission through event.
+	-Merges Japanese cultures into Chinese:
+		-Togoku -> Dongbei
+		-Saigoku -> Xiguo
+		-Kyushu -> Xifang
+	-Renames country to Minghe, Chinese translation of Meiwa, meaning "bright enlightenment".
+
+
+
+MISSIONS:
+This will be a huge project to work with, but there are basically loads of missions in vanilla, with pretty much none of them working with BT.
+Out of all the mission trees, only a handful are actually functional and up to date. The rest are littered with bugs that have yet to be fixed.
+The list is detailed in a separate excel sheet.
+
+C1CK's fixed trees that require easy-edit treatment:
+-Morocco GC
+-Tatar
+-Scotland RB
+-Ireland RB
+-Poland/Commonwealth
+-Lithuania
+Other fixes missions that have not been easy-edit treated:
+-Toungoo DH
+-Malwa DH
+-Bharat-Hindustan DH
+-Ayutthaya BT
+-Majapahit BT
+-Cambodia BT
+-Novgorod TR
+-Burgundy
+-Russian Minors TR
+-Omani
+
+Missing things for missions:
+-Burgundy: Lacks a mission for Guelders area (May come in 1.30?). I have since then fixed this.
+
+IDEAS:
+The following nations are formable in BT, but lack idea sets:
+-Iberia
+-Illyria
+-Lombardy-Venetia (Uses Milanese ideas if monarchy, Venetian if republic)
+-Emilia-Romagna
+-Great Moravia
+-Sennar
+
+The following nations are added by BT, but lack idea sets:
+-All of them, basically, except like 10. Will make a proper list later.
+
+
+Potential miscellaneous things to deal with:
+-Fix reformation desire rising so high by halving each non-country-unique event's effect on reformation desire, or double MTTH.
+-Make Colonial Lesser Antilles a Trade Company region, in order to help the lack of centers of trade in the area. Historically the region was basically crown colonies and belonged to the West Indian charters.
+-Startup guarantees. The AI is apparently incapable of revoking already set-up guarantees, which causes issues for tags such as AI Burgundy & France, who have several guarantees at game start.
+-A complete fief overhaul that puts basically all french tags as fiefs. Fiefs will act as tributaries, but can be integrated through inheritance, or if they share dynasty, and possibly some other mechanic after X years.
+
+Balance issues that need to be adressed:
+-Change Austria's starting AI personality from diplomat to balanced as it seems to discourage them pursuing their PUs.
+
+
+Random ideas for gamebalance purposes:
+-Move base missionary strength to religious unity, potentially doubling it back to vanilla's values.
+	Reasoning:
+	-It would emulate Islam's sufism in Mysticism where nations managed to convert people through the merging of local beliefs, emulated in tolerance. Mysticism would be tweaked to give +3 tolerance of heathens instead of missionary strength. This also helps quite a bit since Mysticism now also makes it easier to convert heretics, something that doesn't make sense to me.
+	-It would make the +25% religious unity modifier found in Religious ideas actually do something.
+	-It would also mean that nations such as Venice cannot convert their Orthodox population in their colonies, since they'd have much less religious unity.
+	-It would also force people to pick up the decisions that boost missionary strength to get any real conversions going. Since they'll likely have no tolerance anyway, the negative here does not matter.

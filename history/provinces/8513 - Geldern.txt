@@ -1,0 +1,32 @@
+#8513 - Geldern
+#Region - Germany
+#Area - North Rhine
+
+owner = GEL
+controller = GEL
+add_core = GEL
+culture = limburgish
+religion = catholic
+trade_goods = cloth
+capital = "Mönchengladbach"
+base_tax = 2
+base_production = 3
+base_manpower = 1 
+is_city = yes
+hre = yes
+
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = russian
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+#Documented 1270 AD
+1444.1.1 = { owner = GEL controller = GEL add_core = GEL }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved. Grand Duchy of Berg

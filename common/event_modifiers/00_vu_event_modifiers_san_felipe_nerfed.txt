@@ -1,0 +1,1483 @@
+
+#Beyond Typus work by Draiocht
+#Remember to add estuaries to the new estuary check in scripted triggers -----
+
+##################################################################################################
+##################################################################################################
+##################################################################################################
+# New World Content - Formerly in BT event modifiers
+##################################################################################################
+##################################################################################################
+##################################################################################################
+
+######################
+# Belgium
+######################
+bel_safeguard = {
+	land_morale = 0.1
+	improve_relation_modifier = 0.15
+}
+
+bel_maintain = {
+	fort_maintenance_modifier = -0.15
+}
+
+bel_holland = {
+	trade_efficiency = 0.2
+}
+
+bel_channel = {
+	global_trade_power = 0.1
+}
+
+bel_nostrum = {
+	global_unrest = -1
+}
+
+bel_brusel = {
+	local_development_cost = -0.1
+	local_build_time = -0.1
+}
+
+bel_textile = {
+	production_efficiency = 0.15
+}
+
+bel_industry = {
+	global_trade_goods_size_modifier = 0.15
+}
+
+bel_colonial = {
+	range = 0.35
+}
+
+bel_power = {
+	all_power_cost = -0.05
+}
+
+bel_settle = {
+	global_colonial_growth = 15
+}
+
+bel_india = {
+	global_trade_power = 0.15
+	trade_steering = 0.15
+}
+
+bel_city_expansion = {
+	local_build_cost = -0.15
+	allowed_num_of_buildings = 1
+}
+
+bel_congo = {
+	global_trade_goods_size_modifier = 0.05
+}
+
+bel_force = {
+	native_uprising_chance = -0.5
+}
+
+###########################
+#Estuaries
+###########################
+fraiser_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+yukon_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+mackenzie_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+colorado_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+copper_river_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+klamath_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+st_john_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+moose_river_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+jamaica_channel_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "sea_lane_icon"
+}
+
+###########################
+#Everything but Estuaries
+###########################
+
+grand_banks_of_newfoundland = {
+	trade_goods_size = 3.0
+}
+
+san_francisco_bay_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "bay_icon"
+}
+
+#Cut for now
+#golden_gate_strait_modifier = {
+#	province_trade_power_value = 5
+#}
+
+#Event Stuff
+mettling_government = {
+	local_unrest = 5
+}
+
+take_colonial_land_by_force = {
+	local_colonial_growth = 20
+}
+
+encourage_trade_with_natives = {
+	local_development_cost = -0.05
+	province_trade_power_modifier = 0.10
+}
+
+paranoid_defenses_at_colony = {
+	local_defensiveness = 0.25
+}
+
+allied_natives_founded_colony = {
+	local_autonomy = 0.2
+	local_unrest = -3
+	local_colonial_growth = 10
+	local_missionary_strength = -0.03
+}
+
+bt_spanish_colonial_enthusiasm = {
+	colonist_placement_chance = 0.15
+	global_colonial_growth = 75
+}
+
+bt_daring_navigator = {
+	range = 0.5
+}
+
+###########################################
+#Everything but Estuaries = TCOP additions
+###########################################
+
+port_of_accra_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_algiers_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_alexandria_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_antioch_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_banjul_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_barcelona_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_ceuta_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_copenhagen_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_gibraltar_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_halifax_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_jaffa_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_london_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_malta_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_marseille_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_mellila_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_qatar_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_rhodes_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_rotterdam_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_royal_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_seville_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_spain_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_tunis_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+port_of_venice_modifier = {
+	province_trade_power_value = 20
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "port_icon"
+}
+
+##############
+# Naval Bases
+##############
+navalbase_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 5
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "naval_base_icon"
+}
+
+###########
+# Lagoons
+###########
+venetian_lagoon_modifier = {
+	trade_goods_size = 3.0
+	province_trade_power_value = 15
+	picture = "venetian_lagoon_icon"
+}
+
+laguna_lagoon_modifier = {
+	trade_goods_size = 3.0
+	picture = "laguna_lagoon_icon"
+}
+
+tropical_lagoon_modifier = {
+	trade_goods_size = 3.0
+	picture = "tropical_lagoon_icon"
+}
+
+##################
+# Natural Wonders
+##################
+banaue_rice_terraces_modifier = {
+    trade_goods_size = 1.5
+    supply_limit = 1.5
+    supply_limit_modifier = 0.45
+    local_development_cost = -0.15
+    prestige = 0.4
+    picture = "banaue_rice_terraces_icon"
+}
+
+chocolate_hills_modifier = {
+	trade_goods_size = 1.5
+	supply_limit = 1.0
+	supply_limit_modifier = 0.3
+	local_development_cost = -0.15
+	tolerance_heathen = 1
+	picture = "chocolate_hills_icon"
+}
+
+niagra_falls_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+	picture = "niagra_falls_icon"
+}
+
+victoria_falls_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+	picture = "victoria_falls_icon"
+}
+
+yosemite_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+	picture = "yosemite_icon"
+}
+
+grand_canyon_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+	picture = "grand_canyon_icon"
+}
+
+mt_fuji_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+	picture = "mt_fuji_icon"
+}
+
+mt_kilimanjaro_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+	picture = "mt_kilimanjaro_icon"
+}
+
+mt_uluru_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+	picture = "mt_uluru_icon"
+}
+
+guilin_mts_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+  picture = "guilin_mts_icon"
+}
+
+yuanyang_rice_terraces_modifier = {
+  trade_goods_size = 1.5
+  supply_limit = 1.0
+  supply_limit_modifier = 0.6
+  local_development_cost = -0.15
+  prestige = 0.4
+	picture = "yuanyang_rice_terraces_icon"
+}
+
+phuket_islands_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+	picture = "phuket_islands_icon"
+}
+
+deans_blue_hole_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+	picture = "deans_blue_hole_icon"
+}
+
+northern_lights_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+	picture = "northern_lights_icon"
+}
+
+###########################
+# Country Event Modifiers #
+###########################
+
+#BELGIUM
+bel_safeguard = {
+	land_morale = 0.1
+	improve_relation_modifier = 0.15
+}
+
+bel_maintain = {
+	fort_maintenance_modifier = -0.15
+}
+
+bel_holland = {
+	trade_efficiency = 0.2
+}
+
+bel_nostrum = {
+	global_unrest = -1
+}
+
+bel_channel = {
+	global_trade_power = 0.1
+}
+
+bel_brusel = {
+	local_development_cost = -0.1
+	local_build_time = -0.1
+}
+
+bel_textile = {
+	production_efficiency = 0.15
+}
+
+bel_industry = {
+	global_trade_goods_size_modifier = 0.15
+}
+
+bel_colonial = {
+	range = 0.35
+}
+
+bel_power = {
+	all_power_cost = -0.05
+}
+
+bel_settle = {
+	global_colonial_growth = 15
+}
+
+bel_india = {
+	global_trade_power = 0.15
+	trade_steering = 0.15
+}
+
+bel_congo = {
+	global_trade_goods_size_modifier = 0.05
+}
+
+bel_force = {
+	native_uprising_chance = -0.5
+}
+
+bel_city_expansion = {
+	local_build_cost = -0.15
+	allowed_num_of_buildings = 1
+}
+
+###################
+# Man-Made Wonders
+###################
+#giza_pyramids_modifier = {
+#  diplomatic_reputation = 0.5
+#  prestige = 0.4
+#	picture = "giza_pyramids_icon"
+#}
+
+grand_canal_modifier = {
+  diplomatic_reputation = 0.2
+  prestige = 0.1
+	picture = "grand_canal_icon"
+}
+
+#moai_heads_of_easter_island_modifier = {
+#  diplomatic_reputation = 0.5
+#  prestige = 0.4
+#	picture = "moai_heads_of_easter_island_icon"
+#}
+
+#great_wall_of_china_modifier = {
+#  diplomatic_reputation = 0.5
+#  prestige = 0.4
+#  defensiveness = 0.05
+#	picture = "great_wall_of_china_icon"
+#}
+
+#parthenon_modifier = {
+#  diplomatic_reputation = 0.5
+#  prestige = 0.4
+#	picture = "parthenon_icon"
+#}
+
+#colosseum_modifier = {
+#  diplomatic_reputation = 0.5
+#  prestige = 0.4
+#	picture = "colosseum_icon"
+#}
+
+hadrians_wall_modifier = {
+  diplomatic_reputation = 0.5
+  prestige = 0.4
+  defensiveness = 0.05
+	picture = "hadrians_wall_icon"
+}
+
+###################
+# Holy Sites
+###################
+#assisi_modifier = {
+#	global_missionary_strength = 0.01
+#  prestige = 0.4
+#	picture = "assisi_icon"
+#}
+
+#hagia_sofia_modifier = {
+#	global_missionary_strength = 0.01
+#  prestige = 0.4
+#	picture = "hagia_sofia_icon"
+#}
+
+holywell_modifier = {
+	global_missionary_strength = 0.01
+  prestige = 0.4
+	picture = "holywell_icon"
+}
+
+mount_athos_modifier = {
+	global_missionary_strength = 0.01
+    prestige = 0.4
+	picture = "mount_athos_icon"
+}
+
+santiago_de_compostella_modifier = {
+	global_missionary_strength = 0.01
+    prestige = 0.4
+	picture = "santiago_de_compostella_icon"
+}
+
+cinnamon_valleys_of_mount_kerinci_modifier = {
+	production_efficiency = 0.15
+	global_trade_goods_size_modifier = 0.15
+	trade_goods_size = 2
+	prestige = 0.4
+	picture = "mount_kerinci_icon"
+}
+
+#stonehenge_modifier = {
+#	tolerance_heathen = 3
+#  prestige = 0.4
+#	picture = "stonehenge_icon"
+#}
+
+#temple_mount_of_jerusalem_modifier = {
+#  global_missionary_strength = 0.03
+#  prestige = 0.4
+#	picture = "temple_mount_of_jerusalem_icon"
+#}
+
+#vatican_modifier = {
+#  global_missionary_strength = 0.03
+#  prestige = 0.4
+#	picture = "vatican_icon"
+#}
+
+##################################################################################################
+##################################################################################################
+##################################################################################################
+# Old World Content - Formerly in btp & btpl event modifiers
+##################################################################################################
+##################################################################################################
+##################################################################################################
+
+###########################
+#Estuaries
+###########################
+severn_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+shannon_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+meuse_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+guadalquivir_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+orontes_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+northern_dvina_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+pechora_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+orange_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+tugela_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+###########################
+#Estuaries - TCOP additions by San Felipe
+###########################
+#English Estuaries
+###########################
+mersey_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+dee_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+esk_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+stour_orwell_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+solent_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+fishbourne_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+blackwater_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+wash_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+forth_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+tay_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+lagan_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+firth_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+loch_linnhe_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+corrib_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+erne_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+foyle_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+swilly_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+newry_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+tamar_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+fal_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+barrow_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+slaney_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+liffey_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+duddon_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+kent_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+leven_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+ancholme_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+nene_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+ouse_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+usk_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+nith_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+fyne_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+spey_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+eden_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+laune_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+roughty_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+owvane_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+###########################
+#French Estuaries
+###########################
+rance_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+laulne_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+vilaine_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+eyre_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+###########################
+#Low Countries Estuaries
+###########################
+scheldt_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+###########################
+#Iberian Estuaries
+###########################
+aviles_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+ulla_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+lerez_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+jucar_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+###########################
+#Italian Estuaries
+###########################
+tiber_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+vulturno_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+ofanto_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+adige_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+coghinas_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+tirso_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+mannu_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+tavignano_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+###########################
+#Balkan Estuaries
+###########################
+neretva_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+shkumbin_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+achelous_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+pineios_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+haliacmon_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+vardar_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+struma_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+nestos_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+maritsa_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+###########################
+#Low Countries Estuaries
+###########################
+trave_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+eider_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+peene_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+###########################
+#Mediterannean Estuaries
+###########################
+gulf_of_cyprus_estuary_modifier = {
+	province_trade_power_value = 20
+	picture = "sea_lane_icon"
+}
+
+gulf_of_satalia_estuary_modifier = {
+	province_trade_power_value = 20
+	picture = "sea_lane_icon"
+}
+
+gulf_of_corinth_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "sea_lane_icon"
+}
+
+gulf_of_taranto_estuary_modifier = {
+	province_trade_power_value = 15
+	picture = "sea_lane_icon"
+}
+
+gulf_of_gabes_estuary_modifier = {
+	province_trade_power_value = 20
+	picture = "sea_lane_icon"
+}
+
+gulf_of_lion_estuary_modifier = {
+	province_trade_power_value = 15
+	picture = "sea_lane_icon"
+}
+
+straits_of_gibraltar_estuary_modifier = {
+	province_trade_power_value = 20
+	picture = "sea_lane_icon"
+}
+
+straits_of_messina_estuary_modifier = {
+	province_trade_power_value = 15
+	picture = "sea_lane_icon"
+}
+
+###########################
+#Arabian Sea Estuaries
+###########################
+straits_of_bab_al_mandab_estuary_modifier = {
+	province_trade_power_value = 20
+	picture = "sea_lane_icon"
+}
+
+gulf_of_oman_estuary_modifier = {
+	province_trade_power_value = 15
+	picture = "sea_lane_icon"
+}
+
+gulf_of_masirah_estuary_modifier = {
+	province_trade_power_value = 15
+	picture = "sea_lane_icon"
+}
+
+gulf_of_persia_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "sea_lane_icon"
+}
+
+###########################
+#African Estuaries
+###########################
+cape_of_good_hope_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "sea_lane_icon"
+}
+
+limpopo_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+breede_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+volta_river_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+gambie_river_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+little_scarcies_river_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+###########################
+#New World Estuaries
+###########################
+st_johns_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+mobile_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+apalachicola_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+potomac_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+straits_of_cabot_estuary_modifier = {
+	province_trade_power_value = 15
+	picture = "sea_lane_icon"
+}
+
+essequibo_river_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+###########################
+#Terrain Specials and Trade Goods
+###########################
+btpl_oasis = {
+	local_development_cost = -0.15
+	supply_limit = 0.5
+	supply_limit_modifier = 0.2
+}	#Adjusted balance for the terrain addon, now that I've merged that into BT proper
+
+strait_of_hormuz_toll = {
+	province_trade_power_value = 10
+}
+
+curonian_strait_toll = {
+	province_trade_power_value = 5
+}
+
+btpl_nile_river_in_arid_desert_province = {
+	supply_limit = 1.0
+	supply_limit_modifier = 0.6
+	local_development_cost = -0.15
+}	#Modifier to clean up the ugly looking snaking drylands along the Upper Nile. Adjusted balance for the terrain addon, now that I've merged that into BT proper
+
+bt_birthplace_lager = {
+	trade_goods_size = 1
+}
+
+bt_prussian_blue = {
+	trade_goods_size = 2
+}
+
+bt_forests_of_cadore = {
+	trade_goods_size = 1
+	naval_forcelimit = 3
+}
+
+bt_weaker_spice_islands_modifier = {
+	trade_goods_size = 1.0
+}	#Copy of vanilla's modifier. Because there are new provinces, 3.0 was just too powerful.
+
+#Not yet finished dependent code, do not use without finishing
+bt_amber_coast = {
+	trade_goods_size = 1
+}
+
+bt_super_cows = {
+	trade_goods_size = 0.5
+}
+
+bt_brauhaus_der_hansa = {
+	trade_goods_size = 1
+}
+
+bt_kornhaus_der_hansa = {
+	trade_goods_size = 1.5
+}
+
+#bt_salzhaus_der_hansa = { trade_goods_size = 1 }
+#bt_weinhaus_der_hansa = { trade_goods_size = 1 }
+
+bt_cloth_hall_of_ypres = {
+	trade_goods_size = 1
+}
+
+bt_wines_of_bordeaux = {
+	trade_goods_size = 1.5
+}
+
+bt_basque_whaling = {
+	trade_goods_size = 1.0
+}
+
+bt_la_beauce = {
+	trade_goods_size = 1.5
+}
+
+bt_mercury_of_almaden = {
+	trade_goods_size = 1.0
+}
+
+###########################
+#Other Stuff
+###########################
+irish_catholicism_not_allowed = {
+	local_unrest = 6
+	local_missionary_strength = 0.01
+}
+
+irish_catholicism_allowed = {
+	local_unrest = -3
+	local_missionary_strength = -0.08
+}
+
+reformation_takes_hold_in_ireland = {
+	local_development_cost = -0.05
+}
+
+irish_fealty_negotiations_ongoing = {
+	diplomatic_upkeep = -1
+}
+
+humiliated_by_former_vassal = {
+	diplomatic_reputation = -1
+}
+
+huzzah_for_devolution = {
+	diplomatic_reputation = 2
+}
+
+culture_shift_tension_bt = {
+	local_unrest = 3
+}
+
+religious_shift_tension_bt = {
+	tolerance_own = 2
+	tolerance_heretic = -4
+}
+
+grand_center_of_trade_modifier = {
+	local_institution_spread = 0.25
+	province_trade_power_value = 30
+	naval_forcelimit = 5
+	local_development_cost = -0.1
+	local_sailors_modifier = 1.00
+	picture = "province_trade_power_value"
+}
+
+btpl_recently_integrated = {
+	local_unrest = 10
+}
+
+bt_tanistry_waiting_on_heir = {
+	local_unrest = 4
+	heir_chance = 0.5
+}
+
+bt_tanistry_underaged_heir = {
+	local_unrest = 4
+}
+
+bt_tanistry_female_heir = {
+	local_unrest = 4
+}
+
+bt_uncertainty_about_a_high_queen = {
+	local_unrest = 4
+}
+
+bt_abolished_tanistry = {
+	local_unrest = 6
+}
+
+btpl_funj_momentum = {
+	army_tradition = 2
+	land_morale = 0.1
+	mil_tech_cost_modifier = -0.25
+	land_forcelimit_modifier = 1.00
+	infantry_cost = -0.50
+	land_maintenance_modifier = -0.25
+}
+
+btpl_abdullahs_coffers = {
+	land_forcelimit_modifier = 1.0
+	mercenary_manpower = 0.5 #Was 1.0 possible mercenaries.
+}
+
+btpl_spread_of_islam_in_alodia = {
+	global_missionary_strength = 0.05
+	tolerance_heathen = -2
+	religion = yes
+}
+
+btpl_funj_militarisation = {
+	manpower_recovery_speed = 0.50
+	siege_ability = 0.20
+	defensiveness = 0.20
+	infantry_power = 0.1
+}
+
+btpl_funj_demilitarisation = {
+	adm_tech_cost_modifier = -0.1
+	dip_tech_cost_modifier = -0.1
+	production_efficiency = 0.1
+	diplomatic_reputation = 1
+}
+
+btpl_clearing_the_inlet = {
+	global_tax_modifier = -0.10
+}
+
+btpl_stabilising_the_economy = {
+	global_tax_modifier = -0.20
+}
+
+btpl_investing_in_antwerp = {
+	local_development_cost = -0.2
+	local_tax_modifier = -0.8
+	local_unrest = -5
+}
+
+bt_guelph_nation = {
+	papal_influence = 1
+	global_trade_power = 0.10
+}
+
+bt_white_guelph_nation = {
+	papal_influence = -1
+	global_trade_power = 0.05
+	diplomatic_upkeep = 1
+}	#Not currently used in game yet
+
+bt_ghibelline_nation = {
+	papal_influence = -1
+	production_efficiency = 0.10
+}
+
+bt_traitorous_nation = {
+	diplomatic_reputation = -3
+}
+
+bt_apathetic_guelph_or_ghibellines = {
+	diplomatic_reputation = -1
+	local_unrest = 3
+}
+
+bt_emperors_approval = {
+	diplomatic_reputation = 1
+	prestige = 1
+}
+
+#bt_guelph_province_in_guelph_state = {
+#	local_unrest = -3
+#	local_manpower_modifier = 0.10
+#	regiment_recruit_speed = -0.05
+#}
+
+#bt_guelph_province_in_ghibelline_state = {
+#	local_unrest = 5
+#	local_manpower_modifier = -0.20
+#	regiment_recruit_speed = 0.10
+#}
+
+#bt_ghibelline_province_in_ghibelline_state = {
+#	local_unrest = -3
+#	local_manpower_modifier = 0.10
+#	regiment_recruit_speed = -0.05
+#}
+
+#bt_ghibelline_province_in_guelph_state = {
+#	local_unrest = 5
+#	local_manpower_modifier = -0.20
+#	regiment_recruit_speed = 0.10
+#}
+
+bt_violated_league_war_treaty = {
+	diplomatic_reputation = -2
+}
+
+bt_recently_granted_dhimmi_provinces = {
+	#No effect, used to prevent spamming
+}
+
+bt_queen_of_the_hansa = {
+	province_trade_power_value = 10
+	local_tax_modifier = 0.25
+}
+
+bt_investing_in_mediterranean_trading_enclaves = {
+	global_tax_modifier = -0.1
+	global_foreign_trade_power = 0.25
+}

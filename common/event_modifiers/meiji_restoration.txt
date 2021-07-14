@@ -1,0 +1,38 @@
+houroku = {
+	global_tax_modifier = -0.3
+}
+
+samurai = {
+	nobles_influence_modifier = 0.10
+	global_tax_modifier = -0.1
+	discipline = 0.025
+}
+
+teito = {
+	prestige = 0.5
+	local_build_cost = -0.1
+	local_development_cost = -0.15
+	local_monthly_devastation = -0.1
+}
+
+crossing_the_t = {
+	naval_morale = 0.15
+	leader_naval_manuever = 2
+}
+
+british_interference = {
+	naval_morale = -0.1
+}
+
+ise = {
+	tolerance_own = 1
+	legitimacy = 1
+}
+
+izumo = {
+	tolerance_own = 1
+}
+
+isonokami = {
+	tolerance_own = 1
+}

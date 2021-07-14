@@ -1,0 +1,1714 @@
+age_of_discovery = {
+	start = 1400
+
+	can_start = {
+		always = yes
+	}
+
+	religious_conflicts = yes
+	papacy = 1.0
+
+
+	objectives = {
+		obj_discover_america = {
+			allow = {
+				capital_scope = {
+					OR = {
+						continent = europe
+						continent = asia
+						continent = africa
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = obj_discover_america_tooltip
+					OR = {
+						north_america = { has_discovered = ROOT }
+						south_america = { has_discovered = ROOT }
+						new_world = { has_discovered = ROOT }
+					}
+				}
+		}
+		obj_100_development = {
+			allow = {
+				capital_scope = {
+					NOT = {
+						continent = europe
+						continent = asia
+						continent = africa
+					}
+				}
+			}
+			total_development = 100
+
+		}
+		obj_5_centers_of_trade = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						province_has_center_of_trade_of_level = 2
+						province_has_center_of_trade_of_level = 3
+					}
+					controlled_by = owner
+					is_core = ROOT
+				}
+				amount = 5
+			}
+		}
+		obj_30_development_city = {
+			custom_trigger_tooltip = {
+				tooltip = obj_30_development_city_tooltip
+				any_owned_province = {
+					is_core = ROOT
+					controlled_by = owner
+					development = 30
+				}
+			}
+		}
+		obj_renaissance = {
+	 		has_institution = renaissance
+	 		all_state_province = {
+	 			renaissance = 100
+	 		}
+		}
+
+		obj_two_unions = {
+			allow = {
+				religion_group = christian
+			}
+			personal_union  = 2
+		}
+
+		obj_many_vassals = {
+			allow = {
+				NOT = { religion_group = christian }
+			}
+			vassal = 5
+		}
+
+		obj_two_continents = {
+			num_of_continents = 2
+		}
+
+		obj_humiliate_rival = {
+			custom_trigger_tooltip = {
+				tooltip = obj_humiliate_rival_tooltip
+				has_country_flag = humiliated_rival
+			}
+		}
+	}
+
+	abilities = {
+		ab_allow_feudal_de_jure_law = {
+			effect = {
+				custom_tooltip = feudal_de_jure_law
+				set_country_flag = feudal_de_jure_law
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_justified_wars = {
+			modifier = {
+				ae_impact = -0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_transfer_vassal_wargoal = {
+			rule = {
+				can_transfer_vassal_wargoal = yes
+				can_chain_claim = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_free_war_taxes = {
+			modifier = {
+				war_taxes_cost_modifier = -1.0
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_cavalry_armies = {
+			modifier = {
+				cav_to_inf_ratio = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_colony_boost_development = {
+			rule = {
+				can_colony_boost_development = yes
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					NOT = { num_of_colonists = 1 }
+				}
+			}
+		}
+		ab_attack_bonus_in_capital_terrain = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_ottoman_siege_ability = {
+			allow = {
+				tag = TUR
+			}
+			modifier = {
+				siege_ability = 0.33
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_portugal_colonial_growth = {
+
+			allow = {
+				tag = POR
+			}
+			modifier = {
+				global_colonial_growth = 50
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_denmark_reduced_lib_desire = {
+
+			allow = {
+				tag = DAN
+			}
+			modifier = {
+				reduced_liberty_desire = 30
+			}
+			ai_will_do = {
+				factor = 100
+				modifier = {
+					factor = 0
+					NOT = {
+						any_subject_country = {
+							liberty_desire = 20
+						}
+					}
+				}
+			}
+		}
+		ab_venice_ship_trade = {
+
+			allow = {
+				tag = VEN
+			}
+			modifier = {
+				global_ship_trade_power = 0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+	}
+}
+
+age_of_reformation = {
+	start = 1530
+
+	can_start = {
+		is_religion_enabled = protestant
+	}
+
+
+	religious_conflicts = yes
+	papacy = 1.25
+
+	objectives = {
+		obj_christian_convert = {
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = anglican
+				religion = hussite
+			}
+		}
+
+		obj_humanism_religious = {
+			OR = {
+				full_idea_group = humanist_ideas
+				full_idea_group = religious_ideas
+			}
+		}
+
+		obj_convert_10_provinces = {
+			custom_trigger_tooltip = {
+				tooltip = obj_convert_10_provinces_tooltip
+				check_variable = { which = num_converted_religion value = 10 }
+			}
+		}
+
+		obj_colonial_empire = {
+			colony = 5
+		}
+
+		obj_force_converted = {
+			custom_trigger_tooltip = {
+				tooltip = obj_force_converted_tooltip
+				has_country_flag = force_converted
+			}
+		}
+
+		obj_asian_trade = {
+			OR = {
+				trading_bonus = {
+					trade_goods = spices
+					value = yes
+				}
+				trading_bonus = {
+					trade_goods = cloves
+					value = yes
+				}
+				trading_bonus = {
+					trade_goods = chinaware
+					value = yes
+				}
+				trading_bonus = {
+					trade_goods = silk
+					value = yes
+				}
+			}
+		}
+
+		obj_unify_culture = {
+			is_subject = no
+			has_unified_culture_group = yes
+		}
+	}
+
+
+	abilities = {
+
+		ab_allow_religion_enforced = {
+			effect = {
+				custom_tooltip = religion_enforced_edict
+				set_country_flag = religion_enforced_edict
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ab_siege_blockades = {
+			modifier = {
+				siege_blockade_progress = 1
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					NOT = {
+							num_of_ports = 5
+					}
+				}
+
+			}
+		}
+		ab_warscore_vs_religion = {
+			modifier = {
+				warscore_cost_vs_other_religion = -0.25
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_mercenary_discipline = {
+			modifier = {
+				mercenary_discipline = 0.05
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_ship_power_propagation = {
+			modifier = {
+				ship_power_propagation = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_institution_spread_from_true_faith = {
+			modifier = {
+				institution_spread_from_true_faith = 0.5
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_prestige_per_development_from_conversion = {
+			modifier = {
+				prestige_per_development_from_conversion = 0.3
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_spain_tercio = {
+			allow = {
+				tag = SPA
+			}
+			modifier = {
+				shock_damage_received = -0.3
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_mughal_artillery = {
+			allow = {
+				tag = MUG
+			}
+			modifier = {
+				artillery_cost = -0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_polish_legitimacy = {
+			allow = {
+				OR = {
+					tag = PLC
+					tag = POL
+				}
+			}
+			modifier = {
+				global_trade_goods_size_modifier = 0.33
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_persia_reinforce = {
+			allow = {
+				tag = PER
+			}
+			modifier = {
+				reinforce_cost_modifier = -0.3
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+	}
+}
+
+age_of_absolutism = {
+	start = 1620
+
+	can_start = {
+		is_institution_enabled = global_trade
+	}
+
+	papacy = 1.5
+
+	absolutism = {
+		harsh_treatment = 1
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		seat_in_parliament = -3
+		war_exhaustion = -1
+	}
+
+	objectives = {
+		obj_3_trade_companies = {
+			num_of_trade_companies = 3
+		}
+		obj_universities = {
+			university = 5
+		}
+		obj_large_forcelimit = {
+			land_forcelimit = 200
+		}
+		obj_90_absolutism = {
+			absolutism = 90
+		}
+		obj_emperor_of_china = {
+			is_emperor_of_china = yes
+			imperial_mandate = 50
+		}
+		obj_cultures_accepted = {
+			num_accepted_cultures = 5
+		}
+		obj_win_religious_war = {
+			custom_trigger_tooltip = {
+				tooltip = obj_religious_league_war_on_winning_side_tooltip
+				has_country_flag = religious_league_war_on_winning_side
+			}
+		}
+	}
+
+	abilities = {
+
+		ab_allow_edict_of_absolutism = {
+			effect = {
+				custom_tooltip = edict_of_absolutism_tt
+				set_country_flag = edict_of_absolutism
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_rival_change = {
+			modifier = {
+				rival_change_cost = -0.5
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ab_rival_border_fort = {
+			modifier = {
+				rival_border_fort_maintenance = -1.0
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_autonomy = {
+			modifier = {
+				autonomy_change_time = -0.5
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_harsh_treatment = {
+			modifier = {
+				harsh_treatment_cost = -0.5
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_adm_efficiency = {
+			modifier = {
+				administrative_efficiency = 0.05
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_yearly_absolutism = {
+			modifier = {
+				yearly_absolutism = 1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_france_fire_damage = {
+			allow = {
+				tag = FRA
+			}
+			modifier = {
+				fire_damage = 0.2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_dutch_anti_corruption = {
+			allow = {
+				tag = NED
+			}
+			modifier = {
+				yearly_corruption = -0.2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_sweden_manpower = {
+			allow = {
+				tag = SWE
+			}
+			modifier = {
+				manpower_recovery_speed = 0.35
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_manchu_banner = {
+			allow = {
+				OR = {
+					tag = MCH
+					tag = QNG
+				}
+			}
+			modifier = {
+				amount_of_banners = 0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+	}
+}
+
+age_of_enlightenment = {
+	start = 1710
+
+	can_start = {
+		is_institution_enabled = enlightenment
+	}
+
+	absolutism = {
+		harsh_treatment = 1
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		seat_in_parliament = -3
+		war_exhaustion = -1
+	}
+
+	objectives = {
+
+		obj_enlightened_ruler = {
+				OR = {
+
+					AND = {
+					adm = 4
+					mil = 4
+					dip = 4
+					}
+
+					OR={
+						ruler_has_personality = scholar_personality
+						ruler_has_personality = free_thinker_personality
+					}
+				}
+		    }
+
+		    obj_scientific_revolution = {
+			    innovativeness = 25
+		    }
+
+			obj_merchant_fleet = {
+			    num_of_light_ship = 80
+		    }
+
+			obj_land_reforms = {
+			    all_owned_province = {
+				development = 10
+			}
+		}
+
+		obj_great_minds = {
+			OR={
+			artist = 3
+			master_of_mint = 3
+			natural_scientist = 3
+			philosopher = 3
+			theologian = 3
+			treasurer = 3
+			}
+
+			OR={
+			colonial_governor = 3
+			diplomat = 3
+			naval_reformer = 3
+			navigator = 3
+			spymaster = 3
+			statesman = 3
+			trader = 3
+			}
+
+			OR={
+			army_organiser = 3
+			army_reformer = 3
+			commandant = 3
+			grand_captain = 3
+			recruitmaster = 3
+			fortification_expert = 3
+			quartermaster = 3
+			}
+		}
+
+		obj_early_imperialism = {
+			OR = {
+				num_of_continents = 5
+			}
+		}
+
+		obj_early_industrialization = {
+			production_income_percentage = 0.4
+		}
+	}
+
+	abilities = {
+
+		ab_population_census = {
+			effect = {
+				set_country_flag = allow_tax_edict
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_prestigious_court = {
+			modifier= {
+				advisor_pool = 2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_meritocratic_promotion = {
+			modifier = {
+				drill_decay_modifier = -0.25
+				mercenary_cost = 0.15
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_classicism_art = {
+			modifier = {
+				prestige_decay = -0.01
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_letters_of_marque = {
+			modifier = {
+				privateer_efficiency = 0.33
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_resettlement_policies = {
+			modifier = {
+				state_maintenance_modifier = -0.15
+				global_colonial_growth = 10
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_trade_liberalization = {
+			modifier = {
+				global_own_trade_power = -0.2
+				trade_efficiency = 0.15
+				liberty_desire = -5
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		 ab_spa_coastal_forts = {
+
+			allow = {
+				OR={
+					tag = SPA
+					tag = CAS
+					OR = {
+						has_colonial_parent = CAS
+						has_colonial_parent = SPA
+					}
+				}
+			}
+
+			effect = {
+				every_subject_country = {
+						limit = {
+							OR = {
+							has_colonial_parent = CAS
+							has_colonial_parent = SPA
+						}
+					}
+					add_splendor = 800
+				}
+			}
+
+			modifier={
+				blockade_force_required = 1.0
+				hostile_disembark_speed = 0.5
+				hostile_fleet_attrition = 1
+			}
+
+
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_gb_redcoats = {
+			allow = {
+				OR = {
+					tag = GBR
+					tag = ENG
+					}
+			}
+			modifier = {
+				infantry_fire = 1.0
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_pru_military = {
+			allow = {
+				tag = PRU
+			}
+			modifier = {
+				fire_damage_received = -0.2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_western_open = {
+			allow = {
+				NOT = {
+					technology_group = western
+					technology_group = eastern
+					technology_group = muslim
+					technology_group = ottoman
+				}
+
+				any_country = {
+					OR = {
+						technology_group = western
+						technology_group = eastern
+						technology_group = ottoman
+					}
+
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+			}
+
+			modifier = {
+				global_institution_spread = 0.5
+				embracement_cost = -0.5
+			}
+
+			effect = {
+				add_mercantilism = -3
+			}
+
+			ai_will_do = {
+				factor = 75
+			}
+		}
+	}
+}
+
+age_of_revolutions = {
+	start = 1770
+
+	can_start = {
+		is_institution_enabled = enlightenment
+		is_year = 1725
+	}
+
+	papacy = 2.0
+	absolutism = {
+		harsh_treatment = 1
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		seat_in_parliament = -3
+		war_exhaustion = -1
+	}
+
+
+	objectives = {
+		obj_parliament = {
+			has_parliament = yes
+		}
+
+		obj_emperor = {
+			OR = {
+				is_emperor = yes
+				government_rank = 3
+				is_emperor_of_china = yes
+			}
+		}
+		obj_large_subject = {
+			any_subject_country = {
+				total_development = 250
+			}
+		}
+		obj_disc_army = {
+			has_global_modifier_value = {
+				which = discipline
+				value = 0.25
+				extra_shortcut = yes
+			}
+		}
+		obj_huge_capital = {
+			capital_scope = {
+				development = 50
+			}
+		}
+		obj_great_general = {
+			has_commanding_three_star = yes
+		}
+
+		obj_two_institutions = {
+			num_of_owned_and_controlled_institutions = 2
+		}
+	}
+
+	abilities = {
+
+		ab_allow_anti_revolutionary_zeal = {
+			modifier = {
+				liberty_desire_from_subject_development = -0.33
+			}
+			ai_will_do = {
+				factor = 15
+				modifier = {
+					factor = 0
+					NOT = {
+						any_subject_country = {
+							liberty_desire = 30
+						}
+					}
+				}
+			}
+		}
+
+		ab_napoleonic_warfare = {
+			modifier = {
+				artillery_bonus_vs_fort = 3
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_force_march = {
+			rule = {
+				force_march_free = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_more_ships_can_fire = {
+			modifier = {
+				global_naval_engagement_modifier = 0.20
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_no_distance_for_core = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_backrow_artillery = {
+			modifier = {
+				backrow_artillery_damage = 0.20
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_same_contine_lib_desire = {
+			modifier = {
+				reduced_liberty_desire_on_same_continent = 25
+			}
+			ai_will_do = {
+				factor = 15
+				modifier = {
+					factor = 0
+					NOT = {
+						any_subject_country = {
+							liberty_desire = 30
+							same_continent = ROOT
+						}
+					}
+				}
+			}
+		}
+
+		ab_pru_military = {
+			allow = {
+				tag = PRU
+			}
+			modifier = {
+				fire_damage_received = -0.2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_colonial_assemblies = {
+			allow = { is_colonial_nation = yes }
+			modifier = {
+				global_regiment_cost = -0.1
+				land_forcelimit_modifier = 0.25
+				global_manpower_modifier = 0.25
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+		ab_gbr_fleet = {
+			allow = {
+				tag = GBR
+			}
+			modifier = {
+				naval_maintenance_modifier = -0.33
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_russia_boost = {
+			allow = {
+				tag = RUS
+			}
+			modifier = {
+				governing_capacity_modifier = 0.33
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_austria_rep = {
+			allow = {
+				tag = HAB
+			}
+			modifier = {
+				diplomatic_reputation = 5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+	}
+}
+
+age_of_industrialisation = {
+	start = 1780
+
+	can_start = {
+		is_institution_enabled = industrialization
+		OR = { # Revolution has started OR Must eliminate the Revolution to begin Age of Industrialisation
+			has_first_revolution_started = yes
+			revolution_target_exists = no
+		}
+	}
+
+	objectives = {
+
+		# 80% of provinces have no autonomy and has at least 40 provinces
+
+		obj_autonomy = {
+			num_of_owned_provinces_with = {
+				value = 40
+				NOT = {
+					local_autonomy = 1
+				}
+			}
+		}
+
+		obj_progressive = {
+			OR = {
+				AND = {
+					is_female = yes
+					is_emperor = no
+				}
+				AND = {
+					is_emperor = yes
+					is_female = yes
+					allows_female_emperor = yes
+				}
+			}
+		}
+
+		# Has foreign heir, ruler, consort (and has given a foreign consort), or has at least 10 accepted cultures
+
+		obj_multiculturalism = {
+			OR = {
+				AND = {
+					ruler_is_foreigner = yes
+					has_foreign_heir = yes
+				}
+				AND = {
+					has_foreign_consort = yes
+					ruler_consort_marriage_length = 20
+				}
+				num_accepted_cultures = 10
+			}
+		}
+
+		# owns one of 3 great projects, or is currently building one of them (must also have at least 50 ducats income - might need balancing later)
+
+		obj_great_project_producer = {
+			OR = {
+				AND = {
+					any_owned_province = {
+						has_construction = great_project
+					}
+					monthly_income = 50
+				}
+				OR = {
+					any_owned_province = {
+						has_great_project = { type = kiel_canal }
+						has_great_project = { type = suez_canal }
+						has_great_project = { type = panama_canal }
+					}
+				}
+			}
+		}
+
+		# Owns at least 5 buildings of each manufactory-type building requiring a total of 30 manufatories total
+
+		obj_industrial_power = {
+			weapons = 5
+            ramparts = 5
+            impressment_offices = 5
+            state_house = 5
+            soldier_households = 5
+			if = {
+			    limit = {
+				    has_dlc = "Rule Britannia"
+				}
+				furnace = 5
+			}
+        }
+
+		# Currently controls over 90% of an entire trade node, and has a total income of at least X from the node
+
+		obj_trade_ruler = {
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 90
+				}
+			}
+		}
+
+		# HRE size is 0
+
+		obj_dissolution_of_the_holy_roman_empire = {
+			NOT = {
+				hre_size = 1
+			}
+		}
+	}
+
+	abilities = {
+
+		ab_reduced_industrial_costs = {
+			# Reduced cost of manufactory buildings
+			modifier = {
+				build_cost = -0.10
+				build_time = -0.10
+				production_efficiency = 0.05
+				administrative_efficiency = 0.01
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_increased_liberal_agitation = {
+			# +10% AE (this is a debuff) in exchange for -6 unrest and +10% tax increase
+			modifier = {
+				# Debuffs
+				ae_impact = 0.05
+				stability_cost_to_declare_war = 1
+				# Buffs
+				global_unrest = -2
+				global_tax_modifier = 0.10
+				interest = -1
+				core_creation = -0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_standing_armies = {
+			allow = {
+				is_great_power = yes
+			}
+			rule = {
+				force_march_free = yes
+				ignore_coring_distance = yes
+				attack_bonus_in_capital_terrain = yes
+			}
+			modifier = {
+				# Army bonues
+				discipline = 0.01
+				land_morale = 0.01
+				army_tradition_decay = -0.01
+				# Arty bonuses
+				artillery_fire = 0.01
+				artillery_bonus_vs_fort = 0.1
+				backrow_artillery_damage = 0.01
+				# Army maintenence
+				land_maintenance_modifier = -0.10
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_naval_dominance = {
+			allow = {
+				is_great_power = yes
+			}
+			modifier = {
+				# Naval combat bonuses
+				naval_morale = 0.01
+				leader_naval_fire = 1
+				leader_naval_manuever = 1
+				leader_naval_shock = 1
+				# Navy bonues
+				navy_tradition = 1
+				navy_tradition_decay = -0.01
+				heavy_ship_cost = -0.1
+				global_naval_engagement_modifier = 0.01
+				# Navy maintenence
+				global_ship_cost = -0.5
+				global_ship_repair = 0.02
+				# Navy recruitment
+				global_ship_recruit_speed = -0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_subject_integration = {
+			# Liberty desire reductions and annexation/integration speed bonus
+			modifier = {
+				reduced_liberty_desire_on_same_continent = 20
+				liberty_desire_from_subject_development = -0.25
+				diplomatic_annexation_cost = -0.05
+				diplomatic_reputation = 1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_military_leader = {
+			# Bonuses to the leader as a military general, + 2 all ruler stats?
+			effect = {
+				# Ruler
+				define_ruler_to_general = {
+					fire = 6
+					shock = 6
+					manuever = 6
+					siege = 4
+				}
+				# Advisor to Ruler
+				create_general = {
+					tradition = 100
+					add_fire = 6
+					add_shock = 6
+					add_manuever = 6
+					add_siege = 3
+					culture = ROOT
+				}
+			}
+			modifier = {
+				army_tradition_decay = -0.10
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_embrace_national_pride = {
+			modifier = {
+				state_maintenance_modifier = -0.30
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		# Special
+
+		ab_industrialisation_origins = {
+			allow = {
+				tag = GBR
+				tag = ENG
+			}
+			modifier = {
+				build_cost = -0.10
+				build_time = -0.10
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_meiji_restoration = {
+			allow = {
+				tag = JAP
+				tag = ASK
+			}
+			modifier = {
+				land_morale = 0.10
+				discipline = 0.05
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_manifest_destiny = {
+			allow = {
+				tag = USA
+			}
+			modifier = {
+				core_creation = -0.10
+				enemy_core_creation = 0.10
+				warscore_cost_vs_other_religion = -0.10
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_italian_ambition = {
+			allow = {
+				tag = ITA
+				tag = NAP
+				tag = TUS
+				tag = PAP
+			}
+			modifier = {
+				reduced_liberty_desire = 50
+				years_of_nationalism = -10
+				min_autonomy_in_territories = -0.08
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+	}
+}
+
+age_of_imperialism = {
+	start = 1836
+
+	can_start = {
+		is_institution_enabled = imperialism
+	}
+
+	objectives = {
+	    obj_scramble_for_africa = {
+			num_of_trade_companies = 3
+			OR = { 
+			    tag = GBR
+				tag = FRA
+				tag = GER
+				tag = SPA
+				tag = ITA
+				tag = BEL
+				tag = TUR
+				tag = RUS
+			}
+		}
+		obj_the_indian_raj = {
+			has_commanding_three_star = yes
+			naval_forcelimit = 125
+			OR = { 
+			    tag = GBR
+				tag = FRA
+			}
+		}
+		obj_the_boer_and_zulu_wars = {
+			has_global_modifier_value = {
+				which = discipline
+				value = 0.25
+				extra_shortcut = yes
+			}
+			OR = { 
+			    tag = GBR
+				tag = NED
+			}
+		}
+		obj_fort_sevastopol = {
+			land_forcelimit = 200
+			OR = { 
+			    tag = RUS
+				tag = FRA
+				tag = GBR
+			}
+		}
+		obj_opium_wars = {
+			num_of_colonies = 5
+			tag = GBR
+		}
+		obj_gunboat_diplomacy = {
+			custom_trigger_tooltip = {
+				tooltip = obj_gunboat_diplomacy_tooltip
+				has_country_flag = humiliated_rival
+			}
+		}
+	}	
+
+	abilities = {
+
+		ab_african_claims = {
+			modifier= {
+				native_assimilation = 0.25
+				local_unrest = -1
+				local_colonial_growth = 10
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_east_india_trade = {
+			modifier= {
+				core_creation = -0.25
+				local_unrest = -1
+				local_manpower_modifier = 0.25
+				warscore_cost_vs_other_religion = -0.25
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_african_colonization = {
+			modifier = {
+				drill_gain_modifier = 0.3
+				native_uprising_chance = -0.25
+				native_assimilation = 0.25
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_border_forts = {
+			modifier={
+				blockade_force_required = 1.0
+				hostile_disembark_speed = 1.0
+				hostile_fleet_attrition = 1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_naval_strength = {
+			modifier = {
+				global_regiment_cost = -0.10
+				global_manpower_modifier = 0.10
+				global_manpower = 1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_naval_blockade = {
+			modifier = {
+				privateer_efficiency = 0.33
+				blockade_efficiency = 0.1
+				blockade_impact_on_siege_in_fleet_modifier = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+age_of_nationalism = {
+	start = 1860
+
+	can_start = {
+		is_institution_enabled = nationalism_institution
+	}
+
+	objectives = {
+		obj_ideas_of_unification = {		
+			is_subject = no
+			has_unified_culture_group = yes
+			OR = {
+			    tag = GER
+				tag = ITA
+			}
+		}
+		obj_simon_bolivar = {
+			any_subject_country = {
+				total_development = 250
+			}
+		}
+		obj_the_american_dream = {
+			capital_scope = {
+			    continent = north_america
+				development = 50
+			}
+		}
+		obj_monroe_doctrine = {
+		    naval_forcelimit = 100
+			tag = USA
+		}
+		obj_far_eastern_ambitions = {
+			government_rank = 3
+			OR = {
+			    tag = RUS
+				tag = JAP
+			}
+		}
+	}
+
+	abilities = {
+
+		ab_nationalism = {
+			modifier = {
+				reduced_liberty_desire = 75
+				years_of_nationalism = -15
+				min_autonomy_in_territories = -0.15
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_latin_revolutionaries = {
+            modifier = {
+                global_own_trade_power = -0.2
+                trade_efficiency = 0.15
+                reduced_liberty_desire = -5
+            }
+            ai_will_do = {
+                factor = 10
+            }
+        }
+
+		ab_westward_colonization = {
+			modifier = {
+		    local_tax_modifier = 0.2
+				local_production_efficiency = 0.15
+				statewide_governing_cost = 0.10
+				tax_income = 25
+				local_build_time = -0.35
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_us_ship_trade = {
+			modifier = {
+				global_own_trade_power = -0.2
+				trade_efficiency = -0.15
+				envoy_travel_time = -0.2
+				enemy_core_creation = 0.25
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_japanese_siege_ability = {
+			modifier = {
+				infantry_fire = 1.0
+				leader_naval_fire = 1
+				unjustified_demands = -0.1
+				province_warscore_cost = -0.1
+				diplomatic_annexation_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+	}
+}
+
+#age_of_globalism = {
+#	start = 1901
+#
+#	can_start = {
+#		is_institution_enabled = globalism_institution
+#	}
+#
+#	objectives = {
+#		obj_globalism = {
+#			has_institution = nationalism_institution
+#		}
+#	}
+#
+#	abilities = {
+#
+#		ab_naval_arms_race = {
+#		    allow = {
+#		        OR = {
+#					tag = GBR
+#					tag = GER
+#				}
+#			}
+#			modifier = {
+#				naval_forcelimit_modifier = 0.25
+#				global_sailors_modifier = 0.15
+#				ship_durability = 0.1
+#				blockade_efficiency = 0.1
+#			}
+#			ai_will_do = {
+#				factor = 10
+#			}
+#		}
+#
+#       ab_the_birth_of_socialism = {
+#           allow = {
+#			tag = GER
+#			}
+#			modifier = {
+#				state_maintenance_modifier = -0.15
+#				yearly_revolutionary_zeal = -0.01
+#				rebel_support_efficiency = -0.1
+#				spy_offence = 0.1
+#			}
+#			ai_will_do = {
+#				factor = 10
+#			}
+#		}
+#
+#       ab_the_central_powers = {
+#           allow = {
+#				tag = GER
+#				tag = HAB
+#			}
+#			modifier = {
+#				land_forcelimit_modifier = 0.25
+#				global_manpower_modifier = 0.15
+#				naval_forcelimit_modifier = 0.25
+#				global_sailors_modifier = 0.15
+#			}
+#			ai_will_do = {
+#				factor = 100
+#			}
+#		}
+#
+#       ab_the_waning_caliphate = {
+#           allow = {
+#				tag = TUR
+#			}
+#			modifier = {
+#               liberty_desire = -10
+#				global_spy_defence = 0.1
+#				years_of_nationalism = -5
+#				min_autonomy_in_territories = -0.1
+#				tolerance_own = -2
+#				global_unrest = -2
+#			}
+#			ai_will_do = {
+#				factor = 10
+#			}
+#		}
+#
+#		ab_arsenal_of_democracy = {
+#		    allow = {
+#				tag = USA
+#			}
+#			modifier = {
+#				land_maintenance_modifier = -0.25
+#				global_manpower_modifier = 0.25
+#				naval_maintenance_modifier = -0.25
+#				global_sailors_modifier = 0.25
+#				tax_income = 0.25
+#			}
+#			ai_will_do = {
+#				factor = 10
+#			}
+#		}
+#
+#		ab_marxist_uprisings = {
+#			allow = {
+#				tag = RUS
+#			}
+#			modifier = {
+#				liberty_desire = -10
+#				global_spy_defence = 0.1
+#				years_of_nationalism = -5
+#				min_autonomy_in_territories = -0.1
+#				yearly_revolutionary_zeal = 0.1
+#				global_unrest = -2
+#				harsh_treatment_cost = -0.2
+#			}
+#			ai_will_do = {
+#				factor = 100
+#			}
+#		}
+#
+#		ab_war_to_end_all_wars = {
+#		    allow = {
+#				tag = HAB
+#			}
+#			modifier = {
+#				global_own_trade_power = -0.2
+#				trade_efficiency = -0.15
+#				liberty_desire = 15
+#				unjustified_demands = -1
+#				province_warscore_cost = -1
+#				diplomatic_annexation_cost = -1
+#				stability_cost_to_declare_war = 0
+#			}
+#			ai_will_do = {
+#				factor = 10
+#			}
+#		}
+#	}
+#}

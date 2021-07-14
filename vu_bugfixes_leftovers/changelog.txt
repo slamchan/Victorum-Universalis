@@ -1,0 +1,289 @@
+What this version fixes for BT 12. If you're reading this, basically on the BT Discord we kept a numbered list of fixes for Draiocht, but due to his absence, that list has not been fixed. Hence, the fixes below will be ordered by that list.
+
+Numbered fixes:
+1. Fruit & Apiculture now have a manufactory - the Farm Estate. If you had More Buildings already, you would not notice this fix.
+2. French Normandy & Picardy missions now work as intended.
+3. Province 5544 is now known as the Dauphiné Alps.
+4. Franche-Comte & Lorraine returned to France region, thus making Burgundy into Netherlands + Germany formations yield expected results.
+5. Fixed Oirat exclave by Uzbek (Update BT map to 1.29 Manchu)
+6. Fixed Manchu tribes (Update BT map to 1.29 Manchu)
+8. Ar-Ribat & El Araich no longer share the same city name.
+9. Fixed Castille forming Spain diplomatically without integrating Aragon by making it so the province limits are for the player only.
+11. Lolland-Kiel strait is now blockaded from The Belts as intended.
+12. Fixed country history files of Rheims, Vienne, Langres, Laon, Toul, Saint-Pol and Luxeuil to use ANSI encoding instead of UTF-8.
+13. Forming Tuscany no longer kicks you out of the HRE.
+14. Forming Great Moravia will now kick you out of the HRE.
+17. Fixed Groningen starting with two cities by ceding Ommelanden to Frisia instead.
+18. Fixed mandate loss from non-tributaries because of a duplicate file in the BT mod overwriting your 1.29 changes in 00_bt_dev_doubling.lua. 
+20. Fixed English mission tree arrows due to RB adjustments to the tree.
+21. Fixed several provinces in Asia from the SEA overhaul lacking a port (Credit to Cinnamon Ryce).
+22. False bug report; CR's flags spamming the error log has been fixed already.
+25. Province 8102 now has the correct name "Estremoz".
+24. Unit nudge for province 152 has been fixed.
+26. Byzantium no longer has cores on northern Greece/Southern Bulgaria border
+27. Bugfixed Swedish mission claims on Lithuania.
+29. Fixed Bohemian missions, plus extra fixes in its mission tree.
+30. Bulgaria now starts the game with Feudalism embraced. Issue occured because it had the wrong province designated as capital.
+
+
+Non-numbered fixes:
+-Fixed generic missions' development requirements to account for dev-doubling.
+-Fixed Danish mission where Kristianstad was named Christianstad in Danish, when it was spelled "Christiansted" by the Danes.
+-Fixed Great Moravia not giving claims to certain areas, such as Moravia. Also removed Silesia claims since they're part of the Poland region.
+-Fixed TR Russian missions and adapted the left half to use the improved system.
+-Fixed Russia moving its capital to St. Petersburg to not happen until the Enlightenment spawns.
+-Readjusted the mandate gain from prosperity in states, since it's not a per-province thing, but for each state. State slots are not twice as many in BT, so halving this does not make sense as a dev-doubling change.
+-Fixed a bunch of duplicate RGB colours in the definitions.csv file.
+-Fixed movement bug in monsoon areas due to Misc's Tropical modifier together with Severe Monsoon resulting in -100% unit movement speed by removing Misc's Tropical modifier adjustment.
+-Fixed a Misc bug where certain Horde ideas gave no bonuses due to the 1.29 overhaul.
+-Fixed strait between 100 to 7954 to be blockaded in Wadden Sea and not Southern Bight.
+-Fixed West Norway being localised as "West Noway".
+-Fixed the event for Austria getting a free PU on Hungary not firing due to Croatia being a thing in BT. Also added some slight relationship maluses to try and encourage Austria to break alliance and take them down.
+-Also accomodated for Croatia being a PU of Hungary and is now absorbed by Hungary should Austria get the PU.
+-Fixed Austrian mission tree to account for new provinces and removed some incredibly stupid requirements for the Italian ambition mission.
+-Fixed AIs deleting forts even when doing great on income. It seems that the AI will delete forts if it does not need them to obtain the +1 yearly AT from maintained forts. Since forts have become more frequent in BT, this has now been adjusted to require 1 fort level/33 dev.
+-Fixed Granadan-Andalusian missions to account for new provinces.
+-Fixed Austria starting without an heir, bringing back Ladislaus the Posthumous.
+-Fixed southern_indian_islands_area having no localisation.
+-Fixed Spanish mission claims for Portuguese PU not using the correct scripted trigger.
+-Fixed the three new areas of Portugal not having been added to the list of permaclaims Spain shouldn't get upon being formed.
+-Fixed Misc not adjusting the defines NDefines.NAI.MAX_CAV_PERCENTAGE to 30 to compensate for having reduced base cav ratios to 0.3. 
+-Similarly, also adjusted Noble & Pretender rebel stacks' composition down from 40% cav to 30% cav to compensate for this. Technically the whole rebel stack composition need further adjustments, but I'll leave that to Draiocht as it's less pressing.
+-Fixed Galician and Leonese starting cores in 1444 (Will need proper adjustment when considering the 1291 start date eventually) (Partly contributed by user neothiamin).
+-Fixed Majapahit civil war event not having a MTTH of 1 day, spamming the error log.
+-Fixed some missing revolter tag cores in France (Contribution from Math5615 & neothiamin).
+-Fixed a Brittany decision as well as its localisation (Contribution from Math5615).
+-Fixed bug in form Italy decision where it would only check if your own provinces were owned by you or a non-tributary subject.
+-Fixed Valencian & Catalan startup cores.
+-Fixed Croatian cores by removing the Croatian cores on Venice. The timeline seems to have been this:
+	1204: Dalmatian cities separate from the Crown of Hungary. Technically held loose influence over the area 'til 1241 when Mongol invasions ravaged the region and something happened.
+	1204-1391: a Mongol invasion, a Serbian Empire and then a Bosnian Kingdom. 1391 marks the Bosnian king's death, and Hungary & Naples start contesting the area.
+	1391-1420: Succession war between Naples' Anjou & Hungary's Luxembourg.
+	1420: Ladislaus of Naples loses the war, sells his "rights" on Dalmatia to Venice.
+	Logic dictates that since it was more than 150 years ago the cores were in effect, they should not be there. You can argue they should because primary culture cores don't disappear, but I think for gameplay purposes Hungary shouldn't go and declare willy-nilly on Venice anyway. Naples also shouldn't have cores on it because it was sold, which in-game removes cores.
+-Fixed Churchill Lake being visible to a lot of weird nations that should not see it. Seemingly the file was copypasted from an Asian lake.
+-Fixed 5 provinces in Slovenia (7764, 7763, 7762, 7761 & 7760) not belonging to the HRE at game start.
+-Fixed province 4648 being listed twice in its area.
+-Fixed a bug with Sulawesi ideas targetting a non-existing culture resulting in nations that lack a culture getting Sulawesi ideas.
+-Fixed province loot amount not accounting for dev doubling, leading to massive amounts of loot in each province, taking months to properly devastate the province.
+-Fixed Tunisian GC, Moroccan GC and Tatar missions, courtesy of C1CK.
+-Fixed Misc not having subject LD accounted for dev-doubling.
+-Fixed Draiocht misspelling my contribution for the Beer events.
+-Fixed Brandenburg-Prussian missions.
+-Fixed Monaco's lack of historical rulers and updated their country file to include more unique ruler names for them, courtesy of Math5615.
+-Fixed forming Prussia not giving you claims on all of Prussia.
+-Fixed a bug whereif Sweden got their independence through the Death of the Wittelsbachs event, but then fell back under union without the deposition of Karl Knutsson Bonde event firing, upon them declaring independence they'd instantly fall under a union again.
+-Fixed Brittany's one-sided English cuddlesquare, as well as adding 1291 start date support to Brittany & Burgundy, courtesy of Math5615.
+-Fixed loading of BT flag, which allows relegating it from on_startup on_action to the history file of glorious Tir na gCeilteach.
+-Fixed Misc missing new 1.29 event modifiers.
+-Fixed several provinces being assigned to impossible estates, causing errors in the log.
+-Fixed the spelling of "Ioanian Islands" area.
+-Fixed "Scotish" of nor_conquer_scotland mission.
+-Fixed Amber Coast, Granary of the North & "Friesian" [sic] Cattle grammar/spelling.
+-Fixed Emilia-Romagna formation kicking you out of the HRE (It's a Grand Duchy).
+-Fixed Asti being independent in 1444 when it was actually a part of Milan until the death of the Visconti, which ceded it back to Orleans. Added cores as a result.
+-Fixed Scottish RB and Irish RB missions, courtesy of C1CK.
+-Fixed double Bjelovar by changing 7737's default name to Varazdin.
+-Fixed double Valmiera by changing 4241's default name to Lemsal.
+-Fixed double Hapsal/Haapsalu by changing 3230's default name to Alt-Pernau.
+-Added missing umlauts to provinces 7803, 7805, 7806 & 7864.
+-Fixed inconsistent naming of capitals in Finland, with some being in Swedish, notably province 29, 31 and 3128, and the rest in Finnish. Now they all are in Finnish in the 1444 start.
+-Fixed Thalassocracy decision to be more readable and un-nullified.
+-Fixed Polish, Lithuanian & Aragonese GC missions, courtesy of C1CK.
+-Fixed Danish inheritance of Holstein to actually remove Holsatian cores throughout Schleswig and not just Schleswig itself.
+-Deprecated now unused BT on_actions in on_startup, moving Gotland's pirate republic to the history file.
+-Fixed old Dauphiné Alps wasteland to now be known as Cottian Alps.
+-Fixed Berber missions. Previously only available to Algiers with Algerian culture (I.e, basically never), it now appears for Berber-, Moroccan- and Maghrebi-cultured nations (Exception for Morocco and Tunis if you have GC since they have full trees), as well as tweaking values to adapt them for BT.
+-Fixed Gujarati Dharma missions.
+-Fixed East African nations not seeing province 5221, 5222 and 5223 despite seeing past them in 1444.
+-Fixed Hungarian missions.
+-Fixed Ayyubid missions.
+-Fixed 2742 and 2743 not being Jurchen culture, thus completing Korea's culture-conversion mission instantly.
+-Fixed Timurid Dharma missions (Nothing directly broken, just easy-edit treatment).
+-Fixed missing Novgorodian cores on 314, 4262 & 1755 for their first TR mission.
+-Fixed Sardinia-Piedmont formation decisions being dumb and unupdated.
+-Fixed Malwa Dharma missions (No easy-edit treatment yet).
+-Fixed broken formation claims for Belgium & Netherlands.
+-Fixed Armenia not getting Belgian Ideas if they form Belgium.
+-Fixed Bohtan adjective being blank (Missing quote mark on line 564).
+-Fixed some severe missing tradenode connections in Asia.
+-Fixed Andorra starting as a Peasant Republic (Just gave them Feudal Monarchy until someone comes around and adds a proper government reform).
+-Fixed Mughal Dharma missions.
+-Fixed Novgorodian TR missions (No easy-edit treatment yet).
+-Fixed Groningen not starting with Feudalism embraced (Same issue as Bulgaria, this time because Draiocht switched the Groningen province around).
+-Fixed Groningen, Dortmund, Essen, Metz, Heilbronn & Regensburg having a broken government reform due to being assigned "imperial_city" gov reform and not "free_city" (NB: This was likely the reason why they didn't lose free city status upon gaining provinces).
+-Fixed Andria, Alba, Apulia, Alessandria, Chieri, Calabria, Castiglione, Cortona, Chiusi, Dovadola, Foligno, Grosetto, Ivrea, Lucania, Lecce, Lombardy, Massa (Maritima), Novara, Piacenza, Prato, Pesaro, Pistoia, Ravenna, Reggio, Sora, Tarano, Tortona & Vercelli with all the shit that was wrong with them such as capital being in Arguin giving them African missions, courtesy of Perry.
+-Fixed 2979, 7058 & 7052 having incorrect province history removing cores in weird ways, courtesy of Perry.
+-Fixed country files for Alba, Castiglione & Piedmont, courtesy of Perry.
+-Removed Austrian Italy misc claims because they were too messy and were for the most part after the game end date.
+-Fixed Emilia-Romagna formation by updating it to BT Italy. Also removed national idea swap event because they lack unique ideas.
+-Fixed Diplomatic France formation decision to not claim it gives claim to Spain.
+-Fixed Spanish claims tooltip to include the new BT areas.
+-Fixed province 7797's capital being Bollnäs despite referencing Hudiksvall on the map.
+-Fixed missing port in 4652, 2142, 4656 & 4658.
+-Fixed Misc static modifiers not being updated to 1.29.
+-Fixed missing terrain_overrides from the 1.29 map additions.
+-Fixed climates from both 1.28 and 1.29 map additions.
+-Fixed 2987's capital being Tarrega despite not being in the province and nudged it as a result.
+-Fixed Coptic missions.
+-Fixed Burgundy's Hegemony of Burgundy tooltip not being localised by using Hegemoniacle's tooltip instead since it is the same.
+-Treated Swedish, Danish, Norwegian missions with the new give_permaclaims_for_mission scripted effect.
+-Fixed Iberia, Illyria, Venetia-Lombardy & Sennar country formations swapping you to generic ideas.
+-Updated Italian ideas in BT.
+-Fixed BT Tanistry government reform, as well as allowed it being used by Gaelic-cultured nations who united the Celts.
+-Fixed colonial nations not getting Gaelic/Brythonic names if Tir na gCeilteach has been formed.
+-Fixed 997 & 5172 being in the wrong tradeodes.
+-Fixed the Marcharid of Brittany decision spawning up to 20 something heirs.
+-Fixed Malayan Nation formation.
+-Fixed a bunch of provinces (1367, 4358, 8556, 8597) in South East Asia with regards to 1444 discoveries for different tech groups.
+-Fixed the extremely high autonomy of Sami provinces in Norway, Novgorod and Sweden so it starts at 75% instead of 100%. In the files it was meant to be at 90%, but 75% allows for raising autonomy.
+-Fixed Kievan 95% autonomy Crimean Sunni provinces so Kiev can actually raise autonomy if need be and not die to rebels.
+-Made adjustments to how some existing colonial nation names are applied, such as Portugal's case where two different names have identical triggers, forcing the topmost one before the other.
+-Disabled Scandinavian Vinland for Eastern America as it is present in Newfoundland already.
+-Fixed Florence, Vyatka, Arezzo & Anfa incorrectly getting "oligarchic_republic" as a government reform.
+-Fixed Sweden & Ragusa using the incorrect "noble_republic" as a government reform.
+-Fixed Bamberg, Basel, Ceneda, Cambrai, Dorpat, Durham, Fulda, Kammin, Kurland, Minden, Ösel-Wiek, Osnabruck, Paderborn, Trent, Verdun and Zenden using the incorrect "theocratic_government" as a government reform.
+-Fixed The Knights & Livonian Order using the incorrect "monastic_order_government" as a government reform.
+-Fixed British Californian name New Albion mysteriously missing in BT.
+-Scriptified C1CK's Tunis GC missions.
+-Fixed and scriptified Portuguese GC missions.
+-Removed nonsensical Persian cores in 424, 4340, 416, 4304 and 2206.
+-Fixed and scriptified English RB missions.
+-Fixed Burgundian missions.
+-Fixed British formation not giving permaclaims for new missions (Draiocht removed them not knowing why they were there, thinking they were silly).
+-Fixed Omani missions.
+-Fixed Warmia and Sambia country and history files, courtesy of Math5615.
+-Fixed Russian Minors TR missions.
+-Refixed and rescriptified Ottoman missions.
+-Fixed and scriptified Bahmani DH missions.
+-Fixed and scriptified Bengali DH missions.
+-Fixed Bharat-Hindustani DH missions.
+-Fixed and scriptified Delhi DH missions.
+-Fixed Generic Indian missions.
+-Fixed and scriptified Mewari DH missions.
+-Fixed and scriptified Vijayanagari DH missions.
+-Scriptified C1CK's Aragonese GC missions.
+-Fixed trade companies in Africa not following area borders.
+-Fixed South Atlantic Islands provinces not belonging to the La Plata trade node.
+-Fixed erroneous dev-doubling in province 709, 2747, 2114 and 723.
+-Fixed sea tile naming of 1252 and 1928.
+-Fixed strait between 7195-7194 incorrectly pointing to provinces 7195-7184. Also fixed its incorrect sea tile.
+-Fixed strait between 4993-4995 incorrectly being blockaded in 1489.
+-Fixed strait between 782-2869 incorrectly being blockaded in 1538.
+-Fixed province 4670 not belonging to the North Chinese Trade Company.
+-Fixed provinces 2115 and 723 belonging to the North Chinese Trade Company when outside the Beijing trade node.
+-Fixed province 660 being in the wrong tradenode and thus trade company for its area.
+-Fixed provinces 5279 & 5301 belonging to the wrong tradenodes (Cairo vs Dongola) by switching them around in the files.
+-Fixed issues with regards to TC and colonial borders in South Africa, moving whole areas about.
+-Fixed Draiocht's broken attempt at removing separatists in Arvanite/Transylvanian Saxon-cultured provinces.
+-Fixed colonial region names massively to spread them more among nations, making them less tag-specific and instead culture-specific, moving some about to prioritise them over generic ones, and so on. Also fixed Portuguese Cape Colony being broken as it checked for "portuguese" culture and not "portugese" as vanilla erroneously defines it as.
+-Refixed and rescriptified Castilian-Spanish GC missions.
+-Fixed flavor_spa.7 spawning too many rebels. Also lazily fixed flavor_spa.16's tooltip by flipping the tooltips so one doesn't hide the other.
+-Fixed forming Iberia resulting in switching to the Generic mission tree.
+-Fixed Pomo ideas only having a single modifier in traditions.
+-Fixed bad unit nudge in Mosoni (Moose Factory)
+-Fixed Friesland, Switzerland and Iceland starting with legacy government Administrative Republic as government reform.
+-Fixed Lublin (260) not starting with a CoT, which is required for the Polish mission "Invest in Eastern Poland". It definitely deserves a CoT anyway as it became a major trading hub after the Polish-Lithuanian union in the 14th century.
+
+-Fixed province 5095 and 5725 having an UCC: Unidentified Capital City.
+-Refixed Castilian-Spanish GC missions (again).
+-Fixed province 5840's capital being "Hila Win", a Native American name of modern Gila Bend (Founded 1872), which was predated by the settlement of Oyadaibuc, recorded in 1699.
+
+Controversial "fixes"/Balance changes:
+-Removed the Hawaii tag. Reasoning is that the tag is currently unplayable (It can see North America due to its tech group, but nothing around its islands) and will do naught to stop anyone who wishes to conquer them.
+-Adjusted French fiefs to require a diploslot. They also now count for the hegemoniacle bonus, hence France starts without potential allies. This fixes the weird balance where neither Burgundy nor England can get any alliance at game start. Until fiefs are adjusted somehow (Since I can tell how rushed they actually are), this is necessary.
+-Adjusted Wales to no longer be historical rivals with England due to the emerging gameplay destroying England.
+-Removed admin tech requirement for forming Russia, meaning they'd form it much quicker and avoids the state starving that happens for them, making them more of a challenge to handle.
+-To accomodate the reduction of yearly AT from maintained forts, the fort costs have been adjusted to cost 100/300/600/1000, instead of 300/600/900/1200. If you use my mod More Buildings, it will also be updated to accomodate for this change.
+-The AI developing provinces has been unhinged in an attempt to make the AI actually develop its provinces and not sit capped on monarch points towards the late game.
+-Added approximately 100 dev to the Ottomans (Mostly to Anatolia), in an attempt at preventing their immediate downfall and them immediately removing some 18 forts (See Excel sheet in the mod).
+-Adjusted Austrian mission of control electors to only be completable if the AI personality is NOT diplomatic. If you're a player, you won't see this.
+-Added historical friendship between Castille/Spain & Austria to try and nudge AI Austria to pick up better alliances.
+-If you have the Granadan mission tree, you can form Andalusia with only 40 provinces as opposed to original 103 provinces. In return, you don't get permaclaims over all of Iberia, since you get them from missions anyway.
+-Adjusted Naval Barrage down to 25 mil points instead of vanilla's 50. Misc already lowers Artillery Barrage to 30, and therefore the only use of naval barrage is pre-cannons. This buffs navies somewhat, saving you points.
+-Adjusted base merchants up from 2 to 3 due to the increase of number of trade nodes.
+-Fruits are now affected by the Columbian Exchange event, moving them from 2.5 base to 3.0.
+-Coal now goes from 8.0 down to 6.0 instead of 8.0 down to 5.6, something Draiocht seems to have completely missed when updating trade good prices.
+-Re-added Prussian Blue & Birthplace of Lager provincial modifiers to the game.
+-Added Sinothalassocracy option in the Thalassocracy decision.
+-Tweaked Shadow Kingdom to also occur if Protestants win the league war.
+-Tweaked AI likelihood of picking idea groups in order to try and make the AI a bit more competent. Some player feedback on this would be great.
+	-Aristocratic: Will be more likely to pick if cav combat ability is high (Watch out for the PLC), or Nobility/Cossacks influence is high.
+	-Plutocratic: Will be more likely to pick if Burghers/Vaishyas/Jains influence is high. Jains only affect chances if Vaishyas are not present. Also more likely if the country is a merchant republic-type government.
+	-Innovative: Will be more likely to pick if ruler personality is Scholar or Free Thinker. It will also be more likely if the country owns a institution spawn. Also more likely if western tech, as well as if the country already has filled out quality ideas so they can pick up the policy.
+	-Religious: Will be more likely to pick if ruler personality is Pious or Zealous. Will also be more likely if Clergy/Brahmins influence is high. Brahmins only affect chances if Clergy is not present (E.g Indian nations only). Also more likely if religious unity is low or tolerance of true faith is high, or if you have a culture conversion cost modifier. Theocracies and feudal theocracy-style governments are also more likely to pick this up, and HREmperors when the HRE's religion is locked will pick it up more often. Will also be more likely if the state religion isn't dominant. Finally, if the country borders a "religious enemy", it'll be more likely.
+	-Espionage: Will be more likely to pick if ruler personality is Secretive or Intricate Web Weaver. Also slightly more likely if part of the HRE and finally, if Aristocratic ideas have been completed, it'll be very likely to exploit policies.
+	-Diplomatic: Will be more likely to pick up if ruler personality is either Silver Tongue or Charismatic Negotiator.
+	-Offensive: Will be more likely to pick if ruler personality is either Bold Fighter or Inspirational Leader.
+	-Defensive: Will be more likely to pick if ruler personality is either Careful or Tactical Genius.
+	-Trade: Will be more likely to pick if ruler personality is either Entrepreneur or Midas Touched. Will also be more likely if trade income is between 20-50% to try and nudge AI trade a bit better. Also much more likely if the country is in debt. Finally, changed the check of 6 provinces to 100 development due to BT overhaul unevenness.
+	-Economic: Will be more likely to pick if ruler personality is either Industrious or Architectural Visionary. Also much more likely if the country is in debt.
+	-Maritime: Will be more likely to pick if ruler personality is Navigator. Will be less like to pick up if little coastal dev (less than 200). More likely if above 500 coastal dev, as well as if the nation has at least 10% light ship CA.
+	-Quality: Will be more likely to pick if ruler personality is Strict or Martial Educator. More likely to pick up if nation has inherently high unit combat ability or discipline. As well, if the AI somehow manages to get army professionalism, it'll be more likely to pick this up.
+	-Quantity: Will be less likely to pick up if nation has a poor economy.
+	-Administrative: Will be more likely to pick if ruler personality is Expansionist or Lawgiver. Base chance reduced because AI picked this up too often and never blobs.
+	-Humanist: Will be more likely to pick if ruler personality is Benevolent or Tolerant. Also more likely if tolerance of heathens or heretics is at least 0 (Catching all idea-based tolerant nations). Also more likely if nation has embraced enlightenment. Also if nation has accepted more than 3 cultures. Will also be more likely if Dhimmi/Brahmins influence is high. Brahmins only affect chances if Dhimmi is not present (E.g Indian muslim nations only)
+	-Influence: Will be more likely to pick if ruler personality is Well-connected or Fertile.
+	-Naval: Will be more likely to pick if above 500 coastal dev, as well as if the nation has at least 10% heavy ship or galley CA. Will be less like to pick up if little coastal dev (less than 200). Also more likely if the nation has galley or heavy ship CA.
+	-Both Expansion and Exploration use the same modifiers inherited from Misc.
+-Further tweaked AI building priorities to prioritise temples & workshops over regimental camps & shipyards. Also added a modifier for the AI to try and build forts in their capital, as it is an important province to fortify. Also buffed university and manufactory buildings.
+-Re-added the straits in the Lesser Antilles, as well as the ones in Bahamas and some other minors ones (Credit to More Straits addon by JP for the code), because the AI cannot handle them not existing. Reasons being:
+	-Colonial nations will only ever colonise provinces adjacent to them. This means a Lesser Antilles CN will never colonise on its own (Same with Bahamas).
+	-Rebel spawns on any island will never be defeated.
+-Changed Tir na nGael's name to Gaelica and Tir na gCeilteach to Celtica. I'll leave these names for a potential rename nations to native language mod.
+-Re-added Ardabil on the map. This resulted in a very messy research project that ended up making me place Shirvan, Khachen and Ardabil as vassals of Qara Qoyunlu. Also tweaked historical friends and rivals in the area to try and encourage historical splits (Rivalry QAR-SRV, Friendship SRV-TIM).
+-Completely changed all existing French Fiefdoms into regular vassals. There is no need for a special mechanic here, especially not one that doesn't do jack.
+-Made Swedish Finland start at 25% less autonomy to not end up at autonomy above the Sami provinces after adjustment.
+-The Iberia tag is now known as Lusitania, and related decisions have been adjusted to account for this. Since it was Portugal-exclusive anyway, it just made sense.
+-Moved entire Lower Yik area to Europe, since the definition of Europe uses the Ural (Yik) river as its border.
+-Moved all provinces south of the Caucasus mountains from Europe to Asia. The definition of Europe uses the Caucasus mountains as its border.
+	-As a sidenote, this fixes several bugs that occured in the area, such as Armenian separatists not being able to spawn in Armenian-cultured provinces without Armenian cores, since Erivan was in Europe and the provinces were in Asia.
+
+
+Additions:
+-Sweden gained a new mission as part of the Deluge: Control Lithuanian lands of the Commonwealth. This has a peculiar mission effect which places Lithuania under them as a PU.
+-Gave Iceland Norwegian Ideas.
+-If Muslims convert Andalusian-cultured provinces, they turn into Andalusi culture, and vice versa if Christians convert Andalusi-cultured provinces.
+-Added five new revolter tags to Castilian provinces, to allow a potential partition and represent how autonomous Castille actually was in the period. They are: Toledo, Seville, Cordoba, Jaen & Murcia.
+-Added an event upon the death of the Aragonese king whereif Naples is still under Aragon, Sicily is ceded to Aragon directly, as historically happened.
+-Added the Counts of Celje tag (In-game known as Cilli, its German and seemingly English, name). Credits to JP for the flag that I modified slightly.
+	The counts were heavily involved with Austrian & Hungarian politicking at the time, while also having their hands in both the Balkans and the Polish-Lithuanian Commonwealth. Most notably post-1444, they were heavily involved with Ladislaus the Posthumous. Their time finally ended when they attempted to proclaim themselves the new Hungarian King, something the Hungarian nobles did not like, leading to the Count's eventual assassination. Several claimants to their lands ensued, but eventually it became part of the Habsburg domains, as Friedrich outlived all others.
+-Added new national ideas to Champagne, Bourbon, Andorra & Corsica, courtesy of Math5615, and to Seville, Cordoba, Murcia & Toledo, courtesy of neothiamin.
+-Added two new Apiculture events. First one concerning bee biology research in the 18th century and the second one concerning the movable comb hive.
+-Re-added the paper events from vanilla, rebalanced them to apply to books and/or paper.
+	-Books go from 4.0 - 2.5 - 3.0
+	-Paper goes from 3.0 - 3.25 - 3.5 - 2.0
+-Updated French localisation for new BT 12 strings, courtesy of Math5615.
+-Added starting rulers history for Andorra & Rimini. Also starting rulers for Forli, Ancona, Camerino, Ceneda, Brixen & Masserano with help from Agonizes. Also starting rulers for Finale, Citta di Castello, Faenza & Carpegna, courtesy of Math5615.
+-Further revised Swedish missions by adjusting claims on Prussia and switching Estonia & Karelia missions around.
+-Revised Danish missions to not explicitly require a CoT in Copenhagen, but at least a CoT of level 3 in either of the three provinces the mission concerns. Furthermore, rebalancing Kongsberg silver mine mission for Denmark to only require 8 production dev and altered the Invest in Norway mission to account for new development_in_provinces trigger. Also adjusted some claims to match Swedish claim gains. Finally, Denmark obtains Empire rank if they enforce Danelaw.
+-Revised Norwegian missions by rebalancing Kongsberg silver mine mission for Norway to only require 8 production dev and altered the Kaupstadr of Norway mission to account for new development_in_provinces trigger. Also gave some buffs to some of its colonial missions such as extra dev, specific trade goods and CoT spawns.
+-Added Ragusan army names, courtesy of Perry.
+-Added a new Swedish mission, Develop Sweden, renaming some cities in Sweden and creates the naval base of Karlskrona.
+-Added Scandinavian Ideas.
+-Added and altered specific country colours to play nicer with the new BT Unit Pack addon I've created.
+-Integrated SEA formables missing in BT and BTfied all decisions in conjunction with CR and Mariposa.
+-Integrated SEA missions missing in BT and modified them to work with BT adjustments.
+-Added the Birkarls province triggered modifier to Swedish Sami provinces.
+-Integrated most Byzantine Resurgence province triggered modifiers to BT Bugfixes.
+-Added Italian colonial names for all colonial regions, courtesy of Alexious, Chrysocyon  and Math5615
+-Added Portuguese colonial names for all colonial regions, courtesy of Chrysocyon, ML8991 and CR
+-Added Swedish colonial names for Eastern America, Greenland, West Indies, Australia, Louisiana and Canada, some courtesy of Fuccboi.
+-Added British colonial name for Colombia, courtesy of CR.
+-Added Danish colonial names for Greenland, West Indies & Hudson Bay, courtesy of CR.
+-Added Turkish colonial names for all colonial regions, courtesy of VLindemann.
+
+Not fixed:
+7. A lake between the provinces Arles & Marseille still belongs to the wrong sea tile, resulting in weird naval invasion movements. Fixing this requires editing the provinces.bmp, which I'm not intending on doing.
+10. Localisation on Form France Diplomatically decision. I'm keeping it in for now because I think it works, but writing missing localisation is not my job.
+15. Not fixed due to being a vanilla tooltip error.
+16. Ommelanden still gets localised as Groningen in some dynamic province naming. Fix has been done in DPN, Math5615's dynamic province name addon.
+19. Did not fix Tristan de Cunha not belonging to a TC region, because it does not seem to cause any real errors. It is not the only province not where the trade companies are split between different TC regions either (Others are 5426 in West African Charter but Cape of Good Hope trade node, and 1182 in South African Charter but Zanzibar trade node). The only problem is it cannot be stated without removing TCs in the area, but I don't see why you would state it anyway.
+23. Both 3064 and 8015 get Ypres with French dynamic naming. Fix has been done in DPN.
+28. French fiefs still have no description. Again, I am not here to write localisation.
+-A bug in Netherlands where Den Haag borders a sea tile due to a lake belonging to the wrong sea tile, much like issue 7 above.
+-Every single thing concerning vanilla Provence not concerning BT's Anjou. Will not be fixed for 1.29, but when 1.30 hits, BT will restore PRO as Anjou and find a new tag for the Provence duchy.
+-ITA vs ITL tag. BT changing the tag causes major incompatibilities to anything that attempts to add Italy flavour. Thus, a move should be made towards switching the two, so that BT's added stuff for ITL gets moved to ITA, and Napoleonic Italy becomes ITL.
+-"The lake in Suriname in terrain mapmode shouldn't exist as it's a reservior". Further info: "The reservoir was created by constructing Afobaka Dam across the Suriname River between 1961 and 1964"
+-A lot of lakes look weird in certain seasons due to season maps apparently not having been updated in conjunction with terrain changes.
+-Map name for countries on British Isles spreading over the Atlantic. Fix includes splitting the Land's End. More detailed suggestion can be found on BT Discord.

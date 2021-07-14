@@ -1,0 +1,210 @@
+1399.1.1 = { emperor = BOH }
+1419.8.16 = { emperor = HUN }
+1437.12.9 = { emperor = HAB }
+1452.1.1 = { emperor = STY }
+1457.11.24 = { emperor = HAB }
+1519.1.12 = { emperor = SPA }
+1556.1.16 = { emperor = HAB }
+1740.12.22 = { emperor = BAV }
+1745.1.21 = { emperor = TUS }
+1765.1.1 = { emperor = HAB }
+1806.7.12 = { emperor = --- } 
+
+################################################################
+######################## Austria (TCOP) ########################
+################################################################
+
+###########
+# Vassals #
+###########
+
+vassal = {
+	first = BOH
+	second = GLG
+	start_date = 1444.1.1
+	end_date = 1450.1.1
+}
+
+vassal = {
+	first = BOH
+	second = LEG
+	start_date = 1444.1.1
+	end_date = 1450.1.1
+}
+
+vassal = {
+	first = BOH
+	second = OLE
+	start_date = 1444.1.1
+	end_date = 1450.1.1
+}
+
+vassal = {
+	first = BOH
+	second = OPL
+	start_date = 1444.1.1
+	end_date = 1450.1.1
+}
+
+vassal = {
+	first = BOH
+	second = TRO
+	start_date = 1444.1.1
+	end_date = 1450.1.1
+}
+
+vassal = {
+	first = BOH
+	second = BEG
+	start_date = 1444.1.1
+	end_date = 1450.1.1
+}
+
+vassal = {
+	first = BOH
+	second = TES
+	start_date = 1444.1.1
+	end_date = 1450.1.1
+}
+
+vassal = {
+	first = BOH
+	second = RAC
+	start_date = 1444.1.1
+	end_date = 1450.1.1
+}
+
+vassal = {
+	first = BOH
+	second = NIE
+	start_date = 1444.1.1
+	end_date = 1450.1.1
+}
+
+vassal = {
+	first = BOH
+	second = ASC
+	start_date = 1444.1.1
+	end_date = 1450.1.1
+}
+
+################################################################
+######################## Bohemia (TCOP) ########################
+################################################################
+
+###########
+# Vassals #
+###########
+
+vassal = {
+	first = HAB
+	second = TST
+	start_date = 1806.7.12
+	end_date = 1809.1.1
+}
+
+################################################################
+######################## Munster (TCOP) ########################
+################################################################
+
+##########
+# Unions #
+##########
+
+union = {
+	first = MUN
+	second = OSN
+	start_date = 1442.1.1
+	end_date = 1444.11.13
+}
+union = {
+	first = MUN
+	second = OSN
+	start_date = 1444.11.18
+	end_date = 1450.6.3
+}
+
+################################################################
+########################## Koln (TCOP) #########################
+################################################################
+
+##########
+# Unions #
+##########
+
+union = {
+	first = KOL
+	second = PAD
+	start_date = 1415.1.1
+	end_date = 1444.11.13 ##Cologne/Munster Shattered/Performance Start accomodation
+}
+union = {
+	first = KOL
+	second = PAD
+	start_date = 1444.11.18
+	end_date = 1463.2.14
+}
+
+################################################################
+###################### Switzerland (TCOP) ######################
+################################################################
+
+###########
+# Vassals #
+###########
+
+vassal = {
+	first = SWI
+	second = BSL
+	start_date = 1444.1.1
+	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+}
+
+vassal = {
+	first = SWI
+	second = BSL
+	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	end_date = 1501.6.9
+}
+
+vassal = {
+	first = SWI
+	second = ZND
+	start_date = 1444.1.1
+	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+}
+
+vassal = {
+	first = SWI
+	second = ZND
+	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	end_date = 1529.3.12
+}
+
+# Switzerland-Grey Leagues relations
+vassal = {
+	first = SWI
+	second = TTL
+	start_date = 1497.1.1
+	end_date = 1520.1.1
+}
+
+#############
+# Alliances #
+#############
+
+# Switzerland and Austria (League of Constance)
+alliance = {
+	first = SWI
+	second = HAB
+	start_date = 1474.3.30
+	end_date = 1477.1.6
+}	
+
+# Switzerland and Lorraine (League of Constance)
+alliance = {
+	first = SWI
+	second = LOR
+	start_date = 1474.4.18
+	end_date = 1477.1.6
+}
