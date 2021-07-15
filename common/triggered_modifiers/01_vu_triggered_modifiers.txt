@@ -210,6 +210,6 @@ bt_hegemony_of_burgundy = {
 		NOT = { government_rank = 2 }
 		personal_union = 5
 	}
-	diplomatic_upkeep = 5
+	diplomatic_upkeep = 7
 	reduced_liberty_desire = 5
 }
