@@ -14,25 +14,25 @@ imperialism = {
 		diplomatic_upkeep = 1
 	}
 	
-	historical_start_date = 1881.1.1
+	historical_start_date = 1811.1.1
 	historical_start_province = 236 #London
 
 	history = {
 		OR = {
 			AND = {
-				is_year = 1880
+				is_year = 1820
 				continent = europe
 				owner = { num_of_states = 20 }
 			}
 			AND = {
-				is_year = 1900
+				is_year = 1840
 				owner = { technology_group = western }
 			}
 		}
 	}
 	
 	can_start = {
-		is_year = 1836
+		is_year = 1800
 		
 		is_island = no
 		is_capital = yes
@@ -374,19 +374,19 @@ nationalism_institution = {
 		diplomatic_upkeep = 1
 	}
 	
-	historical_start_date = 1871.1.1
+	historical_start_date = 1861.1.1
 	historical_start_province = 50 #Berlin
 	
 	history = {
 		AND = {
-				is_year = 1870
+				is_year = 1860
 				owner = { technology_group = western }
 				development = 35
 			}
 	}
 
 	can_start = {
-		is_year = 1860
+		is_year = 1850
 
 		is_island = no		
 		is_in_capital_area = yes
