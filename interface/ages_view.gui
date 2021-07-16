@@ -32,72 +32,48 @@ guiTypes = {
 
 			iconType = {
 				name ="frame"
-				spriteType = "GFX_age_indicator_6"
-				position = { x= 3 y = 7 }
+				spriteType = "GFX_age_indicator_1"
+				position = { x= -1 y = 7 }
 			}
 			
 			iconType = {
 				name ="frame_r"
-				spriteType = "GFX_age_indicator_7"
-				position = { x= 484 y = 7 }
+				spriteType = "GFX_age_indicator_2"
+				position = { x= 487 y = 7 }
 			}
 			
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_l"
-				position = { x= -27 y = 10 }
+				position = { x= -30 y = 22 }
 				frame = 1
 			}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -13 y = 62 }
+				position = { x= 487 y = 55 }
 				frame = 2
 			}
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -13 y = 105 }
+				position = { x= -15 y = 88 }
 				frame = 3
-			}
-			iconType = {
-				name ="icon_age_of_enlightenment"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -13 y = 149 }
-				frame = 4
 			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 22 }
+				position = { x= 487 y = 121 }
+				frame = 4
+			}
+			iconType = {
+				name ="icon_age_of_change"
+				spriteType = "GFX_icon_age_s"
+				position = { x= -15 y = 144 }
 				frame = 5
 			}
-			iconType = {
-				name ="icon_age_of_industrialisation"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 63 }
-				frame = 6
-			}
-			iconType = {
-				name ="icon_age_of_imperialism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 104 }
-				frame = 7
-			}
-			iconType = {
-				name ="icon_age_of_nationalism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 145 }
-				frame = 8
-			}
 		}
-#			iconType = {
-#				name ="icon_age_of_globalism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 186 }
-#				frame = 9
-#			}
-#		}			
+
 		
 		WindowType = {
 			name = "age_of_reformation"
@@ -106,71 +82,46 @@ guiTypes = {
 
 			iconType = {
 				name ="frame"
-				spriteType = "GFX_age_indicator_5"
-				position = { x= 3 y = 7 }
+				spriteType = "GFX_age_indicator_1"
+				position = { x= -1 y = 7 }
 			}
 			
 			iconType = {
 				name ="frame_r"
-				spriteType = "GFX_age_indicator_7"
-				position = { x= 484 y = 7 }
+				spriteType = "GFX_age_indicator_2"
+				position = { x= 487 y = 7 }
 			}
 			
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -13 y = 10 }
+				position = { x= -15 y = 31 }
 			}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_l"
-				position = { x= -27 y = 62 }
+				position = { x= 487 y = 47 }
 				frame = 2
 			}
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -13 y = 105 }
+				position = { x= -15 y = 88 }
 				frame = 3
-			}	
-			iconType = {
-				name ="icon_age_of_enlightenment"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -13 y = 149 }
-				frame = 4
-			}	
+			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 22 }
+				position = { x= 487 y = 121 }
+				frame = 4
+			}
+			iconType = {
+				name ="icon_age_of_change"
+				spriteType = "GFX_icon_age_s"
+				position = { x= -15 y = 144 }
 				frame = 5
 			}
-			iconType = {
-				name ="icon_age_of_industrialisation"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 63 }
-				frame = 6
-			}
-			iconType = {
-				name ="icon_age_of_imperialism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 104 }
-				frame = 7
-			}	
-			iconType = {
-				name ="icon_age_of_nationalism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 145 }
-				frame = 8
-			}
 		}
-#			iconType = {
-#				name ="icon_age_of_globalism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 186 }
-#				frame = 9
-#			}
-#		}	
 		
 		WindowType = {
 			name = "age_of_absolutism"
@@ -179,474 +130,133 @@ guiTypes = {
 
 			iconType = {
 				name ="frame"
-				spriteType = "GFX_age_indicator_4"
-				position = { x= 3 y = 7 }
+				spriteType = "GFX_age_indicator_1"
+				position = { x= -1 y = 7 }
 			}
 			iconType = {
 				name ="frame_r"
-				spriteType = "GFX_age_indicator_7"
-				position = { x= 484 y = 7 }
+				spriteType = "GFX_age_indicator_2"
+				position = { x= 487 y = 7 }
 			}
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -13 y = 10 }
+				position = { x= -15 y = 31 }
 			}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_of_reformation_g"
-				position = { x= -13 y = 62 }
+				position = { x= 487 y = 55 }
 			}
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_l"
-				position = { x= -27 y = 105 }
+				position = { x= -30 y = 81 }
 				frame = 3
 			}
 			iconType = {
-				name ="icon_age_of_enlightenment"
+				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 149 }
+				position = { x= 487 y = 121 }
 				frame = 4
 			}
 			iconType = {
-				name ="icon_age_of_revolutions"
+				name ="icon_age_of_change"
 				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 22 }
+				position = { x= -15 y = 144 }
 				frame = 5
 			}
-			iconType = {
-				name ="icon_age_of_industrialisation"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 63 }
-				frame = 6
-			}
-			iconType = {
-				name ="icon_age_of_imperialism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 104 }
-				frame = 7
-			}	
-			iconType = {
-				name ="icon_age_of_nationalism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 145 }
-				frame = 8
-			}
 		}
-#			iconType = {
-#				name ="icon_age_of_globalism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 186 }
-#				frame = 9
-#			}
-#		}		
-		
-		WindowType = {
-			name = "age_of_enlightenment"
-			position = { x= 35 y = -29}
-			upsound = age_of_enlightenment
-
-			iconType = {
-				name ="frame"
-				spriteType = "GFX_age_indicator_3"
-				position = { x= 3 y = 7 }
-			}
-			iconType = {
-				name ="frame_r"
-				spriteType = "GFX_age_indicator_7"
-				position = { x= 484 y = 7 }
-			}
-			iconType = {
-				name ="icon_age_of_discovery"
-				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -13 y = 10 }
-			}
-			iconType = {
-				name ="icon_age_of_reformation"
-				spriteType = "GFX_icon_age_of_reformation_g"
-				position = { x= -13 y = 62 }
-			}				
-			iconType = {
-				name ="icon_age_of_absolutism"
-				spriteType = "GFX_icon_age_of_absolutism_g"
-				position = { x= -13 y = 105 }
-			}
-			iconType = {
-				name ="icon_age_of_enlightenment"
-				spriteType = "GFX_icon_age_l"
-				position = { x= -27 y = 149 }
-				frame = 4
-			}
-			iconType = {
-				name ="icon_age_of_revolutions"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 22 }
-				frame = 5
-			}
-			iconType = {
-				name ="icon_age_of_industrialisation"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 63 }
-				frame = 6
-			}
-			iconType = {
-				name ="icon_age_of_imperialism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 104 }
-				frame = 7
-			}	
-			iconType = {
-				name ="icon_age_of_nationalism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 145 }
-				frame = 8
-			}
-		}
-#			iconType = {
-#				name ="icon_age_of_globalism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 186 }
-#				frame = 9
-#			}
-#		}		
-		
+	
 		WindowType = {
 			name = "age_of_revolutions"
 			position = { x= 35 y = -29}
 			upsound = age_of_revolutions
 
 			iconType = {
-				name ="frame_r"
-				spriteType = "GFX_age_indicator_4"
-				position = { x= 484 y = 7 }
+				name ="frame"
+				spriteType = "GFX_age_indicator_1"
+				position = { x= -1 y = 7 }
 			}
 			iconType = {
-				name ="frame"
-				spriteType = "GFX_age_indicator_6"
-				position = { x= 3 y = 7 }
+				name ="frame_r"
+				spriteType = "GFX_age_indicator_2"
+				position = { x= 487 y = 7 }
 			}
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -13 y = 10 }
+				position = { x= -15 y = 31 }
 			}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_of_reformation_g"
-				position = { x= -13 y = 62 }
+				position = { x= 487 y = 55 }
 			}				
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_of_absolutism_g"
-				position = { x= -13 y = 105 }
+				position = { x= -15 y = 88 }
 			}	
-			iconType = {
-				name ="icon_age_of_enlightenment"
-				spriteType = "GFX_icon_age_of_enlightenment_g"
-				position = { x= -13 y = 149 }
-			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_l"
-				position = { x= 484 y = 18 }
+				position = { x= 487 y = 114 }
+				frame = 4
+			}
+			iconType = {
+				name ="icon_age_of_change"
+				spriteType = "GFX_icon_age_s"
+				position = { x= -15 y = 144 }
 				frame = 5
 			}
-			iconType = {
-				name ="icon_age_of_industrialisation"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 63 }
-				frame = 6
-			}
-			iconType = {
-				name ="icon_age_of_imperialism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 104 }
-				frame = 7
-			}			
-			iconType = {
-				name ="icon_age_of_nationalism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 145 }
-				frame = 8
-			}
 		}
-#			iconType = {
-#				name ="icon_age_of_globalism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 186 }
-#				frame = 9
-#			}
-#		}
+
 
 		WindowType = {
-			name = "age_of_industrialisation"
+			name = "age_of_change"
 			position = { x= 35 y = -29}
-			upsound = age_of_industrialisation
+			upsound = age_of_change
 
 			iconType = {
 				name ="frame"
-				spriteType = "GFX_age_indicator_5"
-				position = { x= 484 y = 7 }
+				spriteType = "GFX_age_indicator_1"
+				position = { x= -1 y = 7 }
 			}
 			iconType = {
-				name = "frame_r"
-				spriteType = "GFX_age_indicator_6"
-				position = { x = 0 y = 7 }
+				name ="frame_r"
+				spriteType = "GFX_age_indicator_2"
+				position = { x= 487 y = 7 }
 			}
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -13 y = 10 }
+				position = { x= -15 y = 31 }
 			}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_of_reformation_g"
-				position = { x= -13 y = 62 }
+				position = { x= 487 y = 55 }
 			}				
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_of_absolutism_g"
-				position = { x= -13 y = 105 }
+				position = { x= -15 y = 88 }
 			}	
-			iconType = {
-				name ="icon_age_of_enlightenment"
-				spriteType = "GFX_icon_age_of_enlightenment_g"
-				position = { x= -13 y = 149 }
-			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_of_revolutions_g"
-				position = { x= 485 y = 22 }
+				position = { x= 487 y = 121 }
 			}
 			iconType = {
-				name ="icon_age_of_industrialisation"
+				name ="icon_age_of_change"
 				spriteType = "GFX_icon_age_l"
-				position = { x= 484 y = 59 }
-				frame = 6
-			}
-			iconType = {
-				name ="icon_age_of_imperialism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 104 }
-				frame = 7
-			}
-			iconType = {
-				name ="icon_age_of_nationalism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 145 }
-				frame = 8
+				position = { x= -30 y = 137 }
+				frame = 5
 			}
 		}
-#			iconType = {
-#				name ="icon_age_of_globalism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 186 }
-#				frame = 9
-#			}
-#		}
 
-		WindowType = {
-			name = "age_of_imperialism"
-			position = { x= 35 y = -29}
-			upsound = age_of_imperialism
 
-			iconType = {
-				name ="frame"
-				spriteType = "GFX_age_indicator_6"
-				position = { x= 484 y = 7 }
-			}
-			iconType = {
-				name = "frame_r"
-				spriteType = "GFX_age_indicator_6"
-				position = { x = 0 y = 7 }
-			}
-			iconType = {
-				name ="icon_age_of_discovery"
-				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -13 y = 10 }
-			}
-			iconType = {
-				name ="icon_age_of_reformation"
-				spriteType = "GFX_icon_age_of_reformation_g"
-				position = { x= -13 y = 62 }
-			}				
-			iconType = {
-				name ="icon_age_of_absolutism"
-				spriteType = "GFX_icon_age_of_absolutism_g"
-				position = { x= -13 y = 105 }
-			}	
-			iconType = {
-				name ="icon_age_of_enlightenment"
-				spriteType = "GFX_icon_age_of_enlightenment_g"
-				position = { x= -13 y = 149 }
-			}
-			iconType = {
-				name ="icon_age_of_revolutions"
-				spriteType = "GFX_icon_age_of_revolutions_g"
-				position = { x= 485 y = 22 }
-			}
-			iconType = {
-				name ="icon_age_of_industrialisation"
-				spriteType = "GFX_icon_age_of_industrialisation_g"
-				position = { x= 485 y = 59 }
-			}
-			iconType = {
-				name ="icon_age_of_imperialism"
-				spriteType = "GFX_icon_age_l"
-				position = { x= 484 y = 104 }
-				frame = 7
-			}
-			iconType = {
-				name ="icon_age_of_nationalism"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 485 y = 145 }
-				frame = 8
-			}
-		}
-#			iconType = {
-#				name ="icon_age_of_globalism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 186 }
-#				frame = 9
-#			}
-#		}
-#
-		WindowType = {
-			name = "age_of_nationalism"
-			position = { x= 35 y = -29}
-			upsound = age_of_imperialism
-
-			iconType = {
-				name ="frame"
-				spriteType = "GFX_age_indicator_7"
-				position = { x= 484 y = 7 }
-			}
-			iconType = {
-				name = "frame_r"
-				spriteType = "GFX_age_indicator_6"
-				position = { x = 0 y = 7 }
-			}
-			iconType = {
-				name ="icon_age_of_discovery"
-				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -13 y = 10 }
-			}
-			iconType = {
-				name ="icon_age_of_reformation"
-				spriteType = "GFX_icon_age_of_reformation_g"
-				position = { x= -13 y = 62 }
-			}				
-			iconType = {
-				name ="icon_age_of_absolutism"
-				spriteType = "GFX_icon_age_of_absolutism_g"
-				position = { x= -13 y = 105 }
-			}	
-			iconType = {
-				name ="icon_age_of_enlightenment"
-				spriteType = "GFX_icon_age_of_enlightenment_g"
-				position = { x= -13 y = 149 }
-			}
-			iconType = {
-				name ="icon_age_of_revolutions"
-				spriteType = "GFX_icon_age_of_revolutions_g"
-				position = { x= 485 y = 22 }
-			}
-			iconType = {
-				name ="icon_age_of_industrialisation"
-				spriteType = "GFX_icon_age_of_industrialisation_g"
-				position = { x= 485 y = 59 }
-			}
-			iconType = {
-				name ="icon_age_of_imperialism"
-				spriteType = "GFX_icon_age_of_imperialism_g"
-				position = { x= 485 y = 104 }
-			}
-			iconType = {
-				name ="icon_age_of_nationalism"
-				spriteType = "GFX_icon_age_l"
-				position = { x= 484 y = 145 }
-				frame = 8
-			}
-		}
-#			iconType = {
-#				name ="icon_age_of_globalism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 186 }
-#				frame = 9
-#			}
-#		}
-#
-#		WindowType = {
-#			name = "age_of_globalism"
-#			position = { x= 35 y = -29}
-#			upsound = age_of_nationalism
-#
-#			iconType = {
-#				name ="frame"
-#				spriteType = "GFX_age_indicator_8"
-#				position = { x= 484 y = 7 }
-#			}
-#			iconType = {
-#				name = "frame_r"
-#				spriteType = "GFX_age_indicator_6"
-#				position = { x = 0 y = 7 }
-#			}
-#			iconType = {
-#				name ="icon_age_of_discovery"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= -13 y = 10 }
-#				frame = 1
-#			}
-#			iconType = {
-#				name ="icon_age_of_reformation"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= -13 y = 62 }
-#				frame = 2
-#			}				
-#			iconType = {
-#				name ="icon_age_of_absolutism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= -13 y = 105 }
-#				frame = 3
-#			}	
-#			iconType = {
-#				name ="icon_age_of_enlightenment"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= -13 y = 149 }
-#				frame = 4
-#			}
-#			iconType = {
-#				name ="icon_age_of_revolutions"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 22 }
-#				frame = 5
-#			}
-#			iconType = {
-#				name ="icon_age_of_industrialisation"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 59 }
-#				frame = 6
-#			}
-#			iconType = {
-#				name ="icon_age_of_imperialism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 104 }
-#				frame = 7
-#			}
-#			iconType = {
-#				name ="icon_age_of_nationalism"
-#				spriteType = "GFX_icon_age_s"
-#				position = { x= 485 y = 145 }
-#				frame = 8
-#			}
-#			iconType = {
-#				name ="icon_age_of_globalism"
-#				spriteType = "GFX_icon_age_l"
-#				position = { x= 484 y = 186 }
-#				frame = 9
-#			}
-#		}		
 		
 		instantTextBoxType = {
 			name = "title"
