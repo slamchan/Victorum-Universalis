@@ -24,7 +24,7 @@ discovered_by = eastern
 
 
 extra_cost = 20
-center_of_trade = 2
+center_of_trade = 3
 
 #1399.1.1 = { add_core = DAU }
 1446.9.27 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Dauphiné is ruled as a separate kingdom by Louis

@@ -14,7 +14,6 @@ trade_goods = fur
 base_manpower = 1 
 capital = "Umeå"
 is_city = yes
-center_of_trade = 1
 
 discovered_by = western
 discovered_by = eastern

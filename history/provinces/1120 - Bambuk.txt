@@ -13,8 +13,6 @@ base_tax = 12
 base_production = 12
 add_core = MAL
 
-
-
 discovered_by = sub_saharan
 
 

@@ -18,3 +18,8 @@ native_hostileness = 1
 1796.1.1 = {
 	discovered_by = GBR	# William Wake, date unknown
 }
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

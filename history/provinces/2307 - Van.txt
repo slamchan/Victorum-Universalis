@@ -14,7 +14,6 @@ is_city = yes
 add_core = TIM
 add_core = ARM
 
-
 discovered_by = east_african
 discovered_by = western
 discovered_by = muslim

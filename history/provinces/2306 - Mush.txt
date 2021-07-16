@@ -15,7 +15,6 @@ add_core = QAR
 add_core = ARM
 
 extra_cost = 8
-center_of_trade = 1
 
 discovered_by = east_african
 discovered_by = western

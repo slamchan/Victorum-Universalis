@@ -12,7 +12,7 @@ base_tax = 4  			#haven't reduced this, it's already quite dirty poor
 base_production = 4		#haven't reduced this, it's already quite dirty poor
 base_manpower = 6
 is_city = yes
-
+center_of_trade = 2
 
 
 discovered_by = chinese
