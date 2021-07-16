@@ -26,7 +26,7 @@ discovered_by = eastern
 	owner = ANI
 	controller = ANI
 	add_core = ANI
-}	#Creation of the Kingdom of Ireland under Henry VIII, Wexford joins immediately as one of the centres of English influence in Ireland
+}	#Creation of the Kingdom of Ireland under Henry VIII, Wexford joins immediately as one of the centers of English influence in Ireland
 
 # Pope Paul IV issued a papal bull in 1555, Ilius, per quem Reges regnant, recognising Philip and Mary as King and Queen of England and its dominions including Ireland.
 # Over the course of the next two centuries, the Papacy and Europe's Catholic rulers continued to recognise Ireland as a Kingdom in its own right, whilst at the same time asserting its Protestant monarchy as illegitimate.
@@ -34,7 +34,7 @@ discovered_by = eastern
 
 1556.1.1 = {
 	capital = "Philipstown"
-}	#Creation of the Kingdom of Ireland under Henry VIII, Wexford joins immediately as one of the centres of English influence in Ireland
+}	#Creation of the Kingdom of Ireland under Henry VIII, Wexford joins immediately as one of the centers of English influence in Ireland
 
 1641.10.23 = {
 	revolt = { 

@@ -89,7 +89,7 @@ discovered_by = eastern
 	base_tax = 2
 	base_production = 2
 	base_manpower = 3
-} # France takes it again with the Treaty of Cherasco, entrusting Vauban, celebrated military engineer, with the task of fortifying the city as a centre of French control in Northern Italy. The city is turned into a veritable fortress, but much of the population moves to Lyon.
+} # France takes it again with the Treaty of Cherasco, entrusting Vauban, celebrated military engineer, with the task of fortifying the city as a center of French control in Northern Italy. The city is turned into a veritable fortress, but much of the population moves to Lyon.
 1575.1.1 = {
 	owner = SAV
 	controller = SAV
