@@ -54,4 +54,4 @@ discovered_by = north_american
 	controller = USA
 	add_core = USA
 	remove_core = GBR
-} #Ceded back to Americans after British and Americans reach an agreement on western border. Only after this becomes the major centre (in game terms, a CoT).
+} #Ceded back to Americans after British and Americans reach an agreement on western border. Only after this becomes the major center (in game terms, a CoT).
