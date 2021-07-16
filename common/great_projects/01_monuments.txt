@@ -203,9 +203,11 @@ hagia_sophia = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -240,9 +242,11 @@ hagia_sophia = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -1449,9 +1453,11 @@ angkor_wat = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -1483,9 +1489,11 @@ angkor_wat = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -1517,9 +1525,11 @@ angkor_wat = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 15
+				}
 			}
 		}
 	}
@@ -1871,9 +1881,11 @@ cologne_cathedral = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -1907,9 +1919,11 @@ cologne_cathedral = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 15
+				}
 			}
 		}
 	}
@@ -2216,9 +2230,11 @@ machu_picchu = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -2250,9 +2266,11 @@ machu_picchu = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -2285,9 +2303,11 @@ machu_picchu = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 15
+				}
 			}
 		}
 	}
@@ -2417,9 +2437,11 @@ chichen_itza = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -2451,9 +2473,11 @@ chichen_itza = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -2486,9 +2510,11 @@ chichen_itza = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 15
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 15
+				}
 			}
 		}
 	}
@@ -2817,9 +2843,11 @@ moai = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -2885,7 +2913,7 @@ stpeters_cathedral = {
 
 	#can we build it?
 	build_trigger = {
-		religion_group = catholic
+		religion = catholic
 		has_owner_religion = yes
 	}
 
@@ -2901,13 +2929,13 @@ stpeters_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		religion_group = catholic
+		religion = catholic
 		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		religion_group = catholic
+		religion = catholic
 		has_owner_religion = yes
 	}
 
@@ -2971,9 +2999,11 @@ stpeters_cathedral = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -3006,9 +3036,11 @@ stpeters_cathedral = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 15
+				}
 			}
 		}
 	}
@@ -3042,9 +3074,11 @@ stpeters_cathedral = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 20
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 20
+				}
 			}
 		}
 	}
@@ -3438,7 +3472,7 @@ tenochtitlan = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_local_development_cost = -0.05
+			local_development_cost = -0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -3805,7 +3839,7 @@ shwedagon_pagoda = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_unrest = -2
-			local_local_development_cost = -0.05
+			local_development_cost = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3820,9 +3854,11 @@ shwedagon_pagoda = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -3856,9 +3892,11 @@ shwedagon_pagoda = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 15
+				}
 			}
 		}
 	}
@@ -4168,9 +4206,11 @@ ambras_castle = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -4203,9 +4243,11 @@ ambras_castle = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -4239,9 +4281,11 @@ ambras_castle = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 15
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 15
+				}
 			}
 		}
 	}
@@ -6327,9 +6371,11 @@ temple_of_confucius = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -6362,9 +6408,11 @@ temple_of_confucius = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -6397,9 +6445,11 @@ temple_of_confucius = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 15
+				}
 			}
 		}
 	}
@@ -8035,9 +8085,11 @@ kiev_pechersk_lavra = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -8155,9 +8207,11 @@ pena_palace = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -8188,9 +8242,11 @@ pena_palace = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -8223,9 +8279,11 @@ pena_palace = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 15
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 15
+				}
 			}
 		}
 	}
@@ -9140,9 +9198,11 @@ walls_of_theodosius = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 0.75
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 15
+				}
 			}
 		}
 	}
@@ -9177,9 +9237,11 @@ walls_of_theodosius = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -9282,9 +9344,11 @@ alcazar = {
         }
 
         on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 10
+				}
 			}
         }
     }
