@@ -16,7 +16,7 @@ discovered_by = mesoamerican
 
 extra_cost = 10
 
-center_of_trade = 1
+center_of_trade = 2
 
 1502.1.1 = { discovered_by = CAS } # Christopher Columbus, no attempt to colonize
 1516.1.23 = { discovered_by = SPA }

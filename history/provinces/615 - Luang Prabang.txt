@@ -13,6 +13,8 @@ base_manpower = 5
 is_city = yes
 add_core = LXA
 add_core = LUA
+center_of_trade = 2
+
 discovered_by = chinese
 discovered_by = indian
 

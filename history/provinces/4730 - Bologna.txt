@@ -17,7 +17,7 @@ add_core = BLG
 
 extra_cost = 15
 
-center_of_trade = 2
+center_of_trade = 3
 
 discovered_by = western
 discovered_by = muslim

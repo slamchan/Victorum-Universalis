@@ -16,3 +16,8 @@ native_hostileness = 0
 1666.1.1 = {
 	discovered_by = NED	# Dutch cartographer Pieter Goos publishes a map with it included
 }
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
