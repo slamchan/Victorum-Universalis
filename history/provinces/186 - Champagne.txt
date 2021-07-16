@@ -15,7 +15,7 @@ trade_goods = wine
 base_manpower = 4
 add_core = CHP
 add_core = RHM
-
+center_of_trade = 2
 
 discovered_by = western
 discovered_by = muslim

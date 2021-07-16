@@ -27,7 +27,7 @@ discovered_by = ottoman
 
 extra_cost = 10
 
-center_of_trade = 2
+center_of_trade = 3
 
 1483.1.1 = {
 	base_tax = 20

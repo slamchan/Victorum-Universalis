@@ -22,7 +22,7 @@ discovered_by = ottoman
 
 extra_cost = 10
 
-center_of_trade = 2
+center_of_trade = 3
 
 1552.10.2 = { owner = RUS controller = RUS add_core = RUS remove_core = KAZ } # Russian conquest of Kazan
 1553.1.1 = { culture = russian religion = orthodox } # Most Tatars were christianized or killed

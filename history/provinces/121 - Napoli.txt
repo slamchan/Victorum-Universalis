@@ -23,7 +23,12 @@ discovered_by = eastern
 
 extra_cost = 15
 
-center_of_trade = 1
+center_of_trade = 3
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
 
 #Province history completed by - Draiocht (dev changes) & Chairman_Meow (JP) (everything else)
 #1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
@@ -72,7 +77,7 @@ center_of_trade = 1
 	base_production = 15
 	base_manpower = 8
 	add_center_of_trade_level = 1
-} # Continued rise of Naples from a large regional centre to a world capital. City grows and prospers despite political drama between France and Aragon.
+} # Continued rise of Naples from a large regional center to a world capital. City grows and prospers despite political drama between France and Aragon.
 1494.1.1 = { 
 	add_core = FRA 
 } # Angevin claims
@@ -101,7 +106,7 @@ center_of_trade = 1
 	base_tax = 18
 	base_production = 18
 	base_manpower = 10
-} # Continued rise of Naples from a large regional centre to a world capital. City grows and prospers despite political drama between France and Aragon.
+} # Continued rise of Naples from a large regional center to a world capital. City grows and prospers despite political drama between France and Aragon.
 1559.1.1 = { 
 	remove_core = FRA 
 } # Treaty of Cateau-Cambresis
@@ -109,20 +114,20 @@ center_of_trade = 1
 	base_tax = 21
 	base_production = 21
 	base_manpower = 12
-} # Continued rise of Naples from a large regional centre to a world capital. City grows and prospers despite political drama between France and Aragon.
+} # Continued rise of Naples from a large regional center to a world capital. City grows and prospers despite political drama between France and Aragon.
 1583.1.1 = { fort_15th = no fort_16th = yes }
 1600.1.1 = {
 	base_tax = 25
 	base_production = 25
 	base_manpower = 15
-} # By 1600, Naples was booming. The second largest city in Europe, and one of the richest as well, arguably in the entire world. It was a massive centre for pretty much everything and at the cutting edge of art, culture, technology & science.
+} # By 1600, Naples was booming. The second largest city in Europe, and one of the richest as well, arguably in the entire world. It was a massive center for pretty much everything and at the cutting edge of art, culture, technology & science.
 1648.1.1 = { fort_16th = no fort_17th = yes }
 1656.1.1 = {
 	base_tax = 20
 	base_production = 20
 	base_manpower = 10
 	add_center_of_trade_level = -1
-} # Major outbreak of the plague somewhat slows Naples with about 130,000 dead. Still a major centre, but the exponential growth is halted, and the city, slow to recover, stablises at simply very rich.
+} # Major outbreak of the plague somewhat slows Naples with about 130,000 dead. Still a major center, but the exponential growth is halted, and the city, slow to recover, stablises at simply very rich.
 1714.3.7 = {
 	owner = HAB
 	controller = HAB

@@ -15,6 +15,7 @@ capital = "Arkhangelsk"
 is_city = yes
 add_core = NOV
 add_local_autonomy = 25
+center_of_trade = 1
 
 discovered_by = eastern
 discovered_by = western

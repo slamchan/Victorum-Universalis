@@ -13,9 +13,6 @@ base_production = 4
 base_manpower = 6
 is_city = yes
 
-
-
-
 discovered_by = chinese
 discovered_by = nomad_group
 

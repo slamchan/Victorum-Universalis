@@ -9,10 +9,10 @@ capital = "Toul"
 base_tax = 7
 base_production = 7
 base_manpower = 4
-trade_goods = cloth			#one of the first major cloth centres, and also one of the first truly industrialised areas in the world
+trade_goods = cloth			#one of the first major cloth centers, and also one of the first truly industrialised areas in the world
 is_city = yes
 hre = yes
-center_of_trade = 1
+center_of_trade = 2
 
 discovered_by = western
 discovered_by = muslim

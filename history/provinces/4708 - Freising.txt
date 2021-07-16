@@ -10,6 +10,7 @@ base_production = 8
 base_manpower = 4
 trade_goods = grain #Weihenstephaner beer
 add_core = FRG
+center_of_trade = 2
 
 discovered_by = eastern
 discovered_by = western

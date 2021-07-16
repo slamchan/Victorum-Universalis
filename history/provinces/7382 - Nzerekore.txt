@@ -13,5 +13,6 @@ base_tax = 6
 base_production = 6
 add_core = MAL
 add_core = KBU #Subject province within the empire
+center_of_trade = 2
 
 discovered_by = sub_saharan

@@ -16,7 +16,7 @@ discovered_by = NDO
 discovered_by = LOA
 discovered_by = sub_saharan
 extra_cost = 8
-center_of_trade = 1
+center_of_trade = 2
 
 1481.1.1 = { discovered_by = POR } # Bartolomeu Dias
 1617.1.1 = {	

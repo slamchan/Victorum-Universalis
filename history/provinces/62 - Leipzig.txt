@@ -18,6 +18,7 @@ base_production = 6
 base_manpower = 2 
 is_city = yes
 add_core = SAX
+center_of_trade = 2
 
 discovered_by = western
 discovered_by = muslim

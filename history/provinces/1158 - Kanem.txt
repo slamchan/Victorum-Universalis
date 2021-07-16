@@ -15,7 +15,7 @@ base_tax = 6
 base_production = 6
 discovered_by = sub_saharan
 extra_cost = 8
-center_of_trade = 1
+center_of_trade = 2
 
 
 1505.1.1 = { owner = KBO controller = KBO add_core = KBO } #Idris Katakarmabe retakes Kanem

@@ -15,7 +15,6 @@ add_core = MCA
 discovered_by = south_american
 discovered_by = MCA
 
-
 1539.1.1 = {
 	discovered_by = SPA
 	owner = SPA

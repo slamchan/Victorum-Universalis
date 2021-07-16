@@ -14,7 +14,7 @@ base_manpower = 6
 capital = "Rostov"
 is_city = yes
 add_core = RSO
-center_of_trade = 1
+center_of_trade = 2
 
 discovered_by = eastern
 discovered_by = western
