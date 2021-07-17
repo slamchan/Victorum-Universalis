@@ -13,6 +13,11 @@ trade_goods = naval_supplies			#notable wood production, like Cadore. Also has l
 is_city = yes
 hre = yes
 
+add_permanent_province_modifier = {
+	name = bt_forests_of_cadore
+	duration = -1
+} 
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

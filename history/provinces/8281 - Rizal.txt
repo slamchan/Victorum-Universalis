@@ -14,6 +14,11 @@ base_manpower = 2
 is_city = yes
 discovered_by = chinese
 
+add_permanent_province_modifier = {
+	name = laguna_lagoon_modifier
+	duration = -1
+}
+
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
 1570.5.1 = {
 	owner = SPA
