@@ -20,4 +20,4 @@ discovered_by = north_american
 	discovered_by = USA
 	discovered_by = GBR
 }	#Jedediah Smith and Peter Skene Ogden at around the same time. Siskiyou Trail comes into regular use.
-#Dardanelles founded in the area, but not sure when. Probably 1850s to 1860s. Grants Pass modern centre.
+#Dardanelles founded in the area, but not sure when. Probably 1850s to 1860s. Grants Pass modern center.

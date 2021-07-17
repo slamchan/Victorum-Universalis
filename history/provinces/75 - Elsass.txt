@@ -4,20 +4,20 @@
 
 owner = ALS
 controller = ALS 
-capital = "Straßburg"
+capital = "Straï¿½burg"
 is_city = yes
 culture = alsatian
 religion = catholic
 hre = yes
 base_tax = 11
-base_production = 11			#Swabian population centre, and one of the largest cities in the HRE consistantly hovering around 20k, not disimilar to Vienna, Magdeburg, Regensburg, or any of the other major German cities 
+base_production = 11			#Swabian population center, and one of the largest cities in the HRE consistantly hovering around 20k, not disimilar to Vienna, Magdeburg, Regensburg, or any of the other major German cities 
 trade_goods = books
 base_manpower = 5
 add_core = ALS
 fort_15th = yes
 
 extra_cost = 8
-center_of_trade = 1
+center_of_trade = 3
 
 discovered_by = western
 discovered_by = muslim
@@ -38,7 +38,7 @@ discovered_by = eastern
 1526.1.1 = { unrest = 0 } # Peace restored everywhere
 1583.1.1 = { fort_15th = no fort_16th = yes }
 1648.1.1 = { fort_16th = no fort_17th = yes }
-1670.1.1 = { add_core = FRA } # Louis XIV lays claims through the Chambres de Réunion
+1670.1.1 = { add_core = FRA } # Louis XIV lays claims through the Chambres de Rï¿½union
 1681.1.1 = { owner = FRA controller = FRA } # Louis XIV annexes Strasbourg 
 1685.10.18 = { unrest = 8 } # Edict of Nantes revoked by Louis XIV
 1686.1.17 = { religion = catholic unrest = 0 } # Dragonnard campaign succesful: region reverts back to Catholicism

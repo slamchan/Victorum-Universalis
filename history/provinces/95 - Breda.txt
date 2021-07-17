@@ -12,7 +12,7 @@ religion = catholic
 hre = yes
 base_tax = 5
 base_production = 5
-trade_goods = beer			#Major brewing centre, including largest brewery in Netherlands, as well as both historically and currently a centre of non-staple foods and drinks.
+trade_goods = beer			#Major brewing center, including largest brewery in Netherlands, as well as both historically and currently a center of non-staple foods and drinks.
 base_manpower = 3
 
 discovered_by = western
@@ -20,6 +20,10 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+add_permanent_province_modifier = {
+	name = meuse_estuary_modifier
+	duration = -1
+}
 
 #Province history completed by - Draiocht
 #1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins

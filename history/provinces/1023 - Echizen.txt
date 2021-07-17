@@ -13,6 +13,8 @@ base_manpower = 4
 is_city = yes
 add_core = SBA
 add_core = ASA
+center_of_trade = 2
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

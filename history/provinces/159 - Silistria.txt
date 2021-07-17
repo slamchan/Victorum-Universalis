@@ -68,7 +68,7 @@ discovered_by = western
 	culture = turkish
 	religion = sunni
 	remove_core = WAL
-} #slow recovery of the Balkans, Silistra an Eyalet Centre,turks settle, removing the Wallachian core
+} #slow recovery of the Balkans, Silistra an Eyalet center,turks settle, removing the Wallachian core
 1555.1.1 = { unrest = 5 } # General discontent against the Janissaries' dominance
 1556.1.1 = { unrest = 2 }
 1598.1.1 = { unrest = 6 } # Oppositions around Tarnovo

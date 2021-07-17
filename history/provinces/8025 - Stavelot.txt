@@ -9,7 +9,7 @@ capital = "Verviers"			#This is a problematic area. We have 2 major cities, Verv
 base_tax = 2
 base_production = 3			#Verviers was just a small village until 1500s, exploded in 1500s and 1600s, by late 1700s it was one of the top 5 cities in Low Countries by wealth and importance. Note despite some serious economic weight, it never had a giant population like many urban cities in the Low Countries. Apparently only up to around 30k by our end date in 1830s, and under 10k in early 1700s.
 base_manpower = 2
-trade_goods = cloth			#Verviers was responsible for a staggering 73 percent of Liege's exports, overwhelming wool cloth, while Malmedy's main business was paper manufacturing as well as leather tanning. Could go either way... Not too many paper provs around, so that would be good, but this was such a major centre of cloth that it would be remiss to ignore that.
+trade_goods = cloth			#Verviers was responsible for a staggering 73 percent of Liege's exports, overwhelming wool cloth, while Malmedy's main business was paper manufacturing as well as leather tanning. Could go either way... Not too many paper provs around, so that would be good, but this was such a major center of cloth that it would be remiss to ignore that.
 is_city = yes
 hre = yes
 

@@ -46,7 +46,7 @@ discovered_by = eastern
 	base_tax = 4
 	base_production = 4
 	base_manpower = 2
-} # Torn apart by war and forced to submit to various overlords, the first half of the 14th century saw Chieri reduced from an ambitious little polity to merely a local centre at best.
+} # Torn apart by war and forced to submit to various overlords, the first half of the 14th century saw Chieri reduced from an ambitious little polity to merely a local center at best.
 #1347.5.19 = { } # Chieri subjects itself to Savoy in exchange for protection against Montferrat, but does not renounce any freedoms and should probably be considered a vassal at this point.
 #Civil war between Savoy and Savoy-Achaia tears Chieri, who had subjected to Savoy without clarifying which branch, apart. 1350s marked by years of internal conflict.
 1398.1.1 = {

@@ -12,3 +12,8 @@ native_ferocity = 0
 native_hostileness = 0
 
 1675.1.1 = { discovered_by = ENG }
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

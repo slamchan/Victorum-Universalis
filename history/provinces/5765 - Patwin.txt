@@ -2,7 +2,7 @@
 
 culture = wintuan
 religion = totemism 
-capital = "Yulyul" 			#Main centre of the Suisun people, a Patwin division
+capital = "Yulyul" 			#Main center of the Suisun people, a Patwin division
 trade_goods = unknown
 hre = no 
 base_tax = 1 			#Kroeber give 1770 population of Wintun (including #5045, #5765, #5799) at 12,000, while Cook gives 5,000 for the Patwin specifically.

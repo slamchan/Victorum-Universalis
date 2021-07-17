@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = POL
-controller = POL
-add_core = POL
+owner = ASC
+controller = ASC
+add_core = ASC
 culture = schlesian
 religion = catholic
 hre = yes
