@@ -37,7 +37,7 @@ discovered_by = eastern
 	owner = TUR
 	controller = TUR
 	add_core = TUR
-}	#Ottomans take Tenes, marking the end of the city's importance and shifting the centre south to the Mitidja plain.
+}	#Ottomans take Tenes, marking the end of the city's importance and shifting the center south to the Mitidja plain.
 1614.1.1 = {
 	base_tax = 6
 	base_production = 10

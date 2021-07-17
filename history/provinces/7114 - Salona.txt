@@ -1,7 +1,7 @@
 #BT Balkans reoverhaul
 
 owner = TUR
-controller = TUR			#Some lobbying for Byzantine ownership on the basis of Galaxidi, but I'm giving Salona precedence for now, as a more important centre.
+controller = TUR			#Some lobbying for Byzantine ownership on the basis of Galaxidi, but I'm giving Salona precedence for now, as a more important center.
 add_core = TUR
 add_core = BYZ
 culture = greek
