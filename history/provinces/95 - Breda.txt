@@ -14,7 +14,6 @@ base_tax = 5
 base_production = 5
 trade_goods = beer			#Major brewing center, including largest brewery in Netherlands, as well as both historically and currently a center of non-staple foods and drinks.
 base_manpower = 3
-center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

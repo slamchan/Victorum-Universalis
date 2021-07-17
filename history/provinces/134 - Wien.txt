@@ -33,7 +33,7 @@ center_of_trade = 3
 	base_tax = 20
 	base_production = 20
 	base_manpower = 10
-}	#Firmly established as the HRE Capital by this point, and grows to a cultural, political, and economic centre, even if it never matches the population of London, Paris, or Rome etc.
+}	#Firmly established as the HRE Capital by this point, and grows to a cultural, political, and economic center, even if it never matches the population of London, Paris, or Rome etc.
 #1545.1.1 = { base_manpower = 6 }	#Draiocht what is this bouncing manpower about??? Plague hit in 1679 and Turks invaded in 1529 and 1683, but these dates don't ring any bells to me.... removing them
 #1650.1.1 = { base_manpower = 8 }	#Draiocht what is this bouncing manpower about??? Plague hit in 1679 and Turks invaded in 1529 and 1683, but these dates don't ring any bells to me.... removing them
 #1700.1.1 = { base_manpower = 12 }	#Draiocht what is this bouncing manpower about??? Plague hit in 1679 and Turks invaded in 1529 and 1683, but these dates don't ring any bells to me.... removing them

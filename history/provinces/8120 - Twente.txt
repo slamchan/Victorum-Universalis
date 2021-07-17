@@ -11,7 +11,7 @@ religion = catholic
 hre = yes
 base_tax = 2
 base_production = 3
-trade_goods = wool			#Apparently a northern centre of cloth working, but calling it wool to compromise livestock and flemish-type cloth 
+trade_goods = wool			#Apparently a northern center of cloth working, but calling it wool to compromise livestock and flemish-type cloth 
 base_manpower = 2 
 add_core = UTR
 

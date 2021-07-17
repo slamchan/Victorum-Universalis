@@ -5,7 +5,7 @@ technology_group = western
 primary_culture = schlesian
 add_accepted_culture = silesian_german
 religion = catholic
-capital = 8176 #Auschwitz
+capital = 7678 #Auswintz
 
 1434.1.1 = {
 	monarch = {
