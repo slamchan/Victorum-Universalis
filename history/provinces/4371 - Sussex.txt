@@ -15,7 +15,6 @@ capital = "Chichester"
 is_city = yes
 add_core = ENG
 seat_in_parliament = yes
-center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim
