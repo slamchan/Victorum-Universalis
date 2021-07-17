@@ -3,7 +3,7 @@
 #Region - Poland
 
 #Core Details
-capital = "Oswiecim"
+capital = "Frauenstadt"
 is_city = yes
 owner = ASC
 controller = ASC
