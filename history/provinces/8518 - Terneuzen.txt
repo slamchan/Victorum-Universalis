@@ -16,7 +16,6 @@ base_tax = 12
 base_production = 12
 trade_goods = cloth
 base_manpower = 6
-center_of_trade = 2
 
 discovered_by = english
 discovered_by = french
