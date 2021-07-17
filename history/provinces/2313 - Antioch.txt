@@ -38,6 +38,11 @@ add_permanent_province_modifier = {
 }
 
 add_permanent_province_modifier = {
+	name = gulf_of_cyprus_estuary_modifier
+	duration = -1
+}
+
+add_permanent_province_modifier = {
 	name = port_of_antioch_modifier
 	duration = -1
 }
