@@ -10,7 +10,7 @@ capital = "Thiers"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = iron
+trade_goods = silver
 is_city = yes
 hre = no
 
