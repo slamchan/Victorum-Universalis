@@ -15,6 +15,7 @@ capital	= "Amberg"
 is_city = yes
 fort_15th = yes
 hre = yes
+center_of_trade = 2
 
 discovered_by = western
 discovered_by = muslim

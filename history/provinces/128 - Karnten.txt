@@ -45,11 +45,11 @@ discovered_by = ottoman
 1539.1.1 = {
 	fort_15th = no
 	fort_16th = yes
-}	# a new city centre square, the Neuer Platz, was constructed; and the new fortifications that took half a century to build made Klagenfurt the strongest fortress north of the Alps.
+}	# a new city center square, the Neuer Platz, was constructed; and the new fortifications that took half a century to build made Klagenfurt the strongest fortress north of the Alps.
 1564.1.1 = {
 	fort_16th = no
 	fort_17th = yes
-}	# a new city centre square, the Neuer Platz, was constructed; and the new fortifications that took half a century to build made Klagenfurt the strongest fortress north of the Alps.
+}	# a new city center square, the Neuer Platz, was constructed; and the new fortifications that took half a century to build made Klagenfurt the strongest fortress north of the Alps.
 1525.5.1 = { unrest = 2 } # Farmer insurrections 
 1526.1.1 = { unrest = 0 }
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

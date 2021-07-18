@@ -20,6 +20,7 @@ capital = "Alnwick" #Newcastle from 1450
 is_city = yes
 add_core = ENG
 add_core = NOL
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim
