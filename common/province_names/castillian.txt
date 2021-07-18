@@ -172,7 +172,8 @@
 2662 = "Comayagua"
 2667 = "Laredo"
 2668 = "Rio Bravo"
-
+5140 = "Islas de las Perlas"
+5141 = "San Blas"
 
 #USA
 5755 = { "Portland" "Portland" }
