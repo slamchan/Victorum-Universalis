@@ -16,6 +16,11 @@ base_manpower = 2
 add_core = AMG
 add_core = GUY
 
+add_permanent_province_modifier = {
+	name = bt_wines_of_bordeaux
+	duration = -1
+}
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
