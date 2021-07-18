@@ -4985,15 +4985,10 @@ country_event = {
 	trigger = {
 		any_owned_province = {
 			is_colony = yes
+			NOT = { has_province_flag = absent_governor }
 		}
 		has_dlc = "Leviathan"
-		OR = {
-			is_colonial_nation = yes
-			owner = {
-				is_colonial_nation = yes
-			}
-		}	
-		NOT = { has_province_flag = absent_governor }
+		is_colonial_nation = yes
 	}
 	
 	immediate = {
@@ -5003,8 +4998,8 @@ country_event = {
 					is_colony = yes
 				}
 				save_event_target_as = absent_governor_province
+				set_province_flag = absent_governor
 			}
-			set_province_flag = absent_governor
 		}
 	}
 	
