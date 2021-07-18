@@ -742,7 +742,7 @@ red_ruthenia_area = { #4			#Galicia in BT
 }
 
 podolia_volhynia_area = { #4			#Podolia in BT
-	1943 3241 4540 7206 7209 281 3239 7208 7254 7272
+	1943 3241 4540 7206 7209 281 7208 7254 7272
 }
 
 volhynia_area = { # 4				#West Volhynia in BT
@@ -3967,7 +3967,7 @@ bukovina_area = {
 }
 
 eastern_volhynia_area = {
-	2962 3238 7207 7244 4539
+	2962 3238 3239 7207 7244 4539
 }
 
 severia_area = {
