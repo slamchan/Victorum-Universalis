@@ -254,7 +254,7 @@ emp_ven_slot_3 = {
 		required_missions = { emp_ven_hire_more_venture_captains }
 		
 		trigger = {
-			total_development = 500k
+			total_development = 500
 		}
 		effect = {
 			add_country_modifier = {

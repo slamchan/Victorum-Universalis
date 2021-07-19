@@ -148,11 +148,11 @@ impassable = {
 	#1.19 wastelands (plus 5118, 5119, and 5121)
 	4146 4154 4156 4157 4159 4160 4161 4162 4167 4179 5118 4763 5121 5124 5125 5126
 	#1.19 cut wastelands
-	4169			Aures, seriously... a warm 2400m as wasteland? While we're at it, lets make everything outside of N France and N Italy wasteland
-	4170			Zagros, Tough call, exceeds 4000m, but also appear to have been crossed and settled due to latitude and weather. Might rethink this when overhaul makes it here
-	4172			Zagros2, Tough call, exceeds 4000m, but also appear to have been crossed and settled due to latitude and weather. Might rethink this when overhaul makes it here
-	4177			Elburz, Very tough call. 5000m plus, but latitude, weather, & passes prompt me to say no wasteland. Might rethink this when overhaul makes it here
-	4178			Pontic Mountains, Another tough call but low latitude, mild weather and under 4000m, mostly forested, no glacier coverage, regularly crossed by traders and armies.... cutting it
+	4169			#Aures, seriously... a warm 2400m as wasteland? While we're at it, lets make everything outside of N France and N Italy wasteland
+	4170			#Zagros, Tough call, exceeds 4000m, but also appear to have been crossed and settled due to latitude and weather. Might rethink this when overhaul makes it here
+	4172			#Zagros2, Tough call, exceeds 4000m, but also appear to have been crossed and settled due to latitude and weather. Might rethink this when overhaul makes it here
+	4177			#Elburz, Very tough call. 5000m plus, but latitude, weather, & passes prompt me to say no wasteland. Might rethink this when overhaul makes it here
+	4178			#Pontic Mountains, Another tough call but low latitude, mild weather and under 4000m, mostly forested, no glacier coverage, regularly crossed by traders and armies.... cutting it
 
 	4153 4155 4168 4569 4657 6942 6943 6944 6945 6946 6947 6948 6949 6950 #1.28 new wasteland
 
