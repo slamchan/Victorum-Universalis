@@ -819,9 +819,9 @@ province_event = {
 		if = {
 			limit = {
 				tag = SCO
-				2819 = { bt_historical_colony_events_for_the_ai_candidate = yes }
+				5141 = { bt_historical_colony_events_for_the_ai_candidate = yes }
 			}
-			2819 = {
+			5141 = {
 				create_colony = 60
 				change_native_hostileness = -9
 			}
