@@ -205,20 +205,20 @@ swiss_missions_2 = {
 				name = "reorganzied_swiss_confederacy"
 				duration = -1
 			}
-			upper_swabia_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			lower_swabia_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
+			#upper_swabia_area = {
+			#	limit = {
+			#		NOT = { is_core = ROOT }
+			#		NOT = { is_permanent_claim = ROOT }
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
+			#lower_swabia_area = {
+			#	limit = {
+			#		NOT = { is_core = ROOT }
+			#		NOT = { is_permanent_claim = ROOT }
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
 			alsace_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -226,13 +226,13 @@ swiss_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			upper_rhineland_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
+			#upper_rhineland_area = {
+			#	limit = {
+			#		NOT = { is_core = ROOT }
+			#		NOT = { is_permanent_claim = ROOT }
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
 			4710 = {
 				if = {
 					limit = {
@@ -374,10 +374,10 @@ swiss_missions_3 = {
 		position = 5
 		provinces_to_highlight = {
 			OR = {
-				area = lower_swabia_area
-				area = upper_swabia_area
+				#area = lower_swabia_area
+				#area = upper_swabia_area
 				area = alsace_area
-				area = upper_rhineland_area
+				#area = upper_rhineland_area
 				province_id = 4710
 			}
 			NOT = {
@@ -388,10 +388,10 @@ swiss_missions_3 = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 10
 				OR = {
-					area = lower_swabia_area
-					area = upper_swabia_area
+					#area = lower_swabia_area
+					#area = upper_swabia_area
 					area = alsace_area
-					area = upper_rhineland_area
+					#area = upper_rhineland_area
 					province_id = 4710
 				}
 			}

@@ -441,8 +441,8 @@ emp_france_missions_2 = {
 				area = normandy_area
 				province_id = 177
 				area = lower_normandy_area
-				NOT = { province_id = 3110 }
 			}
+			NOT = { province_id = 3110 }
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -454,7 +454,6 @@ emp_france_missions_2 = {
 			}
 			lower_normandy_area = {
 				NOT = {province_id = 3110}
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			177 = {
@@ -730,9 +729,9 @@ emp_france_missions_2 = {
 				area = calabria_area
 				area = apulia_area
 				area = abruzzo_area
-				area = naples_area
-				NOT = { province_id = 7012 }
+				area = naples_area		
 			}
+			NOT = { province_id = 7012 }
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -753,7 +752,6 @@ emp_france_missions_2 = {
 					}
 					naples_area = {
 						not = {province_id = 7012}
-						type = all
 						country_or_non_sovereign_subject_holds = ROOT
 					}
 					abruzzo_area = {
