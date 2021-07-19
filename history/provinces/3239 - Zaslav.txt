@@ -1,8 +1,9 @@
 #BT GDL reoverhaul
 
-owner = POL
-controller = POL
-add_core = POL
+owner = LIT
+controller = LIT
+add_core = LIT
+add_core = VOL
 culture = ruthenian
 religion = orthodox
 capital = "Ploskiriv"
