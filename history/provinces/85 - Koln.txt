@@ -24,7 +24,7 @@ discovered_by = eastern
 
 extra_cost = 10
 
-center_of_trade = 2
+center_of_trade = 3
 
 1583.12.17 = { fort_15th = no }
 1638.1.1 = { base_tax = 20

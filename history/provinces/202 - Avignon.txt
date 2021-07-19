@@ -15,7 +15,7 @@ trade_goods = books
 base_manpower = 6
 add_core = AVI
 add_core = PRO
-center_of_trade = 1
+center_of_trade = 2
 
 discovered_by = western
 discovered_by = muslim

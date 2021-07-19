@@ -10,11 +10,11 @@ is_city = yes
 culture = dutch
 religion = catholic
 hre = yes
-base_tax = 4
-base_production = 4
-base_manpower = 2 
+base_tax = 8
+base_production = 10
+base_manpower = 6
 trade_goods = beer			#Beer trade with Hamburg was the core of Amsterdam trade in the early days, and part of the reason for its growth early on.
-center_of_trade = 2
+center_of_trade = 3
 
 discovered_by = western
 discovered_by = muslim

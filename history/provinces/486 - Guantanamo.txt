@@ -19,6 +19,11 @@ discovered_by = ARW
 #Maybe, might re-add
 #extra_cost = 10
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
 #add_permanent_province_modifier = {
 #	name = important_natural_harbor
 #	duration = -1

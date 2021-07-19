@@ -11,10 +11,10 @@ trade_goods = cloth
 hre = no
 base_tax = 12 
 base_production = 12
-base_manpower = 4
+base_manpower = 6
 add_core = QTO
 extra_cost = 8
-center_of_trade = 1
+center_of_trade = 3
 
 1487.1.1 = {
 	owner = INC

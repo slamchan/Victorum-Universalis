@@ -13,7 +13,7 @@ base_production = 10
 base_manpower = 4
 is_city = yes
 add_core = LNG
-
+center_of_trade = 2
 
 
 discovered_by = chinese

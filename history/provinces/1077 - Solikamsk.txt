@@ -30,8 +30,8 @@ discovered_by = nomad_group
 1700.1.1 = {
 	base_tax = 6
 	base_production = 8
-}	#Salt mines grow and later becomes a major industrial centre in Russia
+}	#Salt mines grow and later becomes a major industrial center in Russia
 1800.1.1 = {
 	base_tax = 8
 	base_production = 10
-}	#Salt mines grow and later becomes a major industrial centre in Russia
+}	#Salt mines grow and later becomes a major industrial center in Russia

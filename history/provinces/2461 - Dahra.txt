@@ -42,7 +42,7 @@ discovered_by = eastern
 	base_tax = 10
 	base_production = 10
 	base_manpower = 8
-}	#City continues to grow as a local centre, becoming one of the, if not the, most important city outside of Algiers for the Ottoman regency.
+}	#City continues to grow as a local center, becoming one of the, if not the, most important city outside of Algiers for the Ottoman regency.
 1792.9.12 = {
 	base_tax = 8
 	base_production = 8

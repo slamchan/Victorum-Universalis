@@ -13,7 +13,7 @@ base_manpower = 6
 is_city = yes
 fort_15th = yes #Tlemcen Fortifications, site of many long sieges - Controls this area.
 add_core = TLC
-center_of_trade = 1
+center_of_trade = 2
 
 discovered_by = western
 discovered_by = eastern

@@ -10,7 +10,6 @@ base_production = 10
 base_manpower = 2
 trade_goods = grain
 add_core = ROT
-center_of_trade = 1
 
 discovered_by = eastern
 discovered_by = western
