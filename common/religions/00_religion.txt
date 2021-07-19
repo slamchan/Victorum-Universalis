@@ -23,6 +23,7 @@ christian = {
 			reformed
 			protestant
 			hussite
+		}
 		country = {
 			tolerance_own = 1
 			tolerance_heretic = -1
