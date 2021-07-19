@@ -5016,7 +5016,7 @@ country_event = {
 }
 
 # Miracle in Colonial Province
-province_event = {
+country_event = {
 	id = colonial_nation.191
 	title = colonial_nation.191.t
 	desc = colonial_nation.191.d
@@ -5025,18 +5025,20 @@ province_event = {
 
 	trigger = {
 		has_dlc = "Leviathan"
-		OR = {
-			is_colony = yes
+		any_owned_province = {
+			OR = {
+				is_colony = yes
+				owner = {
+					is_colonial_nation = yes
+				}
+			}		
+			NOT = { is_year = 1700 }
+			religion = catholic
 			owner = {
-				is_colonial_nation = yes
+				NOT = { stability = 2 }
 			}
-		}		
-		NOT = { is_year = 1700 }
-		religion = catholic
-		owner = {
-			NOT = { stability = 2 }
+			NOT = { has_province_flag = miraculous_colony }
 		}
-		NOT = { has_province_flag = miraculous_colony }
 	}
 	
 	immediate = {
@@ -5047,8 +5049,8 @@ province_event = {
 					religion = catholic
 				}
 				save_event_target_as = miraculous_colony
+				set_province_flag = miraculous_colony
 			}
-			set_province_flag = miraculous_colony
 		}
 	}
 	
@@ -5077,16 +5079,15 @@ province_event = {
 	option = { #we must inform the pope immediately!
 		name = colonial_nation.191.b 
 		trigger = { 
-			NOT = { 
-				Owner = {
-					tag = PAP
-				} 
+			event_target:miraculous_colony = {
+				NOT = { 
+					Owner = {
+						tag = PAP
+					} 
+				}
 			} 
 		}
-
-		owner= {
-			add_papal_influence = 10
-		}
+		add_papal_influence = 10
 		event_target:miraculous_colony = {
 			add_province_modifier = {
 				name = miraculous_colony
@@ -5097,13 +5098,11 @@ province_event = {
 	
 	option = { #nonsense
 		name = colonial_nation.191.c
-		owner = {
 			add_adm_power = 50
 			add_estate_loyalty = {
 				estate = estate_church
 				loyalty = -5
 			}
-		}
 		event_target:miraculous_colony = {
 			add_unrest = 1
 		}
