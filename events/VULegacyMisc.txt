@@ -314,7 +314,7 @@ province_event = {
 }
 
 # Eris's Advisors #2 (Anthony Cooke)
-province_event = {
+country_event = {
 	id = BtPLegacy_flavour_misc.6
 	title = "BtPLegacyMisc.EVTNAME6"
 	desc = "BtPLegacyMisc.EVTDESC6"

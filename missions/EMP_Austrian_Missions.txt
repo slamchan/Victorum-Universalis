@@ -1005,21 +1005,28 @@ emp_hab_german_expansion_branch = {
 				}
 			}
 			else = {
-				upper_bavaria_area = {
-					limit = {
-						NOT = { is_core = root }
-						NOT = { is_permanent_claim = root }
-					}
-					add_permanent_claim = root
-				}
-				lower_bavaria_area = {
-					limit = {
-						NOT = { is_core = root }
-						NOT = { is_permanent_claim = root }
-					}
-					add_permanent_claim = root
-				}
-				east_bavaria_area = {
+				#upper_bavaria_area = {
+				#	limit = {
+				#		NOT = { is_core = root }
+				#		NOT = { is_permanent_claim = root }
+				#	}
+				#	add_permanent_claim = root
+				#}
+				#lower_bavaria_area = {
+				#	limit = {
+				#		NOT = { is_core = root }
+				#		NOT = { is_permanent_claim = root }
+				#	}
+				#	add_permanent_claim = root
+				#}
+				#east_bavaria_area = {
+				#	limit = {
+				#		NOT = { is_core = root }
+				#		NOT = { is_permanent_claim = root }
+				#	}
+				#	add_permanent_claim = root
+				#}
+				bavaria_area = {
 					limit = {
 						NOT = { is_core = root }
 						NOT = { is_permanent_claim = root }
@@ -1035,20 +1042,22 @@ emp_hab_german_expansion_branch = {
 		
 		required_missions = { emp_hab_take_salzburg }
 		provinces_to_highlight = {
-			OR = {
-				area = east_bavaria_area
-				area = upper_bavaria_area
-				area = lower_bavaria_area
-			}
+			#OR = {
+			#	area = east_bavaria_area
+			#	area = upper_bavaria_area
+			#	area = lower_bavaria_area
+			#}
+			area = bavaria_area
 			ROOT = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 8 #out of 12
-						OR = {
-							area = east_bavaria_area
-							area = upper_bavaria_area
-							area = lower_bavaria_area
-						}
+						#OR = {
+						#	area = east_bavaria_area
+						#	area = upper_bavaria_area
+						#	area = lower_bavaria_area
+						#}
+						area = bavaria_area
 					}
 				}
 			}
@@ -1057,11 +1066,12 @@ emp_hab_german_expansion_branch = {
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 8 #out of 12
-				OR = {
-					area = east_bavaria_area
-					area = upper_bavaria_area
-					area = lower_bavaria_area
-				}
+				#OR = {
+				#	area = east_bavaria_area
+				#	area = upper_bavaria_area
+				#	area = lower_bavaria_area
+				#}
+				area = bavaria_area
 			}
 		}
 		effect = {

@@ -39,7 +39,7 @@ country_event = {
 			}
 			OR = {
 				any_owned_province = {
-					has_building = plantation
+					has_building = plantations
 				}
 				AND = {
 					any_owned_province = {
@@ -202,7 +202,7 @@ country_event = {
 			}
 			OR = {
 				any_owned_province = {
-					has_building = plantation
+					has_building = plantations
 				}
 				AND = {
 					any_owned_province = {
@@ -420,7 +420,7 @@ country_event = {
 				is_great_power = yes
 			}
 			modifier = {
-				factor 2
+				factor = 2
 				production_income_percentage = 0.4
 			}
 			modifier = {
@@ -473,7 +473,7 @@ country_event = {
 			}
 			OR = {
 				any_owned_province = {
-					has_building = plantation
+					has_building = plantations
 				}
 				AND = {
 					any_owned_province = {
@@ -700,7 +700,7 @@ country_event = {
 				is_great_power = yes
 			}
 			modifier = {
-				factor 2
+				factor = 2
 				production_income_percentage = 0.4
 			}
 			modifier = {
@@ -824,7 +824,9 @@ country_event = {
 	trigger = {
 		AND = {
 			technology_group = western
-			has_unembraced_institution = renaissance
+			NOT = { 
+				has_institution = renaissance 
+			}
 			NOT = {
 				has_country_flag = vu_serfs_1
 			}
@@ -870,9 +872,9 @@ country_event = {
 			factor = 60
 			modifier = {
 				NOT = {
-					stability = -1
-					factor = 2
+					stability = -1	
 				}
+				factor = 2
 			}
 		}
 		add_stability = 1
@@ -938,9 +940,9 @@ country_event = {
 			factor = 30
 			modifier = {
 				NOT = {
-					stability = -1
-					factor = 2
+					stability = -1	
 				}
+			factor = 2
 			}
 		}
 		add_stability = 1
@@ -972,9 +974,7 @@ country_event = {
 	picture = CITY_DEVELOPMENT_eventPicture
 	
 	trigger = {
-		NOT = {
-			has_unembraced_institution = renaissance
-		}
+		has_institution = renaissance
 		OR = {
 			capital_scope = { region = italy_region }
 			AND = {
@@ -1025,13 +1025,13 @@ country_event = {
 		modifier = {
 			factor = 0.5
 			OR = {
-				has_idea_group = humanist
-				has_idea_group = innovative
+				has_idea_group = humanist_ideas
+				has_idea_group = innovativeness_ideas
 			}
 		}
 		modifier = {
 			factor = 0.75
-			has_idea_group = plutocratic
+			has_idea_group = plutocracy_ideas
 		}
 	}
 	option = {
@@ -1055,8 +1055,8 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = vu_serfs_revolt
 		}
-		add_mil_power -50
-		add_yearly_manpower -0.1
+		add_mil_power = -50
+		add_yearly_manpower = -0.1
 		add_stability = 1
 		add_legitimacy = 10
 	}
@@ -1100,7 +1100,7 @@ country_event = {
 ##serfs revolt event
 country_event = {
 	id = vu_pop_influence.8
-	name = "Serfs revolt"
+	title = "Serfs revolt"
 	desc = "With our efforts we may have managed to keep the serfs in line, but now they are in open revolt!"
 	picture = ANGRY_MOB_eventPicture
 	
@@ -1279,7 +1279,7 @@ country_event = {
 ##serfs totally abolished
 country_event = {
 	id = vu_pop_influence.9
-	name = "Serfdom abolished"
+	title = "Serfdom abolished"
 	desc = "Beginning after the Renaissance, Serfdom in Europe was gradually abolished. The last European Country to do so was the Russian Empire in 1861"
 	picture = CITY_DEVELOPMENT_eventPicture
 	
@@ -1339,7 +1339,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
-			has_idea_group = innovative
+			has_idea_group = innovativeness_ideas
 		}
 		modifier = {
 			factor = 1.25
@@ -1362,7 +1362,7 @@ country_event = {
 			factor = 60
 			modifier = {
 				factor = 1.5
-				has_idea_group = innovative
+				has_idea_group = innovativeness_ideas
 			}
 			modifier = {
 				factor = 0.7

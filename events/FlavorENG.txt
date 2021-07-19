@@ -1713,7 +1713,6 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "James Stuart"
 					leader = "James"
 					leader_dynasty = "Stuart"
 				}
@@ -1942,7 +1941,6 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "James Stuart"
 					leader = "James"
 					leader_dynasty = "Stuart"
 				}
