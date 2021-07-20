@@ -278,7 +278,7 @@ country_event = {
 			    continent = europe
 		    }
 		    any_owned_province = {
-			    trade_goods = alpacha_wool
+			    trade_goods = alpaca_wool
 			    continent = south_america
 		    }
 		}
@@ -330,7 +330,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.5
-				alpacha_wool = 5
+				alpaca_wool = 5
 			}
 			modifier = {
 				factor = 1.5
@@ -348,7 +348,7 @@ country_event = {
 			duration = -1
 		}
 		change_price = {
-			trade_goods = alpacha_wool
+			trade_goods = alpaca_wool
 			key = COTTON_IMPORTS
 			value = -0.11
 			duration = -1
@@ -379,15 +379,15 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.5
-				alpacha_wool = 5
+				alpaca_wool = 5
 			}
 			modifier = {
 				factor = 1.5
-				alpacha_wool = 10
+				alpaca_wool = 10
 			}
 			modifier = {
 				factor = 1.5
-				alpacha_wool = 15
+				alpaca_wool = 15
 			}
 		}
 		set_country_flag = cotton_imports
@@ -585,7 +585,7 @@ country_event = {
 		}
 
 		change_price = {
-			trade_goods = clove
+			trade_goods = cloves
 			key = SPICE_TRADE
 			value = 0.285714
 			duration = -1
@@ -880,7 +880,7 @@ country_event = {
 			duration = -1
 		}
 		change_price = {
-			trade_goods = alpacha_wool
+			trade_goods = alpaca_wool
 			key = NEW_DRAPERIES
 			value = -0.21
 			duration = -1
@@ -923,7 +923,7 @@ country_event = {
 			duration = -1
 		}
 		change_price = {
-			trade_goods = alpacha_wool
+			trade_goods = alpaca_wool
 			key = REGULATED_UNIFORMS
 			value = 0.04			#Tcop addon
 			duration = -1
@@ -977,7 +977,7 @@ country_event = {
 			value = 0.25			#BTAddOn changed from 3 - Now goes 4 - 6 - 4 - 5 - 6 - 5 (Vanilla was 3 - 3.75 - 3 - 3.3 - 4.05 - 3.3)
 			duration = -1
 		}
-		avalon_area = { add_base_production = 2 }
+		newfoundland_area = { add_base_production = 2 }
 	}
 }
 
@@ -1307,7 +1307,7 @@ country_event = {
 		}
 
 		change_price = {
-			trade_goods = clove
+			trade_goods = cloves
 			key = DECLINE_OF_SPICE_TRADE
 			value = -0.285714
 			duration = -1
@@ -1987,7 +1987,7 @@ country_event = {
 				trade_goods = cloth #Lump
 				trade_goods = naval_supplies #Hemp
 				trade_goods = wool #Lump
-				trade_goods = alpacha_wool #From the New World
+				trade_goods = alpaca_wool #From the New World
 			}
 			NOT = { has_building = textile }
 			NOT = { has_building = wharf }
@@ -2014,7 +2014,7 @@ country_event = {
 						trade_goods = cloth #Lump
 						trade_goods = naval_supplies #Hemp
 						trade_goods = wool #Lump
-						trade_goods = alpacha_wool #From the New World
+						trade_goods = alpaca_wool #From the New World
 					}
 					NOT = { has_building = textile }
 					NOT = { has_building = wharf }
@@ -2036,7 +2036,7 @@ country_event = {
 						trade_goods = cloth #Lump
 						trade_goods = naval_supplies #Hemp
 						trade_goods = wool #Lump
-						trade_goods = alpacha_wool #From the New World
+						trade_goods = alpaca_wool #From the New World
 					}
 					NOT = { has_building = textile }
 					NOT = { has_building = wharf }
@@ -2058,7 +2058,7 @@ country_event = {
 						trade_goods = cloth #Lump
 						trade_goods = naval_supplies #Hemp
 						trade_goods = wool #Lump
-						trade_goods = alpacha_wool #From the New World
+						trade_goods = alpaca_wool #From the New World
 					}
 					NOT = { has_building = textile }
 					NOT = { has_building = wharf }
@@ -2081,7 +2081,7 @@ country_event = {
 						trade_goods = cloth #Lump
 						trade_goods = naval_supplies #Hemp
 						trade_goods = wool #Lump
-						trade_goods = alpacha_wool #From the New World
+						trade_goods = alpaca_wool #From the New World
 					}
 					NOT = { has_building = textile }
 					NOT = { has_building = wharf }
@@ -2104,7 +2104,7 @@ country_event = {
 						trade_goods = cloth #Lump
 						trade_goods = naval_supplies #Hemp
 						trade_goods = wool #Lump
-						trade_goods = alpacha_wool #From the New World
+						trade_goods = alpaca_wool #From the New World
 					}
 					NOT = { has_building = textile }
 					NOT = { has_building = wharf }
@@ -2702,7 +2702,7 @@ country_event = {
 			duration = -1
 		}
 		change_price = {
-			trade_goods = alpacha_wool #From the New World
+			trade_goods = alpaca_wool #From the New World
 			key = SELECTIVE_BREEDING
 			value = 0.4			#TCop addon
 			duration = -1

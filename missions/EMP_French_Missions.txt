@@ -685,6 +685,20 @@ emp_france_missions_2 = {
 					target = NAP
 				}
 			}
+			else_if = {
+				limit = {
+					exists = TTS
+					valid_for_personal_unions_trigger = yes
+					TTS = {
+						valid_for_personal_unions_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					months = 300
+					target = TTS
+				}
+			}
 			else = {
 				calabria_area = {
 					limit = {
@@ -832,7 +846,7 @@ emp_france_missions_2 = {
 					}
 					add_permanent_claim = ROOT
 				}
-				basque_country = {
+				basque_area = {
 					limit = {
 						NOT = { is_permanent_claim = ROOT }
 						NOT = { is_core = ROOT	}
@@ -852,7 +866,7 @@ emp_france_missions_2 = {
 				area = asturias_area
 				area = leon_area
 				area = extremadura_area
-				area = basque_country
+				area = basque_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -877,7 +891,7 @@ emp_france_missions_2 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			basque_country = {
+			basque_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1541,7 +1555,14 @@ emp_france_missions_4 = {
 				name = "fra_into_germany"
 				duration = 7300
 			}
-			upper_rhineland_area = {
+			north_rhine_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			lower_rhineland_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
