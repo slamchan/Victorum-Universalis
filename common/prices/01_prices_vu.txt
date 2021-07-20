@@ -11,7 +11,7 @@
 	#Events change value as follows   8.0 - 6.0
 #
 # Processed plant based goods
-clove = {	base_price = 4.5 }
+cloves = {	base_price = 4.5 }
 cinnamon = {	base_price = 4 }
 ebony = {	base_price = 4 }
 indigo = {	base_price = 5 }
