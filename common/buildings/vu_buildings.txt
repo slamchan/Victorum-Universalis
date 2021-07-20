@@ -247,7 +247,7 @@ trenches = {
 		local_monthly_devastation = 0.25
 		allowed_num_of_buildings = 1
 		local_hostile_movement_speed = -0.40
-		defensiveness = 1.5
+		local_defensiveness = 1.5
 	}
 	build_trigger = {
 		NOT = {
