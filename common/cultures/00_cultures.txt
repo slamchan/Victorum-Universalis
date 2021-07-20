@@ -175,8 +175,6 @@ low_franconian = {
 	#}
 	dutch = { #renamed to Hollander
 		primary = HOL
-		primary = NED
-		primary = UTR
 	}
 	brabantian = {
 		primary = BRB
@@ -200,7 +198,6 @@ low_franconian = {
 	}
 	limburgish = {
 		primary = LBG
-		primary = KLE
 		male_names = {
 			Falco Jarek
 		}
