@@ -11868,7 +11868,7 @@ draculas_castle = {
     type = monument
 
     build_trigger = {
-        culture_group = carpathian
+        culture_group = dacian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
