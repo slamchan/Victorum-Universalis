@@ -2591,6 +2591,7 @@ new_world_i = {
 						north_america = { has_discovered = PREV }
 						south_america = { has_discovered = PREV }
 						new_world = { has_discovered = PREV }
+						has_idea = quest_for_the_new_world
 					}
 				}
 				province_trade_power = 10
