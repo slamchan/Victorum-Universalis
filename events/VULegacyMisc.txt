@@ -268,7 +268,7 @@ province_event = {
 }
 
 # Eris's Advisors #1 (Pal Gazulli)
-province_event = {
+country_event = {
 	id = BtPLegacy_flavour_misc.5
 	title = "BtPLegacyMisc.EVTNAME5"
 	desc = "BtPLegacyMisc.EVTDESC5"
