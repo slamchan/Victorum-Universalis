@@ -261,8 +261,10 @@ province_event = {
 					NOT = { any_core_province = { culture = gallgaidheil } }
 				}
 			}
-			remove_accepted_culture = gallgaidheil
-			add_dip_power = 100
+			owner = {
+				remove_accepted_culture = gallgaidheil
+				add_dip_power = 100
+			}
 		}
 	}
 }
