@@ -85,13 +85,13 @@ btaddon_triggered_modifier_mil_focus = {
 btaddon_bandaid_horde_fix = {
 	potential = {
 		religion = tengri_pagan_reformed
-		government = steppe_horde
+		has_reform = steppe_horde
 	}
 	trigger = {
 		religion = tengri_pagan_reformed
-		government = steppe_horde
+		has_reform = steppe_horde
 	}
-	cav_to_inf_ratio = 0.15			#compensating for the lost ratio for the rest of the world
+	cav_to_inf_ratio = 0.20			#compensating for the lost ratio for the rest of the world
 }
 
 ###########################################
@@ -99,6 +99,9 @@ btaddon_bandaid_horde_fix = {
 ###########################################
 
 sufficient_manpower = {
+	potential = {
+		always = yes
+	}
 	trigger = {
 		manpower_percentage = 0.85
 	}
@@ -107,6 +110,9 @@ sufficient_manpower = {
 }
 
 insufficient_manpower = {
+	potential = {
+		always = yes
+	}
 	trigger = {
 		NOT = { manpower_percentage = 0.15 }
 		manpower_percentage = 0.05
@@ -117,6 +123,9 @@ insufficient_manpower = {
 }
 
 exhausted_manpower = {
+	potential = {
+		always = yes
+	}
 	trigger = {
 		NOT = { manpower_percentage = 0.05 }
 	}

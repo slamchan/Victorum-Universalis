@@ -14,9 +14,6 @@ is_city = yes
 add_core = SUN
 add_core = BAN
 
-
-
-
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

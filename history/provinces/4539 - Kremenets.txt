@@ -16,7 +16,6 @@ add_core = LIT
 add_local_autonomy = 15
 
 
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

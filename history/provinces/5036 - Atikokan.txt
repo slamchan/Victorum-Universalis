@@ -44,4 +44,4 @@ discovered_by = north_american
 1760.1.1 = {
 	base_tax = 1
 	base_production = 1
-} # Growth of European power and failure of French allies weakens native centres
+} # Growth of European power and failure of French allies weakens native centers

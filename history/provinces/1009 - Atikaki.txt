@@ -47,7 +47,7 @@ discovered_by = north_american
 	base_tax = 2
 	base_production = 2
 	base_manpower = 1
-} # NW trading company centre
+} # NW trading company center
 
 1800.1.1 = {
 	capital = "Fort Alexander"
