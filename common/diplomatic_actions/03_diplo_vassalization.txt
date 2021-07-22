@@ -1,0 +1,23 @@
+vassalaction = {
+	condition = {
+		tooltip = VASSALINVALID
+		potential = {}
+		allow = {
+			OR = {
+				alliance_with = FROM
+				FROM = {
+					guaranteed_by = ROOT
+				}
+			}
+			FROM = {
+				has_opinion = {
+					who = ROOT
+					value = 150
+				}
+			}
+			FROM = {
+				is_at_war = no
+			}
+		}
+	}
+}
