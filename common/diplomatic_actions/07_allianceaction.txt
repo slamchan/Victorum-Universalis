@@ -1,7 +1,7 @@
 allianceaction = {
 
 	condition = {
-		tooltip = HRECITY
+		tooltip = FREECITY
 		potential = {
 			FROM = {
 				has_reform = free_city
@@ -13,7 +13,7 @@ allianceaction = {
 	}
 
 	condition = {
-		tooltip = HRECITY
+		tooltip = FREECITY
 		potential = {
 			has_reform = free_city
 		}
