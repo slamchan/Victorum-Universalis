@@ -3,21 +3,18 @@ vassalaction = {
 		tooltip = VASSALINVALID
 		
 		potential = {
-			allow = {
-				OR = {
-					alliance_with = FROM
-					FROM = {
-						guaranteed_by = ROOT
-					}
-				}
+			OR = {
+				alliance_with = FROM
 				FROM = {
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+					guaranteed_by = ROOT
 				}
 			}
-		}
+			FROM = {
+				has_opinion = {
+					who = ROOT
+					value = 150
+				}
+			}
 		}
 		
 		allow = {
