@@ -4096,7 +4096,7 @@ the_great_wall_of_china = {
 
 ambras_castle = {
 	# province it starts in
-	start = 4758
+	start = 73
 
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1444.01.01 #1564.01.01
