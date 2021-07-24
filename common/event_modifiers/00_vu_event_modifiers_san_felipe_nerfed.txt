@@ -372,12 +372,33 @@ port_of_venice_modifier = {
 # Naval Bases
 ##############
 navalbase_modifier = {
-	province_trade_power_value = 5
-	naval_forcelimit = 5
-	local_development_cost = -0.05
-	local_sailors_modifier = 0.25
+	local_ship_repair = 0.05
 	picture = "naval_base_icon"
 }
+
+navalbase_modifier_2 = {
+	local_ship_cost = -0.05
+	local_ship_repair = 0.10
+	ship_recruit_speed = -0.05
+	picture = "naval_base_icon"
+}
+
+navalbase_modifier_3 = {
+	local_ship_cost = -0.10
+	local_ship_repair = 0.15
+	ship_recruit_speed = -0.10
+	picture = "naval_base_icon"
+}
+
+navalbase_modifier_4 = {
+	local_ship_cost = -0.20
+	local_ship_repair = 0.25
+	ship_recruit_speed = -0.20
+	local_development_cost = -0.05
+	picture = "naval_base_icon"
+}
+
+navalbase_up_rejected = {}
 
 ###########
 # Lagoons
