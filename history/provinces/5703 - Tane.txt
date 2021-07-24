@@ -15,9 +15,10 @@ add_core = SMZ
 add_core = TN1
 
 discovered_by = chinese
-discovered_by = japanese
-
-
+discovered_by = japanese_btc
+discovered_by = korean_btc
+discovered_by = indochinese
+discovered_by = malay_group
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
