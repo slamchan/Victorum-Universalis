@@ -51,12 +51,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -100,12 +100,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -149,12 +149,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -198,12 +198,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -247,12 +247,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -269,7 +269,7 @@ province_event = {
 		any_province = {
 			colonial_region = colonial_greenland
 			is_empty = yes			#Manual because trigger avoids glacial and all there is, is glacial
-			range = ROOT
+			range = OWNER
 			has_discovered = ROOT
 		}
 	}
@@ -298,12 +298,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -347,12 +347,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -396,12 +396,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -445,12 +445,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -494,12 +494,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -543,12 +543,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -592,12 +592,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -641,12 +641,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -690,12 +690,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -739,12 +739,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -788,12 +788,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -818,10 +818,10 @@ province_event = {
 		ai_chance = { factor = 99 }
 		if = {
 			limit = {
-				tag = SCO
-				2819 = { bt_historical_colony_events_for_the_ai_candidate = yes }
+				owner = { tag = SCO }
+				5141 = { bt_historical_colony_events_for_the_ai_candidate = yes }
 			}
-			2819 = {
+			5141 = {
 				create_colony = 60
 				change_native_hostileness = -9
 			}
@@ -849,12 +849,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -898,12 +898,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -947,12 +947,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -996,12 +996,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -1045,12 +1045,12 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 }
 	}
 }
 
@@ -1094,11 +1094,11 @@ province_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+					owner = { is_in_deficit = yes }
+					owner = { is_bankrupt = yes }
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1}
 	}
 }

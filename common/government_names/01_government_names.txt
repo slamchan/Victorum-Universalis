@@ -535,7 +535,7 @@ ikko_ikki_peasants = {
 		has_country_flag = ikko_ikki_peasants_flag
 		OR = {
 			religion_group = eastern
-			culture_group = japanese
+			culture_group = japanese_g
 			capital_scope = {
 				region = japan_region
 			}
@@ -572,7 +572,7 @@ ikko_ikki_temple = {
 		has_country_flag = ikko_ikki_peasants_flag
 		OR = {
 			religion_group = eastern
-			culture_group = japanese
+			culture_group = japanese_g
 			capital_scope = {
 				region = japan_region
 			}
@@ -603,7 +603,7 @@ asian_monastic_order = {
 		has_reform = monastic_order_reform
 		OR = {
 			religion_group = eastern
-			culture_group = japanese
+			culture_group = japanese_g
 			capital_scope = {
 				region = japan_region
 			}

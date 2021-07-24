@@ -19,5 +19,3 @@ province_event = {
         center_of_trade = 1
     }
 }
-
-    

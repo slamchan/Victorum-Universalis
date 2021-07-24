@@ -11976,7 +11976,7 @@ country_event = {
 	
 	trigger = {
 		is_at_war = yes
-		blockade = 0.75
+		blockade = 75
 		NOT = {
 			has_country_modifier = gaps_blockade
 		}

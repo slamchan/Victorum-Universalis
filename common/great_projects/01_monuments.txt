@@ -254,7 +254,7 @@ hagia_sophia = {
 
 stonehenge = {
 	# province it starts in
-	start = 234
+	start = 7420
 
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = -2500.01.01
@@ -4096,7 +4096,7 @@ the_great_wall_of_china = {
 
 ambras_castle = {
 	# province it starts in
-	start = 4758
+	start = 73
 
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1444.01.01 #1564.01.01
@@ -11868,7 +11868,7 @@ draculas_castle = {
     type = monument
 
     build_trigger = {
-        culture_group = carpathian
+        culture_group = dacian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes

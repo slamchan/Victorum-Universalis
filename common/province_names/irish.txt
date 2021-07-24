@@ -3,7 +3,7 @@
 374 = "Laighin"
 375 = "Tuadhmhumhain"
 376 = "Connacht"
-2327 = { "Magna" "Magna" }
+2327 = "Magna"
 4119 = "Sligeach"
 4120 = "Cill Dara"
 4121 = "Ulaidh"
@@ -25,7 +25,7 @@
 240 = "An t-Inbhear" #Shrewsbury
 239 = "Cúntóir" #Gloucester
 4130 = "Mianach" #Somerset
-4374 = "Tiomnaíonn" Dorset
+4374 = "Tiomnaíonn" #Dorset
 234 = "Contae an Deiscirt" #Hampshire
 237 = "Stoc Adhmaid" #Oxford
 4371 = "Geal" #Sussex

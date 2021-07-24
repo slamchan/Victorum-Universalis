@@ -261,14 +261,16 @@ province_event = {
 					NOT = { any_core_province = { culture = gallgaidheil } }
 				}
 			}
-			remove_accepted_culture = gallgaidheil
-			add_dip_power = 100
+			owner = {
+				remove_accepted_culture = gallgaidheil
+				add_dip_power = 100
+			}
 		}
 	}
 }
 
 # Eris's Advisors #1 (Pal Gazulli)
-province_event = {
+country_event = {
 	id = BtPLegacy_flavour_misc.5
 	title = "BtPLegacyMisc.EVTNAME5"
 	desc = "BtPLegacyMisc.EVTDESC5"
@@ -314,7 +316,7 @@ province_event = {
 }
 
 # Eris's Advisors #2 (Anthony Cooke)
-province_event = {
+country_event = {
 	id = BtPLegacy_flavour_misc.6
 	title = "BtPLegacyMisc.EVTNAME6"
 	desc = "BtPLegacyMisc.EVTDESC6"
