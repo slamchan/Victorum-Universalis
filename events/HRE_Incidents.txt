@@ -11,7 +11,8 @@ country_event = { #Hussite incident fire
 			set_imperial_incident = incident_hussite_dominance
 		}
 	}
-	option = {	
+	option = {
+		name = imperial_hussite.1.a
 	}
 }
 

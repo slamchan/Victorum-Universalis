@@ -8,14 +8,12 @@ province_event = {
 	}
 
 	trigger = {
-		AND = {
-			has_province_modifier = navalbase_modifier
-			has_building = dock
-			NOT = { has_province_modifier = navalbase_up_rejected }
-			NOT = {
-				owner = {
-					has_country_flag = no_more_bases
-				}
+		has_province_modifier = navalbase_modifier
+		has_building = dock
+		NOT = { has_province_modifier = navalbase_up_rejected }
+		NOT = {
+			owner = {
+				has_country_flag = no_more_bases
 			}
 		}
 	}
@@ -69,15 +67,13 @@ province_event = {
 	}
 
 	trigger = {
-		AND = {
-			has_province_modifier = navalbase_modifier_2
-			has_building = dock
-			has_building = shipyard
-			NOT = { has_province_modifier = navalbase_up_rejected }
-			NOT = { 
-				owner = {
-					has_country_flag = no_more_bases
-				}
+		has_province_modifier = navalbase_modifier_2
+		has_building = dock
+		has_building = shipyard
+		NOT = { has_province_modifier = navalbase_up_rejected }
+		NOT = { 
+			owner = {
+				has_country_flag = no_more_bases
 			}
 		}
 	}
@@ -131,15 +127,13 @@ province_event = {
 	}
 
 	trigger = {
-		AND = {
-			has_province_modifier = navalbase_modifier_3
-			has_building = drydock
-			has_building = grand_shipyard
-			NOT = { has_province_modifier = navalbase_up_rejected }
-			NOT = { 
-				owner = {
-					has_country_flag = no_more_bases
-				}
+		has_province_modifier = navalbase_modifier_3
+		has_building = drydock
+		has_building = grand_shipyard
+		NOT = { has_province_modifier = navalbase_up_rejected }
+		NOT = { 
+			owner = {
+				has_country_flag = no_more_bases
 			}
 		}
 	}
