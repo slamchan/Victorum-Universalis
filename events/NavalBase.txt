@@ -21,10 +21,12 @@ province_event = {
 	option = {
 		name = nav_up.1.a
 
-		remove_province_modifier = navalbase_modifier
-		add_permanent_province_modifier = {
-			name = navalbase_modifier_2
-			duration = -1
+		ROOT = {
+			remove_province_modifier = navalbase_modifier
+			add_permanent_province_modifier = {
+				name = navalbase_modifier_2
+				duration = -1
+			}
 		}
 		if = {
 			limit = { 
