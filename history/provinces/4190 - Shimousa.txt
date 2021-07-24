@@ -15,6 +15,7 @@ add_core = CBA
 center_of_trade = 1
 
 discovered_by = chinese
+discovered_by = japanese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
