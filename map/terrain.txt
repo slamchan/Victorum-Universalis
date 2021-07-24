@@ -42,9 +42,6 @@ categories =  {
 			
 			#BT13.0
 			4369 8150 4367 8124 8185 8175 8184 4240 4173 8123 8213 7417 7420 7429 7431 7433 7434 7435 7439
-			
-			#VU additions - San Felipe
-			6486 6491 6497
 		}		
 	}
 
@@ -152,9 +149,6 @@ categories =  {
 			
 			#New vanilla 1.30 Germany
 			4748 4741 4742 4772 4767 4713
-			
-			#Vu additions - San Felipe
-			6474
 		}
 	}
 
@@ -224,9 +218,6 @@ categories =  {
 			
 			#BT13.0
 			8156 375 8161 8192
-			
-			#VU additions - San Felipe
-			6476
 		}
 	}
 	
@@ -258,7 +249,7 @@ categories =  {
 			4744
 			
 			#VU - 1.31.4 San Felipe Addition
-			6934 6475 6478 6479 6485 6492 6495
+			6934
 		}
 	}
 	
@@ -319,9 +310,6 @@ categories =  {
 			
 			#New 1.30 vanilla Germany
 			4759 
-			
-			#VU additions - San Felipe
-			6471 6472
 		}
 	}
 
