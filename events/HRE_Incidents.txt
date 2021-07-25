@@ -6,6 +6,10 @@ country_event = { #Hussite incident fire
 	is_triggered_only = yes
 	hidden = yes
 
+	trigger = {
+		always = no
+	}
+
 	immediate = {
 		hidden_effect = {
 			set_imperial_incident = incident_hussite_dominance
