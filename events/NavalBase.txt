@@ -4,7 +4,7 @@ country_event = {
 	desc = nav_up.1.d
 
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 
 	trigger = {
