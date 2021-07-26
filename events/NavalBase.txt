@@ -10,7 +10,10 @@ country_event = {
 	trigger = {
 		any_owned_province = {
 			has_province_modifier = navalbase_modifier
-			has_building = dock
+			OR = {
+				has_building = dock
+				has_building = drydock
+			}
 			NOT = { has_province_modifier = navalbase_up_rejected }	
 		}
 		NOT = { has_country_flag = no_more_bases }
@@ -20,7 +23,10 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				has_province_modifier = navalbase_modifier
-				has_building = dock
+				OR = {
+					has_building = dock
+					has_building = drydock
+				}
 				NOT = { has_province_modifier = navalbase_up_rejected }	
 			}
 			save_event_target_as = upgrade_target
@@ -83,8 +89,14 @@ country_event = {
 	trigger = {
 		any_owned_province = {
 			has_province_modifier = navalbase_modifier_2
-			has_building = dock
-			has_building = shipyard
+			OR = {
+				has_building = dock
+				has_building = drydock
+			}
+			OR = {
+				has_building = shipyard
+				has_building = grand_shipyard
+			}
 			NOT = { has_province_modifier = navalbase_up_rejected }
 		}
 		NOT = { has_country_flag = no_more_bases }
@@ -94,8 +106,14 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				has_province_modifier = navalbase_modifier_2
-				has_building = dock
-				has_building = shipyard
+				OR = {
+					has_building = dock
+					has_building = drydock
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
 				NOT = { has_province_modifier = navalbase_up_rejected }	
 			}
 			save_event_target_as = upgrade_target
