@@ -20,18 +20,20 @@ country_event = {
 	}
 
 	immediate = {
-		random_owned_province = {
-			limit = {
-				AND = {
-					has_province_modifier = navalbase_modifier
-					OR = {
-						has_building = dock
-						has_building = drydock
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					AND = {
+						has_province_modifier = navalbase_modifier
+						OR = {
+							has_building = dock
+							has_building = drydock
+						}
+						NOT = { has_province_modifier = navalbase_up_rejected }	
 					}
-					NOT = { has_province_modifier = navalbase_up_rejected }	
 				}
+				save_event_target_as = upgrade_target
 			}
-			save_event_target_as = upgrade_target
 		}
 	}
 
@@ -105,22 +107,24 @@ country_event = {
 	}
 
 	immediate = {
-		random_owned_province = {
+		hidden_effect = {
+			random_owned_province = {
 			limit = {
-				AND = {
-					has_province_modifier = navalbase_modifier_2
-					OR = {
-						has_building = dock
-						has_building = drydock
+					AND = {
+						has_province_modifier = navalbase_modifier_2
+						OR = {
+							has_building = dock
+							has_building = drydock
+						}
+						OR = {
+							has_building = shipyard
+							has_building = grand_shipyard
+						}
+						NOT = { has_province_modifier = navalbase_up_rejected }
 					}
-					OR = {
-						has_building = shipyard
-						has_building = grand_shipyard
-					}
-					NOT = { has_province_modifier = navalbase_up_rejected }
 				}
+				save_event_target_as = upgrade_target
 			}
-			save_event_target_as = upgrade_target
 		}
 	}
 
@@ -192,16 +196,18 @@ country_event = {
 	}
 
 	immediate = {
-		random_owned_province = {
-			limit = {
-				AND = {
-					has_province_modifier = navalbase_modifier_3
-					has_building = drydock
-					has_building = grand_shipyard
-					NOT = { has_province_modifier = navalbase_up_rejected }	
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					AND = {
+						has_province_modifier = navalbase_modifier_3
+						has_building = drydock
+						has_building = grand_shipyard
+						NOT = { has_province_modifier = navalbase_up_rejected }	
+					}
 				}
+				save_event_target_as = upgrade_target
 			}
-			save_event_target_as = upgrade_target
 		}
 	}
 
