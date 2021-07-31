@@ -358,6 +358,10 @@ BEL = "countries/Belgium.txt"
 GRN = "countries/Groningen.txt"
 ZND = "countries/Zenden.txt"
 
+#VU low countries
+LBG = "countries/Limburg.txt"
+ZEE = "countries/Zeeland.txt"
+
 #BT - Poland and Bohemia
 ASC = "countries/Auschwitz.txt"
 BAU = "countries/Breslau.txt"
@@ -525,6 +529,35 @@ WTL = "countries/Wethali.txt"
 YGK = "countries/Yogyakarta.txt"
 YGW = "countries/Yawnghwe.txt"
 
+#VU Japan additions by San Felipe
+HNM = "countries/Honma.txt"
+TGS = "countries/Togashi.txt"
+TSU = "countries/Tsuchimochi.txt" 
+OMR = "countries/Omura.txt"
+KSA = "countries/Kasai.txt"
+MYI = "countries/Miyoshi.txt"
+ASO = "countries/Aso.txt"
+ASN = "countries/Ashina.txt"
+MOG = "countries/Mogami.txt"
+OSK = "countries/Osaki.txt"
+KTK = "countries/Kimotsukishi.txt"
+KYO = "countries/Kyogoku.txt"
+OUE = "countries/Ogigayatsu-Uesugi.txt"
+TN1	= "countries/Tanegashima.txt"
+SGR = "countries/Sagara.txt"
+KHR = "countries/Kitahara.txt"
+YSM = "countries/Yoshimi.txt"
+OTI = "countries/Ochi.txt"
+STM = "countries/Satomi.txt"
+
+#VU Korea additions by San Felipe
+GOG = "countries/Goguryeo.txt"
+BKJ = "countries/Baekje.txt"
+SLL = "countries/Silla.txt"
+GAY = "countries/Gaya.txt"
+TAM = "countries/Tamna.txt"
+KRE = "countries/Korea2.txt"
+
 ############
 # Americas #
 ############
@@ -655,7 +688,9 @@ RAP = "countries/Rapanui.txt"
 #############
 # BTP Notes #
 #############
-
+#San_Felipe replaced KSI with KSA
+#San_Felipe replaced SAG with SGR
+#San_Felipe replaced TSC with TSU
 #San_Felipe removed ARU because 1.31.2 added DLI
 #San_Felipe removed IDP because 1.31.2 added IND
 #San_Felipe changed ALT to ALR fix for 1.31.2 conflict
@@ -723,7 +758,3 @@ RAP = "countries/Rapanui.txt"
 #Note Chinook remains from vanilla - tag CNK
 #SQU (Squamish) tag not used from Neprut's SE. No need to have two coast Salish tags next to each other and Duwamish/Suquamish alliance has more human interest
 #Draiocht removed YKU. New 1.28 vanilla tag YKT is the same thing
-
-#VU low countries
-LBG = "countries/Limburg.txt"
-ZEE = "countries/Zeeland.txt"
