@@ -453,7 +453,7 @@ country_decisions = {
 				AND = {
 					ai = yes
 					num_of_cities = 15
-					adm_tech = 20
+					adm_tech = 36
 				}
 			}
 			OR = {
