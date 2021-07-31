@@ -1,8 +1,8 @@
 #5704 - Ishinomaki
 
-owner = KSI
-controller = KSI
-add_core = KSI
+owner = KSA
+controller = KSA
+add_core = KSA
 culture = togoku
 religion = shinto
 capital = "Ishinomaki"
@@ -20,10 +20,9 @@ add_permanent_province_modifier = {
 }
 
 discovered_by = chinese
-discovered_by = japanese_btc
-discovered_by = korean_btc
-discovered_by = indochinese
-discovered_by = malay_group
+discovered_by = japanese
+
+
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
