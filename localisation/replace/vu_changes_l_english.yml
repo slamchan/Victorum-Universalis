@@ -37,6 +37,10 @@
  #Trade Nodes
  wien:0 "Vienna"
  pest:0 "Belgrade"            #Changed in BT12 from Danube.
+ 
+ #Trade Goods
+ grain:0 "Wheat"
+ grainDESC:0 "Wheat is one of the world's most commonly consumed cereal grains. It comes from a type of grass (Triticum) that is grown in countless varieties worldwide. White and whole-wheat flour are key ingredients in baked goods, such as bread. Other wheat-based foods include pasta, noodles, semolina, bulgur, and couscous."
 
  #Technology - Added Techs and Ideas
  adm_tech_cs_33_name:0 "Four Field Rotation"
