@@ -1,3 +1,5 @@
+namespace = imperial_hussite
+
 country_event = { #Hussite incident fire
 	id = imperial_hussite.1
 	title = imperial_hussite.1.t
