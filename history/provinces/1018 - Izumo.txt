@@ -19,6 +19,7 @@ discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
+center_of_trade = 2
 
 1486.1.1 = { fort_15th = yes } # Gassan Toda Castle
 1542.1.1 = { discovered_by = POR }
