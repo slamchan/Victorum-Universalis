@@ -7,12 +7,12 @@ religion = shinto
 capital = "Sakura"
 trade_goods = fish
 hre = no
-base_tax = 4 
-base_manpower = 4
-base_production = 2 
+base_tax = 6
+base_manpower = 5
+base_production = 6
 is_city = yes
 add_core = CBA
-center_of_trade = 1
+center_of_trade = 2
 
 discovered_by = chinese
 discovered_by = japanese
