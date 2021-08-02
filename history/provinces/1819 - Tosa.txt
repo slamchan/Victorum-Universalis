@@ -13,8 +13,6 @@ base_manpower = 6
 is_city = yes
 add_core = HSK
 add_core = CSK
-center_of_trade = 1
-
 discovered_by = chinese
 discovered_by = japanese
 discovered_by = MCH
