@@ -17685,12 +17685,12 @@ de_domkerk = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3000
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -17699,7 +17699,9 @@ de_domkerk = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
+			global_missionary_strength = 0.01
+			religious_unity = 0.05
+			clergy_loyalty_modifier = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -17715,7 +17717,7 @@ de_domkerk = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 3500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -17724,13 +17726,14 @@ de_domkerk = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
+			missionaries = 1
+			global_missionary_strength = 0.02
+			religious_unity = 0.10
+			clergy_loyalty_modifier = 0.15
 		}
 
 		#what effects happen when this tier is achieved
@@ -17755,13 +17758,16 @@ de_domkerk = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.5
-			prestige = 0.5
+			missionaries = 1
+			global_missionary_strength = 0.02
+			religious_unity = 0.10
+			clergy_loyalty_modifier = 0.20
+			missionary_maintenance_cost = -0.20
+			tolerance_heretic = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -18191,7 +18197,6 @@ paleis_op_de_dam = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -18200,7 +18205,8 @@ paleis_op_de_dam = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
+			global_tax_modifier = 0.1
+			improve_relation_modifier = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -18216,7 +18222,7 @@ paleis_op_de_dam = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 6000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -18225,13 +18231,13 @@ paleis_op_de_dam = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
+			global_tax_modifier = 0.2
+			improve_relation_modifier = 0.1
+			vassal_income = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -18247,7 +18253,7 @@ paleis_op_de_dam = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 9000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -18256,13 +18262,14 @@ paleis_op_de_dam = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
+			local_unrest = 1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.5
-			prestige = 0.5
+			global_tax_modifier = 0.25
+			improve_relation_modifier = 0.15
+			vassal_income = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -18353,21 +18360,21 @@ windmolen = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3000
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_development_cost = -0.10
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -18383,22 +18390,22 @@ windmolen = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 3500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_development_cost = -0.10
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
+			local_development_cost = -0.05
+			trade_goods_size_modifier = 0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -18419,17 +18426,18 @@ windmolen = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_development_cost = -0.10
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
+			local_development_cost = -0.10
+			trade_goods_size_modifier = 0.10
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.5
-			prestige = 0.5
+			production_efficiency = 0.1
 		}
 
 		#what effects happen when this tier is achieved

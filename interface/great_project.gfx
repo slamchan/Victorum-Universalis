@@ -668,12 +668,18 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_great_project_panama_canal"
-		texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
+		texturefile = "gfx//interface//great_projects//great_project_panama_canal.dds"
 	}
 	spriteType = {
 		name = "GFX_great_project_kiel_canal"
-		texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
+		texturefile = "gfx//interface//great_projects//great_project_kiel_canal.dds"
 	}
-
-
+	spriteType = {
+		name = "GFX_great_project_ludwig_canal"
+		texturefile = "gfx//interface//great_projects//great_project_ludwig_canal.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_don_and_volga_canal"
+		texturefile = "gfx//interface//great_projects//great_project_don_and_volga_canal.dds"
+	}
 }

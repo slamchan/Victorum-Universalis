@@ -7,11 +7,11 @@ country_decisions = {
 				ai = no
 				AND = {
 					treasury = 20000
-					owns_or_vassal_of = 1971
+					owns_or_vassal_of = 7606
 				}
 			}
-			has_discovered = 1971
-			1971 = {
+			has_discovered = 7606
+			7606 = {
 				range = ROOT
 				NOT = { 
 					has_great_project = { 
@@ -25,20 +25,20 @@ country_decisions = {
 			adm_tech = 13
 		}
 		provinces_to_highlight = {
-			province_id = 1971
+			province_id = 7606
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { owner = { vassal_of = ROOT } }
 			}
 		}
 		allow = {
-			owns_or_vassal_of = 1971
+			owns_or_vassal_of = 7606
 			is_subject = no			
 			adm_tech = 17
 			treasury = 10000
 		}
 		effect = {
-			1971 = {	# Beljamen
+			7606 = {	# Doornstadt
 				add_great_project = ludwig_canal
 			}
 		}
@@ -261,19 +261,19 @@ country_decisions = {
 		major = yes
 		potential = {
 			ai = no
-			owns_or_vassal_of = 1971
+			owns_or_vassal_of = 7606
 			is_subject = no
-			1971 = {
+			7606 = {
 				has_construction = ludwig_canal
 			}
 		}
 		allow = {
-			1971 = {
+			7606 = {
 				has_construction = ludwig_canal
 			}
 		}
 		effect = {
-			1971 = { # Beljamen
+			7606 = { # Doornstadt
 				cancel_construction = yes
 			}
 		}

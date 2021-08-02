@@ -101,6 +101,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 395;396;sea;1335;-1;-1;-1;-1;Qatar-Bahrain
 627;631;sea;1354;-1;-1;-1;-1;Blambangan-Bali
 1107;2738;sea;1423;-1;-1;-1;-1;Taranaki-Waitaha
+8329;8355;canal;7606;-1;-1;-1;-1;ludwig_canal
+8363;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
 1268;5494;canal;1775;-1;-1;-1;-1;kiel_canal
 1548;1515;canal;835;-1;-1;-1;-1;panama_canal
 1328;1316;canal;363;-1;-1;-1;-1;suez_canal

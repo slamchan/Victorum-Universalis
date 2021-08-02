@@ -2143,7 +2143,8 @@ categories =  {
 		}
     }
     # Luxembourg
-	urban_letzebuerg = {
+	urban_luxembourg = {
+>>>>>   Beta-branch
 		color = { 179 255 64 }
 		movement_cost = 1.10
 		local_development_cost = -0.05

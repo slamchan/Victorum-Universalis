@@ -679,8 +679,8 @@ country_event = {
 		GEN = {
 		    declare_war_with_cb = {
 			    who = TUR
-			    casus_belli = cb_core
-			    war_goal_province = 6932
+			    casus_belli = cb_border_war
+			    war_goal_province = 151
 			}
 		}
 		6932 = {
