@@ -1,3 +1,5 @@
+namespace = imperial_hussite
+
 country_event = { #Hussite incident fire
 	id = imperial_hussite.1
 	title = imperial_hussite.1.t
@@ -6,12 +8,17 @@ country_event = { #Hussite incident fire
 	is_triggered_only = yes
 	hidden = yes
 
+	trigger = {
+		always = no
+	}
+
 	immediate = {
 		hidden_effect = {
 			set_imperial_incident = incident_hussite_dominance
 		}
 	}
-	option = {	
+	option = {
+		name = imperial_hussite.1.a
 	}
 }
 
