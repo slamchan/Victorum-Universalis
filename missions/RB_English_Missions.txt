@@ -1063,7 +1063,10 @@ eng_rb_take_baleares = {
 		trigger = {
 			7437 = {
 				owned_by = ROOT
-				has_building = courthouse
+				OR = {
+					has_building = courthouse
+					has_building = town_hall
+				}
 			}
 		}
 

@@ -13,7 +13,6 @@ base_production = 4
 base_manpower = 4
 is_city = yes
 add_core = OIR
-center_of_trade 1
 
 
 discovered_by = chinese

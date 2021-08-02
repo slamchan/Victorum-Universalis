@@ -1,6 +1,6 @@
 ludwig_canal = {
 	# province it starts in
-	start = 1971
+	start = 7606
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	# Ottoman date for conception
@@ -26,7 +26,7 @@ ludwig_canal = {
 	#can we build it?
 	build_trigger = {
 		FROM = {
-			owns_or_vassal_of = 1971
+			owns_or_vassal_of = 7606
 			is_subject = no			
 			adm_tech = 22
 			treasury = 7500

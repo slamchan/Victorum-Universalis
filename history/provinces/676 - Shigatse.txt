@@ -16,6 +16,7 @@ add_core = PHA
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
+center_of_trade = 1
 
 1642.6.1 = {
 	controller = KSD
