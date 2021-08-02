@@ -2430,7 +2430,7 @@ llama = {
 		modifier = {
 			factor = 2.5
 			OR ={
-					region = peru_region
+				region = peru_region
 				region = upper_peru_region
 			}
 		}
@@ -2484,6 +2484,86 @@ uniforms = {
 
 #New Additions by San Felipe
 #Put where grain in the files
+
+agave = {
+	color = { 94 138 111 }
+	modifier = {
+		land_maintenance_modifier = -0.05
+	}
+	province = {
+		local_manpower_modifier = 0.25
+	}
+	chance = {
+		factor = 25
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = desert
+				has_terrain = glacier
+				has_terrain = coastline
+				has_terrain = jungle
+				has_climate = arctic
+				has_climate = arid
+				NOT = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.15
+			OR = {
+				has_terrain = mountain
+				has_terrain = coastal_desert
+				has_terrain = forest
+				has_terrain = woods
+				has_terrain = hills
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_winter = normal_winter
+		}
+		modifier = {
+			factor = 1.5
+			has_winter = severe_winter
+			NOT = { has_terrain = glacier }
+		}
+		modifier = {
+			factor = 0.25
+			OR = {
+				has_terrain = highlands
+				has_terrain = marsh
+				has_climate = tropical
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				has_terrain = drylands
+				has_terrain = savannah
+				has_terrain = steppe
+			}
+		}
+
+		modifier = {
+			factor = 1.5
+			has_terrain = farmlands
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				region = central_america_region
+				region = mississippi_region
+				region = mexico_region
+				region = southeast_america_region
+			}
+		}
+	}
+}
 
 #millet = { #africa_superregion, china_superregion, india_superregion, near_east_superregion, persia_superregion, southern_africa_superregion, tartary_superregion, has_climate = arid/semi-arid
 #color = { 253 225 151 }
