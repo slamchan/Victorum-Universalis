@@ -7,15 +7,15 @@ religion = shinto
 capital = "Morokata"
 trade_goods = fruit
 hre = no
-base_tax = 3
+base_tax = 4
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 is_city = yes
 add_core = ITO
 add_core = SMZ
 discovered_by = chinese
 discovered_by = japanese
-
+center_of_trade = 1
 
 discovered_by = MCH
 discovered_by = KHA

@@ -8,9 +8,9 @@ religion = shinto
 capital = "Kakegawa"
 trade_goods = tea
 hre = no
-base_tax = 3
-base_production = 4
-base_manpower = 2
+base_tax = 4
+base_production = 5
+base_manpower = 4
 is_city = yes
 discovered_by = chinese
 discovered_by = japanese
@@ -20,9 +20,6 @@ discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
-
-extra_cost = 8
-center_of_trade = 1
 
 1500.1.1 = { owner = IMG controller = IMG add_core = IMG }
 1560.6.12 = { owner = TKG controller = TKG remove_core = IMG }

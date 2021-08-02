@@ -18,6 +18,7 @@ discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
+center_of_trade = 2
 
 1542.1.1 = { discovered_by = POR }
 1554.1.1 = { add_core = OTM owner = OTM controller = OTM remove_core = KKC }
