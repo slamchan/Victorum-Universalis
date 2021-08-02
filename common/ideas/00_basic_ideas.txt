@@ -737,7 +737,7 @@ exploration_ideas = {
 			num_of_ports = 20
 		}
 		modifier = {
-			factor = 1000
+			factor = 100 # This is 1000 in the base game, but factor seems to become TOO large because of qty. of ports and CAS does not pick exploration.
 			OR = {
 				tag = POR
 				tag = CAS
