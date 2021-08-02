@@ -1098,8 +1098,13 @@
  EVTDESC1028:0 "Centuries of colonial rule have instigated a sense of nationalism amongst our colonists. The relationship between the new generation of settlers and the motherland is becoming more and more strained. Resistance movements are beginning to form in several colonies, bringing considerable instability to the area."
  EVTDESC1029:0 "Centuries of colonial rule have instigated a sense of nationalism amongst our colonists. The relationship between the new generation of settlers and the motherland is becoming more and more strained. Resistance movements are beginning to form in several colonies, bringing considerable instability to the area."
  EVTDESC1031:0 "Centuries of colonial rule have instigated a sense of nationalism amongst our colonists. The relationship between the new generation of settlers and the motherland is becoming more and more strained. Resistance movements are beginning to form in several of our colonies, bringing considerable instability to the area."
-
-
+ #
+ #PAPAL STATES
+ EVTNAME1081:0 "The Vatican State"
+ EVTDESC1081:0 "The deep devotion of the Roman Catholics in Italy has awakened a desire for an independent state ruled by Popes of the Church. A large part of the population has expressed support for the idea of such an establishment and has now turned to $MONARCH$ for approval."
+ EVTOPTA1081:0 "We will never support such a state"
+ EVTOPTB1081:0 "The Vatican is rightfully theirs"
+ #
  #SONG NAMES - Added in TCOP and by San Felipe
  ain_spaniyelischer_hoff_dantz:0 "Ain Spaniyelischer Hoff Dantz"
  o_rosa_bella:0 "O Rosa Bella"
