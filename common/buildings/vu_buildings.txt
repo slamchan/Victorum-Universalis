@@ -18,7 +18,7 @@
 # Transportation
 ################################################
 
-canal = {
+transport_canal = {
 	cost = 200
 	time = 12
 
@@ -33,10 +33,10 @@ canal = {
 			has_port = yes
 			AND = {
 				any_friendly_coast_border_province = {
-					has_building = canal
+					has_building = transport_canal
 				}
 				any_neighbor_province = {
-					has_building = canal
+					has_building = transport_canal
 				}
 			}
 		}	
