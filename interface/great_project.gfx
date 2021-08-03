@@ -658,6 +658,11 @@ spriteTypes = {
 ### NEW EU4 Vanilla Monuments ###
 
     spriteType = {
+		name = "GFX_great_project_belem_tower"	
+		texturefile = "gfx//interface//great_projects//great_project_belem_tower.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_great_project_potosi"	
 		texturefile = "gfx//interface//great_projects//great_project_potosi.dds"
 	}
