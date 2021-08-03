@@ -165,11 +165,11 @@ country_decisions = {
 				ai = no
 				AND = {
 					treasury = 40000
-					owns_or_vassal_of = 4316
+					owns_or_vassal_of = 363
 				}
 			}
-			has_discovered = 4316
-			4316 = {
+			has_discovered = 363
+			363 = {
 				range = ROOT
 				NOT = { 
 					has_great_project = {
@@ -184,7 +184,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 4316
+				province_id = 363
 				province_id = 2315
 			}
 			OR = {
@@ -193,14 +193,14 @@ country_decisions = {
 			}
 		}
 		allow = {
-			owns_or_vassal_of = 4316
+			owns_or_vassal_of = 363
 			owns_or_vassal_of = 2315
 			is_subject = no
 			adm_tech = 22
 			treasury = 20000
 		}
 		effect = {
-			4316 = {	# Sharqiya
+			363 = {	# Damietta
 				add_great_project = suez_canal
 			}
 		}
@@ -336,19 +336,19 @@ country_decisions = {
 		major = yes
 		potential = {
 			ai = no
-			owns_or_vassal_of = 4316
+			owns_or_vassal_of = 363
 			is_subject = no
-			4316 = {
+			363 = {
 				has_construction = suez_canal
 			}
 		}
 		allow = {
-			4316 = {
+			363 = {
 				has_construction = suez_canal
 			}
 		}
 		effect = {
-			4316 = {	# Sharqiya
+			363 = {	# Damietta
 				cancel_construction = yes
 			}
 		}
