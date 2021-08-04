@@ -260,7 +260,7 @@ technology = { #Modern Bureaucracy
 	#Modern Canal System
     #Rotherham Plough
 	production_efficiency = 0.02
-	canal = yes
+	transport_canal = yes
 }
 
 technology = { #Rotherham Plough

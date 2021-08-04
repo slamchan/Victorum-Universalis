@@ -1809,7 +1809,7 @@
  #VIC_HEALTH_3:0 "(3) Your country provides Good National Health Care"
 
  #NEW BUILDINGS - Added in TCOP by San Felipe
- building_canal:0 "Canal"
+ building_transport_canal:0 "Canal"
  building_railroad:0 "Railroad"
  building_fort_19th:0 "Polygonal Fort"
  building_fort_siege_1:0 "Siege Weaponry: Field Howitzer"
