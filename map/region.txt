@@ -237,6 +237,7 @@ ural_region = {
 
 iberia_region = {
 	areas = {
+	    andorra_area
 		aragon_area
 		catalonia_area
 		valencia_area

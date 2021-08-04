@@ -492,6 +492,7 @@ emp_france_missions_2 = {
 				tooltip = fra_hyw_tt
 				france_region = {
 					type = all
+					NOT = { province_id = 3110 }
 					OR = {
 						province_id = 87
 						AND = {
