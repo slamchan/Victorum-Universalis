@@ -1,16 +1,17 @@
 #2411 - Mansur
 
-owner = CRI
-controller = CRI
-culture = crimean
-religion = sunni
+owner = ZAZ
+controller = ZAZ
+culture = cossack
+religion = orthodox
 hre = no
-base_tax = 1 
-base_production = 1 
+base_tax = 2 
+base_production = 2 
 trade_goods = livestock
-base_manpower = 1 
-capital = "Mansur"
+base_manpower = 2 
+capital = "Sich"
 is_city = yes
+add_core = ZAZ
 add_core = CRI
 
 discovered_by = western
@@ -20,11 +21,7 @@ discovered_by = ottoman
 discovered_by = nomad_group
 
 1555.1.1 = {
-	owner = ZAZ 
-	controller = ZAZ 
 	remove_core = CRI 
-	culture = ruthenian 
-	religion = orthodox 
 } # Fortified military camp, independent state
 1700.7.14 = { owner = RUS controller = RUS add_core = RUS } # Treaty of Constantinople
 1713.6.24 = { owner = TUR controller = TUR add_core = TUR remove_core = RUS } # Treaty of Adrianople

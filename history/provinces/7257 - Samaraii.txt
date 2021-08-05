@@ -1,9 +1,10 @@
 #BT GDL reoverhaul
 
-owner = CRI
-controller = CRI
+owner = ZAZ
+controller = ZAZ
+add_core = ZAZ
 add_core = CRI
-culture = crimean
+culture = cossack
 religion = sunni
 capital = "Samara"			#Dates to circa mid 16th century so.... much better than most of Wild Fields, but still really horrible.
 base_tax = 1
