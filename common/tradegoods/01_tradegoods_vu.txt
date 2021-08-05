@@ -1,6 +1,6 @@
 
 oil = {
-	color = { 180 20 250 }
+	color = { 0.71 0.08 0.98 }
 	is_latent = yes
 	is_valuable = yes
 
@@ -32,7 +32,7 @@ oil = {
 }
 
 rubber = {
-	color = { 160 250 25 }
+	color = { 0.63 0.98 0.1 }
 	is_latent = yes
 	is_valuable = yes
 
@@ -1705,7 +1705,7 @@ tar = {
 }
 
 sulfur = {
-	color = { 255 200 35 }
+	color = { 1.0 0.78 0.14 }
 	modifier = {
 		infantry_power = 0.1
 	}
@@ -1760,7 +1760,7 @@ sulfur = {
 }
 
 tanned_leather = {
-	color = { 102 70 13 }
+	color = { 0.4 0.27 0.05 }
 	modifier = {
 		shock_damage_received = -0.10
 	}
@@ -2022,7 +2022,7 @@ brass = {
 }
 
 cannon = {
-	color = { 25 25 71 }
+	color = { 0.1 0.1 0.28 }
 	modifier = {
 		artillery_bonus_vs_fort = 1
 	}
@@ -2035,7 +2035,7 @@ cannon = {
 }
 
 tomato = {
-	color = { 255 102 26 }
+	color = { 1.0 0.4 0.1 }
 	modifier = {
 		placed_merchant_power = 5
 
@@ -2084,7 +2084,7 @@ champagne = {
 }
 
 alpaca_wool = {
-	color = { 217 210 216  }
+	color = { 0.85 0.82 0.85  }
 	modifier = {
 		infantry_cost = -0.15
 	}
@@ -2242,7 +2242,7 @@ sea_turtle = {
 }
 
 sweet_confectioneries = {
-	color = { 255 186 243 }
+	color = { 1.0 0.73 0.95 }
 	modifier = {
 		global_unrest = -1.5
 	}
@@ -2252,7 +2252,7 @@ sweet_confectioneries = {
 }
 
 chocolates = {
-	color = { 53 25 0 }
+	color = { 0.21 0.1 0.0 }
 	modifier = {
 		global_unrest = -3
 	}
@@ -2277,7 +2277,7 @@ chocolates = {
 }
 
 bison_hides = {
-	color = { 100 47 0 }
+	color = { 0.39 0.18 0 }
 	modifier = {
 		prestige = 0.5
 	}
@@ -2368,7 +2368,7 @@ bison_hides = {
 }
 
 llama = {
-	color = { 217 210 216  }
+	color = { 0.85 0.82 0.85 }
 	modifier = {
 		infantry_cost = -0.05
 	}
@@ -2486,7 +2486,7 @@ uniforms = {
 #Put where grain in the files
 
 agave = {
-	color = { 94 138 111 }
+	color = { 0.37 0.54 0.44 }
 	modifier = {
 		land_maintenance_modifier = -0.05
 	}
