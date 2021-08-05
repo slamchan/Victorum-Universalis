@@ -56,6 +56,8 @@ colonial_cascadia = {
 		#5115 #5116 #5117 #1913
 		#TCOP
 		5198 5199
+		#TU
+		6933 6934
 	}
 
 	# Specific
