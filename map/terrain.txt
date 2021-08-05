@@ -233,7 +233,7 @@ categories =  {
 	hills = {
 		color = { 113 176 151 }
 		type = hills
-		sound_type = mountain
+		sound_type = mountains
 
 		supply_limit = 2
 		movement_cost = 1.80			#vanilla 1.40
@@ -265,7 +265,7 @@ categories =  {
 	highlands = {
 		color = { 176 129 21 }
 		type = hills
-		sound_type = mountain
+		sound_type = mountains
 
 		supply_limit = 1
 		movement_cost = 1.70			#vanilla 1.40
@@ -294,7 +294,7 @@ categories =  {
 	mountain = {
 		color = { 105 24 4 }
 		type = mountains
-		sound_type = mountain
+		sound_type = mountains
 
 		supply_limit = 1
 		movement_cost = 2.5			#vanilla 1.5
@@ -9772,7 +9772,8 @@ categories =  {
 		terrain_override = {
 			5198
 		}
-		# America
+	}
+	# America
 	urban_spokane = {
 		color = { 177 156 217 }
 		movement_cost = 1.10
