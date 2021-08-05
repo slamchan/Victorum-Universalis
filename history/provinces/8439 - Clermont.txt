@@ -28,4 +28,4 @@ discovered_by = ottoman
 discovered_by = eastern
 
 1268.1.1 = { add_core = BOU } # The Dukes of Bourbon rule as Counts of Clermont until the death of Charles III in 1527
-1527.5.6 = { owner = FRA controller = FRA add_core = FRA remove_core BOU  } # The death of Charles III saw his fiefs confiscated by the crown.
+1527.5.6 = { owner = FRA controller = FRA add_core = FRA remove_core = BOU  } # The death of Charles III saw his fiefs confiscated by the crown.
