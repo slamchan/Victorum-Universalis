@@ -365,6 +365,12 @@ subjugate_bohemia_provinces = {
 		#BT additions
 		area = moravia_area
 		area = bohemian_forest_area
+		#VU amendments
+	}
+	NOT = {
+		province_id = 3142 #Opava
+		province_id = 7318 #Tirschenreuth
+		province_id = 7685 #Ostrava
 	}
 }
 recover_silesia_provinces = {
