@@ -939,7 +939,7 @@ mughal_government = {
 		dacian = {
 			harsh_treatment_cost = -0.10			#Current modifier courtesy of Imperatrix Helena
 		}
-		egyptian = {
+		egyptian_group = {
 			tolerance_heathen = 0.5			#Current modifier courtesy of Imperatrix Helena
 		}
 		saharan_group = {
@@ -2372,7 +2372,7 @@ western_principality = {
 		NOT = { primary_culture = welsh }
 		religion_group = christian
 		OR = {
-		    culture_group = breton
+		    culture_group = brythonic
 		    culture_group = british
 		    culture_group = french
 			culture_group = germanic
@@ -2394,7 +2394,7 @@ western_principality = {
 	    NOT = { religion = orthodox }
 	    religion_group = christian
 	    OR = {
-		    culture_group = breton
+		    culture_group = brythonic
 		    culture_group = british
 		    culture_group = french
 		    culture_group = germanic
