@@ -2,8 +2,8 @@
 #Region - Ruthenia
 #Area - East Dniepr
 
-owner = LIT
-controller = LIT  
+owner = CHR
+controller = CHR  
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -14,9 +14,7 @@ base_manpower = 2
 capital = "Chernigov"
 is_city = yes
 add_core = CHR
-add_core = LIT
-add_local_autonomy = 50
-center_of_trade = 1
+center_of_trade 1
 
 #extra_cost = 8
 #center_of_trade = 1
