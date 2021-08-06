@@ -14,7 +14,8 @@ base_manpower = 10
 is_city = yes
 add_core = YUE
 extra_cost = 34
-center_of_trade = 1
+
+add_province_triggered_modifier = treaty_port
 
 discovered_by = chinese
 discovered_by = indian
