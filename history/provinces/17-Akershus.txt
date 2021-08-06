@@ -14,7 +14,6 @@ trade_goods = fish
 base_manpower = 3 
 capital = "Oslo"
 is_city = yes
-fort_15th = no
 
 extra_cost = 8
 center_of_trade = 1

@@ -733,13 +733,13 @@ indonesians_5 = {
 			province_id = 2715
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				NOT = { has_building = weapons }
+				NOT = { has_manufactory_trigger = yes }
 			}
 		}
 		trigger = {
 			2715 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				has_building = weapons
+				has_manufactory_trigger = yes
 			}
 		}
 		effect = {
@@ -759,13 +759,13 @@ indonesians_5 = {
 			province_id = 639
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				NOT = { has_building = textile }
+				NOT = { has_manufactory_trigger = yes }
 			}
 		}
 		trigger = {
 			639 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				has_building = textile
+				has_manufactory_trigger = yes
 			}
 		}
 		effect = {
@@ -785,13 +785,13 @@ indonesians_5 = {
 			province_id = 623
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				NOT = { has_building = tradecompany }
+				NOT = { has_manufactory_trigger = yes }
 			}
 		}
 		trigger = {
 			623 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				has_building = tradecompany
+				has_manufactory_trigger = yes
 			}
 		}
 		effect = {
@@ -814,17 +814,17 @@ indonesians_5 = {
 			}
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				NOT = { has_building = tradecompany }
+				NOT = { has_manufactory_trigger = yes }
 			}
 		}
 		trigger = {
 			649 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				has_building = tradecompany
+				has_manufactory_trigger = yes
 			}
 			650 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				has_building = tradecompany
+				has_manufactory_trigger = yes
 			}
 		}
 		effect = {
@@ -850,8 +850,7 @@ indonesians_5 = {
 			province_id = 2728
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				NOT = { has_building = wharf }
-				NOT = { has_building = trade_depot }
+				NOT = { has_manufactory_trigger = yes }
 			}
 		}
 		trigger = {
@@ -878,7 +877,6 @@ indonesians_5 = {
 						}
 					}
 					OR = {
-						has_building = wharf
 						has_building = trade_depot
 						has_manufactory_trigger = yes
 					}

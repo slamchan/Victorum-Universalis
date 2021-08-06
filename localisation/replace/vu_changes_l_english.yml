@@ -37,6 +37,10 @@
  #Trade Nodes
  wien:0 "Vienna"
  pest:0 "Belgrade"            #Changed in BT12 from Danube.
+ 
+ #Trade Goods
+ grain:0 "Wheat"
+ grainDESC:0 "Wheat is one of the world's most commonly consumed cereal grains. It comes from a type of grass (Triticum) that is grown in countless varieties worldwide. White and whole-wheat flour are key ingredients in baked goods, such as bread. Other wheat-based foods include pasta, noodles, semolina, bulgur, and couscous."
 
  #Technology - Added Techs and Ideas
  adm_tech_cs_33_name:0 "Four Field Rotation"
@@ -1094,8 +1098,13 @@
  EVTDESC1028:0 "Centuries of colonial rule have instigated a sense of nationalism amongst our colonists. The relationship between the new generation of settlers and the motherland is becoming more and more strained. Resistance movements are beginning to form in several colonies, bringing considerable instability to the area."
  EVTDESC1029:0 "Centuries of colonial rule have instigated a sense of nationalism amongst our colonists. The relationship between the new generation of settlers and the motherland is becoming more and more strained. Resistance movements are beginning to form in several colonies, bringing considerable instability to the area."
  EVTDESC1031:0 "Centuries of colonial rule have instigated a sense of nationalism amongst our colonists. The relationship between the new generation of settlers and the motherland is becoming more and more strained. Resistance movements are beginning to form in several of our colonies, bringing considerable instability to the area."
-
-
+ #
+ #PAPAL STATES
+ EVTNAME1081:0 "The Vatican State"
+ EVTDESC1081:0 "The deep devotion of the Roman Catholics in Italy has awakened a desire for an independent state ruled by Popes of the Church. A large part of the population has expressed support for the idea of such an establishment and has now turned to $MONARCH$ for approval."
+ EVTOPTA1081:0 "We will never support such a state"
+ EVTOPTB1081:0 "The Vatican is rightfully theirs"
+ #
  #SONG NAMES - Added in TCOP and by San Felipe
  ain_spaniyelischer_hoff_dantz:0 "Ain Spaniyelischer Hoff Dantz"
  o_rosa_bella:0 "O Rosa Bella"
@@ -1800,7 +1809,7 @@
  #VIC_HEALTH_3:0 "(3) Your country provides Good National Health Care"
 
  #NEW BUILDINGS - Added in TCOP by San Felipe
- building_canal:0 "Canal"
+ building_transport_canal:0 "Canal"
  building_railroad:0 "Railroad"
  building_fort_19th:0 "Polygonal Fort"
  building_fort_siege_1:0 "Siege Weaponry: Field Howitzer"

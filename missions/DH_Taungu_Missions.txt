@@ -271,10 +271,8 @@ tau_slot_2 = {
 				}
 				AND = {
 					ROOT = {
-						NOT = {
-							tag = TAU
-							tag = BPR
-						}
+						NOT = { tag = TAU }
+						NOT = { tag = BPR }
 					}
 					owner = {
 						is_enemy = ROOT
@@ -728,13 +726,13 @@ tau_slot_4 = {
 				name = "tau_arakan_trade"
 				duration = 7300
 			}
-			tripura_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
+			#tripura_area = {
+			#	limit = {
+			#		NOT = { is_permanent_claim = ROOT	}
+			#		NOT = { is_core = ROOT	}
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
 			west_bengal_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -763,7 +761,7 @@ tau_slot_4 = {
 				area = east_bengal_area
 				area = naga_hills_area
 				area = assam_area
-				area = tripura_area
+				#area = tripura_area
 				province_id = 568
 			}
 			NOT = {
@@ -795,10 +793,10 @@ tau_slot_4 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
-			tripura_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
+			#tripura_area = {
+			#	type = all
+			#	country_or_non_sovereign_subject_holds = ROOT	
+			#}
 		}
 		effect = {
 			add_country_modifier = {

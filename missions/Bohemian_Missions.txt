@@ -62,7 +62,7 @@ boh_hussite_group = {
 		provinces_to_highlight = {
 			OR = {
 				area = silesia_area
-				area = lower_silesia_area
+			#	area = lower_silesia_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -73,10 +73,10 @@ boh_hussite_group = {
 				type = all
 				owned_by = ROOT
 			}
-			lower_silesia_area = {
-				type = all
-				owned_by = ROOT
-			}
+			#lower_silesia_area = {
+			#	type = all
+			#	owned_by = ROOT
+			#}
 		}
 		
 		effect = {

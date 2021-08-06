@@ -2202,3 +2202,659 @@ MUR_ideas = {
 	}
 
 }
+
+#VU addition - Japanese ideas by San Felipe
+
+HNM_ideas = {
+	start = {
+		manpower_recovery_speed = 0.25
+		infantry_cost = -0.15
+	}
+	bonus = {
+		merchants = 1
+	}
+	trigger = {
+		OR = {
+		tag = HNM
+		tag = OUE
+		}
+	}
+	free = yes
+
+	northern_warhorses = {
+		cavalry_power = 0.15
+	}
+	branch_contacts = {
+		diplomatic_reputation = 1
+	}
+	hachiman_shrines = {
+		land_morale = 0.15
+	}
+	heirs_of_uesugi = {
+		prestige = 1
+	}
+	gokishichido_control = {
+		trade_steering = 0.25
+	}
+	uesugi_holdouts = {
+		defensiveness = 0.2
+	}
+	merchantile_exemptions = {
+		global_trade_power = 0.1
+	}
+}
+
+STM_ideas = {
+	start = {
+		naval_morale = 0.15
+		land_morale = 0.15
+	}
+	bonus = {
+		manpower_recovery_speed = 0.25
+	}
+	trigger = {
+		tag = STM
+	}
+	free = yes
+
+	awa_navy = {
+		leader_naval_shock = 2
+	}
+	tateyama_fisheries = {
+		trade_efficiency = 0.15
+	}
+	kurui_castle = {
+		defensiveness = 0.15
+		garrison_size = 0.15
+	}
+	kazusa_commanders = {
+		leader_land_shock = 2
+	}
+	unification_of_boso = {
+		core_creation = -0.15
+	}
+	resilient_clan = {
+		war_exhaustion_cost = -0.4
+	}
+	plains_of_fusa = {
+		global_tax_modifier = 0.15
+	}
+}
+
+YSM_ideas = {
+	start = {
+		trade_efficiency = 0.1
+		leader_land_shock = 1
+	}
+	bonus = {
+		leader_naval_fire = 2
+	}
+	trigger = {
+		tag = YSM
+	}
+	free = yes
+
+	tradition_of_conflicts = {
+		discipline = 0.05
+	}
+	traditionalism = {
+		tolerance_own = 3
+	}
+	assimilated_retainers = {
+		merc_maintenance_modifier = -0.25
+	}
+	trade_along_coasts = {
+		global_own_trade_power = 0.25
+	}
+	chugoku_defensiveness = {
+		defensiveness = 0.15
+		garrison_size = 0.15
+	}
+	mori_generals = {
+		fire_damage_received = -0.15
+	}
+	fire_ships = {
+		light_ship_power = 0.25
+	}
+}
+
+SGR_ideas = {
+	start = {
+		hostile_attrition = 1
+		infantry_power = 0.15
+	}
+	bonus = {
+		development_cost = -0.15
+	}
+	trigger = {
+		tag = SGR
+	}
+	free = yes
+
+	hitoyoshi_mountains = {
+		defensiveness = 0.2
+	}
+	silver_mining = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	hitoyoshi_castle = {
+		global_trade_power = 0.1
+	}
+	break_vassals = {
+		global_unrest = -2
+	}
+	illegal_trade = {
+		trade_efficiency = 0.15
+	}
+	marume_clan = {
+		army_tradition = 1
+	}
+	unification_of_higo = {
+		global_prov_trade_power_modifier = 0.25
+	}
+}
+
+TN1_ideas = {
+	start = {
+		trade_efficiency = 0.15
+		trade_range_modifier = 0.3
+	}
+	bonus = {
+		light_ship_power = 0.15
+	}
+	trigger = {
+		tag = TN1
+	}
+	free = yes
+
+	hojo_lineage = {
+		prestige = 1
+	}
+	lord_of_osumi_islands = {
+		naval_forcelimit_modifier = 0.25
+	}
+	yakushima_forestry = {
+		fort_maintenance_modifier = -0.2
+	}
+	trade_with_kinai = {
+		merchants = 1
+	}
+	nichiren_ties = {
+		development_cost = -0.15
+	}
+	tng_foreign_trade = {
+		global_trade_power = 0.1
+	}
+	tanegashima_teppo = {
+		fire_damage = 0.15
+	}
+}
+
+ASO_ideas = {
+	start = {
+		tolerance_own = 2
+		stability_cost_modifier = -0.2
+	}
+	bonus = {
+		diplomatic_upkeep = 2
+	}
+	trigger = {
+		tag = ASO
+	}
+	free = yes
+
+	mount_aso = {
+		prestige = 1
+	}
+	dai_guji = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+	aso_shrine = {
+		prestige_decay = -0.01
+	}
+	imperial_descent = {
+		improve_relation_modifier = 0.25
+	}
+	promotion_uchinomaki = {
+		diplomatic_reputation = 2
+	}
+	isolated_terrain = {
+		army_tradition_decay = -0.01
+	}
+	kai_retainers = {
+		diplomats = 2
+	}
+}
+
+MOG_ideas = {
+	start = {
+		diplomatic_reputation = 2
+		improve_relation_modifier = 0.25
+	}
+
+	bonus = {
+		fort_maintenance_modifier = -0.25
+	}
+
+	trigger = {
+		tag = MOG
+	}
+	free = yes
+
+	mogami_shields = {
+		discipline = 0.05
+	}
+	three_difficult_places = {
+		global_own_trade_power = 0.25
+	}
+	dam_construction = {
+		development_cost = -0.15
+	}
+	kinai_culture = {
+		idea_cost = -0.1
+	}
+	shonai_cultivation = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	dewa_tiger = {
+		cavalry_power = 0.2
+	}
+	dewa_defenses = {
+		defensiveness = 0.2
+	}
+}
+
+ASN_ideas = {
+	start = {
+		diplomatic_upkeep = 2
+		discipline = 0.05
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.15
+	}
+	trigger = {
+		tag = ASN
+	}
+	free = yes
+
+	gatekeeper_north = {
+		defensiveness = 0.2
+	}
+	mediate_succession = {
+		diplomatic_reputation = 2
+	}
+	ashina_four_guardians = {
+		global_autonomy = -0.05
+	}
+	prohibition_edict = {
+		army_tradition = 1
+	}
+	painting_lessons = {
+		prestige = 1
+	}
+	cadets_through_adoption = {
+		diplomatic_annexation_cost = -0.15
+	}
+	expand_aizu_basin = {
+		development_cost = -0.15
+	}
+}
+
+TSU_ideas = {
+	start = {
+		manpower_recovery_speed = 0.25
+		production_efficiency = 0.15
+	}
+	bonus = {
+		build_cost = -0.2
+	}
+	trigger = {
+		tag = TSU
+	}
+	free = yes
+
+	otomo_cadets = {
+		prestige = 1
+	}
+	autonomous_vassals = {
+		land_forcelimit_modifier = 0.25
+	}
+	unto_the_end = {
+		land_morale = 0.2
+	}
+	nanban_technology = {
+		technology_cost = -0.1
+	}
+	partisan_faiths = {
+		global_missionary_strength = 0.02
+	}
+	saltpeter_monopoly = {
+		fire_damage = 0.15
+	}
+	impregnable_defenses = {
+		defensiveness = 0.25
+	}
+}
+
+KYO_ideas = {
+	start = {
+		discipline = 0.05
+		army_tradition_decay = -0.01
+	}
+	bonus = {
+		improve_relation_modifier = 0.25
+	}
+	trigger = {
+		tag = KYO
+	}
+	free = yes
+
+	heirs_of_sasaki = {
+		prestige_from_land = 1
+	}
+	omi_genji_festival = {
+		prestige_decay = -0.01
+	}
+	taiheiki = {
+		prestige = 1
+	}
+	marriage_survival = {
+		diplomatic_reputation = 2
+	}
+	cosmopolitan_culture = {
+		tolerance_heretic = 3
+	}
+	stubborn_defense = {
+		defensiveness = 0.25
+	}
+	establish_branches = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+}
+
+KTK_ideas = {
+	start = {
+		manpower_recovery_speed = 0.25
+		stability_cost_modifier = -0.15
+	}
+	bonus = {
+		global_tax_modifier = 0.15
+	}
+	trigger = {
+		OR = {
+			tag = KTK
+			tag = KHR
+		}
+	}
+	free = yes
+
+	hayato_pride = {
+		infantry_power = 0.15
+	}
+	allied_kokujin = {
+		merc_maintenance_modifier = -0.25
+	}
+	reunification_sasshu = {
+		core_creation = -0.15
+	}
+	tanegashima_adoption = {
+		leader_land_fire = 2
+	}
+	early_westernization = {
+		global_institution_spread = 0.15
+	}
+	unbreakable_will = {
+		discipline = 0.05
+	}
+	ryukyu_trade = {
+		global_trade_power = 0.1
+	}
+}
+
+KSA_ideas = {
+	start = {
+		cavalry_power = 0.15
+		diplomatic_upkeep = 2
+	}
+	bonus = {
+		improve_relation_modifier = 0.25
+	}
+	trigger = {
+		OR = {
+			tag = KSA
+			tag = OSK
+		}
+	}
+	free = yes
+
+	den_system = {
+		province_warscore_cost = -0.15
+	}
+	marriage_expansion = {
+		ae_impact = -0.15
+	}
+	fluid_borders = {
+		fabricate_claims_cost = -0.25
+	}
+	centralize_authority = {
+		production_efficiency = 0.1
+	}
+	dragoon_corps = {
+		fire_damage = 0.15
+	}
+	domain_expansion = {
+		development_cost = -0.15
+	}
+	beyond_tohoku = {
+		global_institution_spread = 0.15
+	}
+}
+
+OMR_ideas = {
+	start = {
+		tolerance_own = 2
+		trade_efficiency = 0.15
+	}
+	bonus = {
+		infantry_power = 0.2
+	}
+	trigger = {
+		tag = OMR
+	}
+	free = yes
+
+	shimabara_resistance = {
+		garrison_size = 0.25
+	}
+	natural_harbors = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	jesuit_support = {
+		technology_cost = -0.1
+	}
+	western_seminaries = {
+		idea_cost = -0.1
+	}
+	religious_devotion = {
+		global_missionary_strength = 0.02
+	}
+	jesuit_administration = {
+		development_cost = -0.15
+	}
+	western_firearms = {
+		fire_damage = 0.2
+	}
+}
+
+MYI_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		naval_morale = 0.2
+	}
+
+	bonus = {
+		core_creation = -0.15
+	}
+
+	trigger = {
+		tag = MYI
+	}
+	free = yes
+
+	miyoshi_branch_clans = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+	atagi_navy = {
+		light_ship_power = 0.2
+	}
+	capital_culture = {
+		idea_cost = -0.1
+	}
+	sogo_commanders = {
+		land_morale = 0.15
+	}
+	sakai_patronage = {
+		global_trade_power = 0.1
+	}
+	miyoshi_laws = {
+		global_tax_modifier = 0.1
+	}
+	miyoshi_triumvirate = {
+		stability_cost_modifier = -0.15
+	}
+}
+
+#VU Korean additions by San Felipe
+GOG_ideas = {
+	start = {
+		adm_tech_cost_modifier = -0.15
+		num_accepted_cultures = 2
+	}
+
+	bonus = {
+		diplomatic_reputation = 1
+	}
+
+	trigger = {
+		tag = GOG
+	}
+	free = yes
+
+	legacy_of_goguryeo = {
+		prestige = 1
+	}
+	jumong = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+	battle_hardened_veterans_goguryeo = {
+		land_morale = 0.15
+	}
+	foreign_affairs_goguryeo = {
+		diplomats = 1
+	}
+	mountain_fortresses_goguryeo = {
+		defensiveness = 0.2
+	}
+	outward_expansion_goguryeo = {
+		core_creation = -0.15
+	}
+	remembering_gwanggaeto = {
+		army_tradition = 1
+	}
+}
+
+BKJ_ideas = {
+	start = {
+        fire_damage_received = -0.1
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+
+	bonus = {
+		merc_maintenance_modifier = -0.2
+	}
+
+	trigger = {
+		tag = BKJ
+	}
+	free = yes
+
+	hundred_vassals_baekje = {
+		global_autonomy = -0.05
+	}
+	regional_sea_power_baekje = {
+		global_ship_cost = -0.1
+	}
+	diplomatic_missions_baekje = {
+		diplomatic_reputation = 1
+	}
+	chinese_influences_baekje = {
+		dip_tech_cost_modifier = -0.15
+	}
+	decendants_of_buyeo = {
+		development_cost = -0.1
+	}
+	han_river_baekje = {
+		global_tax_modifier = 0.10
+	}
+	eight_noble_clans = {
+		stability_cost_modifier = -0.15
+	}
+}
+
+SLL_ideas = {
+	start = {
+		global_tax_modifier = 0.10
+        land_forcelimit_modifier = 0.2
+	}
+
+	bonus = {
+		diplomatic_reputation = 1
+	}
+
+	trigger = {
+		tag = SLL
+	}
+	free = yes
+
+	bone_rank_system = {
+		global_unrest = -2
+	}
+	hwarang = {
+		army_tradition = 1
+	}
+	geumseong = {
+		prestige = 1
+	}
+	cultural_heartland_of_korea_silla = {
+		global_trade_power = 0.1
+	}
+	hwabaek = {
+		adm_tech_cost_modifier = -0.15
+	}
+	tribal_origins_silla = {
+		manpower_recovery_speed = 0.25
+	}
+	bureaucratic_government_silla = {
+		development_cost = -0.1
+	}
+}

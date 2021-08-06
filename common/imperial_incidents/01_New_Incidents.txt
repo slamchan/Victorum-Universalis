@@ -1,0 +1,50 @@
+incident_hussite_dominance ={
+	event = imperial_hussite.2
+	default_option = 1
+
+	can_stop = {
+		always = no
+	}
+
+	0 = { #accept Hussite Dominance
+		factor = 1
+		modifier = {
+			religion = hussite
+			factor = 500
+		}
+		modifier = {
+			any_ally = {
+				religion = hussite
+			}
+			factor = 2
+		}
+	}
+
+	1 = { #Compromise with the Hussites
+		factor = 1
+		modifier = {
+			has_idea_group = humanist_ideas
+			factor = 2
+		}
+		modifier = {
+			any_ally = {
+				religion = hussite
+			}
+			factor = 2
+		}
+	}
+
+	2 = { #No compromise with heretics
+		factor = 1
+		modifier = {
+			has_idea_group = religious_ideas
+			factor = 2
+		}
+		modifier = {
+			factor = 10
+			any_rival_country = {
+				religion = hussite 
+			}
+		}
+	}
+}

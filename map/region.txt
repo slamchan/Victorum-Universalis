@@ -237,6 +237,7 @@ ural_region = {
 
 iberia_region = {
 	areas = {
+	    andorra_area
 		aragon_area
 		catalonia_area
 		valencia_area
@@ -1012,6 +1013,9 @@ korea_region = {
 		western_korea_area
 		eastern_korea_area
 		south_korea_area
+		left_chungcheong_area
+		left_gyeongsang_area
+		left_hwanghae_area
 	}
 	monsoon = {
 		00.06.01
@@ -1163,18 +1167,27 @@ burma_region = {
 japan_region = {
 	areas = {
 		hokkaido_area
+		kurils_area
 		hokuriku_area
+		east_hokuriku_area
 		kanto_area
 		eastern_kanto_area
+		ryukyu_area
 		kyushu_area
-		chubu_area
-		eastern_chubu_area
-		kinai_area
-		thohoku_area
-		saigoku_area
-		sanindo_area
-		shikoku_area
 		northern_kyushu
+		btc_south_kyushu_area
+		central_kyushu_area
+		shikoku_area
+		eastern_chubu_area
+		chubu_area
+		kinai_area
+		south_kinai_area
+		thohoku_area
+		south_thohoku_area
+		central_thohoku_area
+		sanindo_area
+		saigoku_area
+		east_sanyodo_area
 	}
 	monsoon = {
 		00.06.01
