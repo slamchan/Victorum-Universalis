@@ -3347,10 +3347,6 @@ spriteTypes = {
         texturefile = "gfx/interface/managua.dds"
     }
     spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_san_jose"
-        texturefile = "gfx/interface/san_jose.dds"
-    }
-    spriteType = {                                                        
         name = "GFX_combat_terrain_urban_tegucigalpa"
         texturefile = "gfx/interface/tegucigalpa.dds"
     }

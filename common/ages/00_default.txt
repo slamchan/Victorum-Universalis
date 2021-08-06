@@ -824,6 +824,7 @@ age_of_change = {
 			philosopher = 3
 			theologian = 3
 			treasurer = 3
+			inquisitor = 3
 			}
 
 			OR={

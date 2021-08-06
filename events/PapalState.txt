@@ -7,7 +7,7 @@ country_event = {
 	
 	trigger = {
 		papacy_active = yes
-		owns = 118		# Rome
+		owns = 6976		# Rome
 		normal_or_historical_nations = yes
 		religion = catholic
 		NOT = { tag = PAP }
@@ -65,15 +65,15 @@ country_event = {
 		set_country_flag = no_support
 	}
 	option = {
-		name = "EVTOPTB1081" # Rome is rightfully theirs
+		name = "EVTOPTB1081" # Vatican is rightfully theirs
 		ai_chance = { 
 			factor = 75 
 			modifier = {
 				factor = 0
-				is_core = 118
+				is_core = 6976
 			}
 		}
-		118 = {
+		6976 = {
 			add_core = PAP
 			cede_province = PAP
 			if = {
@@ -115,7 +115,7 @@ country_event = {
 			religion = catholic
 			continent = europe
 		}
-		118 = {
+		6976 = {
 			owner = {
 				OR = {
 					NOT = { religion = catholic }
