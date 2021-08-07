@@ -33,7 +33,7 @@ discovered_by = eastern
 1510.1.1 = { base_tax = 12 base_production = 12 base_manpower = 10 } # around this time Munich actually becomes close to as important as it is represented in vanilla
 1632.1.1 = { base_tax = 8 base_production = 8 } # Swedish troops ravage the countryside and extort 300.000$ from Munich. 
 1634.1.1 = { base_manpower = 6 } # Plague kills large parts of the population
-1700.1.1 = { base_tax = 12 base_production = 12 base_manpower = 10 } #City recovers from war & plague slowly, but still becomes a centre of culture and trade
+1700.1.1 = { base_tax = 12 base_production = 12 base_manpower = 10 } #City recovers from war & plague slowly, but still becomes a center of culture and trade
 1704.8.13 = { controller = HAB owner = HAB } # Bavaria is conquered by the Emperor, is however 10 years later restored for the balance of power
 1714.9.7 = { controller = BAV owner = BAV }
 1742.2.1 = { controller = HAB } # Austrian troops take Munich and Bavaria

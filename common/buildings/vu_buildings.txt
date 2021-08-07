@@ -18,7 +18,7 @@
 # Transportation
 ################################################
 
-canal = {
+transport_canal = {
 	cost = 200
 	time = 12
 
@@ -33,10 +33,10 @@ canal = {
 			has_port = yes
 			AND = {
 				any_friendly_coast_border_province = {
-					has_building = canal
+					has_building = transport_canal
 				}
 				any_neighbor_province = {
-					has_building = canal
+					has_building = transport_canal
 				}
 			}
 		}	
@@ -247,7 +247,7 @@ trenches = {
 		local_monthly_devastation = 0.25
 		allowed_num_of_buildings = 1
 		local_hostile_movement_speed = -0.40
-		defensiveness = 1.5
+		local_defensiveness = 1.5
 	}
 	build_trigger = {
 		NOT = {
@@ -273,7 +273,7 @@ trenches = {
 		}
 		modifier = {
 			factor = 0
-			is_at_war = no
+			owner = { is_at_war = no }
 		}
 		modifier = {
 			factor = 2

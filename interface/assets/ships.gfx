@@ -174,7 +174,48 @@ objectTypes = {
 		animation = { id = "attack"	type = "threedecker_attack"}
 		scale = 1.2			#BTAddOn changed from scale 1.5 as part of a comprehensive unit size adjustment
 	}
+
+# New heavy ships added by letole for vu. currently using the models of the threedecker.
+	pdxmesh = {
+		name = "74s"
+		file = "gfx\models\ships\Threedecker.mesh"
+
+		animation = { id = "idle"	type = "threedecker_idle" }
+		animation = { id = "walk"	type = "threedecker_walk" }
+		animation = { id = "attack"	type = "threedecker_attack"}
+		scale = 1.3			#BTAddOn changed from scale 1.5 as part of a comprehensive unit size adjustment
+	}
 	
+	pdxmesh = {
+		name = "ironclad"
+		file = "gfx\models\ships\Threedecker.mesh"
+
+		animation = { id = "idle"	type = "threedecker_idle" }
+		animation = { id = "walk"	type = "threedecker_walk" }
+		animation = { id = "attack"	type = "threedecker_attack"}
+		scale = 1.4			#BTAddOn changed from scale 1.5 as part of a comprehensive unit size adjustment
+	}
+		
+	pdxmesh = {
+		name = "cruiser"
+		file = "gfx\models\ships\Threedecker.mesh"
+
+		animation = { id = "idle"	type = "threedecker_idle" }
+		animation = { id = "walk"	type = "threedecker_walk" }
+		animation = { id = "attack"	type = "threedecker_attack"}
+		scale = 1.5			#BTAddOn changed from scale 1.5 as part of a comprehensive unit size adjustment
+	}
+
+	pdxmesh = {
+		name = "dreadnought"
+		file = "gfx\models\ships\Threedecker.mesh"
+
+		animation = { id = "idle"	type = "threedecker_idle" }
+		animation = { id = "walk"	type = "threedecker_walk" }
+		animation = { id = "attack"	type = "threedecker_attack"}
+		scale = 1.7			#BTAddOn changed from scale 1.5 as part of a comprehensive unit size adjustment
+	}
+
 	###########################################################################
 	############												###############
 	############                     Transports                 ###############

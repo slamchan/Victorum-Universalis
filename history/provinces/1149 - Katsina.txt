@@ -14,7 +14,7 @@ base_tax = 12
 base_production = 12
 discovered_by = sub_saharan
 extra_cost = 16
-center_of_trade = 2
+center_of_trade = 3
 
 1489.1.1 = { unrest = 4 } # Invasion by Kano
 1491.1.1 = { unrest = 0 } # Peace between Kano and Katsina arranged

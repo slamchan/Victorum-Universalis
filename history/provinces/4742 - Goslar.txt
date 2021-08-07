@@ -12,7 +12,7 @@ trade_goods = iron #Rammelsberg
 base_manpower = 2
 capital = "Goslar"
 is_city = yes
-center_of_trade = 1
+center_of_trade = 2
 
 
 discovered_by = eastern

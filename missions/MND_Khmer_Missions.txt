@@ -316,7 +316,7 @@ mnd_khmer_3 = {
 					is_subject_of = ROOT
 				}
 			}
-			else_if = [
+			else_if = {
 				limit = {
 					any_owned_province = {
 						culture = cham

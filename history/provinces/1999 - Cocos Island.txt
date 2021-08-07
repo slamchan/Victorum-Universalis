@@ -16,3 +16,8 @@ native_hostileness = 0
 1814.1.1 = {
 	discovered_by = GBR	# John Clunies-Ross
 }
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

@@ -17,6 +17,11 @@ capital = "Reval"
 is_city = yes
 #fort_15th = yes #Fortifications of Reval, Wesenberg, Toompea Castle
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

@@ -14,7 +14,7 @@ culture = alsatian
 religion = catholic
 hre = yes
 base_tax = 8
-base_production = 8			#Centre of population in Gall, with a population of 40k all the way back in 1st century, but seemed to shrink with the fall of Rome. Wiki (I know) estimates population well under 10k until at least 18th century, grows more important later, though
+base_production = 8			#center of population in Gall, with a population of 40k all the way back in 1st century, but seemed to shrink with the fall of Rome. Wiki (I know) estimates population well under 10k until at least 18th century, grows more important later, though
 trade_goods = fruit
 base_manpower = 4
 add_core = MTZ
@@ -25,7 +25,7 @@ discovered_by = ottoman
 discovered_by = eastern
 
 extra_cost = 8
-center_of_trade = 1
+center_of_trade = 2
 
 1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
 	owner = LOR
@@ -51,14 +51,14 @@ center_of_trade = 1
 	fort_15th = yes			#Under French rule, Metz was selected as capital of the Three Bishoprics and became a strategic fortified town.
 	base_tax = 12
 	base_production = 12
-} # Peace of Cateau-Cambrésis, France annexes Metz
+} # Peace of Cateau-Cambrï¿½sis, France annexes Metz
 1588.12.1 = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
 1594.1.1 = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
 1636.7.10 = { controller = HAB } # Habsburg forces ravage North Eastern France
 1636.10.24 = { controller = FRA } # Bernhard of Saxe-Weimar defeats the invaders and gradually pushes them back
-1650.1.14 = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1650.1.14 = { unrest = 7 } # Mazarin arrests the Princes Condï¿½, Conti & Longueville, the beginning of the Second Fronde
 1651.4.1 = { unrest = 4 } # An unstable peace is concluded
-1651.12.1 = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1651.12.1 = { unrest = 7 } # Mazarin returns from exile, Condï¿½ sides with Spain, situation heats up again
 1652.10.21 = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
 1749.1.1 = { base_tax = 14 base_production = 14 } # Machault & the 5% tax
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

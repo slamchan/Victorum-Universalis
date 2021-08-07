@@ -4,8 +4,8 @@
 ###########################################
 
 bt_conquest_of_the_great_fire = {
-	potential = { religion = zoroastrian_group }
-	trigger = { religion = zoroastrian_group }
+	potential = { religion_group = zoroastrian_group }
+	trigger = { religion_group = zoroastrian_group }
 	
 	prestige = 0.5
 	missionaries = 1
@@ -16,8 +16,16 @@ bt_conquest_of_the_great_fire = {
 }
 
 bt_guelph_province_in_guelph_state = {
-	potential = { has_country_modifier = bt_guelph_nation }
-	trigger = { has_country_modifier = bt_guelph_nation }
+	potential = { 
+		owner = { 
+			has_country_modifier = bt_guelph_nation 
+		} 
+	}
+	trigger = { 
+		owner = { 
+			has_country_modifier = bt_guelph_nation 
+		} 
+	}
 
 	local_unrest = -3
 	local_manpower_modifier = 0.10
@@ -28,8 +36,16 @@ bt_guelph_province_in_guelph_state = {
 }
 
 bt_guelph_province_in_ghibelline_state = {
-	potential = { has_country_modifier = bt_guelph_nation }
-	trigger = { has_country_modifier = bt_guelph_nation }
+	potential = { 
+		owner = {
+			has_country_modifier = bt_guelph_nation 
+		}
+	}
+	trigger = { 
+		owner = {
+			has_country_modifier = bt_guelph_nation 
+		}
+	}
 
 	local_unrest = 5
 	local_manpower_modifier = -0.20
@@ -40,8 +56,16 @@ bt_guelph_province_in_ghibelline_state = {
 }
 
 bt_ghibelline_province_in_ghibelline_state = {
-	potential = { has_country_modifier = bt_ghibelline_nation }
-	trigger = { has_country_modifier = bt_ghibelline_nation }
+	potential = { 
+		owner = {
+			has_country_modifier = bt_ghibelline_nation 
+		}
+	}
+	trigger = { 
+		owner = {
+			has_country_modifier = bt_ghibelline_nation 
+		}
+	}
 
 	local_unrest = -3
 	local_manpower_modifier = 0.10
@@ -52,8 +76,16 @@ bt_ghibelline_province_in_ghibelline_state = {
 }
 
 bt_ghibelline_province_in_guelph_state = {
-	potential = { has_country_modifier = bt_ghibelline_nation }
-	trigger = { has_country_modifier = bt_ghibelline_nation }
+	potential = { 
+		owner = {
+		has_country_modifier = bt_ghibelline_nation 
+		}
+	}
+	trigger = { 
+		owner = {
+			has_country_modifier = bt_ghibelline_nation 
+		}
+	}
 
 	local_unrest = 5
 	local_manpower_modifier = -0.20

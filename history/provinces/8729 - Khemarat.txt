@@ -14,7 +14,7 @@ is_city = yes
 add_core = LXA
 add_core = CHK
 add_core = VIE
-
+center_of_trade = 1
 
 
 discovered_by = chinese

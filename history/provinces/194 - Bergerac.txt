@@ -16,7 +16,6 @@ base_manpower = 2
 fort_15th = yes
 add_core = FRA
 add_core = ENG
-center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

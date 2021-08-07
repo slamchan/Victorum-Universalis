@@ -1,6 +1,6 @@
 
 oil = {
-	color = { 180 20 250 }
+	color = { 0.71 0.08 0.98 }
 	is_latent = yes
 	is_valuable = yes
 
@@ -32,7 +32,7 @@ oil = {
 }
 
 rubber = {
-	color = { 160 250 25 }
+	color = { 0.63 0.98 0.1 }
 	is_latent = yes
 	is_valuable = yes
 
@@ -242,12 +242,15 @@ apiculture = {
 				continent = south_america
 				continent = oceania
 			}
-			OR = {
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
-				technology_group = andean
-				technology_group = high_american
+			FROM = {
+				OR = 
+				{
+					technology_group = north_american
+					technology_group = mesoamerican
+					technology_group = south_american
+					technology_group = andean
+					technology_group = high_american
+				}
 			}
 		}	#Beekeeping was an Old World affair.
 		modifier = {
@@ -369,7 +372,7 @@ whaling = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				region = oceanea_regiont
+				region = oceanea_region
 				region = carribeans_region
 				region = northeast_america_region
 				region = southeast_america_region
@@ -410,7 +413,7 @@ palm_oil = {
 			factor = 0
 			NOT = {
 				AND = {
-					region = west_africa_region
+					region = guinea_region
 					has_climate = tropical
 				}
 			}
@@ -815,7 +818,6 @@ lead = {
 			NOT = { area = upper_ontario_area }
 			NOT = { area = laurentian_area }
 			NOT = { area = inner_ontario_area }
-			NOT = { area = maryland_area }
 			NOT = { area = ofaie_area }
 			is_random_new_world = no
 		}
@@ -852,7 +854,7 @@ mercury = {
 			OR = {
 				FROM = { is_tribal = yes }
 				FROM = { technology_group = north_american }
-				FROM = { technology_group = aboriginal }
+				FROM = { technology_group = aboriginal_tech }
 				FROM = { technology_group = south_american }
 			}
 		}
@@ -874,7 +876,8 @@ mercury = {
 				}
 			}
 			normal_or_historical_nations = yes
-			NOT = { region = siberia_region }
+			NOT = { region = west_siberia_region }
+			NOT = { region = east_siberia_region }
 			NOT = { province_id = 18 }
 			NOT = { continent = africa }
 			NOT = { region = australia_region }
@@ -895,7 +898,7 @@ mercury = {
 			OR = {
 				has_terrain = savannah
 				has_terrain = jungle
-				has_terrain = steppes
+				has_terrain = steppe
 				continent = africa
 			}
 		}
@@ -1034,7 +1037,6 @@ tin = {
 			NOT = { area = upper_ontario_area }
 			NOT = { area = laurentian_area }
 			NOT = { area = inner_ontario_area }
-			NOT = { area = maryland_area }
 			NOT = { area = ofaie_area }
 			NOT = { region = west_siberia_region }
 			NOT = { region = east_siberia_region }
@@ -1467,7 +1469,8 @@ silver = {
 			NOT = { region = cascadia_region }
 			NOT = { region = australia_region }
 			NOT = { region = california_region }
-			NOT = { region = chile_region }
+			NOT = { region = upper_peru_region }
+			NOT = { region = la_plata_region }
 			NOT = { region = peru_region }
 			NOT = { region = mexico_region }
 			NOT = { region = central_america_region }
@@ -1705,7 +1708,7 @@ tar = {
 }
 
 sulfur = {
-	color = { 255 200 35 }
+	color = { 1.0 0.78 0.14 }
 	modifier = {
 		infantry_power = 0.1
 	}
@@ -1760,7 +1763,7 @@ sulfur = {
 }
 
 tanned_leather = {
-	color = { 102 70 13 }
+	color = { 0.4 0.27 0.05 }
 	modifier = {
 		shock_damage_received = -0.10
 	}
@@ -1944,7 +1947,8 @@ zinc = {
 				}
 			}
 			normal_or_historical_nations = yes
-			NOT = { region = siberia_region }
+			NOT = { region = west_siberia_region }
+			NOT = { region = east_siberia_region }
 			NOT = { province_id = 18 }
 			NOT = { region = australia_region }
 		}
@@ -1965,7 +1969,7 @@ zinc = {
 			OR = {
 				has_terrain = savannah
 				has_terrain = jungle
-				has_terrain = steppes
+				has_terrain = steppe
 			}
 		}
 		modifier = {
@@ -2022,7 +2026,7 @@ brass = {
 }
 
 cannon = {
-	color = { 25 25 71 }
+	color = { 0.1 0.1 0.28 }
 	modifier = {
 		artillery_bonus_vs_fort = 1
 	}
@@ -2035,7 +2039,7 @@ cannon = {
 }
 
 tomato = {
-	color = { 255 102 26 }
+	color = { 1.0 0.4 0.1 }
 	modifier = {
 		placed_merchant_power = 5
 
@@ -2084,7 +2088,7 @@ champagne = {
 }
 
 alpaca_wool = {
-	color = { 217 210 216  }
+	color = { 0.85 0.82 0.85  }
 	modifier = {
 		infantry_cost = -0.15
 	}
@@ -2242,7 +2246,7 @@ sea_turtle = {
 }
 
 sweet_confectioneries = {
-	color = { 255 186 243 }
+	color = { 1.0 0.73 0.95 }
 	modifier = {
 		global_unrest = -1.5
 	}
@@ -2252,7 +2256,7 @@ sweet_confectioneries = {
 }
 
 chocolates = {
-	color = { 53 25 0 }
+	color = { 0.21 0.1 0.0 }
 	modifier = {
 		global_unrest = -3
 	}
@@ -2277,7 +2281,7 @@ chocolates = {
 }
 
 bison_hides = {
-	color = { 100 47 0 }
+	color = { 0.39 0.18 0 }
 	modifier = {
 		prestige = 0.5
 	}
@@ -2368,7 +2372,7 @@ bison_hides = {
 }
 
 llama = {
-	color = { 217 210 216  }
+	color = { 0.85 0.82 0.85 }
 	modifier = {
 		infantry_cost = -0.05
 	}
@@ -2430,7 +2434,7 @@ llama = {
 		modifier = {
 			factor = 2.5
 			OR ={
-					region = peru_region
+				region = peru_region
 				region = upper_peru_region
 			}
 		}
@@ -2484,6 +2488,86 @@ uniforms = {
 
 #New Additions by San Felipe
 #Put where grain in the files
+
+agave = {
+	color = { 0.37 0.54 0.44 }
+	modifier = {
+		land_maintenance_modifier = -0.05
+	}
+	province = {
+		local_manpower_modifier = 0.25
+	}
+	chance = {
+		factor = 25
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = desert
+				has_terrain = glacier
+				has_terrain = coastline
+				has_terrain = jungle
+				has_climate = arctic
+				has_climate = arid
+				NOT = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.15
+			OR = {
+				has_terrain = mountain
+				has_terrain = coastal_desert
+				has_terrain = forest
+				has_terrain = woods
+				has_terrain = hills
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_winter = normal_winter
+		}
+		modifier = {
+			factor = 1.5
+			has_winter = severe_winter
+			NOT = { has_terrain = glacier }
+		}
+		modifier = {
+			factor = 0.25
+			OR = {
+				has_terrain = highlands
+				has_terrain = marsh
+				has_climate = tropical
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				has_terrain = drylands
+				has_terrain = savannah
+				has_terrain = steppe
+			}
+		}
+
+		modifier = {
+			factor = 1.5
+			has_terrain = farmlands
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				region = central_america_region
+				region = mississippi_region
+				region = mexico_region
+				region = southeast_america_region
+			}
+		}
+	}
+}
 
 #millet = { #africa_superregion, china_superregion, india_superregion, near_east_superregion, persia_superregion, southern_africa_superregion, tartary_superregion, has_climate = arid/semi-arid
 #color = { 253 225 151 }

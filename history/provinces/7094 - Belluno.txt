@@ -9,9 +9,14 @@ capital = "Belluno"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = livestock			#notable salami and cheese production. Also a famous bean type is from the area
+trade_goods = naval_supplies			#notable salami and cheese production. Also a famous bean type is from the area
 is_city = yes
 hre = yes
+
+add_permanent_province_modifier = {
+	name = bt_forests_of_cadore
+	duration = -1
+} 
 
 discovered_by = western
 discovered_by = muslim

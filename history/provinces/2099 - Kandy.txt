@@ -16,6 +16,8 @@ base_production = 6
 base_manpower = 2 
 is_city = yes
 add_core = KND
+center_of_trade = 2
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

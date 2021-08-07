@@ -16,4 +16,5 @@
 	governing_capacity = 1800		#BTB Upping by +150%, even though max states from 10 to 20 corresponded to +100%.
 	#max_absolutism = 12			#BTAddOn removed - Empires are not by definition absolutist. True, many were, but the two do not neccessarily always go hand in hand.
 	#global_autonomy = -0.050			#BTAddOn removed. Larger nations shouldn't magically become MORE centralised.
+	accept_vassalization_reasons = 10   #a fix because of a -10 duchy bug
 }

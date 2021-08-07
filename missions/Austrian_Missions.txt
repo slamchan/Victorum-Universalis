@@ -162,13 +162,13 @@ hab_holy_roman_ambitions = {
 				add_nationalism = -5
 			}
 			#BT added to adjust for the changes in areas.
-			lower_silesia_area = {
-				add_province_modifier = {
-					name = "austrian_silesia"
-					duration = 7300
-				}
-				add_nationalism = -5
-			}
+			#lower_silesia_area = {
+			#	add_province_modifier = {
+			##		name = "austrian_silesia"
+			#		duration = 7300
+			#	}
+			##	add_nationalism = -5
+			#}
 			
 			#Claims
 			custom_tooltip = partition_poland_claims

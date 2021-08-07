@@ -5,7 +5,7 @@
 owner = TEU
 controller = TEU
 add_core = TEU
-capital = "Stargard"
+capital = "Berent"
 culture = kashubian_culture
 religion = catholic
 trade_goods = grain
@@ -14,6 +14,11 @@ base_tax = 3
 base_production = 3 
 base_manpower = 2 
 is_city = yes
+
+add_permanent_province_modifier = {
+	name = bt_kornhaus_der_hansa
+	duration = -1
+}
 
 discovered_by = western
 discovered_by = muslim

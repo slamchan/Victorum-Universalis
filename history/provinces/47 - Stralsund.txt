@@ -15,7 +15,7 @@ trade_goods = beer
 base_manpower = 2 
 capital = "Stralsund"
 is_city = yes
-center_of_trade = 1
+center_of_trade = 2
 
 discovered_by = western
 discovered_by = muslim
