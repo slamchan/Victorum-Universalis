@@ -2,10 +2,6 @@
 #Region - Germany
 #Area - Romandie
 
-latent_trade_goods = {
-	chocolates
-}
-
 owner = SWI
 controller = SWI 
 culture = swiss

@@ -457,8 +457,15 @@
  cuneo_area:0 "Cuneo"
  cuneo_area_name:0 "Piedmont"
  cuneo_area_adj:0 "Piedmontese"
+ left_chungcheong_area:0 "Chungcheong"
+ left_chungcheong_area_name:0 "Chungcheong"
+ left_chungcheong_area_adj:0 "Chungcheongian"
+ left_gyeongsang_area:0 "Gyeongsang"
+ left_gyeongsang_area_name:0 "Gyeongsang"
+ left_gyeongsang_area_adj:0 "Gyeongsangi"
+ left_hwanghae_area:0 "Hwanghae"
+ left_hwanghae_area_name:0 "Hwanghae"
+ left_hwanghae_area_adj:0 "Hwangjuan"
  andorra_area:0 "Andorra"
  andorra_area_name:0 "Andorra"
  andorra_area_adj:0 "Andorran"
- 
- 
