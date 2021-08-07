@@ -3,6 +3,7 @@
 owner = SMO
 controller = SMO
 add_core = SMO
+add_core = PLT
 culture = byelorussian
 religion = orthodox
 capital = "Ustvyaty"
@@ -25,7 +26,7 @@ discovered_by = ottoman
 1401.1.1 = { revolt = {} owner = SMO controller = SMO } # Yury takes Smolensk back
 1404.1.1 = { owner = LIT controller = LIT add_core = LIT } # Vytautas strikes back once more
 1440.1.1 = { unrest = 10 }			#Major rebellion lasting 1440-1442
-1442.1.1 = { unrest = 0 add_local_autonomy = 50 }
+1442.1.1 = { unrest = 0 add_local_autonomy = 25 }
 1536.4.1 = {
 	owner = MOS
 	controller = MOS

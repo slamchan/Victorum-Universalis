@@ -6,8 +6,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = CRI
-controller = CRI
+owner = ZAZ
+controller = ZAZ
 culture = crimean
 religion = sunni
 hre = no
@@ -17,8 +17,10 @@ trade_goods = iron
 base_manpower = 1 
 capital = "Kharka"
 is_city = yes
-add_core = CRI
 add_core = ZAZ
+add_core = CRI
+add_core = CHR
+
 
 extra_cost = 8
 center_of_trade = 1

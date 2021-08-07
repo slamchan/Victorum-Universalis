@@ -385,6 +385,9 @@ SWD = "countries/Swidnica.txt"
 TES = "countries/Teschen.txt"
 TRO = "countries/Troppau.txt"
 
+#Rus Legacy Tags
+BRL = "countries/Bratslav.txt"
+
 #BT - Russia & Siberia
 BLV = "countries/Belyov.txt"
 DRP = "countries/Dorpat.txt"
