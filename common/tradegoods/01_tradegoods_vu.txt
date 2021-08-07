@@ -1,6 +1,6 @@
 
 oil = {
-	color = { 0.71 0.08 0.98 }
+	color = { 180 20 250 }
 	is_latent = yes
 	is_valuable = yes
 
@@ -32,7 +32,7 @@ oil = {
 }
 
 rubber = {
-	color = { 0.63 0.98 0.1 }
+	color = { 160 250 25 }
 	is_latent = yes
 	is_valuable = yes
 
@@ -242,15 +242,12 @@ apiculture = {
 				continent = south_america
 				continent = oceania
 			}
-			FROM = {
-				OR = 
-				{
-					technology_group = north_american
-					technology_group = mesoamerican
-					technology_group = south_american
-					technology_group = andean
-					technology_group = high_american
-				}
+			OR = {
+				technology_group = north_american
+				technology_group = mesoamerican
+				technology_group = south_american
+				technology_group = andean
+				technology_group = high_american
 			}
 		}	#Beekeeping was an Old World affair.
 		modifier = {
@@ -372,7 +369,7 @@ whaling = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				region = oceanea_region
+				region = oceanea_regiont
 				region = carribeans_region
 				region = northeast_america_region
 				region = southeast_america_region
@@ -413,7 +410,7 @@ palm_oil = {
 			factor = 0
 			NOT = {
 				AND = {
-					region = guinea_region
+					region = west_africa_region
 					has_climate = tropical
 				}
 			}
@@ -818,6 +815,7 @@ lead = {
 			NOT = { area = upper_ontario_area }
 			NOT = { area = laurentian_area }
 			NOT = { area = inner_ontario_area }
+			NOT = { area = maryland_area }
 			NOT = { area = ofaie_area }
 			is_random_new_world = no
 		}
@@ -854,7 +852,7 @@ mercury = {
 			OR = {
 				FROM = { is_tribal = yes }
 				FROM = { technology_group = north_american }
-				FROM = { technology_group = aboriginal_tech }
+				FROM = { technology_group = aboriginal }
 				FROM = { technology_group = south_american }
 			}
 		}
@@ -876,8 +874,7 @@ mercury = {
 				}
 			}
 			normal_or_historical_nations = yes
-			NOT = { region = west_siberia_region }
-			NOT = { region = east_siberia_region }
+			NOT = { region = siberia_region }
 			NOT = { province_id = 18 }
 			NOT = { continent = africa }
 			NOT = { region = australia_region }
@@ -898,7 +895,7 @@ mercury = {
 			OR = {
 				has_terrain = savannah
 				has_terrain = jungle
-				has_terrain = steppe
+				has_terrain = steppes
 				continent = africa
 			}
 		}
@@ -1037,6 +1034,7 @@ tin = {
 			NOT = { area = upper_ontario_area }
 			NOT = { area = laurentian_area }
 			NOT = { area = inner_ontario_area }
+			NOT = { area = maryland_area }
 			NOT = { area = ofaie_area }
 			NOT = { region = west_siberia_region }
 			NOT = { region = east_siberia_region }
@@ -1469,8 +1467,7 @@ silver = {
 			NOT = { region = cascadia_region }
 			NOT = { region = australia_region }
 			NOT = { region = california_region }
-			NOT = { region = upper_peru_region }
-			NOT = { region = la_plata_region }
+			NOT = { region = chile_region }
 			NOT = { region = peru_region }
 			NOT = { region = mexico_region }
 			NOT = { region = central_america_region }
@@ -1708,7 +1705,7 @@ tar = {
 }
 
 sulfur = {
-	color = { 1.0 0.78 0.14 }
+	color = { 255 200 35 }
 	modifier = {
 		infantry_power = 0.1
 	}
@@ -1763,7 +1760,7 @@ sulfur = {
 }
 
 tanned_leather = {
-	color = { 0.4 0.27 0.05 }
+	color = { 102 70 13 }
 	modifier = {
 		shock_damage_received = -0.10
 	}
@@ -1947,8 +1944,7 @@ zinc = {
 				}
 			}
 			normal_or_historical_nations = yes
-			NOT = { region = west_siberia_region }
-			NOT = { region = east_siberia_region }
+			NOT = { region = siberia_region }
 			NOT = { province_id = 18 }
 			NOT = { region = australia_region }
 		}
@@ -1969,7 +1965,7 @@ zinc = {
 			OR = {
 				has_terrain = savannah
 				has_terrain = jungle
-				has_terrain = steppe
+				has_terrain = steppes
 			}
 		}
 		modifier = {
@@ -2026,7 +2022,7 @@ brass = {
 }
 
 cannon = {
-	color = { 0.1 0.1 0.28 }
+	color = { 25 25 71 }
 	modifier = {
 		artillery_bonus_vs_fort = 1
 	}
@@ -2039,7 +2035,7 @@ cannon = {
 }
 
 tomato = {
-	color = { 1.0 0.4 0.1 }
+	color = { 255 102 26 }
 	modifier = {
 		placed_merchant_power = 5
 
@@ -2088,7 +2084,7 @@ champagne = {
 }
 
 alpaca_wool = {
-	color = { 0.85 0.82 0.85  }
+	color = { 217 210 216  }
 	modifier = {
 		infantry_cost = -0.15
 	}
@@ -2246,7 +2242,7 @@ sea_turtle = {
 }
 
 sweet_confectioneries = {
-	color = { 1.0 0.73 0.95 }
+	color = { 255 186 243 }
 	modifier = {
 		global_unrest = -1.5
 	}
@@ -2256,7 +2252,7 @@ sweet_confectioneries = {
 }
 
 chocolates = {
-	color = { 0.21 0.1 0.0 }
+	color = { 53 25 0 }
 	modifier = {
 		global_unrest = -3
 	}
@@ -2281,7 +2277,7 @@ chocolates = {
 }
 
 bison_hides = {
-	color = { 0.39 0.18 0 }
+	color = { 100 47 0 }
 	modifier = {
 		prestige = 0.5
 	}
@@ -2372,7 +2368,7 @@ bison_hides = {
 }
 
 llama = {
-	color = { 0.85 0.82 0.85 }
+	color = { 217 210 216  }
 	modifier = {
 		infantry_cost = -0.05
 	}
@@ -2490,7 +2486,7 @@ uniforms = {
 #Put where grain in the files
 
 agave = {
-	color = { 0.37 0.54 0.44 }
+	color = { 94 138 111 }
 	modifier = {
 		land_maintenance_modifier = -0.05
 	}

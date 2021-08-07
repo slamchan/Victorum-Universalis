@@ -699,8 +699,6 @@
 
  #TCP - Tag Changes
   ZUL:0 "Zulu"
-  ZUL_ADJ:0 "Zulu"
-
 
  #Tag Changes
  CNN:0 "Connacht"
@@ -1063,9 +1061,6 @@
  eng_rb_established_farming:0 "Granary of the Empire"
  desc_eng_rb_established_farming:0 "Let it be known that we have settled lush and fertile prairie lands."
  eng_brittany_claims:0 "Grants permanent claims on the provinces required for the mission §YConquer Brittany§!"
- treaty_port:0 "Treaty Port"
- desc_treaty_port:0 "This is a port ceded by the Chinese government from where [From.Owner.GetAdjective] merchants can trade freely with the Chinese mainland."
- 
  #BYZ Modifiers
  greece_is_ours:0 "Greece is Ours"
  desc_greece_is_ours:0 "Let it be known that we have successfully retaken Greece from the heathens and infidels. Tear down those minarets and cleanse the Acropolis of the barbarian filth."
