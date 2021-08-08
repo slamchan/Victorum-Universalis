@@ -9,7 +9,7 @@ capital = "Grobina"
 base_tax = 1
 base_production = 1			#Once perhaps the greatest center of Livonia, but it appears to have been devastated and not really recovered.
 base_manpower = 2
-trade_goods = grain
+trade_goods = amber
 is_city = yes
 hre = no
 

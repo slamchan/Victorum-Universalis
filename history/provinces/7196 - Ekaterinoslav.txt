@@ -10,7 +10,7 @@ capital = "Ekaterinoslav"			#Error, name from 1776, named after Catherine the Gr
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = livestock
+trade_goods = horses
 is_city = yes
 hre = no
 
