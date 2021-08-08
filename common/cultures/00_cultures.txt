@@ -981,12 +981,6 @@ iberian	= {
 	leonese = {
 		primary = LON
 	}
-	spanish_filipino = { #Kastilà/Katsílà 
-	    primary = PHP
-		dynasty_names = {
-			"Aquino" "Ayala" "Estrada" "Garcia" "Laurel" "Marcos" "Miranda" "Osmeña" "Quezon" "Ramos" "Sarmiento" "Zubiri" "Quirino" "Roxas" "Bañaga" "Boñaga" "Buñagan" "Buñi" "Mañalac" "Tuñacao" Tañag "Tabangcura"
-		}
-	}
 	aragonese = {
 		primary = ARA
 		dynasty_names = {
@@ -7169,7 +7163,7 @@ southeastasian_group = {
 			"M'Ho Kouei-Lai" "M'Ha Kui Yu" "M'Ha P'an-lo-yue" "P'Saktirai" "P'Ganvuh" "P'Thuttirai" "P'Rattirai" "P'Tathun" "P'Tithuntirai" "Chei Krei Brei" "P'Tithun" "P'Chong Chan" "K'Cheng" "K'Nhieu" "N'Trang" "K'Choi" "K'Ru" "K'Re" "K'Sor Ni" "Puih Thu" "K'Sor Phuoc" "Puih San" "K'Sor Nham" "Ro Cham Phiang" "Ro Mah Tuan" "K'Sor H'bo Khap" "K'Sor Kok" "H'Bia" "H'Ni" "K'Sor Cho" "R'Com Trul" "R'Com Anur" "Siu Bom" "Siu Djua" "Siu Nhong" "Siu Blong" "Siu Blet" "Siu Ji" "Siu Y" "Siu At" "Siu Nhong" "Siu Blong" "Siu Tu" "Siu Nhot" "Siu Luynh" "Rahlan Hieo" "R'Cham"
 		}
 		female_names = {
-			Hong Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nufutea Orama Poe Pear Poehina Poenui Poerava Puaiti Puatea Puaura Rafihau Rafimere Rafinui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea Vaite "Vaitiare"
+			Hong Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nufutea Orama Poe Pear Poehina Poenui Poerava Puaiti Puatea Puaura Rafihau Rafimere Rafinui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea Vaite "Vaitiare"
 		}
 	}
 	#New Culture by Cinnamon Ryce for the SEA overhaul
