@@ -9,7 +9,7 @@ capital = "Covilhã"
 base_tax = 2
 base_production = 2
 base_manpower = 2
-trade_goods = wool
+trade_goods = horses
 is_city = yes
 hre = no
 
