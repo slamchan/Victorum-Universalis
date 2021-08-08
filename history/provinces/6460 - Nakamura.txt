@@ -7,9 +7,9 @@ religion = shinto
 capital = "Nakamura"
 trade_goods = fish
 hre = no
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = yes
 add_core = HSK
 discovered_by = chinese
@@ -23,7 +23,7 @@ discovered_by = QNG
 discovered_by = ANU
 
 extra_cost = 8
-center_of_trade = 1
+
 
 1542.1.1 = { discovered_by = POR }
 1562.7.1 = { add_core = UES }

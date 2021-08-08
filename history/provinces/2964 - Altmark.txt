@@ -15,7 +15,7 @@ base_manpower = 6			#Other than that tidbit, I couldn't find good population inf
 capital = "Stendal"
 add_local_autonomy = 25
 is_city = yes
-center_of_trade = 2
+
 
 discovered_by = western
 discovered_by = muslim

@@ -16,7 +16,7 @@ capital = "Gaillimh"
 is_city = yes
 
 extra_cost = 7
-center_of_trade = 1
+
 
 discovered_by = western
 discovered_by = muslim

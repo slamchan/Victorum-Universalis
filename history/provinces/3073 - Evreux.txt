@@ -17,11 +17,6 @@ add_core = FRA
 add_core = NRM
 add_core = ENG
 
-add_permanent_province_modifier = {
-	name = bt_la_beauce
-	duration = -1
-}
-
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

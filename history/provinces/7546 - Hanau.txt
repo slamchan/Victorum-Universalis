@@ -15,7 +15,7 @@ base_manpower = 2
 is_city = yes
 courthouse = yes
 hre = yes
-
+center_of_trade = 1
 #Documented 1143 AD
 discovered_by = english
 discovered_by = french

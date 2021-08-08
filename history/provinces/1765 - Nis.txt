@@ -19,7 +19,7 @@ add_core = TUR
 add_core = BUL
 fort_15th = yes
 add_local_autonomy = 10
-
+center_of_trade = 1
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -31,7 +31,7 @@ discovered_by = eastern
 discovered_by = western
 
 extra_cost = 16
-center_of_trade = 1
+
 
 1404.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB }
 1413.1.1 = { revolt = {} controller = TUR }

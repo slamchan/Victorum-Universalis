@@ -14,12 +14,11 @@ base_manpower = 7
 capital = "Palermo"
 is_city = yes
 add_core = SIC
-
-extra_cost = 16
 center_of_trade = 3
+extra_cost = 16
 
 add_permanent_province_modifier = {
-    name = navalbase_modifier
+    name = navalbase_modifier_4
     duration = -1
 }
 

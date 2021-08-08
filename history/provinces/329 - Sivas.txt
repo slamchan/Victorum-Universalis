@@ -14,9 +14,9 @@ base_production = 4
 base_manpower = 5 #3
 is_city = yes
 fort_15th = yes			#Mostly strategic, but also the capital of the region, and there were fortifications
-
+center_of_trade = 1
 extra_cost = 16
-center_of_trade = 2
+
 
 discovered_by = western
 discovered_by = eastern

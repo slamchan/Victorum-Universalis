@@ -13,7 +13,7 @@ base_manpower = 1
 trade_goods = livestock
 is_city = yes
 hre = no
-
+center_of_trade = 1
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

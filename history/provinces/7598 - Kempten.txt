@@ -14,7 +14,7 @@ base_manpower = 8
 capital = "Kempten"
 is_city = yes
 hre = yes
-center_of_trade = 3
+
 
 discovered_by = english
 discovered_by = french

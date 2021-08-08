@@ -16,6 +16,10 @@ discovered_by = north_american
 #discovered_by = bt_athabaskan_tech
 #discovered_by = bt_northwest_tech
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
 
 1791.6.1 = {
 	owner = SPA

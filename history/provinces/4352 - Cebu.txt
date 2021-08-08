@@ -17,6 +17,11 @@ owner = CEB
 controller = CEB
 add_core = CEB
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
 discovered_by = chinese
 
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan

@@ -25,7 +25,7 @@ discovered_by = ottoman
 discovered_by = eastern
 
 extra_cost = 8
-center_of_trade = 2
+
 
 1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
 	owner = LOR

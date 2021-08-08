@@ -17,7 +17,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 trade_goods = grain
-
+center_of_trade = 1
 #Cores and Occupation (Alphabetical after current)
 add_core = HUN
 
@@ -27,7 +27,7 @@ hre = no
 #Fort/Other Buildings
 
 #Special Modifiers
-center_of_trade = 1
+
 
 #Discoveries
 discovered_by = KAZ
