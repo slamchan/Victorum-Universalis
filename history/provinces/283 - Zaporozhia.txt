@@ -13,7 +13,7 @@ capital = "Michaylivka"
 is_city = yes
 add_core = CRI
 add_core = ZAZ
-
+center_of_trade = 1
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

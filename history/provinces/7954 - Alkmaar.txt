@@ -13,6 +13,11 @@ trade_goods = livestock 			#SUPERCOWS
 is_city = yes
 hre = yes
 
+add_permanent_province_modifier = {
+	name = ijsselmeer_bay_modifier
+	duration = -1
+}
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
@@ -24,10 +29,7 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-add_permanent_province_modifier = {
-	name = navalbase_modifier
-	duration = -1
-}
+
 
 
 #Province history completed by - Draiocht

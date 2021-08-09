@@ -17,7 +17,7 @@ base_manpower = 4
 is_city = yes
 add_core = GEO
 add_core = IME
-
+center_of_trade = 1
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

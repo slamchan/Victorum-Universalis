@@ -19,7 +19,7 @@ discovered_by = ottoman
 discovered_by = indian
 fort_15th = yes
 extra_cost = 8
-center_of_trade = 1
+
 
 
 1473.1.1 = { unrest = 5 } # Raids by Bayda Maryam into Adal to enforce fealty

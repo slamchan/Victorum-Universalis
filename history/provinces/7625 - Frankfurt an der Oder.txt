@@ -15,7 +15,7 @@ trade_goods = cloth
 base_manpower = 1
 capital = "Frankfurt nad Odrou"
 is_city = yes
-
+center_of_trade = 1
 discovered_by = english
 discovered_by = french
 discovered_by = german_group

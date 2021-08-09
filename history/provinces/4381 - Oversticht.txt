@@ -15,6 +15,16 @@ trade_goods = livestock			#Good trade good for here confirmed
 base_manpower = 2 
 add_core = UTR
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+add_permanent_province_modifier = {
+	name = ijsselmeer_bay_modifier
+	duration = -1
+}
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

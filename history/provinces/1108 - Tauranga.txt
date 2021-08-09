@@ -13,6 +13,6 @@ base_tax = 3
 base_production = 4
 base_manpower = 1
 discovered_by = polynesian_tech
-
+center_of_trade = 1
 
 1642.1.1 = { discovered_by = NED } # Abel Tasman

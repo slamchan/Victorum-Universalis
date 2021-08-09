@@ -133,6 +133,54 @@ grand_banks_of_newfoundland = {
 	trade_goods_size = 3.0
 }
 
+pudget_sound_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "bay_icon"
+}
+
+chesapeake_bay_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "bay_icon"
+}
+
+maracaibo_bay_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "bay_icon"
+}
+
+ijsselmeer_bay_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "bay_icon"
+}
+
+osaka_bay_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "bay_icon"
+}
+
+bohai_bay_modifier = {
+	province_trade_power_value = 5
+	naval_forcelimit = 1
+	local_development_cost = -0.05
+	local_sailors_modifier = 0.25
+	picture = "bay_icon"
+}
+
 san_francisco_bay_modifier = {
 	province_trade_power_value = 5
 	naval_forcelimit = 1
@@ -669,10 +717,7 @@ santiago_de_compostella_modifier = {
 }
 
 cinnamon_valleys_of_mount_kerinci_modifier = {
-	production_efficiency = 0.15
-	global_trade_goods_size_modifier = 0.15
-	trade_goods_size = 2
-	prestige = 0.4
+	trade_goods_size = 5
 	picture = "mount_kerinci_icon"
 }
 
@@ -1133,6 +1178,11 @@ gulf_of_gabes_estuary_modifier = {
 
 gulf_of_lion_estuary_modifier = {
 	province_trade_power_value = 15
+	picture = "sea_lane_icon"
+}
+
+gulf_of_mexico_estuary_modifier = {
+	province_trade_power_value = 10
 	picture = "sea_lane_icon"
 }
 

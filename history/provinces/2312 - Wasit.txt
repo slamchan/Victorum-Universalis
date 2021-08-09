@@ -14,7 +14,7 @@ is_city = yes
 add_core = BSR
 add_core = QAR
 add_core = MSY
-center_of_trade = 2
+
 
 discovered_by = east_african
 discovered_by = muslim

@@ -13,7 +13,7 @@ trade_goods = salt # apparently not mined there, but most of Principality's weal
 is_city = yes
 hre = yes
 fort_15th = yes #major fortified countryside
-
+center_of_trade = 1
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

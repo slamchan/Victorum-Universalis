@@ -29,10 +29,10 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
-
+center_of_trade = 2
 extra_cost = 15
 
-center_of_trade = 2
+
 
 1569.7.1 = {
 	owner = PLC

@@ -22,7 +22,7 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
-
+center_of_trade = 1
 #1431.1.1 = { add_core = TUR } #Removing core as per BT work.
 1478.6.16 = { owner = TUR controller = TUR }
 1520.1.1 = { religion = sunni } # Predominant religion under Turkish rule

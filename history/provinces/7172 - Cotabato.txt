@@ -13,7 +13,7 @@ discovered_by = chinese
 owner = MGD
 controller = MGD
 add_core = MGD
-center_of_trade = 2
+
 
 1520.1.1 = {
 	religion = sunni

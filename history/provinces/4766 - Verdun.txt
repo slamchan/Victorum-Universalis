@@ -16,7 +16,7 @@ base_manpower = 4
 add_core = VDN
 fort_15th = yes
  # La Notre-Dame de Verdun
-
+center_of_trade = 2
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
