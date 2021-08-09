@@ -12,7 +12,7 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 1
-trade_goods = wine
+trade_goods = champagne
 base_manpower = 1
 
 discovered_by = eastern

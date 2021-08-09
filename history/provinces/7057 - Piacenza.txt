@@ -9,7 +9,7 @@ capital = "Piacenza"
 base_tax = 6
 base_production = 6
 base_manpower = 4
-trade_goods = livestock
+trade_goods = horses
 is_city = yes
 hre = yes
 

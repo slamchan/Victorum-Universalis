@@ -1,0 +1,22 @@
+country_event = {
+	id = destroy_countries_vu
+	title = "destroy_country_title"
+	desc = "destroy_country_desc"
+	picture ="CITY_DEVELOPMENT_eventPicture"
+
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		hidden_effect = {
+		  every_owned_province = {
+			cede_province = ---
+		  }
+		}
+	}
+
+	option = {
+		name = removed_country_name
+		title = "destroy_country_title"
+	}
+}

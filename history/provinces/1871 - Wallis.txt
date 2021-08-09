@@ -7,7 +7,8 @@ controller = ZND
 culture = arpitan
 religion = catholic
 capital = "Sion"
-trade_goods = wool
+trade_goods = cheese
+
 hre = yes
 base_tax = 6 
 base_production = 6
