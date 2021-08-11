@@ -654,6 +654,11 @@ spriteTypes = {
 		name = "GFX_great_project_versailles"
 		texturefile = "gfx//interface//great_projects//great_project_versailles.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_great_project_persepolis"
+		texturefile = "gfx//interface//great_projects//great_project_persepolis.dds"
+	}
 
 ### NEW EU4 Vanilla Monuments ###
 
