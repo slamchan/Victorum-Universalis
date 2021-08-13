@@ -21333,7 +21333,7 @@ bratislava_castle = {
     type = monument
 
     build_trigger = {
-        culture_group = south_slavic
+        culture_group = west_slavic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -21347,7 +21347,7 @@ bratislava_castle = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = south_slavic
+	    culture_group = west_slavic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -21355,7 +21355,7 @@ bratislava_castle = {
     }
 
     can_upgrade_trigger = {
-		culture_group = south_slavic
+		culture_group = west_slavic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
