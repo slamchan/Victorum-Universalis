@@ -23,13 +23,13 @@ discovered_by = north_american
 extra_cost = 10
 
 
-1444.11.15 = { #BeyondTypus batch edit shortcut no native start date begin
-	owner = XXX
-	controller = XXX
-	remove_core = YPK
-	is_city = no
-	trade_goods = unknown
-}
+#1444.11.15 = { #BeyondTypus batch edit shortcut no native start date begin
+#	owner = XXX
+#	controller = XXX
+#	remove_core = YPK
+#	is_city = no
+#	trade_goods = unknown
+#}
 1444.11.17 = { #BeyondTypus batch edit shortcut no native start date end
 	owner = YPK
 	controller = YPK
