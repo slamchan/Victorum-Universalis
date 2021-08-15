@@ -1553,6 +1553,60 @@ pudget_sound_modifier:0 "The Pudget Sound"
  flavor_eng.106.d:0 "We have been tasked by his Lordship William Bentinck, under the influence of Lord Ellenborough to establish a new trade route to the Emirate of Bukhara."
  flavor_eng.106.a:0 "Let the game begin!"
  flavor_eng.106.b:0 "Bukha..what?"
+ #
+ #VU Pop Influence - Slavery
+ vu_pop_influence.1.t:0 "Investing in Meagre Slavery"
+ vu_pop_influence.1.d:0 "Despite the hideous nature and immoral practice of Slavery, it is absolutely necessary that we purchase Slaves to work on our growing number of plantations until our nation innovates an alternative means."
+ vu_pop_influence.1.a:0 "Purchase only a meagre number of slaves."
+ vu_pop_influence.1.b:0 "We shouldn't rely on slave labor."
+ #
+ vu_pop_influence.2.t:0 "Investing in Modest Slavery"
+ vu_pop_influence.2.d:0 "Despite the hideous nature and immoral practice of Slavery, it is absolutely necessary that we purchase Slaves to work on our growing number of plantations until our nation innovates an alternative means."
+ vu_pop_influence.2.a:0 "Purchase only a modest number of slaves."
+ vu_pop_influence.2.b:0 "We shouldn't rely on slave labor."
+ vu_pop_influence.2.c:0 "Let us industrialize!"
+ #
+ vu_pop_influence.3.t:0 "Investing in Absolute Slavery"
+ vu_pop_influence.3.d:0 "Despite the hideous nature and immoral practice of Slavery, it is absolutely necessary that we purchase Slaves to work on our growing number of plantations until our nation innovates an alternative means."
+ vu_pop_influence.3.a:0 "Purchase only a modest number of slaves."
+ vu_pop_influence.3.b:0 "We shouldn't rely on slave labor."
+ vu_pop_influence.3.c:0 "Let us industrialize!"
+ vu_pop_influence.3.d:0 "Maybe we should stop all slavery at once?""
+ #
+ vu_pop_influence.4.t:0 "The Abolition of Slavery"
+ vu_pop_influence.4.d:0 "Despite the name of this historical event, not all forms of slavery have truly been abolished since there still remains indentured servitude, a program our elites and industrialists hope will alleviate their losses and help provide an alternative means of labour. This programe however does in essence violate the spirit of the new laws introduced by the abolishment slavery due to the fact that abolishing one form of slavery, only to support another is hypocritical in nature."
+ vu_pop_influence.4.a:0 "Finally, this injustice is over!"
+ vu_pop_influence.4.b:0 "There's no other alternative but Indentured Servitude."
+ #
+ #VU Pop Influence - Serfdom
+ vu_pop_influence.5.t:0 "European Serfdom"
+ vu_pop_influence.5.d:0 "All across Europe, peasants were conscripted into a system called serfdom or indentured servitude to work on farms, industries and estates of the wealthy. Serfs and in particular Indentured Servants were also given their own accomodation outside their master's estates and an education, but this depended on the benevolence of their masters and employers. Overtime. Serfs and Indentured Servants could gain their freedoms in-exchange for their obedience, service, loyalty, and in most circumstances they would offer payment to their masters or employers for their release. With the proper application of time, money and education most Serfs would venture forth and set sail for the colonies of their homelands, whilst some would remain and go onto acquiring their own serfs through using money they had gained through enterprise.
+ vu_pop_influence.5.a:0 "Great, let's use the peasantry!"
+ vu_pop_influence.5.b:0 "Pay them, give them accomodation and afford them a chance at education, so they stay quiet."
+ #
+ vu_pop_influence.6.t:0 "Serfdom Elswhere"
+ vu_pop_influence.6.d:0 "Europe isn't only the place serfdom is known for since this form of Slavery was practiced on a global level in places such as the colonies, Russia, China, and even in the Americas. In some countries like Siam, Serfs and indentured servants could gain their freedoms overtime through purchasing their own release. They were however, not allowed to live outside the estates of their masters and very few "if any" were given the chance to educated themselves. Serfs and Indentured Servants elsewhere found themselves far worse off than their European Counter-Parts."
+ vu_pop_influence.6.a:0 "Great, let's use the peasantry!"
+ vu_pop_influence.6.b:0 "Promise them "COUGH" the eventual right to purchase their freedom, so they stay quiet."
+ vu_pop_influence.6.c:0 "This should help us in the long-term right?"
+ #
+ vu_pop_influence.7.t:0 "Declining Serfdom"
+ vu_pop_influence.7.d:0 "With more and more serfs beeing freed, educating themselves and moving to the cities, Serfdom is in essence declining throughout Europe and the Americas."
+ vu_pop_influence.7.a:0 "We must stop them at all costs!"
+ vu_pop_influence.7.b:0 "Let them go for we cannot stop change."
+ vu_pop_influence.7.c:0 "Serfdom of any kind has no place in our society!"
+ #
+ vu_pop_influence.8.t:0 "The Serfs are revolting!"
+ vu_pop_influence.8.d:0 "Although this was eventually going to happen despite our efforts to keep the serfs in line, nobody could ever have predicted the severity of it."
+ vu_pop_influence.8.a:0 "We have no option but to concede."
+ vu_pop_influence.8.b:0 "Let us offer them a compromise."
+ vu_pop_influence.8.c:0 "They must know their place, CRUSH THEM!"
+ #
+ vu_pop_influence.9.t:0 "Serfdom abolished!"
+ vu_pop_influence.9.d:0 "Since the time of the Renaissance, Serfdom in Europe has gradually been on the decline. Let us hasten its decline by finally ending it once and for all!."
+ vu_pop_influence.9.a:0 "Release them!"
+ vu_pop_influence.9.b:0 "Let us reform the state to adapt to this change."
+ #
  # NEW VU FRENCH events
  # War of Three Henrys 1589
  flavor_fra.9501.t:0 "War of Three Henrys"
