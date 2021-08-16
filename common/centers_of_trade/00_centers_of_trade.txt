@@ -59,17 +59,27 @@ world_port = { #Port
     }
 }
 
-emporium = { #Village Centre
+church_sale = { #Church Sale
     level = 1
 	cost = 600
+    type = inland
+    province_modifiers = {
+		province_trade_power_value = 1 #Token trade value
+		local_build_cost = -0.1 #Help with that infrastructure construction
+    }
+}
+
+emporium = { #Farmers market
+    level = 2
+	cost = 1200
     type = inland
     province_modifiers = {
         province_trade_power_value = 5
     }
 }
-market_town = { #Town Centre
-    level = 2
-	cost = 1200
+market_town = { #County Fair
+    level = 3
+	cost = 2400
     type = inland
     province_modifiers = {
         province_trade_power_value = 10
@@ -77,9 +87,9 @@ market_town = { #Town Centre
 		local_institution_spread = 0.1
     }
 }
-regional_market = { #City Centre
-    level = 3
-    cost = 3600
+regional_market = { #Regional Bazaar
+    level = 4
+    cost = 4800
     type = inland
     province_modifiers = {
         province_trade_power_value = 20
@@ -91,9 +101,9 @@ regional_market = { #City Centre
 		local_institution_spread = 0.1
     }
 }
-world_trade_center = { #Metropolitan Centre
-    level = 4
-    cost = 7200
+world_trade_center = { #Grand Emporium
+    level = 5
+    cost = 9600
     type = inland
     province_modifiers = {
         province_trade_power_value = 30
