@@ -306,7 +306,7 @@ development = {
 }
 
 development_scaled = {
-	local_development_cost = 0.01			#BTAddOn changed from 0.03. Dev doubling accounted for.
+	local_development_cost = 0.02			#BTAddOn changed from 0.03. Dev doubling accounted for.
 }
 
 capital_city = {
