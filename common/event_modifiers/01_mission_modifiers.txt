@@ -525,7 +525,7 @@ eng_royal_navy = {
 	local_sailors_modifier = 1
 	navy_tradition = 0.1
 	naval_forcelimit_modifier = 1.0
-	trade_efficiency = 0.25
+	trade_efficiency = 0.1
 }
 
 eng_triangular_trade = {
@@ -662,11 +662,11 @@ eng_new_zealand_colony = {
 
 eng_channel_dominance = {
 	placed_merchant_power = 10
-	global_ship_trade_power = 0.25
-	trade_steering = 0.25
-	global_tariffs = 0.25
-	merchants = 5
-	trade_efficiency = 0.25
+	global_ship_trade_power = 0.1
+	trade_steering = 0.1
+	global_tariffs = 0.1
+	merchants = 2
+	trade_efficiency = 0.1
 }
 
 eng_rb_gibraltar_mod = {
