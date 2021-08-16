@@ -1,9 +1,10 @@
 #BT GDL reoverhaul
 
-owner = LIT
-controller = LIT
-add_core = LIT
+owner = POL		# Town of Peremyl was part of Kremenets Land and was also incorporated to Poland in 1366 by Casimir the Great.
+controller = POL
+add_core = POL
 add_core = VOL
+add_core = LIT		# Disputed territory with Lithuania as it is also part of Kremenets Land
 culture = ruthenian
 religion = orthodox
 capital = "Peremyl"
