@@ -1,7 +1,7 @@
 #4539 - Kremenets
 
-owner = LIT
-controller = LIT
+owner = POL		# Land of Kremenets was conquered by Casimir the Great in 1352 as vassal state. Incorporated to Poland in 1366.
+controller = POL
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -12,7 +12,8 @@ base_manpower = 2
 capital = "Kremenets"
 is_city = yes
 add_core = VOL
-add_core = LIT
+add_core = LIT			# Disputed territory with Lithuania since first union in 1385
+add_core = POL
 add_local_autonomy = 15
 
 
@@ -27,7 +28,7 @@ discovered_by = AST
 discovered_by = QAS
 
 
-1569.3.26 = { owner = POL controller = POL add_core = POL } # annexed by Poland
+1569.3.26 = { remove_core = LIT } # annexed by Poland
 1569.7.1 = { 
 	remove_core = LIT	# Union of Lublin, western part ceded to Poland & southern part still belonged to Lithuania
 	religion = catholic
