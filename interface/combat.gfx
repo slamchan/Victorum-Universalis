@@ -4127,8 +4127,8 @@ spriteTypes = {
         texturefile = "gfx/interface/santa_cruz_de_la_sierra.dds"
     }
             spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_chochabamba"
-        texturefile = "gfx/interface/chochabamba.dds"
+        name = "GFX_combat_terrain_urban_cochabamba"
+        texturefile = "gfx/interface/cochabamba.dds"
     }
             spriteType = {                                                        
         name = "GFX_combat_terrain_urban_santiago"
