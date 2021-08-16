@@ -42,6 +42,28 @@
  grain:0 "Wheat"
  grainDESC:0 "Wheat is one of the world's most commonly consumed cereal grains. It comes from a type of grass (Triticum) that is grown in countless varieties worldwide. White and whole-wheat flour are key ingredients in baked goods, such as bread. Other wheat-based foods include pasta, noodles, semolina, bulgur, and couscous."
 
+ #Centres of Trade
+ #Ports
+ natural_harbor:0 "Safe Haven"
+ natural_harbor_desc:0 "This province contains a Safe Haven for ships that need to shelter from storms. It also provides a safe area where crews can carry out repairs and even rest for a while within local taverns where crew members can enjoy a few drinks or sample the local delicacies. This is also a place where Captains can replenish ship supplies and recruit young, able men for any ongoing voyages."
+ staple_port:0 "Pier"
+ staple_port_desc:0 "This province contains a Pier that allows ships to disembark passengers in the deeper water further out. Merchants can then venture out and trade with the locals, despite the poor infrastructure."
+ regional_port:0 "Quay"
+ regional_port_desc:0 "This province contains a local Quay that has been modified so ships can dock parallel to the shore. Merchants can then venture out and trade with the locals along the shoreline, despite the poor infrastructure."
+ entrepot:0 "Warf"
+ entrepot_desc:0 "This province contains a Warf which provides an area for ships to safely dock. Some are very intricate, with multiple types of berths over a large area and navigable channels. Wharves also contain quays, piers and will normally have warehouses and offices within it to service ships such as merchant vessels and their crews returning back from long voyages."
+ world_port:0 "Port"
+ world_port_desc:0 "This province contains a Port which has facilities for boats or ships to call into and usually a village, town, or city attached. Goods from all over the world regularly pass through here and any settlement attaching itself to this place is known throughout the world."
+ #Inland
+ emporium:0 "Village Centre"
+ emporium_desc:0 "This province contains a Village Centre where local people and merchants have been coming for centuries to trade their wares."
+ market_town:0 "Town Centre"
+ market_town_desc:0 "This province contains a Town Centre where people and traders from across the county regularly gather to sell and buy goods."
+ regional_market:0 "City Centre"
+ regional_market_desc:0 "This province contains a City Centre where people and traders from across the region gather to seek out bargain items, either to keep or re-sell to eager customers."
+ world_trade_center:0 "Metropolitan Centre"
+ world_trade_center_desc:0 "This province contains a Metropolitan Centre and is one of the most important trade and financial centers in the world. There are few goods that cannot be found here and the city itself is famous worldwide!"
+ 
  #Technology - Added Techs and Ideas
  adm_tech_cs_33_name:0 "Four Field Rotation"
  adm_tech_cs_34_name:0 "Railroads"
