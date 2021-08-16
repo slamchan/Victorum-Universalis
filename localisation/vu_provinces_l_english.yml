@@ -1,4 +1,4 @@
-﻿l_english:
+﻿fl_english:
 
  #Reorganised format as of 11.5 -
  # Note main folder contains all NEW localisations. Entries which replace vanilla content are found in the replace subfolder.
@@ -2837,7 +2837,7 @@
  #PROV7820:0 "Stargard"
  PROV7821:0 "Zantoch"
  #PROV7822:0 "Dramburg"
- PROV7823:0 "Belgard"
+ PROV7823:0 "Greifenberg"
  PROV7824:0 "Schlawe"
  PROV7825:0 "Lauenburg"
  PROV7826:0 "Bütow"
