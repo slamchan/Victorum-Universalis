@@ -2949,6 +2949,12 @@
  construct_great_mosque_and_hospital_title: "Renovate Divrigi"
  construct_great_mosque_and_hospital_desc: "The Divrigi is an ornately decorated mosque and hospital complex built in 1228–1229 by the local dynasty of the Mengujekids in the small Anatolian town of Divrigi, now in Sivas Province, Anatolia; Costs 4000."
  #
+ great_project_london_docks: "London Docks"
+ london_docks: "London Docks"
+ london_docks_title: "Construct the London Docks"
+ construct_london_docks_title: "Construct the London Docks"
+ construct_london_docks_desc: "Constructed in Wapping, downstream from the City of London between 1799 and 1815, at a cost exceeding £5.5 million, the London Docks were one several sets of docks in the historic Port of London; Costs 4000."
+ #
  # End of VU - San Felipe additions
  #
  great_project_machu_picchu: "Machu Picchu"
