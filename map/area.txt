@@ -998,7 +998,7 @@ vorpommern_area = { #3
 }
 
 hinter_pommern_area = { #3
-	48 1858 2995 7818 4746 7823 7824
+	48 1858 2995 7818 4746 7823 7824 8733
 }
 
 tirol_area = { #3
