@@ -14,7 +14,7 @@
 46 = "Roztoka"
 47 = "Strzalów"
 48 = "Kolobrzeg"
-49 = "Santok"
+49 = "Gorzów Wielkopolski"
 50 = "Rypin"
 52 = "Dziewin"
 53 = "Glain" # Polabian

@@ -8,14 +8,11 @@ capital = "Jeonju"
 trade_goods = chinaware
 hre = no
 base_tax = 4
-base_production = 4
-base_manpower = 2
+base_production = 6
+base_manpower = 5
 is_city = yes
 add_core = BKJ
 add_core = KOR
-
-extra_cost = 8
-center_of_trade = 1
 
 discovered_by = chinese
 discovered_by = japanese

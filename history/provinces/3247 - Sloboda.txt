@@ -2,8 +2,8 @@
 #Region - Ruthenia
 #Area - Sloboda Ukraine
 
-owner = CRI
-controller = CRI
+owner = ZAZ
+controller = ZAZ
 culture = crimean
 religion = sunni
 hre = no
@@ -13,8 +13,8 @@ trade_goods = horses
 base_manpower = 1 
 capital = "Izyum"			#Name circa mid 16th century, but I challenge anyone to do better
 is_city = yes
-add_core = CRI
 add_core = ZAZ
+add_core = CRI
 
 discovered_by = muslim
 discovered_by = ottoman

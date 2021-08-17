@@ -18,7 +18,7 @@ base_production = 3
 base_manpower = 2 
 hre = yes
 is_city = yes
-center_of_trade = 1
+
 
 discovered_by = english
 discovered_by = french

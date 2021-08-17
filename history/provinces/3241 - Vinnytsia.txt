@@ -2,8 +2,8 @@
 #Region - Ruthenia
 #Area - Podolia Volhynia
 
-owner = KIE
-controller = KIE
+owner = BRL
+controller = BRL
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -13,8 +13,7 @@ trade_goods = grain
 base_manpower = 1 
 capital = "Kalnik"
 is_city = yes
-add_local_autonomy = 25
-add_core = KIE
+add_core = BRL
 
 discovered_by = western
 discovered_by = eastern

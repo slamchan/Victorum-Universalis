@@ -15,7 +15,7 @@ capital = "Reggio" # Reggio di Calabria was only used after Italian Unification
 is_city = yes 
 add_core = NAP
 fort_15th = yes # Fort build 540AD and enlarged by Normans
-center_of_trade = 1
+
 
 add_permanent_province_modifier = {
 	name = straits_of_messina_estuary_modifier

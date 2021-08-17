@@ -237,6 +237,7 @@ ural_region = {
 
 iberia_region = {
 	areas = {
+	    andorra_area
 		aragon_area
 		catalonia_area
 		valencia_area
@@ -322,6 +323,8 @@ baltic_region = {
 		masuria_area
 		latgallia_area
 		north_livonia_area
+		yotvingia_area
+		trakai_area
 	}
 }
 
@@ -357,9 +360,6 @@ ruthenia_region = {
 		severia_area
 		vitebsk_area
 		polotsk_area
-		novogrudok_area
-		yotvingia_area			#Moved from Baltic region in 11.5
-		trakai_area			#Moved from Baltic region in 11.5
 	}
 }
 

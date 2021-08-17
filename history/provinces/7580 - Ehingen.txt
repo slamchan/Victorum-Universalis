@@ -14,7 +14,7 @@ base_manpower = 2
 capital = "Ehingen"
 is_city = yes
 hre = yes
-center_of_trade = 1
+
 
 discovered_by = english
 discovered_by = french

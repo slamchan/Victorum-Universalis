@@ -42,6 +42,30 @@
  grain:0 "Wheat"
  grainDESC:0 "Wheat is one of the world's most commonly consumed cereal grains. It comes from a type of grass (Triticum) that is grown in countless varieties worldwide. White and whole-wheat flour are key ingredients in baked goods, such as bread. Other wheat-based foods include pasta, noodles, semolina, bulgur, and couscous."
 
+ #Centres of Trade
+ #Ports
+ natural_harbor:0 "Safe Haven"
+ natural_harbor_desc:0 "This province contains a Safe Haven for ships that need to shelter from storms. It also provides a safe area where crews can carry out repairs and even rest for a while within local taverns where crew members can enjoy a few drinks or sample the local delicacies. This is also a place where Captains can replenish ship supplies and recruit young, able men for any ongoing voyages."
+ staple_port:0 "Pier"
+ staple_port_desc:0 "This province contains a Pier that allows ships to disembark passengers in the deeper water further out. Merchants can then venture out and trade with the locals, despite the poor infrastructure."
+ regional_port:0 "Quay"
+ regional_port_desc:0 "This province contains a local Quay that has been modified so ships can dock parallel to the shore. Merchants can then venture out and trade with the locals along the shoreline, despite the poor infrastructure."
+ entrepot:0 "Warf"
+ entrepot_desc:0 "This province contains a Warf which provides an area for ships to safely dock. Some are very intricate, with multiple types of berths over a large area and navigable channels. Wharves also contain quays, piers and will normally have warehouses and offices within it to service ships such as merchant vessels and their crews returning back from long voyages."
+ world_port:0 "Port"
+ world_port_desc:0 "This province contains a Port which has facilities for boats or ships to call into and usually a village, town, or city attached. Goods from all over the world regularly pass through here and any settlement attaching itself to this place is known throughout the world."
+ #Inland
+ church_sale:0 "Church Sale"
+ church_sale_desc:0 "This province contains a Church Sale where for many years both the clergy and local paritioners have mingled to traded with local merchants."
+ emporium:0 "Farmer's Market"
+ emporium_desc:0 "This province contains a Farmer's Market where farmers sell freshly picked vegetables, meats and various other produce to the locals."
+ market_town:0 "County Fair"
+ market_town_desc:0 "This province contains a County Fair where people and traders from across the county regularly gather to haggle, sell and buy goods."
+ regional_market:0 "Regional Bazaar"
+ regional_market_desc:0 "This province contains a Regional Bazaar where people and traders from across the region gather to seek out bargain items, either to keep or re-sell to eager customers."
+ world_trade_center:0 "Grand Emporium"
+ world_trade_center_desc:0 "This province contains a Grand Emporium and is one of the most important trade centers in the world. There are few goods that cannot be found here and the city itself is famous worldwide!"
+ 
  #Technology - Added Techs and Ideas
  adm_tech_cs_33_name:0 "Four Field Rotation"
  adm_tech_cs_34_name:0 "Railroads"
@@ -699,6 +723,8 @@
 
  #TCP - Tag Changes
   ZUL:0 "Zulu"
+  ZUL_ADJ:0 "Zulu"
+
 
  #Tag Changes
  CNN:0 "Connacht"
@@ -1061,6 +1087,9 @@
  eng_rb_established_farming:0 "Granary of the Empire"
  desc_eng_rb_established_farming:0 "Let it be known that we have settled lush and fertile prairie lands."
  eng_brittany_claims:0 "Grants permanent claims on the provinces required for the mission §YConquer Brittany§!"
+ treaty_port:0 "Treaty Port"
+ desc_treaty_port:0 "This is a port ceded by the Chinese government from where [From.Owner.GetAdjective] merchants can trade freely with the Chinese mainland."
+ 
  #BYZ Modifiers
  greece_is_ours:0 "Greece is Ours"
  desc_greece_is_ours:0 "Let it be known that we have successfully retaken Greece from the heathens and infidels. Tear down those minarets and cleanse the Acropolis of the barbarian filth."
@@ -2919,6 +2948,12 @@
  great_mosque_and_hospital_title: "Renovate Divrigi"
  construct_great_mosque_and_hospital_title: "Renovate Divrigi"
  construct_great_mosque_and_hospital_desc: "The Divrigi is an ornately decorated mosque and hospital complex built in 1228–1229 by the local dynasty of the Mengujekids in the small Anatolian town of Divrigi, now in Sivas Province, Anatolia; Costs 4000."
+ #
+ great_project_london_docks: "London Docks"
+ london_docks: "London Docks"
+ london_docks_title: "Construct the London Docks"
+ construct_london_docks_title: "Construct the London Docks"
+ construct_london_docks_desc: "Constructed in Wapping, downstream from the City of London between 1799 and 1815, at a cost exceeding £5.5 million, the London Docks were one several sets of docks in the historic Port of London; Costs 4000."
  #
  # End of VU - San Felipe additions
  #

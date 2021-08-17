@@ -14,7 +14,7 @@ base_manpower = 8
 capital = "Augsburg"
 is_city = yes
 hre = yes
-center_of_trade = 3
+
 
 discovered_by = western
 discovered_by = muslim
@@ -22,7 +22,7 @@ discovered_by = ottoman
 discovered_by = eastern
 
 extra_cost = 20
-center_of_trade = 3
+
 
 1507.1.1 = {
 	base_tax = 26

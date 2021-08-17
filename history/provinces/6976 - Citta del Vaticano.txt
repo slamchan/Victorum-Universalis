@@ -15,7 +15,7 @@ capital = "Citta del Vaticano"
 is_city = yes
 fort_15th = yes #Castel Sant'Angelo
 add_core = PAP
-center_of_trade = 2
+
 
 discovered_by = english
 discovered_by = french

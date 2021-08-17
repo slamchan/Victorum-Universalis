@@ -20,7 +20,7 @@ discovered_by = ottoman
 discovered_by = eastern
 
 extra_cost = 8
-center_of_trade = 1
+
 
 1519.1.1 = { 
 	controller = HAB 

@@ -49,7 +49,7 @@ discovered_by = ottoman
 1401.1.1 = { revolt = {} owner = SMO controller = SMO } # Yury takes Smolensk back
 1404.1.1 = { owner = LIT controller = LIT add_core = LIT } # Vytautas strikes back once more
 1440.1.1 = { unrest = 10 }			#Major rebellion lasting 1440-1442
-1442.1.1 = { unrest = 0 add_local_autonomy = 50 }
+1442.1.1 = { owner = SMO controller = SMO add_core = SMO remove_core = LIT }
 
 #1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
 #	owner = XXX

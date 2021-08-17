@@ -115,9 +115,6 @@
  syriac_culture:0 "syriaque"
  laz_culture:0 "laze"
  cilician:0 "cilicienne"
- #hejazi_arabic:0 "Hejazi"          #Replaced by vanilla hejazi_culture in 1.23
- #khaliji_arabic:0 "Khaliji"           #Replaced by vanilla gulf_arabic in 1.23
- #mehri_culture:0 "Mehri"           #Replaced by vanilla mahri_culture in 1.23
  romanch_culture:0 "romanche"
  andalusi_culture:0 "andalusi"
  egyptian_group:0 "égyptienne"
@@ -192,7 +189,6 @@
  tanana:0 "tanana"
  slavey:0 "slavey"
  tlingit:0 "tlingit"
- #waikuri_group:0 "Waikuri"         #Removed (merged with Chumash)
  waikuri:0 "guaicura"
  wiyot:0 "wiyot"
  denaina:0 "denaina"
@@ -201,7 +197,6 @@
  innu:0 "innu"
  lakota:0 "lakota"
  pacific_na_dene:0 "athapascane de la côte pacifique"
- northern_na_dene:0 "na-dené"
  central_algonquian:0 "algonquienne"
  ojicree:0 "oji-crie"
  laurentian:0 "laurentienne"
@@ -262,7 +257,6 @@
  ktunaxa_group:0 "kootenay"
  pacific_algonquian_group:0 "algonquienne de la côte pacifique"
  esselen:0 "esselen"
- jumano_group:0 "mogollon"
  suma_culture:0 "suma"
  nez_perce_culture:0 "nez-percé"
  cochimi:0 "cochimí"

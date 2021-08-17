@@ -7,9 +7,9 @@ religion = shinto
 capital = "Kumamoto"
 trade_goods = fish
 hre = no
-base_tax = 4 
-base_manpower = 6
-base_production = 6
+base_tax = 8
+base_manpower = 9
+base_production = 10
 is_city = yes
 add_core = KKC
 discovered_by = chinese
@@ -18,6 +18,12 @@ discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
+center_of_trade = 2
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier_3
+    duration = -1
+}
 
 1542.1.1 = { discovered_by = POR }
 1554.1.1 = { add_core = OTM owner = OTM controller = OTM remove_core = KKC }

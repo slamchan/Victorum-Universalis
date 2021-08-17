@@ -389,12 +389,16 @@ north_brabant_area = {
 # Iberia					 		   #
 ########################################
 
+andorra_area = { #4
+	7889
+}
+
 aragon_area = { #4
 	211 214 2990 8108 8109 8110 8111 8116 8117 3095
 }
 
 catalonia_area = { #4
-	212 213 2987 2988 8113 8114 8115 7889 4557
+	212 213 2987 2988 8113 8114 8115 4557
 }
 
 valencia_area = { #3
@@ -722,7 +726,7 @@ curonia_area = { #3
 }
 
 east_prussia_area = { #4
-	42 1841 1859 2958 7829 7862
+	42 1841 2958 7829 7862
 }
 
 west_prussia_area = { #5
@@ -750,11 +754,11 @@ volhynia_area = { # 4				#West Volhynia in BT
 }
 
 pripyat_area = { #3
-	1941 7232 7245 7233 7241
+	1941 7228 7232 7245 7233 7237 7241 
 }
 
 podlasie_area = {
-	269 7262 7263 277 278 7230
+	269 7223 7262 7263 277 278 7230
 }
 
 mazovia_area = { #4
@@ -762,7 +766,7 @@ mazovia_area = { #4
 }
 
 central_poland_area = { #Sieradz
-	258 4527 4533 8225
+	258 1939 4527 4533 8225
 }
 
 sandomierz_area = {			#Just converting BT Sandomierz area into new 1.27 area, same id so no changes needed.
@@ -770,7 +774,7 @@ sandomierz_area = {			#Just converting BT Sandomierz area into new 1.27 area, sa
 }
 
 kuyavia_area = {			#converting in BT Kalisz area, and cutting the old BT Kalisz
-	1939 4523 4524 4528
+	1859 4523 4524 4528
 }
 
 samogitia_area = { #3
@@ -782,11 +786,11 @@ lithuania_area = { #6
 }
 
 west_dniepr_area = { #3 Right Bank Ukraine
-	280 1942 4247 7242 7246 7228 1944 3242 7239 7259
+	280 1942 4247 7242 7246 1944 3242 7239 7259
 }
 
 east_dniepr_area = { #4 Left bank Ukraine
-	290 2407 4542 7255 7256 289 7237 7248 7250
+	290 2407 4542 7255 7256 289 7248 7250
 }
 
 #chernigov_area = { }
@@ -816,7 +820,7 @@ white_ruthenia_area = { #4
 }
 
 minsk_area = {
-	276 4544 4545 7220 7221 7225 7231
+	276 4537 4544 4545 7220 7224 7225 7226 7231      
 }
 
 #Opolye
@@ -858,7 +862,7 @@ novgorod_area = { #5
 }
 
 pskov_area = { #3
-	274 1960 5642 5643
+	274 1960 5642 5643 5660
 }
 
 vologda_area = {			#Repurposed into Sukhona-Galich area for BT
@@ -994,7 +998,7 @@ vorpommern_area = { #3
 }
 
 hinter_pommern_area = { #3
-	48 1858 2995 7818 4746 7823 7824
+	48 1858 2995 7818 4746 7823 7824 8733
 }
 
 tirol_area = { #3
@@ -4037,15 +4041,11 @@ pryazovia_area = {
 }
 
 vitebsk_area = {
-	292 771 4242 7217 7222 7227
+	292 771 7217 7222 7227
 }
 
 polotsk_area = {
-	275 5660 7214 7215 7858
-}
-
-novogrudok_area = {
-	1937 4537 7223 7224 7226
+	275 4242 7214 7215 7221 7858
 }
 
 yotvingia_area = {
@@ -4053,7 +4053,7 @@ yotvingia_area = {
 }
 
 trakai_area = {
-	270 272 770 4536 7218 7219
+	270 272 770 1937 4536 7218 7219
 }
 
 western_moldovia = { #Note: Is Moldavia area and should be switched between some major BT version with moldavia_area. That area in turn can become a bessarabia_area or similar.
@@ -4856,7 +4856,7 @@ unused_area = {
 	3107 3116 3132 3133 3136 3186 3189 3272 3275 4140 4328 4347
 	5114 5115 5122 5128 5113
 
-	8610 8660 8661 8662 8663 8664 8665 8666			Removed Sea Provinces from CR's SEA
+	8610 8660 8661 8662 8663 8664 8665 8666			# Removed Sea Provinces from CR's SEA
 
 	#Beyond Typus Open Provinces, being used in BT overhauls
 	5142 5143 5144 5214 5215 5216 5217 5299 5305 5335 5336 5337 5338 5339 5429 5430 5431 5432 5433 5434 5435 5436 5437 5438 5439 5440 5441 5442 5443 5444 5445 5446 5447 5448 5449 5450 5451 5539 5540 5541 5546 5547 5548 5549 5550 5551 5552 5553 5554 5555 5556 5557 5558 5559 5560 5561 5705 5706 5707 5708 5709 5710 5711 5712 5713 5714 5715 5716 5717 5718 5719 5720 5721 7069 7073 7105 7119 7247 7260 7261 7265

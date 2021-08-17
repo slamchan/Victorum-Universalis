@@ -2,8 +2,8 @@
 #Region - Ruthenia
 #Area - East Dniepr
 
-owner = KIE
-controller = KIE 
+owner = CHR
+controller = CHR 
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -14,8 +14,6 @@ base_manpower = 1
 capital = "Romny"
 is_city = yes
 add_core = CHR
-add_core = KIE
-add_local_autonomy = 25
 
 discovered_by = western
 discovered_by = eastern

@@ -17,7 +17,7 @@ add_core = RIJ
 add_core = CRO
 
 add_permanent_province_modifier = {
-    name = navalbase_modifier
+    name = navalbase_modifier_2
     duration = -1
 }
 
@@ -30,9 +30,9 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-extra_cost = 20
 center_of_trade = 2
+extra_cost = 20
+
 
 1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
 	owner = CRO

@@ -13,7 +13,7 @@ base_manpower = 4
 is_city = yes
 add_core = IRQ
 add_core = TIM
-center_of_trade = 2
+
 
 discovered_by = east_african
 discovered_by = muslim

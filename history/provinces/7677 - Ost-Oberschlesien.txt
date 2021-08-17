@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = POL
-controller = POL
-add_core = POL
+owner = RAC		# Silesian duchy under Bohemian rule, giving temporarily to Rattibor to avoid creating new vassals
+controller = RAC
+add_core = RAC
 culture = schlesian
 religion = catholic
 hre = yes

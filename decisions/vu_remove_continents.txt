@@ -1,0 +1,92 @@
+country_decisions = {
+
+#   Template to remove region/superregion/continent
+#   remove_region/superregion/continent = {
+#     potential = {
+#       ai = no
+#       NOT = {is_year = 1445}
+#       NOT = { had_global_flag = removed_region/superregion/continent }
+#     }
+#
+#     effect = {
+#       set_global_flag = removed_region/superregion/continent
+#       region/superregion/continent = {
+#         every_core_country = {
+#              # prevents the player from deleting himself
+#             limit = {ai = yes}
+#             country_event = { id = destroy_countries_vu }
+#         }
+#       }
+#     }
+#   }
+
+# How to remove a country
+#	remove_country_name = {
+#		potential = {
+#			ai = no
+#		}
+#
+#	   effect = {
+#			TAG_to_remove = {
+#			   country_event = { id = destroy_countries_vu }
+#			}
+#		}
+#	}
+
+  remove_north_america = {
+    major = yes
+		potential = {
+		  ai = no
+      NOT = {is_year = 1445}
+      NOT = { has_global_flag = removed_north_america }
+		}
+
+    effect = {
+      set_global_flag = removed_north_america
+			north_america_superregion = {
+        every_core_country = {
+            limit = {ai = yes}
+				    country_event = { id = destroy_countries_vu }
+        }
+			}
+		}
+	}
+
+  remove_south_america = {
+    major = yes
+    potential = {
+      ai = no
+      NOT = {is_year = 1445}
+      NOT = { has_global_flag = removed_south_america }
+    }
+
+    effect = {
+      set_global_flag = removed_south_america
+      south_america_superregion = {
+        every_core_country = {
+            limit = {ai = yes}
+            country_event = { id = destroy_countries_vu }
+        }
+      }
+    }
+  }
+
+  remove_central_america = {
+    major = yes
+    potential = {
+      ai = no
+      NOT = {is_year = 1455}
+      NOT = { has_global_flag = removed_central_america }
+    }
+
+    effect = {
+      set_global_flag = removed_central_america
+      central_america_superregion = {
+        every_core_country = {
+            limit = {ai = yes}
+            country_event = { id = destroy_countries_vu }
+        }
+      }
+    }
+  }
+}

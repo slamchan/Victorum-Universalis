@@ -12,7 +12,7 @@ base_manpower = 4
 capital	= "Braunau am Inn" 
 is_city = yes
 hre = yes
-center_of_trade = 2
+
 
 
 discovered_by = eastern
