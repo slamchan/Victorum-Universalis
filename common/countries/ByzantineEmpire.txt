@@ -2,7 +2,7 @@
 
 graphical_culture = easterngfx
 
-color = { 149 45 102 }
+color = { 51  0  51 }
 
 revolutionary_colors = { 2 3 2 } #purple \o/
 
@@ -99,20 +99,10 @@ monarch_names = {
 }
 
 leader_names = { 
-	Akropolites Angelos Aoinos Apokaukos Argyros
-	Basileous Batatzes Botaneiates Boumbalis
-	Choniates Choumnos
-	Diasorenos Diogenes Doukas
-	Gabras
-	Iagaris
-	Kantakuzenos Kaukadenos Komnenos
-	Laskaris
-	Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
-	Nestongos
-	Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
-	Rhadinos Rhangabe Rhodocanakis Romanos
-	Syropoulos
-	Tornikes
+	Akropolites Angelos Aoinos Apokaukos Argyros Basileous Batatzes Botaneiates Boumbalis
+	Choniates Choumnos Diasorenos Diogenes Doukas Gabras Iagaris Kantakuzenos Kaukadenos Komnenos
+	Laskaris Melissinos Melisurgos Mikrulakes Monomakos Mouzalon Nestongos Palaiologos Paraspondylos 
+	Phocas Phouskarnaki Phrangopoulos Psellos Rhadinos Rhangabe Rhodocanakis Romanos Syropoulos	Tornikes
 	Zarides Zimisces
 }
 
