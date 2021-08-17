@@ -1,3 +1,4 @@
+namespace = DevTradeGoodChange
 
 #Changes trade good in London to gold when province reaches 500dev. Actual usage as a template.
 province_event = {
