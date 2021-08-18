@@ -543,13 +543,6 @@ polish_missions_slot_3 = {
 								owned_by = ROOT
 							}
 						}
-						novogrudok_area = {
-							type = all
-							OR = {
-								owned_by = LIT
-								owned_by = ROOT
-							}
-						}
 					}
 				}
 			}
