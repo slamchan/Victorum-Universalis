@@ -10639,7 +10639,7 @@ alcazar = {
     type = monument
 
     build_trigger = {
-        culture_group = iberian
+		culture_group = iberian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -10653,7 +10653,7 @@ alcazar = {
     }
 
     can_use_modifiers_trigger = {    
-	    culture_group = iberian
+		culture_group = iberian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -20514,7 +20514,10 @@ alcazar_de_seville = {
     type = monument
 
     build_trigger = {
-        culture_group = iberian
+        OR = {
+			culture_group = iberian
+			culture = andalusi_culture
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -20528,7 +20531,10 @@ alcazar_de_seville = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = iberian
+	    OR = {
+			culture_group = iberian
+			culture = andalusi_culture
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -20536,7 +20542,10 @@ alcazar_de_seville = {
     }
 
     can_upgrade_trigger = {
-		culture_group = iberian
+		OR = {
+			culture_group = iberian
+			culture = andalusi_culture
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -20681,7 +20690,10 @@ casa_de_contratacion = {
     type = monument
 
     build_trigger = {
-        culture_group = iberian
+        OR = {
+			culture_group = iberian
+			culture = andalusi_culture
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -20695,7 +20707,10 @@ casa_de_contratacion = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = iberian
+	    OR = {
+			culture_group = iberian
+			culture = andalusi_culture
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -20703,7 +20718,10 @@ casa_de_contratacion = {
     }
 
     can_upgrade_trigger = {
-		culture_group = iberian
+		OR = {
+			culture_group = iberian
+			culture = andalusi_culture
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
