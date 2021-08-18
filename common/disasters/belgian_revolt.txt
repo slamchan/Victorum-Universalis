@@ -2,12 +2,11 @@ belgian_revolt_disaster = {
 
 	potential = {
 		normal_or_historical_nations = yes
-		is_religion_enabled = protestant
+		current_age = age_of_revolutions
 		NOT = { has_country_flag = dutch_belgian_integration }
-		NOT = { is_year = 1830 }
 		NOT = { has_global_flag = belgian_revolt }
 		num_of_owned_provinces_with = {
-			value = 5
+			value = 6
 			region = low_countries_region
 			OR = {
 				culture = brabantian
@@ -24,7 +23,7 @@ belgian_revolt_disaster = {
 		NOT = { exists = BEL }
 		NOT = { capital_scope = { region = low_countries_region } }
 		is_free_or_tributary_trigger = yes
-		num_of_cities = 6
+		num_of_cities = 7
 	}
 	
 	can_start = {
