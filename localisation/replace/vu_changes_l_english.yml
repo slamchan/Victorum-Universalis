@@ -2727,11 +2727,11 @@
  construct_wellington_title: "Construct Wellington Harbour"
  construct_wellington_desc: "Wellington Harbour began with the arrival of an advance party of the New Zealand Company on the ship Tory on 20 September 1839, followed by 150 settlers on the Aurora on 22 January 1840; Costs 4000."
  #
- great_project_bastile: "Bastille"
- bastile: "Bastille"
- bastile_title: "Construct the Bastille"
- construct_bastile_title: "Construct the Bastille"
- construct_bastile_desc: "The Bastille is a fortress in Paris known formally as the Bastille Saint-Antoine. It has played an important role in the internal conflicts of France and for most of its history has been used as a state prison by the kings of France to lock up political disidents, traitors and enemies of state; Costs 4000."
+ great_project_bastille: "Bastille"
+ bastille: "Bastille"
+ bastille_title: "Construct the Bastille"
+ construct_bastille_title: "Construct the Bastille"
+ construct_bastille_desc: "The Bastille is a fortress in Paris known formally as the Bastille Saint-Antoine. It has played an important role in the internal conflicts of France and for most of its history has been used as a state prison by the kings of France to lock up political disidents, traitors and enemies of state; Costs 4000."
  #
  great_project_washington: "Washington D.C."
  washington: "Washington D.C."
@@ -3012,8 +3012,8 @@
  construct_abbaye_basilique_saint_denys_desc: "The Basilica of Saint-Denis is a large medieval abbey and church situed in the northern suburbs of Paris. The first great Gothic church, the site contains the tombs of the French kings, is the coronation place of the Queens of France and where the sacred oriflamme is kept in times of peace."
  #
  great_project_chateau_angers: "Château d'Angers"
- abbaye_chateau_angers: "Château d'Angers"
- abbaye_chateau_angers_title: "Renovate the Château d'Angers"
+ chateau_angers: "Château d'Angers"
+ chateau_angers_title: "Renovate the Château d'Angers"
  construct_chateau_angers_title: "Renovate the Château d'Angers"
  construct_chateau_angers_desc: "The Château d'Angers is a major fortress, originally built by the Counts of Anjou and expanded during the 13th century. Overhanging the river Maine, it is a strategic location that has in the past given refuge to Charles VII when he had to flee Paris."
  #
