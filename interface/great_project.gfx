@@ -664,34 +664,46 @@ spriteTypes = {
 		name = "GFX_great_project_london_docks"
 		texturefile = "gfx//interface//great_projects//great_project_london_docks.dds"
 	}
-		spriteType = {
+	
+	#END of San Felipe additions
+	
+	#START of Emile additions
+	spriteType = {
         name = "GFX_great_project_notre_dame_de_reims"
         texturefile = "gfx//interface//great_projects//great_project_notre_dame_de_reims.dds"
-    	}
+    }
+		
 	spriteType = {
         name = "GFX_great_project_abbaye_basilique_saint_denys"
-        texturefile = "gfx//interface//great_projects//great_project_abbaye_basilique_saint_denis.dds"
-    	}
+        texturefile = "gfx//interface//great_projects//great_project_abbaye_basilique_saint_denys.dds"
+    }
+	
 	spriteType = {
         name = "GFX_great_project_abbaye_mont_saint_michel"
         texturefile = "gfx//interface//great_projects//great_project_abbaye_mont_saint_michel.dds"
-    	}
+    }
+	
 	spriteType = {
         name = "GFX_great_project_chateau_angers"
         texturefile = "gfx//interface//great_projects//great_project_chateau_angers.dds"
-    	}
+    }
+	
 	spriteType = {
         name = "GFX_great_project_palais_des_tuileries"
         texturefile = "gfx//interface//great_projects//great_project_palais_des_tuileries.dds"
-    	}
+    }
+	
 	spriteType = {
         name = "GFX_great_project_port_de_toulon"
         texturefile = "gfx//interface//great_projects//great_project_port_de_toulon.dds"
-    	}
+    }
+	
 	spriteType = {
         name = "GFX_great_project_ciutat_de_carcassona"
         texturefile = "gfx//interface//great_projects//great_project_ciutat_de_carcassona.dds"
-    	}
+    }
+	
+	#END of Emile additions
 
 ### NEW EU4 Vanilla Monuments ###
 
