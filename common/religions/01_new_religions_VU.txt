@@ -7,7 +7,7 @@ balto_slavic_group = {
 	defender_of_faith = yes
 	center_of_religion = 271
 	baltic_pagan_reformed = {
-		icon = 56
+		icon = 30
 		color = { 120 85 105 }
 		allowed_center_conversion = {
 			protestant	
@@ -60,7 +60,7 @@ finnic_group = {
 	defender_of_faith = yes
 	center_of_religion = 4151
 	finnish_pagan_reformed = {
-		icon = 57
+		icon = 31
 		color = { 64 103 37 }
 		allowed_center_conversion = {
 			protestant	

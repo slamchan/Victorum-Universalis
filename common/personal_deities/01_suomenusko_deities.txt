@@ -5,7 +5,7 @@ ukko =
 	discipline = 0.02
 	
 	allow = { religion = finnish_pagan_reformed }
-	sprite = 9
+	sprite = 13
 	
 	ai_will_do = {
 		factor = 1
@@ -26,7 +26,7 @@ tapio =
 	defensiveness = 0.2
 	
 	allow = { religion = finnish_pagan_reformed }
-	sprite = 7
+	sprite = 14
 	
 	ai_will_do = {
 		factor = 1
@@ -47,7 +47,7 @@ ahti =
 	navy_tradition = 1
 	
 	allow = { religion = finnish_pagan_reformed }
-	sprite = 8
+	sprite = 15
 	
 	ai_will_do = {
 		factor = 1
@@ -68,7 +68,7 @@ mielikki =
 	global_trade_goods_size_modifier = 0.1
 	
 	allow = { religion = finnish_pagan_reformed }
-	sprite = 11
+	sprite = 16
 	
 	ai_will_do = {
 		factor = 1
@@ -89,7 +89,7 @@ akras =
 	manpower_recovery_speed = 0.15
 	
 	allow = { religion = finnish_pagan_reformed }
-	sprite = 10
+	sprite = 17
 	
 	ai_will_do = {
 		factor = 1
@@ -110,7 +110,7 @@ tuoni =
 	global_tax_modifier = 0.1
 	
 	allow = { religion = finnish_pagan_reformed }
-	sprite = 9
+	sprite = 18
 	
 	ai_will_do = {
 		factor = 1
