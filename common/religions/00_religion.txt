@@ -927,22 +927,6 @@ christian = {
 		
 		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
 		
-		uses_church_power = no				# Uses church power/aspect mechanics
-		aspects = {
-			organised_through_bishops_aspect
-			priests_may_marry_aspect
-			adult_baptism_aspect
-			holy_sacraments_aspect
-			saints_accept_prayers_aspect
-			icons_images_aspect
-			legalised_divorces_aspect
-			heretics_deported_aspect
-			parish_registers_aspect
-			individual_creeds_aspect
-			allow_usury_aspect
-			translated_bibles_aspect
-		}
-		
 		on_convert = {
 			change_religion = cathar
 			add_prestige = -100
@@ -1202,23 +1186,6 @@ christian = {
 			local_missionary_strength = -0.03 # particularly resilent in the face of centuries of persecution
 		}
 
-		uses_church_power = no				# Uses church power/aspect mechanics
-		aspects = {
-			organised_through_bishops_aspect
-			priests_may_marry_aspect
-			adult_baptism_aspect
-			holy_sacraments_aspect
-			saints_accept_prayers_aspect
-			icons_images_aspect
-			legalised_divorces_aspect
-			heretics_deported_aspect
-			parish_registers_aspect
-			individual_creeds_aspect
-			allow_usury_aspect
-			translated_bibles_aspect
-		}
-		aspects_name = PROTESTANT_ASPECTS
-
 		hre_heretic_religion = yes
 		
 		heretic = { PAUPERES ULTRAMONTANI }
@@ -1293,6 +1260,10 @@ christian = {
 			}
 		}
 
+		heretic = {
+			LOLLARD
+		}
+
 		misguided_heretic = yes
 	}
 
@@ -1344,25 +1315,8 @@ christian = {
 				}
 			}
 
-		uses_church_power = no				# Uses church power/aspect mechanics
-		aspects = {
-			organised_through_bishops_aspect
-			priests_may_marry_aspect
-			adult_baptism_aspect
-			holy_sacraments_aspect
-			saints_accept_prayers_aspect
-			icons_images_aspect
-			legalised_divorces_aspect
-			heretics_deported_aspect
-			parish_registers_aspect
-			individual_creeds_aspect
-			allow_usury_aspect
-			translated_bibles_aspect
-		}
-
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
 
-		has_patriarchs = no			# Uses patriarch authority
 		misguided_heretic = yes		# Other christians hate them less
 	}
 
@@ -4100,7 +4054,6 @@ pagan = {
 		}
 
 		personal_deity = yes
-		doom = no
 		declare_war_in_regency = yes
 		religious_reforms = yes
 		heretic = { HUNA } #HUNA
@@ -4122,7 +4075,6 @@ pagan = {
 			hostile_attrition = 2
 		}
 		
-		doom = no
 		declare_war_in_regency = yes
 		fetishist_cult = yes
 		heretic = { WAGYLKOOP MOORAMOORA GINGARRURNDE }
@@ -4135,6 +4087,8 @@ pagan = {
 
 
 jewish_group = {
+
+	defender_of_faith = yes
 
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 106 107 }
@@ -4170,7 +4124,6 @@ jewish_group = {
 		
 		uses_piety = yes
 		has_patriarchs = yes
-		defender_of_faith = yes
 		
 		heretic = { SAMARITAN KARAITE }
 	}
