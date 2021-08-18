@@ -24420,6 +24420,9 @@ london_docks = {
         }
     }
 }
+#END of San Felipe's monuments
+
+#START of Emile's monuments
 notre_dame_de_reims = { #Notre-Dame de Reims
     start = 186
     
@@ -24581,8 +24584,8 @@ notre_dame_de_reims = { #Notre-Dame de Reims
 					estate = estate_church
 					loyalty = 5
 				}
+			}
 		}
-        }
     }
 }
 
@@ -24748,8 +24751,7 @@ abbaye_basilique_saint_denys = { #Abbaye-basilique de Saint-Denys
 					estate = estate_church
 					loyalty = 5
 				}
-
-		}
+			}
         }
     }
 }
@@ -24913,7 +24915,7 @@ abbaye_mont_saint_michel = { #Abbaye du Mont-Saint-Michel
 					estate = estate_church
 					loyalty = 5
 				}
-		}
+			}
         }
     }
 } 
@@ -25141,6 +25143,7 @@ palais_des_tuileries = { #Palais des Tuileries
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		is_year = 1564
 		culture_group = french
 		OR = {
 				has_owner_culture = yes
@@ -25317,6 +25320,7 @@ port_de_toulon = { #Port de Toulon
     }
 
     can_upgrade_trigger = {
+		is_year = 1514
 		development = 30
 		province_has_center_of_trade_of_level = 3 #you're not gonna build a monumental harbour if your current is trash!
     }
@@ -25621,4 +25625,6 @@ ciutat_de_carcassona = { #Ciutat de Carcassona
 		on_upgraded = {
 		}
 	}
-} 
+}
+
+#END of Emile's Monuments
