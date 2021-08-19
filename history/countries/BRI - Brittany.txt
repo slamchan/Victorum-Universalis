@@ -141,7 +141,7 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 	queen = {
 		country_of_origin = NAV
 		name = "Jeanne"
-		dynasty = "d'Évreux"
+		dynasty = "d'ï¿½vreux"
 		birth_date = 1370.1.1
 		death_date = 1437.7.9
 		female = yes
@@ -159,8 +159,8 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 		birth_date = 1389.12.24
 		death_date = 1442.8.29
 		claim = 95
-		adm = 3			#Confiscated the Penthièvre's possessions and reunited them to the ducal crown.
-		dip = 4			#A good diplomat, he managed to be friend with Armagnac and Burgundy. He renewed the truces with England. He was allied to the French, and managed to retake Saint-Malo which was under french sovereignty. In fact, he praticed 'une politique de neutralité teintée d'opportunisme'.
+		adm = 3			#Confiscated the Penthiï¿½vre's possessions and reunited them to the ducal crown.
+		dip = 4			#A good diplomat, he managed to be friend with Armagnac and Burgundy. He renewed the truces with England. He was allied to the French, and managed to retake Saint-Malo which was under french sovereignty. In fact, he praticed 'une politique de neutralitï¿½ teintï¿½e d'opportunisme'.
 		mil = 2			#Nothing particular, but he doesn't deserve less.
 	}
 	add_heir_personality = charismatic_negotiator_personality
@@ -171,8 +171,8 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 		name = "Jean V"
 		dynasty = "de Montfort"
 		birth_date = 1389.12.24
-		adm = 3			#Confiscated the Penthièvre's possessions and reunited them to the ducal crown. He was called Jean V the wise man.
-		dip = 4			#A good diplomat, he managed to be friend with Armagnac and Burgundy. He renewed the truces with England. He was allied to the French, and managed to retake Saint-Malo which was under french sovereignty. In fact, he praticed 'une politique de neutralité teintée d'opportunisme'.
+		adm = 3			#Confiscated the Penthiï¿½vre's possessions and reunited them to the ducal crown. He was called Jean V the wise man.
+		dip = 4			#A good diplomat, he managed to be friend with Armagnac and Burgundy. He renewed the truces with England. He was allied to the French, and managed to retake Saint-Malo which was under french sovereignty. In fact, he praticed 'une politique de neutralitï¿½ teintï¿½e d'opportunisme'.
 		mil = 2			#Nothing in particular, but he doesn't deserve less.
 	}
 	queen = {
@@ -184,15 +184,15 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 		female = yes
 		adm = 2			#Nothing in particular.
 		dip = 2			#Nothing in particular.
-		mil = 4			#She assieged all the castles of the Penthièvre to find her kidnapped husband. Brave.
+		mil = 4			#She assieged all the castles of the Penthiï¿½vre to find her kidnapped husband. Brave.
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 }
 
 1414.5.11 = {
 	heir = {
-		name = "François"
-		monarch_name = "François I"
+		name = "Franï¿½ois"
+		monarch_name = "Franï¿½ois I"
 		dynasty = "de Montfort"
 		birth_date = 1414.5.11
 		death_date = 1450.7.18
@@ -208,7 +208,7 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 
 1442.8.29 = {
 	monarch = {
-		name = "François I"			#'The 'well loved' very popular, apparently
+		name = "Franï¿½ois I"			#'The 'well loved' very popular, apparently
 		dynasty = "de Montfort"
 		birth_date = 1414.5.14
 		adm = 2			#Probably doesn't deserve just 1. Only negative thing I could find about him was he either ordered the murder of his brother Gilles, or failed to prevent it (history is unclear). Probably the later, though, as was 'struck by remorse and died a short while later' according to the ever helpful wiki. Interesting note, EN language wiki blames younger brother Peter for the murder of Gilles.
@@ -259,13 +259,13 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 	}
 	queen = {
 		country_of_origin = FRA
-		name = "Françoise"
+		name = "Franï¿½oise"
 		dynasty = "d'Amboise"
 		birth_date = 1427.5.29
 		death_date = 1485.11.4
 		female = yes
 		adm = 5			#The 'good duchess', patient.
-		dip = 5			#Françoise d'Amboise became the Duchess of Brittany and had a discrete but active share in governing Brittany. She came to help the poor and the sick. She had also a strong feelings about justice.
+		dip = 5			#Franï¿½oise d'Amboise became the Duchess of Brittany and had a discrete but active share in governing Brittany. She came to help the poor and the sick. She had also a strong feelings about justice.
 		mil = 1			#Nothing in particular, but probably not devoted at all to military affairs. 
 	}
 	clear_scripted_personalities = yes
@@ -301,7 +301,7 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 		leader = { name = "Arthur de Montfort"	type = general	fire = 2	shock = 4	manuever = 3	siege = 2 }
 	}
 	queen = {
-		country_of_origin = TRN
+		country_of_origin = SPO
 		name = "Catherine"
 		dynasty = "de Luxembourg"
 		birth_date = 1422.1.1		#Exact date of her birth is unknown
@@ -316,8 +316,8 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 
 1457.9.23 = {
 	heir = {
-		name = "François"
-		monarch_name = "François II"
+		name = "Franï¿½ois"
+		monarch_name = "Franï¿½ois II"
 		dynasty = "de Montfort"
 		birth_date = 1433.6.23
 		death_date = 1488.9.9
@@ -332,7 +332,7 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 
 1458.12.27 = {
 	monarch = {
-		name = "François II"
+		name = "Franï¿½ois II"
 		dynasty = "de Montfort"
 		birth_date = 1433.6.23
 		adm = 1			#The duchy was mainly governed by its advisors, especially Landais between 1481-1485. Spender.

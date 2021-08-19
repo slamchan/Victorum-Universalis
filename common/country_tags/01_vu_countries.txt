@@ -106,7 +106,7 @@ RHM = "countries/Rheims.txt"
 STV = "countries/Stavelot.txt"
 TOA = "countries/Tournai.txt"
 TOL = "countries/Toul.txt"
-TRN = "countries/Saint Pol.txt"
+SPO = "countries/Saint Pol.txt" # Retagged from TRN to avoid conflict with Missions Expanded
 VDN = "countries/Verdun.txt"
 VNE = "countries/Vienne.txt"
 
