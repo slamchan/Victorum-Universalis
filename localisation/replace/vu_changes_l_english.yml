@@ -50,8 +50,8 @@
  staple_port_desc:0 "This province contains a Pier that allows ships to disembark passengers in the deeper water further out. Merchants can then venture out and trade with the locals, despite the poor infrastructure."
  regional_port:0 "Quay"
  regional_port_desc:0 "This province contains a local Quay that has been modified so ships can dock parallel to the shore. Merchants can then venture out and trade with the locals along the shoreline, despite the poor infrastructure."
- entrepot:0 "Warf"
- entrepot_desc:0 "This province contains a Warf which provides an area for ships to safely dock. Some are very intricate, with multiple types of berths over a large area and navigable channels. Wharves also contain quays, piers and will normally have warehouses and offices within it to service ships such as merchant vessels and their crews returning back from long voyages."
+ entrepot:0 "Wahrf"
+ entrepot_desc:0 "This province contains a Wharf which provides an area for ships to safely dock. Some are very intricate, with multiple types of berths over a large area and navigable channels. Wharves also contain quays, piers and will normally have warehouses and offices within it to service ships such as merchant vessels and their crews returning back from long voyages."
  world_port:0 "Port"
  world_port_desc:0 "This province contains a Port which has facilities for boats or ships to call into and usually a village, town, or city attached. Goods from all over the world regularly pass through here and any settlement attaching itself to this place is known throughout the world."
  #Inland
