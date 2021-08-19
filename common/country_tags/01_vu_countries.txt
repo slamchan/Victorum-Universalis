@@ -106,7 +106,7 @@ RHM = "countries/Rheims.txt"
 STV = "countries/Stavelot.txt"
 TOA = "countries/Tournai.txt"
 TOL = "countries/Toul.txt"
-TRN = "countries/Saint Pol.txt"
+SPO = "countries/Saint Pol.txt" # Retagged from TRN to avoid conflict with Missions Expanded
 VDN = "countries/Verdun.txt"
 VNE = "countries/Vienne.txt"
 
@@ -172,7 +172,7 @@ HOM = "countries/Homburg.txt"
 HRF = "countries/Imperial_Abbey_of_Hersfeld.txt"
 HSH = "countries/Hildesheim.txt"
 HVL = "countries/Havelsburg.txt"
-HNS = "countries/Hohnstein.txt"
+HOS = "countries/Hohnstein.txt"
 KMB = "countries/Klumbach.txt"
 KMP = "countries/Princely_Abbey_of_Kempten.txt"
 KRH = "countries/Kirchberg.txt"
@@ -386,7 +386,7 @@ TES = "countries/Teschen.txt"
 TRO = "countries/Troppau.txt"
 
 #Rus Legacy Tags
-BRL = "countries/Bratslav.txt"
+BSV = "countries/Bratslav.txt"
 
 #BT - Russia & Siberia
 BLV = "countries/Belyov.txt"
