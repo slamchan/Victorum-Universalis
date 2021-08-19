@@ -17,7 +17,7 @@ christian = {
 	
 	
 	catholic = {
-		color = { 222 172 0 }
+		color = { 221 221 219 }
 		icon = 1
 		allowed_conversion = {
 			reformed
@@ -2214,8 +2214,6 @@ eastern = {
 	
 		harmonized_modifier = harmonized_vajrayana
 	}
-	
-	
 	
 	mahayana = {
 		color = { 254 170 52 }

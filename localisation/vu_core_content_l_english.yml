@@ -749,6 +749,89 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  desc_tropical_lagoon_modifier:0 "Controlling this tropical Lagoon strengthens our hold of the trade in the region."
  laguna_lagoon_modifier:0 "Laguna Lagoon"
  desc_laguna_lagoon_modifier:0 "Controlling Laguna lagoon strengthens our hold of the trade in the region."
+ 
+ #Religious Priovince Modifiers
+ western_christian_a_place_of_miracles_modifier:0 "A Place of Miracles"
+ desc_western_christian_a_place_of_miracles_modifier:0 "."
+ 
+ western_christian_the_massiahs_birthplace_modifier:0 "The Massiahs Birthplace"
+ desc_western_christian_the_massiahs_birthplace_modifier:0 "."
+ 
+ western_christian_famous_holy_relic_modifier:0 "Famous Holy Relic"
+ desc_western_christian_famous_holy_relic_modifier:0 "."
+ 
+ western_christian_major_abbey_modifier:0 "Major Abbey"
+ desc_western_christian_major_abbey_modifier:0 "."
+ 
+ western_christian_great_cathedral_modifier:0 "Great Cathedral"
+ desc_western_christian_great_cathedral_modifier:0 "."
+ 
+ eastern_christian_patriarchal_seat_modifier:0 "Patriarchal Seat"
+ desc_eastern_christian_patriarchal_seat_modifier:0 "."
+ 
+ eastern_christian_famous_inconography_modifier:0 "Famous Iconography"
+ desc_eastern_christian_famous_inconography_modifier:0 "."
+ 
+ eastern_christian_major_metropolitan_modifier:0 "Major Metropolitan"
+ desc_eastern_christian_major_metropolitan_modifier:0 "."
+ 
+ eastern_christian_great_basilica_modifier:0 "Great Basilica"
+ desc_eastern_christian_great_basilica_modifier:0 "."
+ 
+ islamic_the_prophets_birthplace_modifier:0 "The Prophet's Birthplace"
+ desc_islamic_the_prophets_birthplace_modifier:0 "."
+ 
+ islamic_a_place_of_miracles_modifier:0 "Place of Truthful Miracles"
+ desc_islamic_a_place_of_miracles_modifier:0 "."
+ 
+ islamic_major_madrasa_modifier:0 "Major Madrasa"
+ desc_islamic_major_madrasa_modifier:0 "."
+ 
+ islamic_great_mosque_modifier:0 "Great Mosque"
+ desc_islamic_great_mosque_modifier:0 "."
+
+ hindu_great_temple_modifier:0 "Great Temple"
+ desc_hindu_great_temple_modifier:0 "."
+ 
+ buddhist_renowned_llama_modifier:0 "Renowned Llama"
+ desc_buddhist_renowned_llama_modifier:0 "."
+ 
+ sikh_renowned_guru_modifier:0 "Renowned Guru"
+ desc_sikh_renowned_guru_modifier:0 "."
+ 
+ confucius_famous_academy_modifier:0 "Famous Academy"
+ desc_confucius_famous_academy_modifier:0 "."
+
+ taoist_famous_martial_arts_school_modifier:0 "Famous Martial Arts School"
+ desc_taoist_famous_martial_arts_school_modifier:0 "."
+ 
+ shinto_famous_buddha_statue_modifier:0 "Famous Buddha Statue"
+ desc_shinto_famous_buddha_statue_modifier:0 "."
+ 
+ totem_great_pole_modifier:0 "Great Totem Pole"
+ desc_totem_great_pole_modifier:0 "."
+ 
+ dream_catchers_renowned_dream_giver_modifier:0 "Renowned Dream Giver"
+ desc_dream_catchers_renowned_dream_giver_modifier:0 "."
+
+ mesoamerica_great_pyramid_temple_modifier:0 "Great Pyramid Temple"
+ desc_mesoamerica_great_pyramid_temple_modifier:0 "."
+ 
+ andean_great_temple_complex_modifier:0 "Great Temple Complex"
+ desc_andean_great_temple_complex_modifier:0 "."
+
+ animists_renowned_healer_modifier:0 "Renowned Healer"
+ desc_animists_renowned_healer_modifier:0 "."
+ 
+ pagan_renowned_oracle_modifier:0 "Renowned Oracle"
+ desc_pagan_renowned_oracle_modifier:0 "."
+ 
+ druids_famous_megalithic_site_modifier:0 "Famous Megalithic Site"
+ desc_druids_famous_megalithic_site_modifier:0 "."
+ 
+ shamans_renowned_shaman_modifier:0 "Renowned Shaman"
+ desc_shamans_renowned_shaman_modifier:0 "."
+ 
 
  #Natural Wonders
  banaue_rice_terraces_modifier:0 "Banaue Rice Terraces"
