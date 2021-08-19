@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BRL
-controller = BRL
-add_core = BRL
+owner = BSV
+controller = BSV
+add_core = BSV
 culture = ruthenian
 religion = orthodox
 capital = "Rybnitsa"			#Error, founded 1628, but nothing better showing up easily

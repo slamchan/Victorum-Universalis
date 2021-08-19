@@ -106,8 +106,8 @@
  HHB_ADJ:0 "Hohenberger"
  HLF:0 "Helfenstein"
  HLF_ADJ:0 "Helfensteiner"
- HNS:0 "Hohnstein"
- HNS_ADJ:0 "Hohnsteiner"
+ HOS:0 "Hohnstein"
+ HOS_ADJ:0 "Hohnsteiner"
  HOM:0 "Homburg"
  HOM_ADJ:0 "Homburgan"
  HRF:0 "Hersfeld"
@@ -764,8 +764,8 @@
  YZZ:0 "Kalaallisut"
  YZZ_ADJ:0 "Kalaallisut"
  #Eastern European Additional Tags
- BRL:0 "Bratslav"
- BRL_ADJ:0 "Bratslavian"
+ BSV:0 "Bratslav"
+ BSV_ADJ:0 "Bratslavian"
 
  #VU Japan addition by San Felipe
  HNM:0 "Honma"
