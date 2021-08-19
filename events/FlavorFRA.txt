@@ -101,7 +101,7 @@ country_event = {
 		ENG = {
 			declare_war_with_cb = {
 				who = FRA
-				casus_belli = cb_restore_personal_union
+				casus_belli = cb_claim_throne # VU - change from cb_restore_personal_union to allow France to reclaim all of Normandy as defender (cheaper cost).
 			}
 		}
 		177 = {
