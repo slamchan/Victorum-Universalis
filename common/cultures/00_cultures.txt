@@ -1212,7 +1212,7 @@ french	= {
 	}
 	#BtPLegacy Culture
 	gallo_culture = {
-		primary = RHN
+		primary = ROH
 		male_names = {
 			Yannick
 		}
