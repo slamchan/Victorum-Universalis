@@ -24271,7 +24271,7 @@ great_mosque_and_hospital = {
 london_docks = {
     start = 236
     
-    date = 1799.01.01
+    date = 1444.01.01
     
     time = {
         months = 0
@@ -24310,7 +24310,7 @@ london_docks = {
     }
 
     can_upgrade_trigger = {
-        is_year = 1815
+        is_year = 1799
 		culture_group = british
 		OR = {
 			has_owner_culture = yes
