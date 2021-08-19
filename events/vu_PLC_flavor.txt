@@ -232,6 +232,18 @@ country_event = { # Chmielnicki's Uprising
 		}
 		add_prestige = -25
 		create_march = ZAZ
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_core = PLT
+				}
+				spawn_rebels = {
+					type = nationalist_rebels
+					size = 1.5
+					friend = PLT
+				}
+			}
+		}
 	}
 	
 	option = { # Chmielnicki's uprising starts
