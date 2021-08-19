@@ -351,3 +351,459 @@ country_event = { # Russian help Cossacks and intervene in war
 		clr_global_flag = chmielnicki_uprising
 	}
 }
+
+country_event = { # Second Peace of Thorn
+	id = vu_plc.4
+	title = vu_plc.4.t
+	desc = vu_plc.4.d
+	picture = SEJM_eventPicture
+	
+	goto = 1859
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = POL
+			tag = PLC
+		}
+		is_at_war = no
+		has_global_flag = poland_supported_prussian_confederation
+		OR = {
+			DNZ = { vassal_of = ROOT }
+			AND = {
+				NOT = { exists = DNZ }
+				43 = { owned_by = ROOT }
+			}
+		}
+		OR = {
+			AND = {
+				NOT = { exists = TEU }
+				41 = { owned_by = ROOT }
+			}
+			AND = {
+				exists = TEU
+				army_strength = {
+					who = TEU
+					value = 1.5
+				}
+			prestige = TEU
+			}
+		}
+		OR = {
+			41 = {
+				OR = {
+					owned_by = ROOT
+					owned_by = DNZ
+					owned_by = TEU
+				}
+			}
+			1841 = {
+				OR = {
+					owned_by = ROOT
+					owned_by = DNZ
+					owned_by = TEU
+				}
+			}
+			43 = {
+				OR = {
+					owned_by = ROOT
+					owned_by = DNZ
+					owned_by = TEU
+				}
+			}
+		}
+	}
+	
+	option = { # Don't agree to Peace
+		name = vu_plc.4.a
+		clr_global_flag = poland_supported_prussian_confederation
+	}
+	
+	option = { # Sign Peace
+		name = vu_plc.4.b
+		clr_global_flag = poland_supported_prussian_confederation
+		custom_tooltip = vu_plc.4.tooltip
+		if = {
+			limit = {
+				exists = DNZ
+			}
+			inherit = DNZ
+		}
+		if = {
+			limit = {
+				exists = TEU
+			}
+			inherit = TEU
+		}
+		if = {
+			limit = {
+				exists = PMS
+				PMS = { is_subject = yes }
+			}
+			inherit = PMS
+		}
+		if = {
+			limit = {
+				exists = KLL
+				KLL = { is_subject = yes }
+			}
+			inherit = KLL
+		}
+		if = {
+			limit = {
+				exists = WRM
+				WRM = { is_subject = yes }
+			}
+			inherit = WRM
+		}
+		if = {
+			limit = {
+				exists = SGA
+				SGA = { is_subject = yes }
+			}
+			inherit = SGA
+		}
+		create_vassal = WRM
+		create_vassal = TEU
+		if = {
+			limit = {
+				7828 = {
+					owned_by = TEU
+				}
+			}
+			7828 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7825 = {
+					owned_by = TEU
+				}
+			}
+			7825 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7826 = {
+					owned_by = TEU
+				}
+			}
+			7826 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7828 = {
+					owned_by = TEU
+				}
+			}
+			7828 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7827 = {
+					owned_by = TEU
+				}
+			}
+			7827 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				5097 = {
+					owned_by = TEU
+				}
+			}
+			5097 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				2997 = {
+					owned_by = TEU
+				}
+			}
+			2997 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				41 = {
+					owned_by = TEU
+				}
+			}
+			41 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7819 = {
+					owned_by = TEU
+				}
+			}
+			7819 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				4747 = {
+					owned_by = TEU
+				}
+			}
+			4747 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				49 = {
+					owned_by = TEU
+				}
+			}
+			49 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				1859 = {
+					owned_by = TEU
+				}
+			}
+			1859 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				1841 = {
+					owned_by = TEU
+				}
+			}
+			1841 = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7829 = {
+					owned_by = ROOT
+				}
+			}
+			7829 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7830 = {
+					owned_by = ROOT
+				}
+			}
+			7830 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				2958 = {
+					owned_by = ROOT
+				}
+			}
+			2958 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				42 = {
+					OR = {
+						owned_by = TEU
+						owned_by = ROOT
+					}
+				}
+			}
+			42 = {
+				add_core = WRM
+				cede_province = WRM
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7831 = {
+					owned_by = ROOT
+				}
+			}
+			7831 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7832 = {
+					owned_by = ROOT
+				}
+			}
+			7832 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7862 = {
+					owned_by = ROOT
+				}
+			}
+			7862 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				767 = {
+					owned_by = ROOT
+				}
+			}
+			767 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				41 = {
+					owned_by = ROOT
+				}
+			}
+			41 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7835 = {
+					owned_by = ROOT
+				}
+			}
+			7835 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				3224 = {
+					owned_by = ROOT
+				}
+			}
+			3224 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7837 = {
+					owned_by = ROOT
+				}
+			}
+			7837 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7836 = {
+					owned_by = ROOT
+				}
+			}
+			7836 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7834 = {
+					owned_by = ROOT
+				}
+			}
+			7834 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				7833 = {
+					owned_by = ROOT
+				}
+			}
+			7833 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		if = {
+			limit = {
+				40 = {
+					owned_by = ROOT
+				}
+			}
+			40 = {
+				add_core = TEU
+				cede_province = TEU
+				remove_core = ROOT
+			}
+		}
+		add_prestige = 10
+	}
+}
