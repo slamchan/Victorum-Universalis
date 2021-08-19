@@ -1,0 +1,353 @@
+# New disaster events for Commonwealth
+# Initially added by docRobert
+
+# ====================================
+namespace = vu_plc
+
+country_event = { # Swedish plunder during Deluge
+	id = vu_plc.1
+	title = vu_plc.1.t
+	desc = vu_plc.1.d
+	picture = LAND_MILITARY_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = POL
+			tag = PLC
+		}
+		is_year = 1600
+		OR = {
+			war_with = SWE
+			war_with = SCA
+		}
+		OR = {
+			SWE = {
+				war_score_against = {
+					who = ROOT
+					value = 30
+				}
+			}
+			SCA = {
+				war_score_against = {
+					who = ROOT
+					value = 30
+				}
+			}
+		}
+	}
+	
+	option = { # Swedes run-sack Commonwealth during Deluge
+		name = vu_plc.1.a
+		add_years_of_income = -1
+		add_adm_power = -25
+		add_dip_power = -25
+		if = {
+			limit = { exists = SWE }
+			SWE = {
+				add_treasury = 1000
+				add_years_of_income = 1
+				add_adm_power = 25
+				add_dip_power = 25
+				add_mil_power = 20
+				add_splendor = 200
+			}
+		}
+		if = {
+			limit = { exists = SCA }
+			SCA = {
+				add_treasury = 1000
+				add_years_of_income = 1
+				add_adm_power = 25
+				add_dip_power = 25
+				add_mil_power = 20
+				add_splendor = 200
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					controlled_by = SWE
+					controlled_by = SCA
+				}
+			}
+			add_devastation = 60
+			add_base_tax = -1
+			add_base_production = -1
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					NOT = { controlled_by = SWE }
+					NOT = { controlled_by = SCA }
+				}
+			}
+			add_devastation = 20
+		}
+	}
+}
+
+country_event = { # Chmielnicki's Uprising
+	id = vu_plc.2
+	title = vu_plc.2.t
+	desc = vu_plc.2.d
+	picture = SIEGE_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1600
+		OR = {
+			tag = POL
+			tag = PLC
+		}
+		estate_influence = {
+			estate = estate_cossacks
+			influence = 20
+		}
+		NOT = {
+			estate_loyalty = {
+				estate = cossacks
+				loyalty = 55
+			}
+		}
+		any_owned_province = {
+			OR = {
+				area = zaporizhia_area
+				area = yedisan_area
+				area = east_dniepr_area
+				area = sloboda_ukraine_area
+				area = lower_dnieper_area
+			}
+			is_core = ROOT
+			is_core = ZAZ
+		}
+		NOT = { exists = ZAZ }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					2407 = {
+						owned_by = ROOT
+					}
+				}
+				2407 = {
+					add_core = ZAZ
+				}
+			}
+			if = {
+				limit = {
+					4542 = {
+						owned_by = ROOT
+					}
+				}
+				4542 = {
+					add_core = ZAZ
+				}
+			}
+			if = {
+				limit = {
+					7255 = {
+						owned_by = ROOT
+					}
+				}
+				7255 = {
+					add_core = ZAZ
+				}
+			}
+			if = {
+				limit = {
+					7256 = {
+						owned_by = ROOT
+					}
+				}
+				7256 = {
+					add_core = ZAZ
+				}
+			}
+			release = ZAZ
+			ZAZ = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.5
+						cavalry = 0.3
+						artillery = 0.2
+					}
+				}
+				capital_scope = {
+      					infantry = ZAZ
+      					infantry = ZAZ
+      					infantry = ZAZ
+      					infantry = ZAZ
+      					infantry = ZAZ
+				}
+				change_government = monarchy
+				add_government_reform = autocracy_reform
+				adopt_reform_progress = PLC
+				set_government_rank = 1
+				add_mil_power = 50
+				add_dip_power = 50
+				add_adm_power = 50
+				add_manpower = 10
+				add_treasury = 250
+				define_general = {
+					shock = 5
+					fire = 4
+					manuever = 5
+					siege = 4
+					name = "Bohdan Chmielnicki"
+				}
+			}
+		}
+	}
+	
+	option = { # Poland agrees to Cossack's demands
+		name = vu_plc.2.a
+		ai_chance = { factor = 25 }
+		every_owned_province = {
+			limit = {
+				OR = {
+					area = west_dniepr_area
+					area = eastern_volhynia_area
+					area = east_dniepr_area
+					province_id = 7209
+					province_id = 1943
+					province_id = 7206
+					province_id = 3241
+					province_id = 4540
+				}
+			}
+			cede_province = ZAZ
+		}
+		add_prestige = -25
+		create_march = ZAZ
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_core = PLT
+				}
+				spawn_rebels = {
+					type = nationalist_rebels
+					size = 1.5
+					friend = PLT
+				}
+			}
+		}
+	}
+	
+	option = { # Chmielnicki's uprising starts
+		name = vu_plc.2.b
+		ai_chance = { factor = 75 }
+		set_global_flag = chmielnicki_uprising
+		ZAZ = {
+			add_casus_belli = {
+				target = ROOT
+				type = cb_insult
+				months = 12
+			}
+			declare_war_with_cb = {
+				who = ROOT
+				casus_belli = cb_insult
+			}
+			capital_scope = {
+				add_unit_construction = {
+					type = infantry
+					amount = 10
+					speed = 1
+					cost = 0
+				}
+				add_unit_construction = {
+					type = cavalry
+					amount = 5
+					speed = 1
+					cost = 0
+				}
+			}
+		}
+		add_stability = -1
+	}
+}
+
+country_event = { # Russian help Cossacks and intervene in war
+	id = vu_plc.3
+	title = vu_plc.3.t
+	desc = vu_plc.3.d
+	picture = BORDER_TENSION_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = RUS
+			tag = MOS
+		}
+		has_global_flag = chmielnicki_uprising
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = { # Russia will not help
+		name = vu_plc.3.a
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { alliance_with = PLC }
+			}
+			modifier = {
+				factor = 0
+				NOT = { alliance_with = POL }
+			}
+		}
+		add_dip_power = 10
+		clr_global_flag = chmielnicki_uprising
+	}
+	option = { # Russia will intervene
+		name = vu_plc.3.b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 200
+				is_rival = PLC
+			}
+			modifier = {
+				factor = 200
+				is_rival = POL
+			}
+			modifier = {
+				factor = 200
+				NOT = {
+					has_opinion = {
+						who = PLC
+						value = 10
+					}
+				}
+			}
+		}
+		create_alliance = ZAZ
+		create_guarantee = ZAZ
+		join_all_offensive_wars_of = ZAZ
+		join_all_defensive_wars_of = ZAZ
+		add_casus_belli = {
+			target = PLC
+			type = cb_insult
+			months = 60
+		}
+		clr_global_flag = chmielnicki_uprising
+	}
+}
