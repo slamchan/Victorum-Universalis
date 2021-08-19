@@ -3933,6 +3933,8 @@
  PROV_ADJ8732:0 "Saybuscher"
  PROV8733:0 "Pyritz"
  PROV_ADJ8733:0 "Pyritzian"
+ PROV8734:0 "Louth"
+ PROV_ADJ8734:0 "Louth"
 
  # Beyond Typus province adjectives. Please note these are extremely incomplete, but appear? to only be seen when the province in question is selected as a capital for a custom nation. So I'm treating them as a secondary concern for the moment. -Draiocht
  PROV_ADJ4846:0 "Woolna"
