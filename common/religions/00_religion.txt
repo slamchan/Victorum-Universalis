@@ -2215,8 +2215,6 @@ eastern = {
 		harmonized_modifier = harmonized_vajrayana
 	}
 	
-	
-	
 	mahayana = {
 		color = { 254 170 52 }
 		icon = 23
