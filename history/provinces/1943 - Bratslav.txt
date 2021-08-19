@@ -2,8 +2,8 @@
 #Region - Ruthenia
 #Area - Podolia Volhynia
 
-owner = BRL
-controller = BRL
+owner = BSV
+controller = BSV
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -14,7 +14,7 @@ base_manpower = 1
 capital = "Bratslav"
 is_city = yes
 #fort_15th = yes #Bratslav Castle
-add_core = BRL
+add_core = BSV
 center_of_trade = 1
 
 discovered_by = western

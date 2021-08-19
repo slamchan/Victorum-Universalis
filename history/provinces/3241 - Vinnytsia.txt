@@ -2,8 +2,8 @@
 #Region - Ruthenia
 #Area - Podolia Volhynia
 
-owner = BRL
-controller = BRL
+owner = BSV
+controller = BSV
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -13,7 +13,7 @@ trade_goods = grain
 base_manpower = 1 
 capital = "Kalnik"
 is_city = yes
-add_core = BRL
+add_core = BSV
 
 discovered_by = western
 discovered_by = eastern

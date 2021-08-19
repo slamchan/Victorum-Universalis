@@ -386,7 +386,7 @@ TES = "countries/Teschen.txt"
 TRO = "countries/Troppau.txt"
 
 #Rus Legacy Tags
-BRL = "countries/Bratslav.txt"
+BSV = "countries/Bratslav.txt"
 
 #BT - Russia & Siberia
 BLV = "countries/Belyov.txt"
