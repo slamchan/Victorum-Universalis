@@ -452,6 +452,164 @@ navalbase_modifier_4 = {
 
 navalbase_up_rejected = {}
 
+##############
+# Religion
+##############
+#West European/East European
+#Western Christianity
+western_christian_a_place_of_miracles_modifier = { #Lourdes, Fatima, Lady of Guadeloupe etc
+    #modifiers go here
+    picture = "western_christian_a_place_of_miracles_icon"
+}
+
+western_christian_the_massiahs_birthplace_modifier = { #Bethlehem
+    #modifiers go here
+    picture = "western_christian_the_massiahs_birthplace_icon"
+}
+
+western_christian_famous_holy_relic_modifier = { #Turin Shroud, Holy Grail, Head of John the Baptist etc
+    #modifiers go here
+    picture = "western_christian_famous_holy_relic_icon"
+}
+
+western_christian_major_abbey_modifier = { #Honeyed Ale and Mead production
+    #modifiers go here
+    picture = "western_christian_major_abbey_icon"
+}
+
+western_christian_great_cathedral_modifier = { #West Minster, Saint-Denis etc
+    local_missionary_strength = -1
+    picture = "western_christian_great_cathedral_icon"
+}
+
+#Eastern Christianity
+eastern_christian_patriarchal_seat_modifier = {
+    #modifiers go here
+    picture = "eastern_christian_patriarchal_seat_icon"
+}
+
+eastern_christian_famous_inconography_modifier = {
+    #modifiers go here
+    picture = "eastern_christian_famous_inconography_icon"
+}
+
+eastern_christian_major_metropolitan_modifier = {
+    #modifiers go here
+    picture = "eastern_christian_major_metropolitan_icon"
+}
+
+eastern_christian_great_basilica_modifier = {
+    #modifiers go here
+    picture = "eastern_christian_great_basilica_icon"
+}
+
+#Middle East/Eastern/Asian 
+#Islam
+islamic_the_prophets_birthplace_modifier = {
+    #modifiers go here
+    picture = "islamic_the_prophets_birthplace_icon"
+}
+
+islamic_a_place_of_miracles_modifier = {
+    #modifiers go here
+    picture = "islamic_a_place_of_miracles_icon"
+}
+
+islamic_major_madrasa_modifier = {
+    #modifiers go here
+    picture = "islamic_major_madrasa_icon"
+}
+
+islamic_great_mosque_modifier = {
+    #modifiers go here
+    picture = "islamic_great_mosque_icon"
+}
+
+#Hinduism - India/South East Asia
+hindu_great_temple_modifier = {
+    #modifiers go here
+    picture = "hindu_great_temple_icon"
+}
+
+#Buddhism - India/South East Asia
+buddhist_renowned_llama_modifier = {
+    #modifiers go here
+    picture = "buddhist_renowned_llama_icon"
+}
+
+#Sikhism - India/South East Asia
+sikh_renowned_guru_modifier = {
+    #modifiers go here
+    picture = "sikh_renowned_guru_icon"
+}
+
+#Confucianism - China
+confucius_famous_academy_modifier = {
+    #modifiers go here
+    picture = "confucius_famous_academy_icon"
+}
+
+#Taoism - China
+taoist_famous_martial_arts_school_modifier = {
+    #modifiers go here
+    picture = "taoist_famous_martial_arts_school_icon"
+}
+
+#Shintoism - Japan
+shinto_famous_buddha_statue_modifier = {
+    #modifiers go here
+    picture = "shinto_famous_buddha_statue_icon"
+}
+
+#Primitive Religions
+#Totemism
+totem_great_pole_modifier = {
+    #modifiers go here
+    picture = "totem_great_pole_icon"
+}
+
+#Dream Catching
+dream_catchers_renowned_dream_giver_modifier = { #Spider Woman
+    #modifiers go here
+    picture = "dream_catchers_renowned_dream_giver_icon"
+}
+
+#Mesoamerica
+mesoamerica_great_pyramid_temple_modifier = { #
+    #modifiers go here
+    picture = "mesoamerica_great_pyramid_temple_icon"
+}
+
+#Andean
+andean_great_temple_complex_modifier = { #
+    #modifiers go here
+    picture = "andean_great_temple_complex_icon"
+}
+
+#Animism
+animists_renowned_healer_modifier = { #
+    #modifiers go here
+    picture = "animists_renowned_healer_icon"
+}
+
+#Paganism
+pagan_renowned_oracle_modifier = {
+    #modifiers go here
+    picture = "pagan_renowned_oracle_icon"
+}
+
+#Druidism
+druids_famous_megalithic_site_modifier = { #Celtic/Germanic etc
+    #modifiers go here
+    picture = "druids_famous_megalithic_site_icon"
+}
+
+#Shamanism
+shamans_renowned_shaman_modifier = { #Africa/Amazon etc
+    #modifiers go here
+    picture = "shamans_renowned_shaman_icon"
+}
+
 ###########
 # Lagoons
 ###########

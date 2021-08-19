@@ -258,7 +258,7 @@ NDiplomacy = {
 	PEACE_COST_CONCEDE_PROVINCE = 0.4,				-- Demand colonial area province concession.
 	PEACE_COST_JOIN_EMPIRE = 0.5,
 	PEACE_COST_BECOME_VASSAL = 0.4,					-- Vassalize a country (scales by province wealth)
-	PEACE_COST_PILLAGE_CAPITAL = 1,					-- Pillage a capital state's dev (scales by province wealth)
+	PEACE_COST_PILLAGE_CAPITAL = 10,					-- Pillage a capital state's dev (scales by province wealth) -- VU increase cost to 10 from 1 to discourage pillaging
 	PEACE_COST_RETURN_CORE = 0.4,						-- Return a core (scales by province wealth)
 	PEACE_COST_REVOKE_CORE = 0.25,						-- Revoke a core (scales by province wealth)
 	PEACE_COST_RELEASE_ANNEXED = 0.4,					-- Release annexed nation (scales by province wealth)
@@ -1623,7 +1623,7 @@ NAI = {
 	PEACE_TERMS_CHANGE_GOVERNMENT_BASE_MULT = 0.75, -- only applied if CB is valid for it
 	PEACE_TERMS_CHANGE_RELIGION_BASE_MULT = 100.0, -- only applied if CB is valid for it
 	PEACE_TERMS_ANNEX_BASE_MULT = 100.0,
-	PEACE_TERMS_PILLAGE_CAPITAL_MULT = 2.0,
+	PEACE_TERMS_PILLAGE_CAPITAL_MULT = 0.0, -- VU change to 0.0 from 2.0 to prevent AI pillaging
 	PEACE_TERMS_PROVINCE_BASE_MULT = 1.0,
 	PEACE_TERMS_TRADE_POWER_BASE_MULT = 1.0,
 	PEACE_TERMS_HUMILIATE_BASE_MULT = 1.0,
@@ -1911,7 +1911,7 @@ NAI = {
 	ESTATE_MAX_WANTED_INFLUENCE = 73.0,
 	ESTATE_MIN_WANTED_CROWNLAND = 33.0,
 	ESTATE_MAX_PRIVILEDGES = 2,
-	MIN_SCORE_TO_CONCENTRATE_DEVELOPMENT = 1.5,
+	MIN_SCORE_TO_CONCENTRATE_DEVELOPMENT = 999999, -- VU increase from 1.5 to 999999 [attempt to prevent AI from concentrating]
 },
 
 NAIEconomy = {

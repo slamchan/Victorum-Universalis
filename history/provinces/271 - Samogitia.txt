@@ -5,7 +5,7 @@
 owner = SMG
 controller = SMG
 culture = lithuanian
-religion = catholic
+religion = baltic_pagan_reformed
 capital = "Raseiniai"
 trade_goods = beer
 hre = no
@@ -24,6 +24,7 @@ discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
 
+1490.1.1 = { religion = catholic }
 1569.7.1 = {
 	owner = PLC
 	controller = PLC
