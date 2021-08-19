@@ -59,7 +59,7 @@
  PROV318:0 "Ismira"
  PROV319:0 "Mogolla"
  PROV321:0 "Limassol"
- PROV322:0 "Dorylaeum"
+ PROV322:0 "Eskisehir"          #Dorylaeum
  PROV323:0 "Konia"
  PROV324:0 "Laranda"            #Formerly 5136
  PROV325:0 "Timonion"
@@ -657,7 +657,7 @@
  PROV4308:0 "Laodicea"          #Formerly 5132
  PROV4309:0 "Tralles"          #Formerly 5160
  PROV4310:0 "Harput"          #Formerly 5148
- PROV4311:0 "Cotyaeum"          #Formerly 5133
+ PROV4311:0 "Kütahya"          #Formerly 5133
  PROV4312:0 "Claudiopolis"          #Formerly 5149
  PROV4313:0 "Gangra"          #Formerly 5166
  PROV4314:0 "Cochisia"          #Made up Latinised version of Koçhisar. Turkish settlement the first -named- major settlement of note I could find, Formerly 5153

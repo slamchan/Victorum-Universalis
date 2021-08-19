@@ -288,6 +288,7 @@ country_event = {
 			}
 		}
 		set_country_flag = supported_prussian_confederation_flag
+		set_global_flag = poland_supported_prussian_confederation
 		add_opinion = {
 			who = DNZ
 			modifier = supported_prussian_confederation
