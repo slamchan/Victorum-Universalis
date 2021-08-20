@@ -1379,6 +1379,89 @@ country_decisions = {
 	}
 	
 ###################################################################################################
+################################       Duchy of Warsaw		 ##################################
+###################################################################################################
+
+	duchy_warsaw_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_duchy_of_warsaw }
+			OR = {
+				tag = MAZ
+				AND = {
+					owns_core_province = 257
+					culture_group = west_slavic
+					religion_group = catholic
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 257
+				province_id = 1938
+				province_id = 7211
+				province_id = 256
+				province_id = 2763
+				province_id = 3221
+				province_id = 255
+				province_id = 8231
+			}
+		}
+		allow = {
+			NOT = { exists = DWA }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 257
+			owns_core_province = 1938
+			owns_core_province = 7211
+			owns_core_province = 256
+			owns_core_province = 2763
+			owns_core_province = 3221
+			owns_core_province = 255
+			owns_core_province = 8231
+			NOT = { exists = POL }
+			NOT = { exists = PLC }
+			adm_tech = 20
+			OR = {
+				tag = MZA
+				AND = {
+					dominant_culture = polish
+					accepted_culture = polish
+				}
+			}
+		}
+		effect = {
+			257 = { move_capital_effect = yes }
+			change_tag = DWA
+			
+			if = {
+				limit = { NOT = { government_rank = 1 } }
+				set_government_rank = 1
+			}
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 7300
+			}
+			257 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 1
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_duchy_of_warsaw
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+###################################################################################################
 ################################			NEWCOUNTRY			 ##############################################
 ###################################################################################################
 #Added in 1.23, so cut and replaced.

@@ -43,6 +43,7 @@
 BDN = "countries/Vidin.txt"
 CUM = "countries/Cumania.txt"
 DRJ = "countries/Dobruja.txt"
+DWA = "countries/DuchyWarsaw.txt"
 ILY = "countries/Illyria.txt"
 KCH = "countries/Khachen.txt"
 KMI = "countries/Kammin.txt"
