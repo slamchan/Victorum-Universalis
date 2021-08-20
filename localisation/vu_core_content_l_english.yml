@@ -1416,6 +1416,8 @@ pudget_sound_modifier:0 "The Pudget Sound"
  btpl_scottish_nation_desc:0 "Hundreds of years of invasions and immigration has done nothing but make our great nation stronger. We may hold land on the fringes of Europe, but we are anything but irrelevant, and above all, we are free under Scotland the brave!"
  united_kingdom_nation_title:0 "Form United Kingdom"
  united_kingdom_nation_desc:0 "We have established a firm hegemony over all of the British Isles, but autonomous and sometimes rebellious vassals frustrate our plans whilst uneccessary local governments divert our taxes and complicate administration. We should unite our various kingdoms, once and for all, into a single, strong, and unified nation!"
+ duchy_warsaw_nation_title:0 "Form Duchy of Warsaw"
+ duchy_warsaw_nation_desc:0 "Poland and Commonwealth have both ceased to exist. We must continue Polish legacy and create new state centered around the city of Warsaw."
  #Non-European Old World
  btpl_kabylia_nation_title:0 "Form Kabylia"
  btpl_kabylia_nation_desc:0 "Uniting the rich, fertile hills of Kabylia is the first step in establishing a strong Berber nation in the Maghreb!"
