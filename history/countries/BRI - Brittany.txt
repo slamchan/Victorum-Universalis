@@ -191,8 +191,8 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 
 1414.5.11 = {
 	heir = {
-		name = "Françoise"
-		monarch_name = "Françoise I"
+		name = "François"
+		monarch_name = "François I"
 		dynasty = "de Montfort"
 		birth_date = 1414.5.11
 		death_date = 1450.7.18
@@ -208,7 +208,7 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 
 1442.8.29 = {
 	monarch = {
-		name = "Françoise I"			#'The 'well loved' very popular, apparently
+		name = "François I"			#'The 'well loved' very popular, apparently
 		dynasty = "de Montfort"
 		birth_date = 1414.5.14
 		adm = 2			#Probably doesn't deserve just 1. Only negative thing I could find about him was he either ordered the murder of his brother Gilles, or failed to prevent it (history is unclear). Probably the later, though, as was 'struck by remorse and died a short while later' according to the ever helpful wiki. Interesting note, EN language wiki blames younger brother Peter for the murder of Gilles.
@@ -316,8 +316,8 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 
 1457.9.23 = {
 	heir = {
-		name = "Françoise"
-		monarch_name = "Françoise II"
+		name = "François"
+		monarch_name = "François II"
 		dynasty = "de Montfort"
 		birth_date = 1433.6.23
 		death_date = 1488.9.9
@@ -332,7 +332,7 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 
 1458.12.27 = {
 	monarch = {
-		name = "Françoise II"
+		name = "François II"
 		dynasty = "de Montfort"
 		birth_date = 1433.6.23
 		adm = 1			#The duchy was mainly governed by its advisors, especially Landais between 1481-1485. Spender.

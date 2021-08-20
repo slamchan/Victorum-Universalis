@@ -1,5 +1,5 @@
 282 = "Özü"
-316 = { "Kocaeli" "Izmid" }
+316 = { "Kocaeli" "Izmit" }
 322 = "Eskisehir"
 360 = "Circe"
 1846 = "Bayramli"
@@ -9,7 +9,7 @@
 5135 = "Mersin"
 5137 = "Yozgut"
 5146 = "Nigde"
-5147 = "Alayie"
+5147 = { "Alayie" "Alayie" }
 5150 = "Göreme"
 5155 = "Gordiyon"
 5164 = "Karabük"
