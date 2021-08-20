@@ -9,7 +9,7 @@
 5135 = "Mersin"
 5137 = "Yozgut"
 5146 = "Nigde"
-5147 = "Alayie"
+5147 = { "Alayie" "Alayie" }
 5150 = "Göreme"
 5155 = "Gordiyon"
 5164 = "Karabük"
