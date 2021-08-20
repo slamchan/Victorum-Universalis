@@ -259,13 +259,13 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 	}
 	queen = {
 		country_of_origin = FRA
-		name = "Françoisee"
+		name = "Françoise"
 		dynasty = "d'Amboise"
 		birth_date = 1427.5.29
 		death_date = 1485.11.4
 		female = yes
 		adm = 5			#The 'good duchess', patient.
-		dip = 5			#Françoisee d'Amboise became the Duchess of Brittany and had a discrete but active share in governing Brittany. She came to help the poor and the sick. She had also a strong feelings about justice.
+		dip = 5			#Françoise d'Amboise became the Duchess of Brittany and had a discrete but active share in governing Brittany. She came to help the poor and the sick. She had also a strong feelings about justice.
 		mil = 1			#Nothing in particular, but probably not devoted at all to military affairs. 
 	}
 	clear_scripted_personalities = yes
