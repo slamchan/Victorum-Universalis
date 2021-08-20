@@ -1,4 +1,5 @@
 285 = "Theodosia"
+322 = "Dorylaion"
 340 = "Constantina"
 352 = "Justiniania"
 357 = "Darnis"
@@ -17,3 +18,4 @@
 2348 = "Chios"
 2343 = "Adrramyta"
 2447 = "Tamatarha"
+4311 = "Cotyaion"
