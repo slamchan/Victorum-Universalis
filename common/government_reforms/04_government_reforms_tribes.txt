@@ -41,6 +41,7 @@ steppe_horde = {
 		cav_to_inf_ratio = 0.25
 		movement_speed = 0.2
 		years_of_nationalism = -5
+		cavalry_cost = -0.33   #can be changed later because it might be unbalanced.
 	}
 	ai = {
 		factor = 1000

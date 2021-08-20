@@ -75,7 +75,7 @@ country_decisions = {
     major = yes
     potential = {
       ai = no
-      NOT = {is_year = 1455}
+      NOT = {is_year = 1445}
       NOT = { has_global_flag = removed_central_america }
     }
 

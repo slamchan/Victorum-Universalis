@@ -1,7 +1,7 @@
 # Roman Empire
 graphical_culture = easterngfx
 
-color = { 167 10 100 }
+color = { 170 0 0 }
 revolutionary_colors = { 4 8 4 }
 
 historical_idea_groups = {

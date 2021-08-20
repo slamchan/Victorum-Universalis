@@ -1,3 +1,5 @@
+namespace = CotCreation
+
 #First an event template to create CoT from a set province
 province_event = {
     id = CotCreation.1

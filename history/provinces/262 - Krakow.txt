@@ -29,10 +29,10 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
-
+center_of_trade = 2
 extra_cost = 15
 
-center_of_trade = 2
+
 
 1569.7.1 = {
 	owner = PLC
@@ -51,14 +51,48 @@ center_of_trade = 2
 1794.3.24 = { unrest = 5 } # Kosciuszko uprising
 1794.11.16 = { unrest = 0 } # The end of the uprising
 1795.10.24 = { owner = HAB controller = HAB add_core = HAB } # Third partition
-1807.7.9 = {
+1807.6.9 = {
+	add_core = POL
+} # The Duchy of Warsaw is established after the treaty of Tilsit, ruled by Frederick Augustus I of Saxony
+1809.10.14 = {
 	owner = POL
 	controller = POL
-	add_core = POL
 	remove_core = HAB
-} # The Duchy of Warsaw is established after the treaty of Tilsit, ruled by Frederick Augustus I of Saxony
+} # Treaty of Chonbrunn
 1815.5.3 = {
 	owner = KRA
 	controller = KRA
 	add_core = KRA
 } # The Free city of Krakow
+1830.11.30 = {
+	unrest = 3
+} # November Uprising, Krakow becomes smuggling base of operation for revolting Congress Poland
+1846.2.1 = {
+	unrest = 5
+	revolt = {
+		type = revolutionary_rebels
+		size = 1
+	}
+	controller = REB
+} # Krakow Uprising
+1846.2.27 = {
+	unrest = 0
+	revolt = {}
+	controller = KRA
+} # Failed uprising supressed
+1846.11.16 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+} # Austrian Empire annexes Free City of Krakow
+1867.3.30 = {
+	owner = AHE
+	controller = AHE
+	add_core = AHE
+	remove_core = HAB
+} # Austria-Hungary formed
+1918.11.11 = {
+	owner = POL
+	controller = POL
+	remove_core = KRA
+} # Poland proclaims independance, end of WWI

@@ -76,7 +76,7 @@ march = {
 #Autonomous Bratslav within Lithuanian Duchy 
 vassal = {
     first = LIT
-	second = BRL
+	second = BSV
 	start_date = 1444.1.1
 	end_date = 1566.1.1 #Voivodeship within Poland
 }	

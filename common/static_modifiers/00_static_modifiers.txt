@@ -306,7 +306,7 @@ development = {
 }
 
 development_scaled = {
-	local_development_cost = 0.01			#BTAddOn changed from 0.03. Dev doubling accounted for.
+	local_development_cost = 0.03			#Reverted back to 3 from 2. BTAddOn changed from 0.03. Dev doubling accounted for.
 }
 
 capital_city = {
@@ -605,6 +605,7 @@ base_values = {
 	cav_to_inf_ratio = 0.3			#BTAddOn changed from 0.5 - Seriously, what normal army was a full 50 percent cavalry? Realistic might be closer to 10 as a base, but 30 hits a nice gameplay/realism balance, I think.
 	merc_maintenance_modifier = 0.5
 	monthly_heir_claim_increase = 0.417
+	cavalry_flanking = 0.50			#Cavalry buff because paradox refuses to buff cavalry.
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI

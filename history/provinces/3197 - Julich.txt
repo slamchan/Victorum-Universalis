@@ -14,7 +14,7 @@ is_city = yes
 add_core = JUL
 base_manpower = 4 
 hre = yes
-center_of_trade = 2
+
 
 discovered_by = english
 discovered_by = french

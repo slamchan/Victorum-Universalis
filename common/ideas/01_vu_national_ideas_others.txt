@@ -189,7 +189,7 @@ SCA_ideas = {
 }
 
 #Lombardy-Veneto
-LMV_ideas = {
+LMV_ideas = { [now LVN]
 	start = {
 		infantry_power = 0.10 #MLO_ideas
 		galley_power = 0.25 #VEN_ideas bonus
@@ -199,7 +199,7 @@ LMV_ideas = {
 		republican_tradition = 0.5
 	}
 	trigger = {
-		tag = LMV
+		tag = LVN
 	}
 
 	free = yes
@@ -230,7 +230,7 @@ LMV_ideas = {
 		global_trade_goods_size_modifier = 0.10
 	}
 	
-	lmv_italian_unification = { #LMV shall be the unifiers of Italy!
+	lmv_italian_unification = { #LVN shall be the unifiers of Italy!
 		governing_capacity_modifier = 0.1
 		num_accepted_cultures = 1
 	}
@@ -364,12 +364,12 @@ LOM_ideas = {
 		burghers_loyalty_modifier = 0.05
 	}
 	
-	lom_freethinkers = { #A bit like LMV. Lots of historical figures hailed from Lombardy, from Roman philosophes to Italian physicists. Plus musicians, politicians and popes.
+	lom_freethinkers = { #A bit like LVN. Lots of historical figures hailed from Lombardy, from Roman philosophes to Italian physicists. Plus musicians, politicians and popes.
 		advisor_pool = 1
 		innovativeness_gain = 0.5
 	}
 	
-	lmv_po_valley_textiles = { #Used by LMV
+	lmv_po_valley_textiles = { #Used by LVN
 	
 	}
 	
@@ -1990,11 +1990,11 @@ CCC_ideas = {
 #Cordoba
 CDB_ideas = {
 	start = {
-		tolerance_heathen = 2 #C髍doba is very close to Muslim Andalusia, and by proxy Muslim North Africa. Couple that with the city's history as a multi-religious metropolis, and I think Tolerance of Heathens makes sense.
-		legitimacy = 0.5	  #C髍doba also has a long history of self-rule, from the Caliphate of C髍doba to the Taifa of C髍doba to (evidently) the independent Duchy/Kingdom/Empire of C髍doba.
+		tolerance_heathen = 2 #C贸rdoba is very close to Muslim Andalusia, and by proxy Muslim North Africa. Couple that with the city's history as a multi-religious metropolis, and I think Tolerance of Heathens makes sense.
+		legitimacy = 0.5	  #C贸rdoba also has a long history of self-rule, from the Caliphate of C贸rdoba to the Taifa of C贸rdoba to (evidently) the independent Duchy/Kingdom/Empire of C贸rdoba.
 	}
 	bonus = {
-		global_missionary_strength = 0.02	#Same strength as Castile gets in their second NI. Surely a late-game C髍doba would be thanking God for their existence :P
+		global_missionary_strength = 0.02	#Same strength as Castile gets in their second NI. Surely a late-game C贸rdoba would be thanking God for their existence :P
 	}
 	trigger = {
 		tag = CDB
@@ -2003,45 +2003,45 @@ CDB_ideas = {
 	free = yes
 
 	#Turn the Tide
-	#Despite the city's rich history, it severely declined by Renaissance times. According to the Wikipedia, estimate of the city's population in the 18th-century are as low as 20,000. Reversing this decline would be a big priority for an independent C髍doba. 
+	#Despite the city's rich history, it severely declined by Renaissance times. According to the Wikipedia, estimate of the city's population in the 18th-century are as low as 20,000. Reversing this decline would be a big priority for an independent C贸rdoba. 
 	cdb_reverse_decline = {
 		land_morale = 0.1
 	}
 
-	#La Mezquita (de C髍doba)
-	#The Mosque-Cathedral of C髍doba (Mezquita-Catedral de C髍doba in Spanish) dates back to Visigothic times, and was the location of a Basilica until Abd al-Rahman I ordered the construction of the Great Mosque in 784. It was converted to a cathedral after the city's reconquest in 1236. It's a seriously impressive church.
+	#La Mezquita (de C贸rdoba)
+	#The Mosque-Cathedral of C贸rdoba (Mezquita-Catedral de C贸rdoba in Spanish) dates back to Visigothic times, and was the location of a Basilica until Abd al-Rahman I ordered the construction of the Great Mosque in 784. It was converted to a cathedral after the city's reconquest in 1236. It's a seriously impressive church.
 	cdb_la_mezquita = {
 		prestige = 1 #could also be replaced with prestige_decay = -0.01
 	}
 
 	#Dredge the Guadalquivir
-	#Apparently in Roman Times the Guadalquivir was navigable to C髍doba. I say dredge it!
+	#Apparently in Roman Times the Guadalquivir was navigable to C贸rdoba. I say dredge it!
 	cdb_dredge_guadalquivir = {
 		development_cost = -0.1
 	}
 
 	#Las Colaciones
-	#Colaci髇 or collaci髇 is another term for a neighborhood in Spanish. In 1236, C髍doba was divided into 14 colaciones and lots of churches were built.
+	#Colaci贸n or collaci贸n is another term for a neighborhood in Spanish. In 1236, C贸rdoba was divided into 14 colaciones and lots of churches were built.
 	cdb_colaciones = {
 		build_cost = -0.1
 		global_manpower_modifier = 0.2
 	}
 
 	#Establish Foreign Trade
-	#At this point it gets more generic. I guess at this point C髍doba would be independent and would be looking to expand its trade network?
+	#At this point it gets more generic. I guess at this point C贸rdoba would be independent and would be looking to expand its trade network?
 	cdb_foreign_trade = {
 		trade_range_modifier = 0.2
 		trade_steering = 0.1
 	}	
 
-	#Mines of C髍doba
-	#C髍doba has a gold mine, and there are lots of other mine-related goods nearby like iron and copper. /shrug
+	#Mines of C贸rdoba
+	#C贸rdoba has a gold mine, and there are lots of other mine-related goods nearby like iron and copper. /shrug
 	cdb_mines = {
 		global_trade_goods_size_modifier = 0.1
 	}
 
 	#Bridges and Roads
-	#C髍doba had like one bridge from Roman Times until the 20th century. How on Earth did they get around? Build more bridges! And roads too!
+	#C贸rdoba had like one bridge from Roman Times until the 20th century. How on Earth did they get around? Build more bridges! And roads too!
 	cdb_bridges = {
 		global_own_trade_power = 0.2 #Other nations have values from 0.1 to 0.25, so there's precedent for a value this high. To be honest this is kind of a stretch, but I already used -dev cost so
 	}
@@ -2064,8 +2064,8 @@ SVL_ideas = {
 
 	free = yes
 
-	#Alc醶ar de Sevilla
-	#The Alc醶ar of Seville is a massive fortified palatial complex, built for King Pedro I de Ivrea in the 1360s. Though Pedro's reputation is mixed, the Alc醶ar is undoubtedly an impressive feat of architecture.
+	#Alc谩zar de Sevilla
+	#The Alc谩zar of Seville is a massive fortified palatial complex, built for King Pedro I de Ivrea in the 1360s. Though Pedro's reputation is mixed, the Alc谩zar is undoubtedly an impressive feat of architecture.
 	sev_alcazar = {
 		defensiveness = 0.25
 	}
@@ -2096,7 +2096,7 @@ SVL_ideas = {
 	}
 
 	#Inquisitive Minds
-	#Despite the Inquisition, Seville has continued to be a nexus for scholarly thought. The libraries and campuses of Seville rival those of C髍doba, Paris, London, and Cairo. Let not one be ashamed of asking questions!
+	#Despite the Inquisition, Seville has continued to be a nexus for scholarly thought. The libraries and campuses of Seville rival those of C贸rdoba, Paris, London, and Cairo. Let not one be ashamed of asking questions!
 	sev_inquisitive_minds = {
 		technology_cost = -0.05
 	}

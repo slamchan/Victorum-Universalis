@@ -2264,19 +2264,7 @@ chocolates = {
 		local_culture_conversion_cost = -0.30
 	}
 	chance = {
-		factor = 10
-		modifier = {
-			factor = 2.0
-			continent = europe
-			development = 100
-			NOT = { area = newfoundland_area }
-		}
-		modifier = {
-			factor = 0
-			area = newfoundland_area
-			NOT = { continent = europe }
-			NOT = { development = 100 }
-		}
+		factor = 0
 	}
 }
 

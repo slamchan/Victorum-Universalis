@@ -145,7 +145,7 @@ treaty_port = {
 
     trigger = {
         owner = {
-			NOT {same_continent = ROOT}
+			NOT = { same_continent = ROOT }
 		}
     }
 	

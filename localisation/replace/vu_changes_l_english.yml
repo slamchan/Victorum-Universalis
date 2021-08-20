@@ -42,6 +42,30 @@
  grain:0 "Wheat"
  grainDESC:0 "Wheat is one of the world's most commonly consumed cereal grains. It comes from a type of grass (Triticum) that is grown in countless varieties worldwide. White and whole-wheat flour are key ingredients in baked goods, such as bread. Other wheat-based foods include pasta, noodles, semolina, bulgur, and couscous."
 
+ #Centres of Trade
+ #Ports
+ natural_harbor:0 "Safe Haven"
+ natural_harbor_desc:0 "This province contains a Safe Haven for ships that need to shelter from storms. It also provides a safe area where crews can carry out repairs and even rest for a while within local taverns where crew members can enjoy a few drinks or sample the local delicacies. This is also a place where Captains can replenish ship supplies and recruit young, able men for any ongoing voyages."
+ staple_port:0 "Pier"
+ staple_port_desc:0 "This province contains a Pier that allows ships to disembark passengers in the deeper water further out. Merchants can then venture out and trade with the locals, despite the poor infrastructure."
+ regional_port:0 "Quay"
+ regional_port_desc:0 "This province contains a local Quay that has been modified so ships can dock parallel to the shore. Merchants can then venture out and trade with the locals along the shoreline, despite the poor infrastructure."
+ entrepot:0 "Wharf"
+ entrepot_desc:0 "This province contains a Wharf which provides an area for ships to safely dock. Some are very intricate, with multiple types of berths over a large area and navigable channels. Wharves also contain quays, piers and will normally have warehouses and offices within it to service ships such as merchant vessels and their crews returning back from long voyages."
+ world_port:0 "Port"
+ world_port_desc:0 "This province contains a Port which has facilities for boats or ships to call into and usually a village, town, or city attached. Goods from all over the world regularly pass through here and any settlement attaching itself to this place is known throughout the world."
+ #Inland
+ church_sale:0 "Church Sale"
+ church_sale_desc:0 "This province contains a Church Sale where for many years both the clergy and local paritioners have mingled to traded with local merchants."
+ emporium:0 "Farmer's Market"
+ emporium_desc:0 "This province contains a Farmer's Market where farmers sell freshly picked vegetables, meats and various other produce to the locals."
+ market_town:0 "County Fair"
+ market_town_desc:0 "This province contains a County Fair where people and traders from across the county regularly gather to haggle, sell and buy goods."
+ regional_market:0 "Regional Bazaar"
+ regional_market_desc:0 "This province contains a Regional Bazaar where people and traders from across the region gather to seek out bargain items, either to keep or re-sell to eager customers."
+ world_trade_center:0 "Grand Emporium"
+ world_trade_center_desc:0 "This province contains a Grand Emporium and is one of the most important trade centers in the world. There are few goods that cannot be found here and the city itself is famous worldwide!"
+ 
  #Technology - Added Techs and Ideas
  adm_tech_cs_33_name:0 "Four Field Rotation"
  adm_tech_cs_34_name:0 "Railroads"
@@ -2703,11 +2727,11 @@
  construct_wellington_title: "Construct Wellington Harbour"
  construct_wellington_desc: "Wellington Harbour began with the arrival of an advance party of the New Zealand Company on the ship Tory on 20 September 1839, followed by 150 settlers on the Aurora on 22 January 1840; Costs 4000."
  #
- great_project_bastile: "Bastille"
- bastile: "Bastille"
- bastile_title: "Construct the Bastille"
- construct_bastile_title: "Construct the Bastille"
- construct_bastile_desc: "The Bastille is a fortress in Paris known formally as the Bastille Saint-Antoine. It has played an important role in the internal conflicts of France and for most of its history has been used as a state prison by the kings of France to lock up political disidents, traitors and enemies of state; Costs 4000."
+ great_project_bastille: "Bastille"
+ bastille: "Bastille"
+ bastille_title: "Construct the Bastille"
+ construct_bastille_title: "Construct the Bastille"
+ construct_bastille_desc: "The Bastille is a fortress in Paris known formally as the Bastille Saint-Antoine. It has played an important role in the internal conflicts of France and for most of its history has been used as a state prison by the kings of France to lock up political disidents, traitors and enemies of state; Costs 4000."
  #
  great_project_washington: "Washington D.C."
  washington: "Washington D.C."
@@ -2925,6 +2949,12 @@
  construct_great_mosque_and_hospital_title: "Renovate Divrigi"
  construct_great_mosque_and_hospital_desc: "The Divrigi is an ornately decorated mosque and hospital complex built in 1228–1229 by the local dynasty of the Mengujekids in the small Anatolian town of Divrigi, now in Sivas Province, Anatolia; Costs 4000."
  #
+ great_project_london_docks: "London Docks"
+ london_docks: "London Docks"
+ london_docks_title: "Construct the London Docks"
+ construct_london_docks_title: "Construct the London Docks"
+ construct_london_docks_desc: "Constructed in Wapping, downstream from the City of London between 1799 and 1815, at a cost exceeding £5.5 million, the London Docks were one several sets of docks in the historic Port of London; Costs 4000."
+ #
  # End of VU - San Felipe additions
  #
  great_project_machu_picchu: "Machu Picchu"
@@ -2969,11 +2999,47 @@
  construct_great_lighthouse_of_alexandria_title: "Rebuild the Great Lighthouse of Alexandria"
  construct_great_lighthouse_of_alexandria_desc: "The Lighthouse of Alexandria or Pharos lighthouse was a gigantic man-made structure "built by the Ptolemaic Kings of Egypt between 280 and 247 BC" and was one of the Seven Wonders of the Ancient World "estimated to be 100 metres tall". It was for many centuries one of the tallest man-made structures in the world but suffered tremendous damaged by three earthquakes between AD 956 and 1323, leading to its ruin and abandonment in 1480."
  #
- great_project_mont_saint-michel: "Saint Michael's Mount"
- mont_saint-michel: "Saint Michael's Mount"
- mont_saint-michel_title: "Reinforce Saint Michael's Mount"
- construct_mont_saint-michel_title: "Reinforce Saint Michael's Mount"
- construct_mont_saint-michel_desc: "Saint Michael's Mount or "Le Mont Saint-Michel" is an island commune off the coast of Normandy, France. The island has held strategic fortifications since ancient times and since the 8th century AD has been the seat of St.Michael's monastery from which it draws its name. The structural composition of the town exemplifies the feudal hierarchy of the time that constructed it. It is structured in such a way that the abbey "representatives of God" sits at the top, followed by the great halls, with stores and housing after at the bottom, whilst housing for fishermen and farmers are outside the walls; It is truly a sight to behold."
+ great_project_notre_dame_de_reims: "Notre-Dame de Reims"
+ notre_dame_de_reims: "Notre-Dame de Reims"
+ notre_dame_de_reims_title: "Renovate the Notre-Dame de Reims"
+ construct_notre_dame_de_reims_title: "Renovate the Notre-Dame de Reims"
+ construct_notre_dame_de_reims_desc: "Notre-Dame de Reims (meaning "Our Lady of Reims"), also known as Rheims Cathedral, is a Roman Catholic cathedral. Dedicated to the Virgin Mary, this holy site is the traditional location for the coronation of the kings of France, being the location where Clovis was baptised by Saint Remigius. Recently completed, the cathedral is a wonder of High Gothic architecture."
+ #
+ great_project_abbaye_basilique_saint-denys: "Abbaye-basilique de Saint-Denys"
+ abbaye_basilique_saint_denys: "Abbaye-basilique de Saint-Denys"
+ abbaye_basilique_saint_denys_title: "Renovate the Abbaye-basilique de Saint-Denys"
+ construct_abbaye_basilique_saint_denys_title: "Renovate the Abbaye-basilique de Saint-Denys"
+ construct_abbaye_basilique_saint_denys_desc: "The Basilica of Saint-Denis is a large medieval abbey and church situed in the northern suburbs of Paris. The first great Gothic church, the site contains the tombs of the French kings, is the coronation place of the Queens of France and where the sacred oriflamme is kept in times of peace."
+ #
+ great_project_chateau_angers: "Château d'Angers"
+ chateau_angers: "Château d'Angers"
+ chateau_angers_title: "Renovate the Château d'Angers"
+ construct_chateau_angers_title: "Renovate the Château d'Angers"
+ construct_chateau_angers_desc: "The Château d'Angers is a major fortress, originally built by the Counts of Anjou and expanded during the 13th century. Overhanging the river Maine, it is a strategic location that has in the past given refuge to Charles VII when he had to flee Paris."
+ #
+ great_project_abbaye_mont_saint_michel: "Abbaye du Mont-Saint-Michel"
+ abbaye_mont_saint_michel: "Abbaye du Mont-Saint-Michel"
+ abbaye_mont_saint_michel_title: "Renovate the Abbaye du Mont-Saint-Michel"
+ construct_abbaye_mont_saint_michel_title: "Renovate the Abbaye du Mont-Saint-Michel"
+ construct_abbaye_mont_saint_michel_desc: "The Mont-Saint-Michel is one of France's greatest Benedictine abbeys and one of Normandy's greatest fortresses. Situated on an island and equipped with great fortifications, it is a cultural center for the whole of Christendom."
+ #
+ great_project_palais_des_tuileries: "Palais des Tuileries"
+ palais_des_tuileries: "Palais des Tuileries"
+ palais_des_tuileries_title: "Build the Palais des Tuileries"
+ construct_palais_des_tuileries_title: "Build the Palais des Tuileries"
+ construct_palais_des_tuileries_desc: "The Tuileries Palace, situated in the heart of Paris, on the right bank of the River Seine, was the usual Parisian residence of the French kings and emperors. Built in 1564 by Catherine de' Medici, it gradually became so huge that it even came to include the Louvre Palace."
+ #
+ great_project_port_de_toulon: "Port de Toulon"
+ port_de_toulon: "Port de Toulon"
+ port_de_toulon_title: "Build the Port de Toulon"
+ construct_port_de_toulon_title: "Build the Port de Toulon"
+ construct_port_de_toulon_desc: "Starting in 1514 with the construction by Louis XII of the Tour Royale, the Port of Toulon came to be France's greatest military port through successive enlargements, culminating with the construction in 1660 of a new arsenal."
+ #
+ great_ciutat_de_carcassona: "Ciutat de Carcassona"
+ ciutat_de_carcassona: "Ciutat de Carcassona"
+ ciutat_de_carcassona_title: "Renovate the Ciutat de Carcassona"
+ construct_ciutat_de_carcassona: "Renovate the Ciutat de Carcassona"
+ construct_ciutat_de_carcassona: "The Cité de Carcassonne is a great medieval citadel located at the heart of Carcassonne, in Occitanie. On the border with Aragon, the citadel is part of the royal domain and provides a strong frontier against southern incursions."
  #
  great_project_escola_de_sagres: "School of Sagres"
  escola_de_sagres: "School of Sagres"

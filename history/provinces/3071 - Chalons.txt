@@ -15,7 +15,7 @@ trade_goods = iron
 base_manpower = 2 
 add_core = CHP
 add_core = FRA
-center_of_trade = 1
+
 
 discovered_by = western
 discovered_by = muslim

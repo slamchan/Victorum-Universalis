@@ -3,6 +3,7 @@
 owner = MNE
 controller = MNE
 add_core = MNE
+add_core = FRA
 culture = angevin_culture
 religion = catholic
 capital = "Sablé"			#Or LaFlèche

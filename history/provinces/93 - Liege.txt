@@ -19,7 +19,7 @@ trade_goods = iron			#Major steel-producing center. One of the, if not the singl
 base_manpower = 4
 add_core = LIE
 fort_15th = yes
-
+center_of_trade = 2
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

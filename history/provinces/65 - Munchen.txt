@@ -14,9 +14,9 @@ base_manpower = 8
 capital = "München"
 is_city = yes
 hre = yes
-
+center_of_trade = 2
 extra_cost = 8
-center_of_trade = 3
+
 
 discovered_by = western
 discovered_by = muslim

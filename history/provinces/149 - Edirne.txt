@@ -13,9 +13,9 @@ base_manpower = 7 #5
 is_city = yes
 #fort_15th = yes #Fortress of Gallipoli
 add_core = TUR
-
-extra_cost = 16
 center_of_trade = 2
+extra_cost = 16
+
 
 discovered_by = KAZ
 discovered_by = CRI

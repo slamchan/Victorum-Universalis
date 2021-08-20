@@ -12,7 +12,7 @@ trade_goods = books
 base_manpower = 1 
 capital = "Lleida" 
 is_city = yes
-center_of_trade = 1
+
 
 discovered_by = western
 discovered_by = muslim

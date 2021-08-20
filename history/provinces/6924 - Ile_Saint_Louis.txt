@@ -14,7 +14,7 @@ base_tax = 4
 base_production = 3
 trade_goods = paper #Opted for paper instead of books due to the university of sorbonne already being present
 base_manpower = 3
-
+center_of_trade = 1
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

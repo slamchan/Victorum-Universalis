@@ -746,6 +746,8 @@
  ###########################
  #Provinces
  ###########################"
+ PROV268:0 "Botosani"
+ PROV_ADJ268:0 "Botosanian"
  PROV593:0 "Ligor"
  PROV_ADJ593:0 "Ligorian"
  PROV603:0 "Thung Yai"
@@ -875,7 +877,7 @@
  PROV268:2 "Dorohoi"
  PROV2405:2 "Orhei"
  PROV7737:2 "Varazdin"
- PROV49:2 "Landsberg"
+ PROV49:2 "Gorzów Wielkopolski"
  PROV2959:2 "Tarnów"
  PROV267:2 "Plzen"
  PROV3296:2 "Tabor"

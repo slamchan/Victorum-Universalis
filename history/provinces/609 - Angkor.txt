@@ -19,9 +19,9 @@ add_core = KHM
 
 discovered_by = chinese
 discovered_by = indian
-
-extra_cost = 8
 center_of_trade = 1
+extra_cost = 8
+
 
 1500.1.1 = { religion = buddhism }
 1535.1.1 = { discovered_by = POR }

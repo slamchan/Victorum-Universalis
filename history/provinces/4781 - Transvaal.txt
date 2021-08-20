@@ -11,10 +11,10 @@ base_manpower = 1
 native_size = 60
 native_ferocity = 20
 native_hostileness = 10
-
+center_of_trade = 1
 extra_cost = 10
 
-center_of_trade = 1
+
 
 
 
