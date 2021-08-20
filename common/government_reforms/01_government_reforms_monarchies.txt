@@ -406,7 +406,7 @@ elective_monarchy = {
 		tolerance_heretic = 3			#New in BT. Yeah, I know Lithuanian trads & Polish ambitions both give this, but Heretic unrest is a serious issue in this little corner of land.
 		#global_unrest = -1			#Replacing -1 global unrest with tolerance to heretics. PLC has a pretty spectacular amount of land and dev, and most of it is Orthodox.
 		max_absolutism = -30
-		governing_capacity = 200 #Nerfed back. PLC was quite stronk.
+		governing_capacity = 400 #Nerfed back. PLC was quite stronk. #Buffed. PLC was imploding once formed.
 	}
 
 	conditional = {
