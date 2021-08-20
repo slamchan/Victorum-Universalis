@@ -1,5 +1,5 @@
 282 = "Özü"
-316 = { "Kocaeli" "Izmid" }
+316 = { "Kocaeli" "Izmit" }
 322 = "Eskisehir"
 360 = "Circe"
 1846 = "Bayramli"
