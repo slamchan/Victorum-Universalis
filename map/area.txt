@@ -315,7 +315,7 @@ bourgogne_area = { #Burgundy Proper
 	color = { 144 0 32 }
 	191 192 1877 7938 3091 3092 7950 7952 8028 8442
 }
-west_burgundy_area = { #Franche-ComtÃ©
+west_burgundy_area = { #Franche-Comté
 	193 4764 7939 7940 7942 8029 8030 8444
 }
 
@@ -328,7 +328,7 @@ massif_central_area = { #4
 	190 199 3087 7914 7915 7916 7917
 }
 
-savoy_dauphine_area = { #3 Savoy and DauphinÃ©, Upper Burgundy
+savoy_dauphine_area = { #3 Savoy and Dauphiné, Upper Burgundy
 	205 3046 4719 7913 8031
 }
 
@@ -528,7 +528,7 @@ central_italy_area = { #4
 ########################################
 
 leinster_area = {
-	373 374 3009 4120 4379 8163 8165
+	373 374 3009 4120 4379 8163 8165 8734
 }
 
 ulster_area = {
@@ -645,7 +645,7 @@ gotaland_area = { #4
 	2 3 3120 4166 25 3121 7790 7792 7793
 }
 
-vastra_gotaland_area = { #VÃ¤stra GÃ¶taland #4
+vastra_gotaland_area = { #Västra Götaland #4
 	5 7 4163 4164 16 7791 7795
 }
 

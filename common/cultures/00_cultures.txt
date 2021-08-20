@@ -586,91 +586,44 @@ gaelic	= {
 	irish = {
 		primary = IRE
 		dynasty_names = { 
-			"O'Donnell" "O'Neill" "O'Connor" "O'Brien" MacLochlainn MacMurrough MacWilliam
-			MacNamara "O'Reilly"  "FitzGerald" Kelly
-			# CKII
-			"Meic Bráenáin" "MacMorrough Kavanagh" "Dál gCais" "Ua Fáeláin" "Shannon"
-			"FitzPatrick" "O Ruairc" "O'More" "O' Conchobair" "MacDermot" "O' Cellaigh"
-			"Mac Sweeney" "O'Doherty" "Burke" "O' Cathail" "O'Clery" "Mac Egan" "O' Fergail"
-			"O'Flaherty" "O' Gallchobhair" "Cotter" "O' Faoláin" "MacIntyre" "O'Queely"
-			"Corcu Loígde"
+			"Ó Domhnaill" "Ó Dochartaigh" "Mac Lochlainn" "Mac Pháil" "Ó Catháin" "Mac Suibhne" "Ó Baoighill" "Mac Maonghail" "Ó Cléirigh" "Mac Craith" "Ó Néill" "Ó Donnghaile" "Ó hAodhagáin" "Ó hEaghra" "Mac Énri" "Mac Alastar" "Mac Eoghain" "Mac Domhnaill" "Mac Uighilín" "Mac Cana" "Ó hAnluain" "Mac Artáin" "Mac Aonghusa" "Mac Uidhir" "Mac Mathúna" "Mac Fhlannchaidh" "Mac Shamhráin" "Ó Ruairc" "Ó Raghallaigh" "Ó Brádaigh" "Mac Brádaigh" "Ó Conchobhair" "Ó hAirt" "Ó Fearghail" "Mac Donnchadha" "Mac Diarmada" "Ó Gadhra" "Ó Dubhda" "Mac Fhirbhisigh" "Ó Máille" "Ó Flaithbheartaigh" "Ó hUiginn" "Ó Dubhthaigh" "Ó Ceallaigh" "O' Fionnachta" "Ó Mainnin" "Ó Dálaigh" "Ó Domhnalláin" "Mac Eochagáin" "Ó Donnagáin" "Ó Maolsheachlann" "Ó Maonaigh" "Mac Cochláin" "Ó Cochláin" "Ó Dalachain" "Ó Madáin" "Ó Maolmhuaidh" "Ó hAlluráin" "Ó Coinn" "Ó Tuathail" "Ó Broin" "Mac Murchadha Caomhánach" "Ó Dúnlaing" "Ó Mórdha" "Mac Giolla Phádraig" "Ó Duibhginn" "Ó Cearbhaill" "Ó Banáin" "Mac Giolla Phóil" "Mac Aodhagáin" "Ó Cinnéide" "Ó Meachair" "Ó Meadhra" "Ó hÓgáin" "Ó Tiarnaigh" "Ó Chiarbháin" "Ó hEidhin" "Ó Lochlainn" "Ó Clochasaigh" "Ó Seachnasaigh" "Ó Deághaidh" " Ó Gríobhtha" "Ó Grádaigh" "Mac Conmara" "Ó Síoda" "Ó Nualláin" "Ó Nailláin" "Ó hAnnáin" "Mac an Airchinnigh" "Mac Gormáin" "Mac Fhlannchaidh" "Ó hUirthile" "Ó Muirthile" "Ó hIarlatha" "Ó Maoilriain" "Ó Fogaratigh" "Ó Dubhuir" "Ó Cearnaigh" "Ó Síthigh" "Mac Síthigh" "Ó hÁilgheanáin" "Ó Craobhach" "Ó Ceallacháin" "Ó Caoimh" "Mac Uileagóid" "Ó Conghaile" "Ó Muircheartaigh" "Ó Fearghusa" "Mac Giolla Chuda" "Ó Donnchadha" "Ó Súilleabháin" "Ó Laoghaire" "Ó Floinn" "Ó hÉalaighthe" "Ó hÉilidhe" "Ó Liatháin" "Ó Cathail" "Ó Cruadhlaoich" "Ó Mathghamhna" "Ó Donnabháin" "Ó hEidirsceoil" "Coipingéir" "Mac Coitir" "Ó hArailt" "Mac Dun Sléibhe" "Ó hÁgáin" "Mac an Oirchinnigh"
 		}
 		male_names = {
-			Turlough Donal Muireadhach Conchobhar Feidlimidh Cathaoir Muchadh Áed Fonnchadh Brian Criomhthann Art Cathal 
-			Gearóid Muiris Tadhg Seán Niall Einrí Conn Eoghan Aonghus Comhghall Maeleachlain Diarmaid Flann Aerdghal 
-			Bearach Caoímhin Donnabhain Eíhmhín Fearghal Iarfhlaith Lorccán Mathúin Naomhán Oisín Pádraig Ríagáin Somhairle
-			Abbán Abél Abel Adomnán Áed Áedgen Áeducán Áedán Áengus 
-			Affiath Ailbe Ailbrend Ailbrenn Ailchú Aildobur Ailgel Áilgenán Ailgus Ailill Ailpín 
-			Ainbchellach Áindle Ainftech Enfidaig Ainmere Airechtach Airfhindán Airfhindán Airfhinnán 
-			Airleid Airmedach Amalgaid Amlaíb Anfudán Anlón Anmchaid Ánrothán Ardgal Ardgar Art 
-			Artbran Artgal Artgus Artucán Artúr Assiucc Augaire Augustín Aurthuile 
-			Báethgalach Báethíne Báetán Béoáed Barrfhind Beccán Berrach Bhátair Blathmacc Bran 
-			Brandub Brangen Bressal Brian Brian Briccéne Briccíne Broccán Bruatur Bruide Brénaind 
-			Brénainn Bróen Búaidbéo Caicher Cailech Cailte Cairbre Cairell Caisséne Caissín 
-			Canann Canannán Cathal Cathalán Cathassach Cathbad Cathmáel Cathmál Cathnio 
-			Cathub Causantín Caílte Caínchomrac Caíndelbán Ceithernach Cellach Cellachán 
-			Cennétig Cenn-Fáelad Cennlachán Cerball Cernach Cernachán Cian Ciarán Cilléne 
-			Cináed Cobthach Coirpre Colcu Colmán Columb Comgán 
-			Conaing Conall Conall Conallán Conamail Conán Conan Conchenn Conchobar Condla Condla Congal 
-			Congalach Congus Conlang Conmac Conmacc Conmáel Conmál Conn Conn Connla Conrí Constans 
-			Constantius Constantín Corbb Corbán Corccán Corcrán Cormac Coscrach Coílboth 
-			Crimthann Crundmáel Crundmáel Cruinnmáel Crundmáel Críchán Crónán Cuilén Cuindles Cuircthe 
-			Cummascach Cáemán Cóelbad Cóelub Cóemán Cú-Allaid Cú-Bretan Cú-Caech Cú-Cen Cú-Cen-Máthair 
-			Cú-Cúaráin Cú-Gamna Cú-Roí Cúanu Cúldub Cúán Cúánán Dabíd Daigre Dalbach Dallán Daniél 
-			Dathal Dathgus Demmán Diarmait Dermid Doedgus Domangart Domnall Donn Donnchad 
-			Donncuan Donndubán Donngal Donnucán  Doélgus Drost Drust Dub-dá-Lethe 
-			Dubcenn Dubgenn Dubh Dubhghall Dubhglais Dubthach Dubáed Dubán Duiblesc 
-			Duibne Dunáed Dálach Dícuill Díglach Dímmae Dímmasach Dímmán Dínertach Dúnacán Dúnadach 
-			Dúngal Dúngalach Dúnlang Éamonn Echmarcach Échtgal Échtgus Echuid 
-			Éicnech Éicnechán Eláir Énna Énri Éochad Eochaid Eochaid Eochu Eochucán Éogan 
-			Ercaid Ercáed Ercán Éremón Érennach Ernán Eterscél Eógan Eóganán Fachtna 
-			Fairchellach Fallaman Farannán Faílbe Fearghus Fechtnach Fedach Fearchar 
-			Fedelmid Feirgil Felic Fer-Fugaill Feradach Feradach Ferdomnach Fergal 
-			Fianchú Findbarr Fingen Finguine Finn Finn Finnacán Finnbarr Finnchú Finnlagh Findlay 
-			Finnsnechtae Fintan Flaithbertach Flaithem Flaithemán Flaithgus Flaithrí Flann Flannacán 
-			Flannchad Flannán Fogartach Folachtach Forannán Forbassach Fothad Fothud Fuacarta Fubthad 
-			Fuirechtach Fursu Fáelcar Fáelchad Fáelchú Fáeldobur Fáelgus Fáelán Fáelbe Fíachnae Fíadchú 
-			Fíngin Fínsnechta Fócarta Gabrán Garalt Garbith Gilla-Íosa Gilla-Brígte Gilbert Gilla-Coluim 
-			Gilla-Comgáin Gilla-Críst Gilchrist Gilla-na-Náem Gilla-Pátraic Gilpatrick Gilla-Ruad Gilroy 
-			Glaisiuc Glaschu Glún-Iairn Gormacán Gormgus Gormán Guaire Gáethán Gáethíne 
-			Gósacht Iacob Iarlaithe Imchad Indrechtach Ioseph Íomhar Labraid Lachtnae 
-			Lachtnán Lachtnéne Laidcenn Laidgenn Laidíne Laisrén Lennán Lennon Lethlobur Liam 
-			Lochlann Loingsech Lonán Lorcán Lugh Leon Lugaid Lugáed Láegaire Lóchéne Lóchíne Lóeguire 
-			Mac-Laisre Mainchíne Maine Manchán Martan Mathgamain Matudán Minchán Mo-Chonna Mo-Lua 
-			Móenach Máel-Anfaid Liber Fiachnae Erc Dúnchad Cillíne Caissíne Bran
-			Morand Morann Mugrón Muirchertach Muirecán Muiredach Murdoch Muirgius Murchad Murchú 
-			Máel-Bresail Máel-Brígte Máel-Cein Máel-Cianáin Máel-Ciaráin Máel-Coluim Malcolm Máel-Corgis 
-			Máel-Dubh Máel-Dúin Máel-Fothartaig Máel-Fábaill Máel-Íosa Malise Máel-Máedóc 
-			Máel-Martain Máel-Mórda Máel-Muire Malmure Máel-Míchíl Máel-Petair Máel-Pátraic Máel-Ruanaid 
-			Máel-Sechnaill Máel-Tólai Máelán Máenach Máthair Múadán Nadarchu Nannid Natfraech Natfraich 
-			Natsluaig Nechtan Niall Niallgus Niallán Nuadu Odrán Óengus Óenucán 
-			Oissíne Olcán Ólchobar Onchú Orthanach Pátraic Petair Pilib Pól 
-			Proinsias Rechtabra Riacán Riaguil Robartach Rogallach Rogellach Ruah Roy 
-			Ruarcc Rumann Ráthach Rígán Ríán Ródán Rónchú Rónán Rúadacán Rúadán Scandal 
-			Scandlán Scellán Scolaige Séaghdha Séafra Séamas Seán Sechnassach 
-			Selbach Senchán Seoán Sinach Siothrún Godfrey Slébíne Snedgus Sogan Somhairle Somerled 
-			Suibne Sáerbrethach Sárán Séigíne Sétna Sétnae Tadg Tadg Taithlech Talorc Talore 
-			Talorcán Temnén Tigernach Tigernán Tipraite Tomaltach Tomás Thomas Torccán Trenchad Trengus 
-			Tressach Tuathalán Tuireann Taran Tálán Tóla Túathal Tuathal Ualgarg Ualan Ualtar 
-			Úamnachán Uargal Uargalach Uargus Uilliam Ultán Ruaidrí Philip Oisséne
+			"Art" "Aonghus" "Árón" "Abbán" "Abnér" "Abéal" "Ádhamhnán" "Aodh" "Aoidhghean" "Aodhagán" "Aodhán" "Aonghus" "Affiath" "Ailbe" "Ailbhe" "Ailbrenn" "Ailchú" "Aildobur" "Ailgel" "Áilgenán" "Ailgus" "Ailill" "Ailpen" "Ainbchellach" "Áindle" "Ainmhire" "Airechtach" "Airfhindán" "Airfhinnán" "Airleid" "Ermedhach" "Amhalaidh" "Amlaíb" "Anfudán" "Anlón" "Anmchadh" "Anradhan" "Ardal" "Ardghar" "Art" "Artbran" "Artgus" "Artuchán" "Artúr" "Aiseoc" "Aughaire" "Augustín" "Aurthuile" "Anraí" 
+			"Brian" "Bearach" "Baothghalach" "Baoithine" "Baotán" "Beoaodh" "Barrfhind" "Beacán" "Bhátair" "Blathmac" "Bran" "Brandubh" "Branagán" "Breasal" "Bricín" "Breoghán" "Brógán" "Bruadur" "Breandán" "Brón" "Búaidbéo" 
+			"Conchobhar" "Cathaoir" "Criomhthann" "Cathal" "Conn" "Comhghall" "Caoímhin" "Caicher" "Coileach" "Caoilte" "Cairbre" "Caireall" "Caisín" "Canann" "Canannán" "Cathal" "Cathalán" "Cathasach" "Cathbhadh" "Cathmaol" "Cathmál" "Cathnio" "Causantín" "Caínchomrac" "Ceallach" "Ceallachán" "Cennétig" "Ceann Faoladh" "Ceann Lachán" "Cearbhall" "Cearnach" "Cearnachán" "Cian" "Ciarán" "Cillian" "Coinneach" "Cobhthach" "Colga" "Colmán" "Colm" "Comgán" "Conaing" "Conall" "Conallán" "Conamail" "Conán" "Coinchenn" "Connla" "Congal" "Conghalach" "Conghus" "Conmac" "Conmaol" "Conmál" "Conrí" "Constantín" "Corbb" "Corbán" "Corcán" "Corcrán" "Cormac" "Coscrach" "Coílbhoth" "Crannmhaol" "Críochán" "Crónán" "Coileáin" "Cuindles" "Cuirca" "Cummascach" "Caomhán" "Caolbhadh" "Caolubh" "Cú Allaidh" "Cú Breatan" "Cú Caoch" "Cú Gan" "Cú Gan Mháthair" "Cú Cúaráin" "Cú Gamna" "Cú Raoi" "Cúan" "Cúlubh" "Cuán" "Cuánán" "Conlang" 
+			"Dómhnall" "Diarmaid" "Donnabhán" "Daibhéid" "Dáithí" "Daigre" "Dalbhach" "Dallán" "Donncuan" "Donnchadh" "Donnghal" "Donnagán" "Dólghus" "Dub dá Leithe" "Dubhceann" "Dubh" "Dubhghall" "Dubhglais" "Dubthach" "Dubhaodh" "Dubhán" "Duibhleisc" "Dathal" "Dathghus" "Deamán" "Diarmait" "Domhanghart" "Donn" "Duibhne" "Dunaodh" "Dálach" "Dícúil" "Díghlach" "Díoma" "Díomasach" "Díomán" "Dúnachán" "Dúnadhaigh" "Dúnghal" "Dúnghalach" "Dúnlang" "Dúnchad" "Doghra" 
+			"Einrí" "Eóghan" "Éimhín" "Éamonn" "Echmarcach" "Échtgal" "Échtgus" "Echthigern" "Echuid" "Éicnech" "Éicnechán" "Eláir" "Éanna" "Éochad" "Eochaidh" "Eochucán" "Éoghan" "Ercaodh" "Ercán" "Éiremhón" "Ernán" "Eidirscéal" "Eóghanán" "Erc" 
+			"Feidhlimidh" "Fonnchadh" "Flann" "Fearghal" "Fachtna" "Fairchellach" "Fallaman" "Farannán" "Failbhe" "Fearghus" "Feachtnach" "Feadach" "Fearchar" "Fer Fugaill" "Fearadhach" "Feardomhnach" "Fianchú" "Fionnbharra" "Fionguine" "Fionn" "Fionnacán" "Fionnchú" "Fionnlaigh" "Finnsneachta" "Fionntán" "Flaithbertach" "Flaitheam" "Flaitheamán" "Flaithgus" "Flaithrí" "Flann" "Flannacán" "Flannchadh" "Flannán" "Fógartach" "Folachtach" "Forannán" "Forbhasach" "Fothadh" "Fubhthad" "Fuirechtach" "Fursu" "Faolchar" "Faolchadh" "Faolchú" "Faoldhobhur" "Faolghus" "Faolán" "Fiachna" "Fiachú" "Finghin" "Fíonsneachta" "Faoladh" "Féilim" 
+			"Gearóid" "Gabhrán" "Garalt" "Garbith" "Giolla Íosa" "Giolla Brighte" "Giolla Coluim" "Giolla Comgáin" "Giolla Chríost" "Giolla na Naomh" "Giolla Phádraig" "Giolla Ruadh" "Glaisiuc" "Glúniairn" "Gofraidh" "Gormacán" "Gormgus" "Gormán" "Guaire" "Gaothán" "Gaothaín" "Gósacht" 
+			"Iarfhlaith" "Iácob" "Iarlaith" "Iomchadh" "Indreachtach" "Ióseph" "Íomhar" 
+			"Lorcán" "Labhraid" "Lachtna" "Lachtnán" "Lachtnín" "Laidceann" "Laidín" "Laisrén" "Leannán" "Leathlobhur" "Liam" "Lochlann" "Loingseach" "Lugh" "Leon" "Lughaidh" "Laoghaire" "Lóchín" "Liber" 
+			"Muireadhach" "Muchadh" "Muiris" "Maolsheachlann" "Mathúin" "Mainchíne" "Manchán" "Martan" "Mathghamhan" "Madadán" "Minchán" "Mo Chonna" "Mo Lua" "Móenach" "Maol Fáidh" "Mórán" "Mughrón" "Muirchertach" "Muireacán" "Muirgheas" "Murchadha" "Murchú" "Maol Breasail" "Maol Brighte" "Maol Cian" "Maol Cianáin" "Maol Ciaráin" "Maol Coluim" "Maol Corgis" "Maol Dubh" "Maol Dúin" "Maol Fothartaig" "Maol Fabhal" "Maol Íosa" "Maol Mo Aodh Óg" "Maol Martain" "Maol Mórda" "Maol Muire" "Maol Mhíchíl" "Maol Pheadair" "Maol Phádraig" "Maol Ruanaidh" "Maol Sheachlann" "Maol Tólai" "Maol Eoin" "Maonach" "Múadán" "Mhártan"
+			"Niall" "Naomhán" "Nioclás" "Nadharchu" "Nanniodh" "Natfraoch" "Nathshluaigh" "Neachtan" "Niallghus" "Niallán" "Nuadha" 
+			"Oisín" "Odhrán" "Aonuchán" "Olcán" "Ólchobar" "Onchú" "Orthanach" "Oscar" 
+			"Pádraig" "Peadar" "Pilib" "Pól" "Phroinsiús" 
+			"Ríagán" "Reachtabhra" "Riaguil" "Robartach" "Raghallach" "Ruarc" "Romhan" "Ráthach" "Rián" "Ródán" "Ronchú" "Rónán" "Ruadachán" "Ruadhán" "Ruaidrí" 
+			"Seán" "Somhairle" "Séarlas" "Scannal" "Scandlán" "Sceallán" "Scolaigi" "Séaghdha" "Séafra" "Séamas" "Seachnassach" "Sealbhach" "Seanchán" "Sineach" "Siothrún" "Slébhínn" "Snedhghusa" "Soghan" "Suibhne" "Saorbhreathach" "Sárán" "Séighin" "Seanna" 
+			"Toirdhealbhach" "Tadhg" "Taithleach" "Teimhnin" "Tighearnach" "Tighearnán" "Tiobraid" "Tomaltach" "Tomás" "Torcán" "Treanchad" "Treasach" "Tuathalán" "Tuireann" "Tálán" "Tóla" "Tuathal" 
+			"Ualgarg" "Ualan" "Ualtar" "Úamnachán" "Uarghal" "Uarghalach" "Uarghus" "Ultán" 
 		}
 		female_names = {
-			Saraid Órfhlaith Fedelma
-			Ablach Áedammair Affraic Euphemia Aíbinn Aibilín Aileann Áine Agnes Anlaith Aróc
-			Barrdub Ben-Laigen Ben-Míde Ben-Muman Ben-Ulad Brigit Bé-Fáil Bébinn Cacht 
-			Caillech-Fhinnéin Cainnech Caisséne Caitilín Caíntigern Caírech Cathán Catríona 
-			Catherine Cellach Ciar Cnes Coblaith Cobflaith Conchenn Condál Crínóch 
-			Crístina Christina Cumman Deirdre Der-bForgaill Derbáil Derborgaill
-			Der-Ilei Derilla Der-Lugdach Dianaim Doriend Dub-Dil Dub-Essa Dub-Lemna Dubchoblaig Dubgilla 
-			Dúinsech Dúnlaith Echrad Éibhleann Eithne Ellbríg Emer Étaín 
-			Faílenn Fedelm Finneacht Flann Forbflaith Fíne Garb 
-			Gelgéis Gerróc Gnathnad Gormlaith Gormflaith Gráinne Imag Íte Lann 
-			Lasairfíona Lathir Lerben Lerthan Lígach Mauda Muadhnait 
-			Muirenn Murron Muirgel Muirne Morna Máel-Mide Máel-Muire Malmure Máire Máiread 
-			Máirgred Margaret Mór Mor Mór-Muman Nárbflaith Nuala Finnguala Órlaith Órnat Róis Ros Sadb 
-			Samthann Scáthach Sébdann Selblaith Seonaid Sinech Siobán Sisuile Sláíne Slaine 
-			Sorcha Suaibsech Sáerlaith Sétach Síthmaith Tailefhlaith Tailltiu Temair Tuathflaith Tómnat 
-			Uallach Uasal Úna Una Éua
+			"Saraid" "Fedelma"
+			"Abhlach" "Áedammair" "Aifric" "Aoibhin" "Aoibhilín" "Aoife" "Aileann" "Áine" "Anlaith" "Aróc" 
+			"Bardubh" "Ban Laighean" "Ban Míde" "Ban Mumhain" "Ban Ulaidh" "Bríd" "Bé Fáil" "Bébhinn" "Cacht" 
+			"Cailleach Fhinnéin" "Cainneach" "Caisín" "Caitlín" "Caointiarn" "Caoireach" "Cathán" "Catríona" 
+			"Ceallach" "Ciar" "Cobhlaith" "Concheann" "Condál" "Craoinóch" 
+			"Crístina" "Deirdre" "Dearbhfhorghaill" "Derbáil" 
+			"Dar Lugdach" "Dianaim" "Dubhdhil" "Duibheasa" "DuibhLéamna" "Dubhchobhlaigh" "Dubhghiolla" 
+			"Duinseach" "Dúnlaith" "Eachradha" "Éibhleann" "Eithne" "Ellbríg" "Emer" "Éadaoin" 
+			"Eoghnín" "Faoileán" "Finneacht" "Fionnghuala" "Fionnuala" "Flann" "Forbhlaith" "Fíne" "Garb" "Garbhán" 
+			"Geiléis" "Gearróg" "Gnathnad" "Gormlaith" "Gráinne" "Iomhag" "Íde" "Lann" 
+			"Lasairfíona" "Laithir" "Leirbhean" "Learthan" "Líoghach" "Liúsaidh" "Marta" "Máda" "Muadhnait" 
+			"Muireann" "Muirgheal" "Muirne" "Maol Míde" "Maol Muire" "Máire" "Máiread" 
+			"Mór" "Mór Mumhain" "Nárbhfhlaith" "Nuala" "Órlaith" "Órnait" "Róis" "Róisín" "Sadhbh" 
+			"Samhthann" "Scáthach" "Seónaid" "Sineach" "Siobhán" "Sisuile" "Sláine" 
+			"Sorcha" "Suaibhseach" "Saorlaith" "Séadach" "Síomha" "Tailli" "Tailte" "Teamhair" "Tuathlaith" "Tómhna" 
+			"Uallach" "Uasal" "Úna" "Mona" "Éua"
 		}
 	}
 	highland_scottish = {

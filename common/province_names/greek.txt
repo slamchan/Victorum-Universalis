@@ -1,4 +1,5 @@
 285 = "Theodosia"
+316 = "Nicomedia"
 322 = "Dorylaion"
 340 = "Constantina"
 352 = "Justiniania"
@@ -11,6 +12,8 @@
 418 = "Amida"
 1231 = "Syene"
 1233 = "Megale"
+1846 = "Kotyora"
+1848 = { "Afyon" "Afyon" }
 2313 = "Antiocheia"
 2319 = "Lytkopolis"
 2326 = "Petra Megale"
@@ -19,3 +22,8 @@
 2343 = "Adrramyta"
 2447 = "Tamatarha"
 4311 = "Cotyaion"
+5135 = "Zephyrion"
+5146 = { "Magida" "Magida" }
+5147 = "Korakesion" # No idea why province is named Candelore
+5155 = "Gordion"
+5164 = { "Hadrianopolis" "Hadrianopolis" }
