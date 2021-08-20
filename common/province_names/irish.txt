@@ -30,6 +30,7 @@
 8167 = "Luimneach"
 8168 = "Trá Lí"
 8169 = "Uí Chairbre"
+8734 = "Lughmagh"
 
 #Scotland
 248 = "Dún Éideann" #Lothian

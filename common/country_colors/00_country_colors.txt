@@ -2669,3 +2669,9 @@ LIB = {
     color2= { 30 30 30 } # black
     color3= { 222 222 222 } # white
 }
+
+TNA = {
+    color1= { 4  36  132 }
+    color2= { 255 204 0 }
+    color3= { 4  36  132 }
+}

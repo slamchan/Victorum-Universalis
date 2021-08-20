@@ -34,82 +34,29 @@ historical_units = {
 	napoleonic_lancers
 }
 
-leader_names = {
-	Annesley Alexander
-	Butler "de Burgh" Burke Boyle Browne Bourke Barry Balfour Blayney
-	Cholmondeley Chichester Coote Caulfeild
-	Dillon Dongan Duff Digby
-	FitzGerald FitzWilliam FitzOliver Feilding FitzMaurice FitzPatrick Fortescue
-	Guelph Gardiner Grimston
-	Hamilton Hare Hervey
-	Keating Keane Kavanagh
-	Lambart
-	Martyn McCarthy Moore Meade Macartney
-	Nugent
-	O'Neill O'Brien O'Connell O'Hara O'Malley O'Donnell O'Carroll 
-	Parsons Pakenham Plunkett Preston
-	Ridgeway
-	Sterne
-	Touchet Taaffe
-	Vaughan Villiers
-	Wentworth Wesley
-}
-
-monarch_names = {
-	"Turlough #2" = 60
-	"Donal #5" = 40
-	"Muireadhach #2" = 40
-	"Conchobhar #1" = 40
-	"Feidlimidh #1" = 40
-	"Cathaoir #0" = 40
-	"Muchadh #0" = 40
-	"Áed #6" = 20
-	"Fonnchadh #3" = 20
-	"Brian #2" = 20
-	"Criomhthann #2" = 20
-	"Art #1" = 20
-	"Cathal #0" = 20
-	"Gearóid #0" = 20
-	"Muiris #0" = 20
-	"Tadhg #0" = 20
-	"Seán #0" = 20
-	"Niall #4" = 15
-	"Einrí #0" = 15
-	"Conn #1" = 10
-	"Eoghan #1" = 10
-	"Aonghus #2" = 5
-	"Comhghall #2" = 5
-	"Maeleachlain #2" = 5
-	"Diarmaid #1" = 5
-	"Flann #1" = 5
-	"Aerdghal #0" = 0
-	"Bearach #0" = 0
-	"Caoímhin #0" = 0
-	"Donnabhain #0" = 0
-	"Eíhmhín #0" = 0
-	"Fearghal #0" = 0
-	"Iarfhlaith #0" = 0
-	"Lorccán #0" = 0
-	"Mathúin #0" = 0
-	"Naomhán #0" = 0
-	"Oisín #0" = 0
-	"Pádraig #0" = 0
-	"Ríagáin #0" = 0
-	"Somhairle #0" = 0
-	
-	"Saraid #0" = -1
-	"Órfhlaith #0" = -1
-	"Fedelma #0" = -1
-}
-
 ship_names = {
-	Aoife
-	Ciara Connacht
-	Eithne Emer
-	Leinster
-	Munster
-	Niamh
-	Orla
-	Roisin
-	Ulster
-} 
+	"Saraid" "Fedelma" "Abhlach" "Áedammair" "Aifric" "Aoibhin" "Aoibhilín" "Aoife" "Aileann" "Áine" "Anlaith" "Aróc" "Bardubh" "Ban Laighean" "Ban Míde" "Ban Mumhain" "Ban Ulaidh" "Bríd" "Bé Fáil" "Bébhinn" "Cacht" "Cailleach Fhinnéin" "Cainneach" "Caisín" "Caitlín" "Caointiarn" "Caoireach" "Cathán" "Catríona" "Ceallach" "Ciar" "Cobhlaith" "Concheann" "Condál" "Craoinóch" "Crístina" "Deirdre" "Dearbhfhorghaill" "Derbáil" "Dar Lugdach" "Dianaim" "Dubhdhil" "Duibheasa" "DuibhLéamna" "Dubhchobhlaigh" "Dubhghiolla" "Duinseach" "Dúnlaith" "Eachradha" "Éibhleann" "Eithne" "Ellbríg" "Emer" "Éadaoin" "Eoghnín" "Faoileán" "Finneacht" "Fionnghuala" "Fionnuala" "Flann" "Forbhlaith" "Fíne" "Garb" "Garbhán" "Geiléis" "Gearróg" "Gnathnad" "Gormlaith" "Gráinne" "Iomhag" "Íde" "Lann" "Lasairfíona" "Laithir" "Leirbhean" "Learthan" "Líoghach" "Liúsaidh" "Marta" "Máda" "Muadhnait" "Muireann" "Muirgheal" "Muirne" "Maol Míde" "Maol Muire" "Máire" "Máiread"	"Mór" "Mór Mumhain" "Nárbhfhlaith" "Nuala" "Órlaith" "Órnait" "Róis" "Róisín" "Sadhbh" "Samhthann" "Scáthach" "Seónaid" "Sineach" "Siobhán" "Sisuile" "Sláine" "Sorcha" "Suaibhseach" "Saorlaith" "Séadach" "Síomha" "Tailli" "Tailte" "Teamhair" "Tuathlaith" "Tómhna" "Uallach" "Uasal" "Úna" "Mona" "Éua"
+}	#I really want to return here to do a few custom names beyond just copy-pasting the female namelist from the culture file.
+
+army_names = {
+	"Slua na hÉireann" "Slua an Rí" "Slua Céad Cath" "Slua Gaiscíoch" "Slua Iarthair" "Slua Oirthir" "Slua Tuaiscirt" "Slua Deiscirt"
+	"Céad Slua" "2a Slua" "3ú Slua" "4ú Slua" "5ú Slua" "6ú Slua" "7ú Slua" "8ú Slua" "9ú Slua" "10ú Slua"
+	"11ú Slua" "12ú Slua" "13ú Slua" "14ú Slua" "15ú Slua" "16ú Slua" "17ú Slua" "18ú Slua" "19ú Slua" "20ú Slua"
+	"21ú Slua" "22ú Slua" "23ú Slua" "24ú Slua" "25ú Slua" "26ú Slua" "27ú Slua" "28ú Slua" "29ú Slua" "30ú Slua"
+	"31ú Slua" "32ú Slua" "33ú Slua" "34ú Slua" "35ú Slua" "36ú Slua" "37ú Slua" "38ú Slua" "39ú Slua" "40ú Slua"
+	"41ú Slua" "42ú Slua" "43ú Slua" "44ú Slua" "45ú Slua" "46ú Slua" "47ú Slua" "48ú Slua" "49ú Slua" "50ú Slua"
+	"51ú Slua" "52ú Slua" "53ú Slua" "54ú Slua" "55ú Slua" "56ú Slua" "57ú Slua" "58ú Slua" "59ú Slua" "60ú Slua"
+	"61ú Slua" "62ú Slua" "63ú Slua" "64ú Slua" "65ú Slua" "66ú Slua" "67ú Slua" "68ú Slua" "69ú Slua" "70ú Slua"
+	"71ú Slua" "72ú Slua" "73ú Slua" "74ú Slua" "75ú Slua" "76ú Slua" "77ú Slua" "78ú Slua" "79ú Slua" "80ú Slua"
+	"81ú Slua" "82ú Slua" "83ú Slua" "84ú Slua" "85ú Slua" "86ú Slua" "87ú Slua" "88ú Slua" "89ú Slua" "90ú Slua"
+	"91ú Slua" "92ú Slua" "93ú Slua" "94ú Slua" "95ú Slua" "96ú Slua" "97ú Slua" "98ú Slua" "99ú Slua" "100ú Slua"
+}	#EU4 doesn't have the mechanics to apply the grammar for dynamic variables, and the resulting mess would look very wrong to anyone who actually knows Irish, so I'm sticking with tonnes of generic names above.
+
+fleet_names = {
+	"Loingeas na hÉireann" "Loingeas Mór" "Loingeas Cogaidh" "Loingeas Taiscéalaíochta" "Loingeas Tráchtála" "Loingeas Fheilimí"
+	"Céad Loingeas" "2a Loingeas" "3ú Loingeas" "4ú Loingeas" "5ú Loingeas" "6ú Loingeas" "7ú Loingeas" "8ú Loingeas" "9ú Loingeas" "10ú Loingeas"
+	"11ú Loingeas" "12ú Loingeas" "13ú Loingeas" "14ú Loingeas" "15ú Loingeas" "16ú Loingeas" "17ú Loingeas" "18ú Loingeas" "19ú Loingeas" "20ú Loingeas"
+	"21ú Loingeas" "22ú Loingeas" "23ú Loingeas" "24ú Loingeas" "25ú Loingeas" "26ú Loingeas" "27ú Loingeas" "28ú Loingeas" "29ú Loingeas" "30ú Loingeas"
+	"31ú Loingeas" "32ú Loingeas" "33ú Loingeas" "34ú Loingeas" "35ú Loingeas" "36ú Loingeas" "37ú Loingeas" "38ú Loingeas" "39ú Loingeas" "40ú Loingeas"
+	"41ú Loingeas" "42ú Loingeas" "43ú Loingeas" "44ú Loingeas" "45ú Loingeas" "46ú Loingeas" "47ú Loingeas" "48ú Loingeas" "49ú Loingeas" "50ú Loingeas"
+}	#Same as army names, EU4 doesn't have mechanics to not butcher grammar, to the point of being worse than English, so going with generic and numbered
