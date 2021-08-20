@@ -367,6 +367,12 @@ country_event = { # Second Peace of Thorn
 			tag = POL
 			tag = PLC
 		}
+		TEU = {
+			ai = yes
+		}
+		DNZ = {
+			ai = yes
+		}
 		is_at_war = no
 		has_global_flag = poland_supported_prussian_confederation
 		OR = {
@@ -545,11 +551,11 @@ country_event = { # Second Peace of Thorn
 		}
 		if = {
 			limit = {
-				41 = {
+				43 = {
 					owned_by = TEU
 				}
 			}
-			41 = {
+			43 = {
 				add_core = ROOT
 				cede_province = ROOT
 			}
