@@ -12,5 +12,6 @@ country_event = {
 	
 	option = {
 		name = "vu_debug.1.a"
+		add_treasury = 1000 # Replace with whatever you want to test.
 	}
 }
