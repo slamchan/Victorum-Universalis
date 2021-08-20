@@ -10,7 +10,7 @@ hre = no
 base_tax = 5
 base_production = 5
 trade_goods = grain			#Well known as the only route by which grain was imported into the north, to the extent that famines in Novgorod often followed its conquest or raiding.
-base_manpower = 2 
+base_manpower = 5 
 capital = "Torzhok"
 is_city = yes
 add_core = NOV
@@ -23,7 +23,7 @@ discovered_by = nomad_group
 
 extra_cost = 15
 
-center_of_trade = 2	#A key trade route between Moscow and Novgorod and an important (if often destroyed and rebuilt) town in its own right.
+	#A key trade route between Moscow and Novgorod and an important (if often destroyed and rebuilt) town in its own right.
 
 1478.1.15 = {
 	owner = MOS

@@ -27,8 +27,8 @@ namespace = vu_pop_influence
 
 country_event = {
 	id = vu_pop_influence.1
-	title = "More slaves" #put in localisation
-	desc = "More and more slaves are arriving on our plantations."
+	title = "vu_pop_influence.1.t" #Meagre slavery
+	desc = "vu_pop_influence.1.d" #Slaves are arriving on our plantations
 	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
 	
 	trigger = {
@@ -39,7 +39,7 @@ country_event = {
 			}
 			OR = {
 				any_owned_province = {
-					has_building = plantation
+					has_building = plantations
 				}
 				AND = {
 					any_owned_province = {
@@ -102,7 +102,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "This will make our plantations more efficient!"
+		name = "vu_pop_influence.1.a" #This will make our plantations more efficient
 		ai_chance = {
 			factor = 90
 			modifier = {
@@ -137,7 +137,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "We shouldn't rely on slave labor"
+		name = "vu_pop_influence.1.b" #We shouldn't rely on slave labor
 		ai_chance = { factor = 10 }
 		add_prestige = 10
 		random_owned_province = {
@@ -190,8 +190,8 @@ country_event = {
 
 country_event = {
 	id = vu_pop_influence.2
-	title = "Even more slaves" #put in localisation
-	desc = "More and more slaves are arriving on our plantations."
+	title = "vu_pop_influence.2.t" #We must purchase more slaves
+	desc = "vu_pop_influence.2.d" #More slaves are arriving on our plantations
 	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
 	
 	trigger = {
@@ -202,7 +202,7 @@ country_event = {
 			}
 			OR = {
 				any_owned_province = {
-					has_building = plantation
+					has_building = plantations
 				}
 				AND = {
 					any_owned_province = {
@@ -269,7 +269,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "This will make our plantations more efficient!"
+		name = "vu_pop_influence.2.a" #This will make our plantations more efficient
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -312,7 +312,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "We shouldn't rely on slave labor"
+		name = "vu_pop_influence.2.b" #We shouldn't rely on slave labor
 		ai_chance = { 
 			factor = 40 
 			modifier = {
@@ -399,7 +399,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "Let's industrialize!"
+		name = "vu_pop_influence.2.c" #Let's industrialize
 		highlight = yes
 		ai_chance = {
 			factor = 10
@@ -420,7 +420,7 @@ country_event = {
 				is_great_power = yes
 			}
 			modifier = {
-				factor 2
+				factor = 2
 				production_income_percentage = 0.4
 			}
 			modifier = {
@@ -461,8 +461,8 @@ country_event = {
 
 country_event = {
 	id = vu_pop_influence.3
-	title = "Even more slaves" #put in localisation
-	desc = "More and more slaves are arriving on our plantations."
+	title = "vu_pop_influence.3.t" #Buy all the slaves!
+	desc = "vu_pop_influence.3.d" #Even more slaves are arriving on our plantations
 	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
 	
 	trigger = {
@@ -473,7 +473,7 @@ country_event = {
 			}
 			OR = {
 				any_owned_province = {
-					has_building = plantation
+					has_building = plantations
 				}
 				AND = {
 					any_owned_province = {
@@ -545,7 +545,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "This will make our plantations more efficient!"
+		name = "vu_pop_influence.3.a" #This will make our plantations more efficient!
 		ai_chance = {
 			factor = 30
 			modifier = {
@@ -592,7 +592,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "We shouldn't rely on slave labor"
+		name = "vu_pop_influence.3.b" #We shouldn't rely on slave labor
 		ai_chance = { 
 			factor = 40 
 			modifier = {
@@ -679,7 +679,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "Let's industrialize instead!"
+		name = "vu_pop_influence.3.c" #Let's industrialize instead!
 		highlight = yes
 		ai_chance = {
 			factor = 25
@@ -700,7 +700,7 @@ country_event = {
 				is_great_power = yes
 			}
 			modifier = {
-				factor 2
+				factor = 2
 				production_income_percentage = 0.4
 			}
 			modifier = {
@@ -738,7 +738,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "We should stop this inhumane labor!"
+		name = "vu_pop_influence.3.d" #We should stop all this at once!
 		highlight = yes
 		ai_chance = {
 			factor = 5
@@ -771,8 +771,8 @@ country_event = {
 
 country_event = {
 	id = vu_pop_influence.4
-	title = "Abolition of Slavery"
-	desc =  "With the Abolition of Slavery in our country, the cheap labor our plantations have relied on is gone. Having a program of indentured servitude would help alleviate losses, but would violate the spirit of the law."
+	title = "vu_pop_influence.4.t" #Abolition of Slavery
+	desc =  "vu_pop_influence.4.d" #Despite the name of this historical event, not all forms of slavery have truly been abolished since there still remains indentured servitude, a program our elites and industrialists hope will alleviate their losses and help provide an alternative means of labour. This programe however does in essence violate the spirit of the new laws introduced by the abolishment slavery due to the fact that abolishing one form of slavery, only to support another is hypocritical in nature.
 	picture = WESTERNISATION_eventPicture
 	
 	trigger = {
@@ -794,13 +794,13 @@ country_event = {
 		}
 	}
 	option = {
-		name = "Finally this injustice is over"
+		name = "vu_pop_influence.4.a" #Finally, this injustice is over
 		ai_chance = { factor = 100 }
 		add_stability = 1
 		change_government_reform_progress = 25
 	}
 	option = {
-		name = "Maybe we should get some indentured servants instead..."
+		name = "vu_pop_influence.4.b" #There's no other alternative
 		ai_chance = { factor = 0 }
 		add_stability = -1
 		add_prestige = -15
@@ -817,14 +817,16 @@ country_event = {
 #serfdom in western europe
 country_event = {
 	id = vu_pop_influence.5
-	title = "Serfdom in Europe"
-	desc = "All across Europe, peasants were conscripted into a system called serfdom or indentured servitude to work on farms and fields"
+	title = "vu_pop_influence.5.t" #Serfdom in Europe
+	desc = "vu_pop_influence.5.d" #All across Europe, peasants were conscripted into a system called serfdom or indentured servitude to work on farms and fields
 	picture = FARMING_eventPicture
 	
 	trigger = {
 		AND = {
 			technology_group = western
-			has_unembraced_institution = renaissance
+			NOT = { 
+				has_institution = renaissance 
+			}
 			NOT = {
 				has_country_flag = vu_serfs_1
 			}
@@ -854,7 +856,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "Great, lets use this cheap labor!"
+		name = "vu_pop_influence.5.a" #Great, let's use the peasantry!
 		ai_chance = {
 			factor = 40
 			modifier = {
@@ -865,14 +867,14 @@ country_event = {
 		add_years_of_income = 1
 	}
 	option = {
-		name = "Use it to keep the peasants quiet"
+		name = "vu_pop_influence.5.b" #Pay them so they stay quiet
 		ai_chance = {
 			factor = 60
 			modifier = {
 				NOT = {
-					stability = -1
-					factor = 2
+					stability = -1	
 				}
+				factor = 2
 			}
 		}
 		add_stability = 1
@@ -882,8 +884,8 @@ country_event = {
 #serfdom in eastern europe
 country_event = {
 	id = vu_pop_influence.6
-	title = "Serfdom in Eastern Europe"
-	desc = "Serfdom, originating with Charlemagne in Western Europe, slowly moved east and established itself in Eastern Europe"
+	title = "vu_pop_influence.6.t" #Serfdom in Eastern Europe
+	desc = "vu_pop_influence.6.d" #Serfdom, originating with Charlemagne in Western Europe, slowly moved east and established itself in Eastern Europe
 	picture = FARMING_eventPicture
 	
 	trigger = {
@@ -922,7 +924,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "Great, lets use this cheap labor!"
+		name = "vu_pop_influence.6.a" #Great, let's use the peasantry!
 		ai_chance = {
 			factor = 30
 			modifier = {
@@ -933,21 +935,21 @@ country_event = {
 		add_years_of_income = 1
 	}
 	option = {
-		name = "Use it to keep the peasants quiet"
+		name = "vu_pop_influence.6.b" #Pay them so they stay quiet
 		ai_chance = {
 			factor = 30
 			modifier = {
 				NOT = {
-					stability = -1
-					factor = 2
+					stability = -1	
 				}
+			factor = 2
 			}
 		}
 		add_stability = 1
 	}
 	#intended to get Russia to form (adm 10), as they often lag behind
 	option = {
-		name = "This will help us a long time!"
+		name = "vu_pop_influence.6.c" #This should help us in the long-term right?
 		trigger = {
 			religion = orthodox
 		}
@@ -967,14 +969,12 @@ country_event = {
 #decreased serfdom
 country_event = {
 	id = vu_pop_influence.7
-	title = "Decreased Serfdom"
-	desc = "With more and more serfs beeing freed and moving to cities, the effects of serfdom get reduced"
+	title = "vu_pop_influence.7.t" #Decreased Serfdom
+	desc = "vu_pop_influence.7.d" #With more and more serfs beeing freed and moving to cities, the effects of serfdom get reduced
 	picture = CITY_DEVELOPMENT_eventPicture
 	
 	trigger = {
-		NOT = {
-			has_unembraced_institution = renaissance
-		}
+		has_institution = renaissance
 		OR = {
 			capital_scope = { region = italy_region }
 			AND = {
@@ -1025,17 +1025,17 @@ country_event = {
 		modifier = {
 			factor = 0.5
 			OR = {
-				has_idea_group = humanist
-				has_idea_group = innovative
+				has_idea_group = humanist_ideas
+				has_idea_group = innovativeness_ideas
 			}
 		}
 		modifier = {
 			factor = 0.75
-			has_idea_group = plutocratic
+			has_idea_group = plutocracy_ideas
 		}
 	}
 	option = {
-		name = "Stop them! With force, if necessary"
+		name = "vu_pop_influence.7.a" #We must stop them at all costs!
 		ai_chance = {
 			factor = 30
 			modifier = {
@@ -1055,13 +1055,13 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = vu_serfs_revolt
 		}
-		add_mil_power -50
-		add_yearly_manpower -0.1
+		add_mil_power = -50
+		add_yearly_manpower = -0.1
 		add_stability = 1
 		add_legitimacy = 10
 	}
 	option = {
-		name = "Let them be, we will not stand against the tide."
+		name = "vu_pop_influence.7.b" #Let them be for we cannot stop change
 		ai_chance = {
 			factor = 70
 		}
@@ -1073,7 +1073,7 @@ country_event = {
 		add_prestige = 5
 	}
 	option = {
-		name = "Serfdom of no kind has a place in our Republic!"
+		name = "vu_pop_influence.7.c" #Serfdom of any kind has no place in our Republic!
 		trigger = {
 			government = republic
 		}
@@ -1100,8 +1100,8 @@ country_event = {
 ##serfs revolt event
 country_event = {
 	id = vu_pop_influence.8
-	name = "Serfs revolt"
-	desc = "With our efforts we may have managed to keep the serfs in line, but now they are in open revolt!"
+	title = "vu_pop_influence.8.t" #The Serfs are revolting!
+	desc = "vu_pop_influence.8.d" #Anyone could have predicted this, despite our efforts to keep the serfs in line
 	picture = ANGRY_MOB_eventPicture
 	
 	trigger = {
@@ -1156,7 +1156,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "We have no option but to concede"
+		name = "vu_pop_influence.8.a" #We have no option but to concede
 		ai_chance = {
 			factor = 40
 			modifier = {
@@ -1186,7 +1186,7 @@ country_event = {
 		
 	}
 	option = {
-		name = "Try making a compromise"
+		name = "vu_pop_influence.8.b" #Let us offer them a compromise
 		ai_chance = {
 			factor = 40
 			modifier = {
@@ -1203,7 +1203,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "Crush them!"
+		name = "vu_pop_influence.8.c" #Crush them!
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -1279,8 +1279,8 @@ country_event = {
 ##serfs totally abolished
 country_event = {
 	id = vu_pop_influence.9
-	name = "Serfdom abolished"
-	desc = "Beginning after the Renaissance, Serfdom in Europe was gradually abolished. The last European Country to do so was the Russian Empire in 1861"
+	title = "vu_pop_influence.9.t" #Serfdom abolished!
+	desc = "vu_pop_influence.9.d" #Since the time of the Renaissance, Serfdom in Europe has gradually been on the decline. Let us hasten its decline by finally ending it once and for all!
 	picture = CITY_DEVELOPMENT_eventPicture
 	
 	trigger = {
@@ -1339,7 +1339,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
-			has_idea_group = innovative
+			has_idea_group = innovativeness_ideas
 		}
 		modifier = {
 			factor = 1.25
@@ -1357,12 +1357,12 @@ country_event = {
 		clr_country_flag = vu_serfs_1
 	}
 	option = {
-		name = "Let them free"
+		name = "vu_pop_influence.9.a" #Release them!
 		ai_chance = {
 			factor = 60
 			modifier = {
 				factor = 1.5
-				has_idea_group = innovative
+				has_idea_group = innovativeness_ideas
 			}
 			modifier = {
 				factor = 0.7
@@ -1375,7 +1375,7 @@ country_event = {
 		add_mil_power = 50
 	}
 	option = {
-		name = "Reform the country to adapt to this change"
+		name = "vu_pop_influence.9.b" #Let us reform the state to adapt to this change
 		trigger = {
 			has_country_flag = vu_serfs_1
 		}
@@ -1396,20 +1396,3 @@ country_event = {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

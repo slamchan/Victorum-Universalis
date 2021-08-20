@@ -2,10 +2,6 @@
 #Region - Germany
 #Area - Romandie
 
-latent_trade_goods = {
-	chocolates
-}
-
 owner = SWI
 controller = SWI 
 culture = swiss
@@ -19,7 +15,7 @@ base_manpower = 4
 is_city = yes
 fort_15th = yes
 add_core = SWI
-center_of_trade = 1
+center_of_trade = 2
 
 
 discovered_by = western

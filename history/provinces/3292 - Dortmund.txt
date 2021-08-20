@@ -19,10 +19,10 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
+center_of_trade = 3
 extra_cost = 10
 
-center_of_trade = 1
+
 
 1523.1.1 = { religion = protestant }
 1795.1.1 = { controller = FRA } # Occupied by French troops

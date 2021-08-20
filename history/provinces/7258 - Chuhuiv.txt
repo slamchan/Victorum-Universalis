@@ -1,7 +1,8 @@
 #BT GDL reoverhaul
 
-owner = CRI
-controller = CRI
+owner = ZAZ
+controller = ZAZ
+add_core = ZAZ
 add_core = CRI
 culture = crimean
 religion = sunni
@@ -9,7 +10,8 @@ capital = "Chuhuiv"			#Dates to circa 1600 so.... better than most of Wild Field
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = livestock
+trade_goods = horses
+
 is_city = yes
 hre = no
 

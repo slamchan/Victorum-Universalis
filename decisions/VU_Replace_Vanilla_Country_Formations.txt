@@ -2485,7 +2485,7 @@ country_decisions = {
 			NOT = { tag = GMV  }
 			NOT = { tag = TUS } #Tuscany...?
 			NOT = { tag = EMR } #Emilia-Romagna?!
-			NOT = { tag = LMV } #FUCKING LOMBARDY-VENETIA?! Draiocht, stop smoking, please.
+			NOT = { tag = LVN } #FUCKING LOMBARDY-VENETIA?! Draiocht, stop smoking, please.
 			OR = {
 				primary_culture = polish
 				#primary_culture = pommeranian
@@ -3279,7 +3279,7 @@ country_decisions = {
 			NOT = { tag = ITA }
 			NOT = { tag = TUS }
 			NOT = { tag = EMR }
-			NOT = { tag = LMV }
+			NOT = { tag = LVN }
 			OR = {
 				tag = SAV
 				tag = SAR
@@ -3390,7 +3390,7 @@ country_decisions = {
 			NOT = { tag = ITA }
 			NOT = { tag = TUS }
 			NOT = { tag = EMR }
-			NOT = { tag = LMV }
+			NOT = { tag = LVN }
 			OR = {
 				AND = {
 					tag = SAV
@@ -4412,7 +4412,7 @@ country_decisions = {
 			NOT = { tag = TUS }
 			NOT = { tag = SPI }
 			NOT = { tag = EMR }
-			NOT = { tag = LMV }
+			NOT = { tag = LVN }
 			OR = {
 				primary_culture = tuscan
 				tag = PGA

@@ -96,7 +96,7 @@ technology = { #Courthouse
 
 	year = 1505
 	courthouse = yes
-	governing_capacity = 100
+	governing_capacity = 200   #Dev doubled but cap gains not?
 
 }
 
@@ -130,7 +130,7 @@ technology = { #Early Modern Administration
 
 	administrative_monarchy	= yes
 	administrative_republic	= yes
-	governing_capacity = 100
+	governing_capacity = 200	#Dev doubled but cap gains not?
 	state_house = yes
 }
 
@@ -171,7 +171,7 @@ technology = { #University
 	year = 1622
 
 	university = yes
-	governing_capacity = 250
+	governing_capacity = 500	#Dev doubled but cap gains not?
 
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1
@@ -197,7 +197,7 @@ technology = { #Absolute Rulership
 	year = 1661
 
 	republican_dictatorship = yes
-	governing_capacity = 250
+	governing_capacity = 500	#Dev doubled but cap gains not?
 }
 
 technology = { #Land Clearance
@@ -232,7 +232,7 @@ technology = { #Bonds and Tontines
 	year = 1713
 
 	counting_house = yes
-	governing_capacity = 250
+	governing_capacity = 500	#Dev doubled but cap gains not?
 }
 
 technology = { #Improved Production
@@ -260,7 +260,7 @@ technology = { #Modern Bureaucracy
 	#Modern Canal System
     #Rotherham Plough
 	production_efficiency = 0.02
-	canal = yes
+	transport_canal = yes
 }
 
 technology = { #Rotherham Plough
@@ -270,7 +270,7 @@ technology = { #Rotherham Plough
 	#Modern Bureaucracy
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1
-	governing_capacity = 250
+	governing_capacity = 500	#Dev doubled but cap gains not?
 }
 
 technology = { #Rights of Man
@@ -308,7 +308,7 @@ technology = { #Four Field Rotation
 	#Revolutionary Ideals
 	revolutionary_republic = yes
 	revolutionary_empire = yes
-	governing_capacity = 500
+	governing_capacity = 1000	#Dev doubled but cap gains not?
 }
 
 technology = {
@@ -335,7 +335,7 @@ technology = {
 
 	#Secularism
 	administrative_efficiency = 0.1
-	governing_capacity = 200
+	governing_capacity = 400	#Dev doubled but cap gains not?
 	allowed_idea_groups = 9
 }
 
@@ -344,7 +344,7 @@ technology = {
 	year = 1869
 
 	#Universal Suffrage
-	governing_capacity = 200
+	governing_capacity = 400	#Dev doubled but cap gains not?
 	parliamentary_monarchy = yes
 	parliamentary_democracy = yes
 }
@@ -371,7 +371,7 @@ technology = {
 	year = 1908
 
 	#Progressivism
-	governing_capacity = 200
+	governing_capacity = 400	#Dev doubled but cap gains not?
 }
 
 technology = {

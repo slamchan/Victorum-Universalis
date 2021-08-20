@@ -406,7 +406,7 @@ elective_monarchy = {
 		tolerance_heretic = 3			#New in BT. Yeah, I know Lithuanian trads & Polish ambitions both give this, but Heretic unrest is a serious issue in this little corner of land.
 		#global_unrest = -1			#Replacing -1 global unrest with tolerance to heretics. PLC has a pretty spectacular amount of land and dev, and most of it is Orthodox.
 		max_absolutism = -30
-		governing_capacity = 200 #Nerfed back. PLC was quite stronk.
+		governing_capacity = 400 #Nerfed back. PLC was quite stronk. #Buffed. PLC was imploding once formed.
 	}
 
 	conditional = {
@@ -939,7 +939,7 @@ mughal_government = {
 		dacian = {
 			harsh_treatment_cost = -0.10			#Current modifier courtesy of Imperatrix Helena
 		}
-		egyptian = {
+		egyptian_group = {
 			tolerance_heathen = 0.5			#Current modifier courtesy of Imperatrix Helena
 		}
 		saharan_group = {
@@ -2372,7 +2372,7 @@ western_principality = {
 		NOT = { primary_culture = welsh }
 		religion_group = christian
 		OR = {
-		    culture_group = breton
+		    culture_group = brythonic
 		    culture_group = british
 		    culture_group = french
 			culture_group = germanic
@@ -2394,7 +2394,7 @@ western_principality = {
 	    NOT = { religion = orthodox }
 	    religion_group = christian
 	    OR = {
-		    culture_group = breton
+		    culture_group = brythonic
 		    culture_group = british
 		    culture_group = french
 		    culture_group = germanic

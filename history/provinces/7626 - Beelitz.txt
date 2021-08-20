@@ -14,7 +14,7 @@ trade_goods = iron
 base_manpower = 4
 capital = "Luckau"
 is_city = yes
-center_of_trade = 1
+
 
 discovered_by = english
 discovered_by = french

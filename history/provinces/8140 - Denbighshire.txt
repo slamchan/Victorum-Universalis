@@ -18,6 +18,7 @@ base_production = 2
 base_manpower = 1
 trade_goods = wool
 
+
 #Cores and Occupation (Alphabetical after current)
 add_core = WMC
 add_core = WLS

@@ -9,12 +9,14 @@ culture = danish
 religion = catholic
 hre = no
 base_tax = 4
-base_production = 4
+base_production = 6
 trade_goods = naval_supplies			
 base_manpower = 4
 capital = "Aalborg"
 is_city = yes
-center_of_trade = 1
+
+
+
 
 discovered_by = english
 discovered_by = french

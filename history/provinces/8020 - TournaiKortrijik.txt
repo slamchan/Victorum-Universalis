@@ -9,9 +9,10 @@ capital = "Tournai"
 base_tax = 8
 base_production = 8
 base_manpower = 5
-trade_goods = cloth			#major cloth centre
+trade_goods = cloth			#major cloth center
 is_city = yes
 hre = no
+
 
 discovered_by = western
 discovered_by = muslim

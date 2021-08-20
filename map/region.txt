@@ -179,7 +179,7 @@ south_german_region = {
 		switzerland_area
 		franconia_area
 		swabia_area
-		upper_rhineland_area
+		#upper_rhineland_area  #Area replaced by Baden
 		romandie_area
 		palatinate_area
 		hohenzollern_area
@@ -237,6 +237,7 @@ ural_region = {
 
 iberia_region = {
 	areas = {
+	    andorra_area
 		aragon_area
 		catalonia_area
 		valencia_area
@@ -322,6 +323,8 @@ baltic_region = {
 		masuria_area
 		latgallia_area
 		north_livonia_area
+		yotvingia_area
+		trakai_area
 	}
 }
 
@@ -335,8 +338,8 @@ poland_region = {
 		sandomierz_area			#added by Paradox in 1.27, same id so no change needed.
 		kuyavia_area			#Repurposing this into BT's old Kalisz area
 		#BTADDITIONS
-		lower_silesia_area
-		middle_silesia_area
+		#lower_silesia_area     #Replaced by single Silesian area
+		#middle_silesia_area    #Replaced by single Silesian area
 	}
 }
 
@@ -357,9 +360,6 @@ ruthenia_region = {
 		severia_area
 		vitebsk_area
 		polotsk_area
-		novogrudok_area
-		yotvingia_area			#Moved from Baltic region in 11.5
-		trakai_area			#Moved from Baltic region in 11.5
 	}
 }
 
@@ -1013,6 +1013,9 @@ korea_region = {
 		western_korea_area
 		eastern_korea_area
 		south_korea_area
+		left_chungcheong_area
+		left_gyeongsang_area
+		left_hwanghae_area
 	}
 	monsoon = {
 		00.06.01
@@ -1126,7 +1129,7 @@ coromandel_region = {
 		andhra_area
 		madura_area
 		lanka_area
-		carnatic_area
+		#carnatic_area             #Replaced with North and South
 		south_lanka_area
 		tanjore_area
 		kongu_area
@@ -1164,18 +1167,27 @@ burma_region = {
 japan_region = {
 	areas = {
 		hokkaido_area
+		kurils_area
 		hokuriku_area
+		east_hokuriku_area
 		kanto_area
 		eastern_kanto_area
+		ryukyu_area
 		kyushu_area
-		chubu_area
-		eastern_chubu_area
-		kinai_area
-		thohoku_area
-		saigoku_area
-		sanindo_area
-		shikoku_area
 		northern_kyushu
+		btc_south_kyushu_area
+		central_kyushu_area
+		shikoku_area
+		eastern_chubu_area
+		chubu_area
+		kinai_area
+		south_kinai_area
+		thohoku_area
+		south_thohoku_area
+		central_thohoku_area
+		sanindo_area
+		saigoku_area
+		east_sanyodo_area
 	}
 	monsoon = {
 		00.06.01
@@ -1423,7 +1435,7 @@ oceanea_region = {
 		polynesia_area
 		vogelkop_area			#Moved from Moluccas
 		#BTADDITIONS
-		tuamotus_area
+		#tuamotus_area	#Empty Area
 	}
 	monsoon = {
 		00.07.01
@@ -1697,7 +1709,7 @@ central_america_region = {
 carribeans_region = {
 	areas = {
 		cuba_area
-		east_cuba_area
+		#east_cuba_area       #see line above
 		hispaniola_area
 		greater_antilles_area
 		leeward_islands_area

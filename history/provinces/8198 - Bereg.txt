@@ -9,7 +9,7 @@ owner = HUN
 controller = HUN
 
 #Demographics
-culture = ruthenian
+culture = rusyn
 religion = orthodox
 
 #Development and Trade
@@ -17,7 +17,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = wool
-center_of_trade = 1
 
 #Cores and Occupation (Alphabetical after current)
 add_core = HUN

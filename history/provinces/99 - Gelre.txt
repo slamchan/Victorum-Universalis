@@ -11,9 +11,14 @@ religion = catholic
 hre = yes
 base_tax = 5 			#Not poor, but not exactly rich, either, at this point. Wasn't actually on the Rhine when founded, the course of the Rhine changed in the 16th century, before then, it was really a provincial HRE fringe
 base_production = 5 
-trade_goods = livestock			#Name of the province mean 'fallow lands', and it was mostly undeveloped marsh, swamp, and woodland, heath, and sandbanks in the early period... going with livestock as a generic poor good. Also Dutch are good with cattle, so it works.
+trade_goods = cheese		#Name of the province mean 'fallow lands', and it was mostly undeveloped marsh, swamp, and woodland, heath, and sandbanks in the early period... going with livestock as a generic poor good. Also Dutch are good with cattle, so it works.
 base_manpower = 3 
 add_core = GEL
+
+add_permanent_province_modifier = {
+	name = ijsselmeer_bay_modifier
+	duration = -1
+}
 
 discovered_by = western
 discovered_by = muslim

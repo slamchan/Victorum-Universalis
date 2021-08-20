@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = grain 
 latent_trade_goods = { coal }
 
+
 #Cores and Occupation (Alphabetical after current)
 add_core = SCO
 

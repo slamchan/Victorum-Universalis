@@ -14,6 +14,11 @@ is_city = yes
 add_core = ALH
 add_core = ORM #Tributary to Hormuz up until conquest by Jabrids
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

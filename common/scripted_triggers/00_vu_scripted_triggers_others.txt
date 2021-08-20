@@ -20,7 +20,7 @@ bt_italy_stem_duchy_check = {
 	NOT = { tag = ITA } #Italy
 	NOT = { tag = ITL } #Napoleonic Italy
 	NOT = { tag = TTS } #Two Sicilies
-	NOT = { tag = LMV } #Lombardy-Veneto
+	NOT = { tag = LVN } #Lombardy-Veneto
 	NOT = { tag = SPI } #Sardinia-Piedmont
 	#"Stem Duchies"
 	NOT = { tag = EMR } #Emilia-Romagna
@@ -42,7 +42,7 @@ bt_italy_stem_duchy_check = {
 	NOT = { was_tag = ITA } #Italy
 	NOT = { was_tag = ITL } #Napoleonic Italy
 	NOT = { was_tag = TTS } #Two Sicilies
-	NOT = { was_tag = LMV } #Lombardy-Veneto
+	NOT = { was_tag = LVN } #Lombardy-Veneto
 	NOT = { was_tag = SPI } #Sardinia-Piedmont
 	#"Stem Duchies"
 	NOT = { was_tag = EMR } #Emilia-Romagna
@@ -365,6 +365,12 @@ subjugate_bohemia_provinces = {
 		#BT additions
 		area = moravia_area
 		area = bohemian_forest_area
+		#VU amendments
+	}
+	NOT = {
+		province_id = 3142 #Opava
+		province_id = 7318 #Tirschenreuth
+		province_id = 7685 #Ostrava
 	}
 }
 recover_silesia_provinces = {

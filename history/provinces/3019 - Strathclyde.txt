@@ -14,12 +14,14 @@ base_tax = 6
 base_production = 3
 trade_goods = naval_supplies #Glasgow's position as a national leader and later world leader in shipbuilding and naval industries
 base_manpower = 3
-capital = "Lanark" #Lanark was still the preminent centre of power in the area. Glasgow was certainly challenging though, and Renfrew a strong 3rd. Put Glasgow as capital from 1450.
+capital = "Lanark" #Lanark was still the preminent center of power in the area. Glasgow was certainly challenging though, and Renfrew a strong 3rd. Put Glasgow as capital from 1450.
 is_city = yes
 add_core = SCO
-
+center_of_trade = 1
 extra_cost = 24
-center_of_trade = 2
+
+
+
 
 discovered_by = western
 discovered_by = muslim

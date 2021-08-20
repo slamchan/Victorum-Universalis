@@ -1962,6 +1962,11 @@ yangtze_estuary_modifier = {
 	picture = "estuary_icon"
 }
 
+yellow_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
 huang_he_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"
@@ -3181,6 +3186,7 @@ the_triumphal_procession = {
 burgundian_succession_crisis = {
 	heir_chance = -0.95
 	block_introduce_heir = yes
+	monthly_heir_claim_increase = -0.5
 }
 
 mary_is_on_the_throne = {
@@ -8988,6 +8994,46 @@ harmonized_pagan = {
 
 harmonized_jewish_group = {
 	global_institution_spread = 0.15
+	religion = yes
+}
+
+harmonized_bahai = {
+	# Unused
+	religion = yes
+}
+
+harmonized_mandaean = {
+	# Unused
+	religion = yes
+}
+
+harmonized_manichaean = {
+	# Unused
+	religion = yes
+}
+
+harmonized_yazidi = {
+	# Unused
+	religion = yes
+}
+
+harmonized_yarsan = {
+	# Unused
+	religion = yes
+}
+
+harmonized_taoism = {
+	# Unused
+	religion = yes
+}
+
+harmonized_slavic_religion = {
+	# Unused
+	religion = yes
+}
+
+harmonized_celtic_religion = {
+	# Unused
 	religion = yes
 }
 

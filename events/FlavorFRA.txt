@@ -101,7 +101,7 @@ country_event = {
 		ENG = {
 			declare_war_with_cb = {
 				who = FRA
-				casus_belli = cb_restore_personal_union
+				casus_belli = cb_claim_throne # VU - change from cb_restore_personal_union to allow France to reclaim all of Normandy as defender (cheaper cost).
 			}
 		}
 		177 = {
@@ -338,7 +338,7 @@ country_event = {
 					area = naples_area
 					area = apulia_area
 					area = calabria_area
-					area = western_sicily_area
+					#area = western_sicily_area    #Empty Area
 					province_id = 120
 				}
 			}
@@ -371,7 +371,7 @@ country_event = {
 						area = naples_area
 						area = apulia_area
 						area = calabria_area
-						area = western_sicily_area
+						#area = western_sicily_area      #Empty Area
 						province_id = 120
 					}
 					OR = {
@@ -398,7 +398,7 @@ country_event = {
 						area = naples_area
 						area = apulia_area
 						area = calabria_area
-						area = western_sicily_area
+						#area = western_sicily_area      #Empty Area
 						province_id = 120
 					}
 				}
@@ -426,7 +426,7 @@ country_event = {
 						area = naples_area
 						area = apulia_area
 						area = calabria_area
-						area = western_sicily_area
+						#area = western_sicily_area      #Empty Area
 						province_id = 120
 					}
 				}
@@ -2031,16 +2031,20 @@ country_event = {
 		    add_government_reform = french_kingdom_reform 
 			remove_government_reform = feudalism_reform
 		}
-		spawn_rebels = {
+		random_owned_province = {
+			spawn_rebels = {
 				type = pretender_rebels
 				size = 5
 				leader = "Henry III de Valois"
-				}
-		spawn_rebels = {
+			}
+		}
+		random_owned_province = {
+			spawn_rebels = {
 				type = pretender_rebels
 				size = 4
 				leader = "Henry I de Guise"
-				}
+			}
+		}
 		define_ruler = {
 			name = "Henry IV"
 			dynasty = "de Bourbon"
@@ -2057,16 +2061,20 @@ country_event = {
 		name = "flavor_fra.9501.b"
 		ai_chance = { factor = 25}
 		add_stability = -1
-		spawn_rebels = {
+		random_owned_province = {
+			spawn_rebels = {
 				type = pretender_rebels
 				size = 5
 				leader = "Henry III de Bourbon"
-				}
-		spawn_rebels = {
-				type = prtender_rebels
+			}
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = pretender_rebels
 				size = 4
 				leader = "Henry I de Guise"
-				}
+			}
+		}
 		define_ruler = {
 			name = "Henry III"
 			dynasty = "de Valois"
@@ -2083,16 +2091,20 @@ country_event = {
 		name = "flavor_fra.9501.c"
 		ai_chance = { factor = 25 }
 		add_stability = -1
-		spawn_rebels = {
+		random_owned_province = {
+			spawn_rebels = {
 				type = pretender_rebels
 				size = 5
 				leader = "Henry III de Bourbon"
-				}
-		spawn_rebels = {
+			}
+		}
+		random_owned_province = {
+			spawn_rebels = {
 				type = pretender_rebels
 				size = 5
 				leader = "Henry I de Valois"
-				}
+			}
+		}
 		define_ruler = {
 			name = "Henry III"
 			dynasty = "de Guise"
@@ -2116,7 +2128,7 @@ country_event = {
     fire_only_once = yes
     
     trigger = { #June 1789 Assembly is formed
-	    tag = BRF
+	    tag = BFR
 		is_year = 1789
 		NOT = { is_year = 1795 }
 		has_disaster = french_revolution
@@ -2247,9 +2259,10 @@ country_event = {
 		define_ruler = {
 			name = "Napoleon"
 			dynasty = "Bonaparte"
-			dip = 7
-		    mil = 9
-		    adm = 10
+			#666 is max, sorry! (was 7 9 10 if you can figure out how to make it work properly)
+			dip = 6
+		    mil = 6
+		    adm = 6
 		}
 		define_ruler_to_general = {
 			shock = 7
@@ -2467,8 +2480,9 @@ country_event = {
 		define_ruler = {
 		    name = "Napoleon"
 			dynasty = "Bonaparte"
+			#ah the curse strikes again, was 7 mil but game can't spawn that
 			dip = 5
-			mil = 7
+			mil = 6
 			adm = 6
 		}
 		define_ruler_to_general = {
@@ -2596,15 +2610,19 @@ country_event = {
 		name = "flavor_fra.9515.a"
 		ai_chance = { factor = 25 }
 		add_stability = -1
-		spawn_rebels = {
-			type = pretender_rebels
-			size = 6
-			leader = "Louis Philippe I d'Orléans"
+		random_owned_province = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 6
+				leader = "Louis Philippe I d'Orléans"
+			}	
 		}
-		spawn_rebels = {
-		    type = leadered_peasant_rebels
-			size = 6
-			win = yes
+		random_owned_province = {
+			spawn_rebels = {
+			    type = leadered_peasant_rebels
+				size = 6
+				win = yes
+			}	
 		}
 		define_ruler = {
 			name = "Charles X"
@@ -2636,15 +2654,19 @@ country_event = {
 		name = "flavor_fra.9515.b"
 		ai_chance = { factor = 75 }
 		change_tag = OFR
-		spawn_rebels = {
-			type = pretender_rebels
-			size = 8
-			leader = "Legitimist"
+		random_owned_province = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 8
+				leader = "Legitimist"
+			}
 		}
-		spawn_rebels = {
-		    type = leadered_peasant_rebels
-			size = 6
-			win = yes
+		random_owned_province = {
+			spawn_rebels = {
+				type = leadered_peasant_rebels
+				size = 6
+				win = yes
+			}
 		}
 		define_ruler = {
 			name = "Louis Philippe I"

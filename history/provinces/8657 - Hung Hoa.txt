@@ -15,7 +15,6 @@ add_core = DAI
 add_core = SSC
 
 
-
 discovered_by = chinese
 discovered_by = indian
 

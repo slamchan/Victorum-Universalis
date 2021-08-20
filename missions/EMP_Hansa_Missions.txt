@@ -425,11 +425,11 @@ hanseatic_sound_toll_tree = {
 		position = 2
 	
 		provinces_to_highlight = {
-			province_id = 1926 # Baltic Sea
+			province_id = 1 # Baltic Sea
 		}
 	
 		trigger = {
-			1926 = {
+			1 = {
 				trade_share = {
 					country = ROOT
 					share = 30

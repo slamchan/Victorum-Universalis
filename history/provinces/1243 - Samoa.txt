@@ -15,3 +15,5 @@ base_manpower = 2
 discovered_by = polynesian_tech
 
 1722.1.1 = { discovered_by = NED } # Jacob Roggeveen
+
+

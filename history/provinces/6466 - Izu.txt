@@ -1,0 +1,26 @@
+#3317 - Izu
+
+owner = OUE
+controller = OUE
+culture = togoku
+religion = shinto
+capital = "Odawara"
+trade_goods = pearls
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = HJO
+add_core = OUE
+discovered_by = chinese
+discovered_by = japanese
+
+
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = ANU
+
+1542.1.1 = { discovered_by = POR }

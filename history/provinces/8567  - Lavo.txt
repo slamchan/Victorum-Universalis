@@ -12,6 +12,8 @@ base_production = 7
 base_manpower = 3
 is_city = yes
 add_core = AYU
+
+
 discovered_by = chinese
 discovered_by = indian
 

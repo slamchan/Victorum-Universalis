@@ -9,14 +9,14 @@ religion = catholic
 hre = yes			#borderline, but strong Ghibelline associations, so HRE but Papal subject for now
 base_tax = 7
 base_production = 6
-trade_goods = glass # yet another majolica centre, could also be grain or wool
+trade_goods = glass # yet another majolica center, could also be grain or wool
 base_manpower = 4
 capital = "Urbino" 
 is_city = yes
 add_core = URB
 
 extra_cost = 8
-center_of_trade = 1
+
 
 discovered_by = western
 discovered_by = muslim

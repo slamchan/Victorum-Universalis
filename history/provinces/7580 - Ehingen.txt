@@ -15,6 +15,7 @@ capital = "Ehingen"
 is_city = yes
 hre = yes
 
+
 discovered_by = english
 discovered_by = french
 discovered_by = german_group

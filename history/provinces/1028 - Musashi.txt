@@ -5,21 +5,24 @@ controller = UES
 culture = togoku
 religion = shinto
 capital = "Kawagoe"
-trade_goods = fish
+trade_goods = horses
 hre = no
-base_tax = 12
+base_tax = 10
 base_production = 12
-base_manpower = 6
+base_manpower = 14
 is_city = yes
 add_core = UES
 discovered_by = chinese
+discovered_by = japanese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
 extra_cost = 16
-center_of_trade = 2
+
+
+
 
 1457.1.1 = { fort_15th = yes } # Edo Castle
 1524.1.1 = { add_core = HJO }

@@ -1109,6 +1109,7 @@ POL_ideas = {
 		OR = {
 			tag = POL
 			tag = PLC
+			tag = DWA
 		}
 	}
 	free = yes		#will be added at load.

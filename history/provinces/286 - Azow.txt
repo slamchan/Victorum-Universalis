@@ -13,9 +13,14 @@ capital = "Tana"
 is_city = yes
 add_core = GZR
 fort_15th = yes
-
+center_of_trade = 1
 extra_cost = 24
-center_of_trade = 2
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
 
 discovered_by = western
 discovered_by = eastern

@@ -136,3 +136,28 @@ bt_birkarls = {
 	local_tax_modifier = 0.25
 	trade_goods_size_modifier = 0.25
 }
+
+#Chinese Treaty Ports
+
+treaty_port = {
+    potential = {
+    }
+
+    trigger = {
+        owner = {
+			NOT = { same_continent = ROOT }
+		}
+    }
+	
+		province_trade_power_value = 10
+	
+
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+
+}

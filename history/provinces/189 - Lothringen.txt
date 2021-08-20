@@ -15,13 +15,12 @@ is_city = yes
 religion = catholic
 hre = yes
 base_tax = 5
-base_production = 5
+base_production = 6
 trade_goods = beer
-base_manpower = 3
-center_of_trade = 1
+base_manpower = 4
 
-#extra_cost = 8
-#center_of_trade = 1
+extra_cost = 8
+center_of_trade = 2
 
 discovered_by = western
 discovered_by = muslim

@@ -11,7 +11,7 @@ primary_culture = irish
 1439.1.1 = {
 	monarch = {
 		name = "Aedh mac Tairdelbach Óg"
-		dynasty "Ó Conchobair"
+		dynasty = "Ó Conchobhair"
 		birth_date = 1400.1.1
 		adm = 1
 		dip = 2

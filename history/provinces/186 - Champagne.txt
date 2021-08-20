@@ -11,11 +11,11 @@ religion = catholic
 hre = no
 base_tax = 7
 base_production = 7
-trade_goods = wine
+trade_goods = champagne
 base_manpower = 4
 add_core = CHP
 add_core = RHM
-
+center_of_trade = 2
 
 discovered_by = western
 discovered_by = muslim

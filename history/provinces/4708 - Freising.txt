@@ -11,6 +11,7 @@ base_manpower = 4
 trade_goods = grain #Weihenstephaner beer
 add_core = FRG
 
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

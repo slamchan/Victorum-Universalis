@@ -19,7 +19,7 @@ discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = indian
 extra_cost = 8
-center_of_trade = 1
+center_of_trade = 2
 
 1409.5.13 = { #Ulugh Beg is made Governor of Samarkand
 	owner = TRS

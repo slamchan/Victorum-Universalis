@@ -16,7 +16,7 @@ add_core = CSH
 fort_15th = yes #the Nine Garrisons
 discovered_by = chinese
 discovered_by = nomad_group
-
+center_of_trade = 1
 
 1644.1.1 = {
 	owner = CSH

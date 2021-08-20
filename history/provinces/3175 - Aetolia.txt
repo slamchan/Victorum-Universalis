@@ -5,7 +5,7 @@ controller = EPI
 culture = greek
 religion = orthodox
 capital = "Vrachori"
-trade_goods = fruit			#Later a major tobacco centre.
+trade_goods = fruit			#Later a major tobacco center.
 hre = no
 base_tax = 3
 base_production = 3
@@ -13,6 +13,7 @@ base_manpower = 2
 is_city = yes
 add_core = EPI
 fort_15th = yes
+
 
 discovered_by = KAZ
 discovered_by = CRI

@@ -14,6 +14,7 @@ owner = MGD
 controller = MGD
 add_core = MGD
 
+
 1520.1.1 = {
 	religion = sunni
 } # Sultanate of Maguindanao

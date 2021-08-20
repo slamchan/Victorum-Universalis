@@ -18,7 +18,7 @@ discovered_by = indian
 discovered_by = chinese
 discovered_by = east_african
 extra_cost = 8
-center_of_trade = 1
+
 
 1505.1.1 = { discovered_by = POR } # Francisco de Almeida
 1542.1.1 = { add_core = POR }

@@ -189,7 +189,7 @@ SCA_ideas = {
 }
 
 #Lombardy-Veneto
-LMV_ideas = {
+LMV_ideas = { [now LVN]
 	start = {
 		infantry_power = 0.10 #MLO_ideas
 		galley_power = 0.25 #VEN_ideas bonus
@@ -199,7 +199,7 @@ LMV_ideas = {
 		republican_tradition = 0.5
 	}
 	trigger = {
-		tag = LMV
+		tag = LVN
 	}
 
 	free = yes
@@ -230,7 +230,7 @@ LMV_ideas = {
 		global_trade_goods_size_modifier = 0.10
 	}
 	
-	lmv_italian_unification = { #LMV shall be the unifiers of Italy!
+	lmv_italian_unification = { #LVN shall be the unifiers of Italy!
 		governing_capacity_modifier = 0.1
 		num_accepted_cultures = 1
 	}
@@ -364,12 +364,12 @@ LOM_ideas = {
 		burghers_loyalty_modifier = 0.05
 	}
 	
-	lom_freethinkers = { #A bit like LMV. Lots of historical figures hailed from Lombardy, from Roman philosophes to Italian physicists. Plus musicians, politicians and popes.
+	lom_freethinkers = { #A bit like LVN. Lots of historical figures hailed from Lombardy, from Roman philosophes to Italian physicists. Plus musicians, politicians and popes.
 		advisor_pool = 1
 		innovativeness_gain = 0.5
 	}
 	
-	lmv_po_valley_textiles = { #Used by LMV
+	lmv_po_valley_textiles = { #Used by LVN
 	
 	}
 	
@@ -1990,11 +1990,11 @@ CCC_ideas = {
 #Cordoba
 CDB_ideas = {
 	start = {
-		tolerance_heathen = 2 #C髍doba is very close to Muslim Andalusia, and by proxy Muslim North Africa. Couple that with the city's history as a multi-religious metropolis, and I think Tolerance of Heathens makes sense.
-		legitimacy = 0.5	  #C髍doba also has a long history of self-rule, from the Caliphate of C髍doba to the Taifa of C髍doba to (evidently) the independent Duchy/Kingdom/Empire of C髍doba.
+		tolerance_heathen = 2 #C贸rdoba is very close to Muslim Andalusia, and by proxy Muslim North Africa. Couple that with the city's history as a multi-religious metropolis, and I think Tolerance of Heathens makes sense.
+		legitimacy = 0.5	  #C贸rdoba also has a long history of self-rule, from the Caliphate of C贸rdoba to the Taifa of C贸rdoba to (evidently) the independent Duchy/Kingdom/Empire of C贸rdoba.
 	}
 	bonus = {
-		global_missionary_strength = 0.02	#Same strength as Castile gets in their second NI. Surely a late-game C髍doba would be thanking God for their existence :P
+		global_missionary_strength = 0.02	#Same strength as Castile gets in their second NI. Surely a late-game C贸rdoba would be thanking God for their existence :P
 	}
 	trigger = {
 		tag = CDB
@@ -2003,45 +2003,45 @@ CDB_ideas = {
 	free = yes
 
 	#Turn the Tide
-	#Despite the city's rich history, it severely declined by Renaissance times. According to the Wikipedia, estimate of the city's population in the 18th-century are as low as 20,000. Reversing this decline would be a big priority for an independent C髍doba. 
+	#Despite the city's rich history, it severely declined by Renaissance times. According to the Wikipedia, estimate of the city's population in the 18th-century are as low as 20,000. Reversing this decline would be a big priority for an independent C贸rdoba. 
 	cdb_reverse_decline = {
 		land_morale = 0.1
 	}
 
-	#La Mezquita (de C髍doba)
-	#The Mosque-Cathedral of C髍doba (Mezquita-Catedral de C髍doba in Spanish) dates back to Visigothic times, and was the location of a Basilica until Abd al-Rahman I ordered the construction of the Great Mosque in 784. It was converted to a cathedral after the city's reconquest in 1236. It's a seriously impressive church.
+	#La Mezquita (de C贸rdoba)
+	#The Mosque-Cathedral of C贸rdoba (Mezquita-Catedral de C贸rdoba in Spanish) dates back to Visigothic times, and was the location of a Basilica until Abd al-Rahman I ordered the construction of the Great Mosque in 784. It was converted to a cathedral after the city's reconquest in 1236. It's a seriously impressive church.
 	cdb_la_mezquita = {
 		prestige = 1 #could also be replaced with prestige_decay = -0.01
 	}
 
 	#Dredge the Guadalquivir
-	#Apparently in Roman Times the Guadalquivir was navigable to C髍doba. I say dredge it!
+	#Apparently in Roman Times the Guadalquivir was navigable to C贸rdoba. I say dredge it!
 	cdb_dredge_guadalquivir = {
 		development_cost = -0.1
 	}
 
 	#Las Colaciones
-	#Colaci髇 or collaci髇 is another term for a neighborhood in Spanish. In 1236, C髍doba was divided into 14 colaciones and lots of churches were built.
+	#Colaci贸n or collaci贸n is another term for a neighborhood in Spanish. In 1236, C贸rdoba was divided into 14 colaciones and lots of churches were built.
 	cdb_colaciones = {
 		build_cost = -0.1
 		global_manpower_modifier = 0.2
 	}
 
 	#Establish Foreign Trade
-	#At this point it gets more generic. I guess at this point C髍doba would be independent and would be looking to expand its trade network?
+	#At this point it gets more generic. I guess at this point C贸rdoba would be independent and would be looking to expand its trade network?
 	cdb_foreign_trade = {
 		trade_range_modifier = 0.2
 		trade_steering = 0.1
 	}	
 
-	#Mines of C髍doba
-	#C髍doba has a gold mine, and there are lots of other mine-related goods nearby like iron and copper. /shrug
+	#Mines of C贸rdoba
+	#C贸rdoba has a gold mine, and there are lots of other mine-related goods nearby like iron and copper. /shrug
 	cdb_mines = {
 		global_trade_goods_size_modifier = 0.1
 	}
 
 	#Bridges and Roads
-	#C髍doba had like one bridge from Roman Times until the 20th century. How on Earth did they get around? Build more bridges! And roads too!
+	#C贸rdoba had like one bridge from Roman Times until the 20th century. How on Earth did they get around? Build more bridges! And roads too!
 	cdb_bridges = {
 		global_own_trade_power = 0.2 #Other nations have values from 0.1 to 0.25, so there's precedent for a value this high. To be honest this is kind of a stretch, but I already used -dev cost so
 	}
@@ -2064,8 +2064,8 @@ SVL_ideas = {
 
 	free = yes
 
-	#Alc醶ar de Sevilla
-	#The Alc醶ar of Seville is a massive fortified palatial complex, built for King Pedro I de Ivrea in the 1360s. Though Pedro's reputation is mixed, the Alc醶ar is undoubtedly an impressive feat of architecture.
+	#Alc谩zar de Sevilla
+	#The Alc谩zar of Seville is a massive fortified palatial complex, built for King Pedro I de Ivrea in the 1360s. Though Pedro's reputation is mixed, the Alc谩zar is undoubtedly an impressive feat of architecture.
 	sev_alcazar = {
 		defensiveness = 0.25
 	}
@@ -2096,7 +2096,7 @@ SVL_ideas = {
 	}
 
 	#Inquisitive Minds
-	#Despite the Inquisition, Seville has continued to be a nexus for scholarly thought. The libraries and campuses of Seville rival those of C髍doba, Paris, London, and Cairo. Let not one be ashamed of asking questions!
+	#Despite the Inquisition, Seville has continued to be a nexus for scholarly thought. The libraries and campuses of Seville rival those of C贸rdoba, Paris, London, and Cairo. Let not one be ashamed of asking questions!
 	sev_inquisitive_minds = {
 		technology_cost = -0.05
 	}
@@ -2201,4 +2201,660 @@ MUR_ideas = {
 		galley_power = 0.1
 	}
 
+}
+
+#VU addition - Japanese ideas by San Felipe
+
+HNM_ideas = {
+	start = {
+		manpower_recovery_speed = 0.25
+		infantry_cost = -0.15
+	}
+	bonus = {
+		merchants = 1
+	}
+	trigger = {
+		OR = {
+		tag = HNM
+		tag = OUE
+		}
+	}
+	free = yes
+
+	northern_warhorses = {
+		cavalry_power = 0.15
+	}
+	branch_contacts = {
+		diplomatic_reputation = 1
+	}
+	hachiman_shrines = {
+		land_morale = 0.15
+	}
+	heirs_of_uesugi = {
+		prestige = 1
+	}
+	gokishichido_control = {
+		trade_steering = 0.25
+	}
+	uesugi_holdouts = {
+		defensiveness = 0.2
+	}
+	merchantile_exemptions = {
+		global_trade_power = 0.1
+	}
+}
+
+STM_ideas = {
+	start = {
+		naval_morale = 0.15
+		land_morale = 0.15
+	}
+	bonus = {
+		manpower_recovery_speed = 0.25
+	}
+	trigger = {
+		tag = STM
+	}
+	free = yes
+
+	awa_navy = {
+		leader_naval_shock = 2
+	}
+	tateyama_fisheries = {
+		trade_efficiency = 0.15
+	}
+	kurui_castle = {
+		defensiveness = 0.15
+		garrison_size = 0.15
+	}
+	kazusa_commanders = {
+		leader_land_shock = 2
+	}
+	unification_of_boso = {
+		core_creation = -0.15
+	}
+	resilient_clan = {
+		war_exhaustion_cost = -0.4
+	}
+	plains_of_fusa = {
+		global_tax_modifier = 0.15
+	}
+}
+
+YSM_ideas = {
+	start = {
+		trade_efficiency = 0.1
+		leader_land_shock = 1
+	}
+	bonus = {
+		leader_naval_fire = 2
+	}
+	trigger = {
+		tag = YSM
+	}
+	free = yes
+
+	tradition_of_conflicts = {
+		discipline = 0.05
+	}
+	traditionalism = {
+		tolerance_own = 3
+	}
+	assimilated_retainers = {
+		merc_maintenance_modifier = -0.25
+	}
+	trade_along_coasts = {
+		global_own_trade_power = 0.25
+	}
+	chugoku_defensiveness = {
+		defensiveness = 0.15
+		garrison_size = 0.15
+	}
+	mori_generals = {
+		fire_damage_received = -0.15
+	}
+	fire_ships = {
+		light_ship_power = 0.25
+	}
+}
+
+SGR_ideas = {
+	start = {
+		hostile_attrition = 1
+		infantry_power = 0.15
+	}
+	bonus = {
+		development_cost = -0.15
+	}
+	trigger = {
+		tag = SGR
+	}
+	free = yes
+
+	hitoyoshi_mountains = {
+		defensiveness = 0.2
+	}
+	silver_mining = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	hitoyoshi_castle = {
+		global_trade_power = 0.1
+	}
+	break_vassals = {
+		global_unrest = -2
+	}
+	illegal_trade = {
+		trade_efficiency = 0.15
+	}
+	marume_clan = {
+		army_tradition = 1
+	}
+	unification_of_higo = {
+		global_prov_trade_power_modifier = 0.25
+	}
+}
+
+TN1_ideas = {
+	start = {
+		trade_efficiency = 0.15
+		trade_range_modifier = 0.3
+	}
+	bonus = {
+		light_ship_power = 0.15
+	}
+	trigger = {
+		tag = TN1
+	}
+	free = yes
+
+	hojo_lineage = {
+		prestige = 1
+	}
+	lord_of_osumi_islands = {
+		naval_forcelimit_modifier = 0.25
+	}
+	yakushima_forestry = {
+		fort_maintenance_modifier = -0.2
+	}
+	trade_with_kinai = {
+		merchants = 1
+	}
+	nichiren_ties = {
+		development_cost = -0.15
+	}
+	tng_foreign_trade = {
+		global_trade_power = 0.1
+	}
+	tanegashima_teppo = {
+		fire_damage = 0.15
+	}
+}
+
+ASO_ideas = {
+	start = {
+		tolerance_own = 2
+		stability_cost_modifier = -0.2
+	}
+	bonus = {
+		diplomatic_upkeep = 2
+	}
+	trigger = {
+		tag = ASO
+	}
+	free = yes
+
+	mount_aso = {
+		prestige = 1
+	}
+	dai_guji = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+	aso_shrine = {
+		prestige_decay = -0.01
+	}
+	imperial_descent = {
+		improve_relation_modifier = 0.25
+	}
+	promotion_uchinomaki = {
+		diplomatic_reputation = 2
+	}
+	isolated_terrain = {
+		army_tradition_decay = -0.01
+	}
+	kai_retainers = {
+		diplomats = 2
+	}
+}
+
+MOG_ideas = {
+	start = {
+		diplomatic_reputation = 2
+		improve_relation_modifier = 0.25
+	}
+
+	bonus = {
+		fort_maintenance_modifier = -0.25
+	}
+
+	trigger = {
+		tag = MOG
+	}
+	free = yes
+
+	mogami_shields = {
+		discipline = 0.05
+	}
+	three_difficult_places = {
+		global_own_trade_power = 0.25
+	}
+	dam_construction = {
+		development_cost = -0.15
+	}
+	kinai_culture = {
+		idea_cost = -0.1
+	}
+	shonai_cultivation = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	dewa_tiger = {
+		cavalry_power = 0.2
+	}
+	dewa_defenses = {
+		defensiveness = 0.2
+	}
+}
+
+ASN_ideas = {
+	start = {
+		diplomatic_upkeep = 2
+		discipline = 0.05
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.15
+	}
+	trigger = {
+		tag = ASN
+	}
+	free = yes
+
+	gatekeeper_north = {
+		defensiveness = 0.2
+	}
+	mediate_succession = {
+		diplomatic_reputation = 2
+	}
+	ashina_four_guardians = {
+		global_autonomy = -0.05
+	}
+	prohibition_edict = {
+		army_tradition = 1
+	}
+	painting_lessons = {
+		prestige = 1
+	}
+	cadets_through_adoption = {
+		diplomatic_annexation_cost = -0.15
+	}
+	expand_aizu_basin = {
+		development_cost = -0.15
+	}
+}
+
+TSU_ideas = {
+	start = {
+		manpower_recovery_speed = 0.25
+		production_efficiency = 0.15
+	}
+	bonus = {
+		build_cost = -0.2
+	}
+	trigger = {
+		tag = TSU
+	}
+	free = yes
+
+	otomo_cadets = {
+		prestige = 1
+	}
+	autonomous_vassals = {
+		land_forcelimit_modifier = 0.25
+	}
+	unto_the_end = {
+		land_morale = 0.2
+	}
+	nanban_technology = {
+		technology_cost = -0.1
+	}
+	partisan_faiths = {
+		global_missionary_strength = 0.02
+	}
+	saltpeter_monopoly = {
+		fire_damage = 0.15
+	}
+	impregnable_defenses = {
+		defensiveness = 0.25
+	}
+}
+
+KYO_ideas = {
+	start = {
+		discipline = 0.05
+		army_tradition_decay = -0.01
+	}
+	bonus = {
+		improve_relation_modifier = 0.25
+	}
+	trigger = {
+		tag = KYO
+	}
+	free = yes
+
+	heirs_of_sasaki = {
+		prestige_from_land = 1
+	}
+	omi_genji_festival = {
+		prestige_decay = -0.01
+	}
+	taiheiki = {
+		prestige = 1
+	}
+	marriage_survival = {
+		diplomatic_reputation = 2
+	}
+	cosmopolitan_culture = {
+		tolerance_heretic = 3
+	}
+	stubborn_defense = {
+		defensiveness = 0.25
+	}
+	establish_branches = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+}
+
+KTK_ideas = {
+	start = {
+		manpower_recovery_speed = 0.25
+		stability_cost_modifier = -0.15
+	}
+	bonus = {
+		global_tax_modifier = 0.15
+	}
+	trigger = {
+		OR = {
+			tag = KTK
+			tag = KHR
+		}
+	}
+	free = yes
+
+	hayato_pride = {
+		infantry_power = 0.15
+	}
+	allied_kokujin = {
+		merc_maintenance_modifier = -0.25
+	}
+	reunification_sasshu = {
+		core_creation = -0.15
+	}
+	tanegashima_adoption = {
+		leader_land_fire = 2
+	}
+	early_westernization = {
+		global_institution_spread = 0.15
+	}
+	unbreakable_will = {
+		discipline = 0.05
+	}
+	ryukyu_trade = {
+		global_trade_power = 0.1
+	}
+}
+
+KSA_ideas = {
+	start = {
+		cavalry_power = 0.15
+		diplomatic_upkeep = 2
+	}
+	bonus = {
+		improve_relation_modifier = 0.25
+	}
+	trigger = {
+		OR = {
+			tag = KSA
+			tag = OSK
+		}
+	}
+	free = yes
+
+	den_system = {
+		province_warscore_cost = -0.15
+	}
+	marriage_expansion = {
+		ae_impact = -0.15
+	}
+	fluid_borders = {
+		fabricate_claims_cost = -0.25
+	}
+	centralize_authority = {
+		production_efficiency = 0.1
+	}
+	dragoon_corps = {
+		fire_damage = 0.15
+	}
+	domain_expansion = {
+		development_cost = -0.15
+	}
+	beyond_tohoku = {
+		global_institution_spread = 0.15
+	}
+}
+
+OMR_ideas = {
+	start = {
+		tolerance_own = 2
+		trade_efficiency = 0.15
+	}
+	bonus = {
+		infantry_power = 0.2
+	}
+	trigger = {
+		tag = OMR
+	}
+	free = yes
+
+	shimabara_resistance = {
+		garrison_size = 0.25
+	}
+	natural_harbors = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	jesuit_support = {
+		technology_cost = -0.1
+	}
+	western_seminaries = {
+		idea_cost = -0.1
+	}
+	religious_devotion = {
+		global_missionary_strength = 0.02
+	}
+	jesuit_administration = {
+		development_cost = -0.15
+	}
+	western_firearms = {
+		fire_damage = 0.2
+	}
+}
+
+MYI_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		naval_morale = 0.2
+	}
+
+	bonus = {
+		core_creation = -0.15
+	}
+
+	trigger = {
+		tag = MYI
+	}
+	free = yes
+
+	miyoshi_branch_clans = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+	atagi_navy = {
+		light_ship_power = 0.2
+	}
+	capital_culture = {
+		idea_cost = -0.1
+	}
+	sogo_commanders = {
+		land_morale = 0.15
+	}
+	sakai_patronage = {
+		global_trade_power = 0.1
+	}
+	miyoshi_laws = {
+		global_tax_modifier = 0.1
+	}
+	miyoshi_triumvirate = {
+		stability_cost_modifier = -0.15
+	}
+}
+
+#VU Korean additions by San Felipe
+GOG_ideas = {
+	start = {
+		adm_tech_cost_modifier = -0.15
+		num_accepted_cultures = 2
+	}
+
+	bonus = {
+		diplomatic_reputation = 1
+	}
+
+	trigger = {
+		tag = GOG
+	}
+	free = yes
+
+	legacy_of_goguryeo = {
+		prestige = 1
+	}
+	jumong = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+	battle_hardened_veterans_goguryeo = {
+		land_morale = 0.15
+	}
+	foreign_affairs_goguryeo = {
+		diplomats = 1
+	}
+	mountain_fortresses_goguryeo = {
+		defensiveness = 0.2
+	}
+	outward_expansion_goguryeo = {
+		core_creation = -0.15
+	}
+	remembering_gwanggaeto = {
+		army_tradition = 1
+	}
+}
+
+BKJ_ideas = {
+	start = {
+        fire_damage_received = -0.1
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 0.3
+	}
+
+	bonus = {
+		merc_maintenance_modifier = -0.2
+	}
+
+	trigger = {
+		tag = BKJ
+	}
+	free = yes
+
+	hundred_vassals_baekje = {
+		global_autonomy = -0.05
+	}
+	regional_sea_power_baekje = {
+		global_ship_cost = -0.1
+	}
+	diplomatic_missions_baekje = {
+		diplomatic_reputation = 1
+	}
+	chinese_influences_baekje = {
+		dip_tech_cost_modifier = -0.15
+	}
+	decendants_of_buyeo = {
+		development_cost = -0.1
+	}
+	han_river_baekje = {
+		global_tax_modifier = 0.10
+	}
+	eight_noble_clans = {
+		stability_cost_modifier = -0.15
+	}
+}
+
+SLL_ideas = {
+	start = {
+		global_tax_modifier = 0.10
+        land_forcelimit_modifier = 0.2
+	}
+
+	bonus = {
+		diplomatic_reputation = 1
+	}
+
+	trigger = {
+		tag = SLL
+	}
+	free = yes
+
+	bone_rank_system = {
+		global_unrest = -2
+	}
+	hwarang = {
+		army_tradition = 1
+	}
+	geumseong = {
+		prestige = 1
+	}
+	cultural_heartland_of_korea_silla = {
+		global_trade_power = 0.1
+	}
+	hwabaek = {
+		adm_tech_cost_modifier = -0.15
+	}
+	tribal_origins_silla = {
+		manpower_recovery_speed = 0.25
+	}
+	bureaucratic_government_silla = {
+		development_cost = -0.1
+	}
 }

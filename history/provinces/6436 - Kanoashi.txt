@@ -1,0 +1,25 @@
+#5506 - Kanoashi
+
+owner = YSM
+controller = YSM
+culture = japanese
+religion = shinto
+capital = "Hagi"
+trade_goods = rice
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = YSM
+discovered_by = chinese
+discovered_by = japanese
+
+
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = ANU
+
+1542.1.1 = { discovered_by = POR }

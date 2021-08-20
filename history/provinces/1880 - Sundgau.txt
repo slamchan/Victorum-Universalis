@@ -15,7 +15,7 @@ base_tax = 8
 base_production = 8
 trade_goods = grain
 base_manpower = 4 
-center_of_trade = 1
+
 
 discovered_by = western
 discovered_by = muslim

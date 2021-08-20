@@ -17,7 +17,6 @@ base_manpower = 1
 native_size = 10
 native_ferocity = 1 
 native_hostileness = 1
-
 1561.1.1 = {	discovered_by = SPA
 	owner = SPA
 	controller = SPA

@@ -4,7 +4,7 @@ owner = SMG
 controller = SMG
 add_core = SMG
 culture = lithuanian
-religion = catholic			#Realistically probably still pagan, but don't have the religion changes set up yet.
+religion = baltic_pagan_reformed
 capital = "Jurbarkas"
 base_tax = 2
 base_production = 2
@@ -72,3 +72,5 @@ discovered_by = ottoman
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 
 #1444 on
+
+1490.1.1 = { religion = catholic }

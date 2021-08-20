@@ -925,7 +925,7 @@ guarantee = {
 
 guarantee = {
 	first = BUR
-	second = TRN
+	second = SPO
 	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
@@ -956,14 +956,14 @@ alliance = {
 vassal = {
 	first = BUR
 	second = BSA
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.1.1 #BeyondTypus batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 
 vassal = {
 	first = BUR
 	second = LXL
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.1.1 #BeyondTypus batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 
@@ -994,7 +994,7 @@ union = {
 union = {
 	first = BUR
 	second = ATS
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.1.1 #BeyondTypus batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 

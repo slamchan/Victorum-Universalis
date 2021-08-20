@@ -14,10 +14,10 @@ base_manpower = 6
 capital = "Bologna" 
 is_city = yes	# Estimated 
 add_core = BLG
-
+center_of_trade = 2
 extra_cost = 15
 
-center_of_trade = 2
+
 
 discovered_by = western
 discovered_by = muslim

@@ -25,6 +25,22 @@ guarantee = {
 # Vassals #
 ###########
 
+#Autonomous Smolensk within Lithuanian Duchy 
+vassal = {
+    first = LIT
+	second = SMO
+	start_date = 1442.1.1
+	end_date = 1514.1.1 #Russian Annexation
+}	
+
+#Autonomous Chernigov within Lithuanian Duchy 
+vassal = {
+    first = LIT
+	second = CHR
+	start_date = 1444.1.1
+	end_date = 1503.1.1 #Russian Annexation
+}
+
 # Lithuania and Tver
 vassal = {
 	first = LIT
@@ -48,6 +64,22 @@ vassal = {
 	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
 	end_date = 1471.1.1 #Principality of Kiev fully annexed to Lithuania with the death of Prince Simeon Olelkovich
 }
+
+#Wild Fields
+march = {
+    first = LIT 
+	second = ZAZ 
+	start_date = 1444.1.1 
+	end_date = 1526.1.1 #Yedistan annexed by Ottomans
+}
+	
+#Autonomous Bratslav within Lithuanian Duchy 
+vassal = {
+    first = LIT
+	second = BSV
+	start_date = 1444.1.1
+	end_date = 1566.1.1 #Voivodeship within Poland
+}	
 
 #Duchy of Samogitia under Lithuania
 vassal = {

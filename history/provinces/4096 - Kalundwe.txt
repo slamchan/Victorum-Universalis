@@ -10,6 +10,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
+
 discovered_by = central_african
 
 1600.1.1 = { owner = LUB controller = LUB add_core = LUB }

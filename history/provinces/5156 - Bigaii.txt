@@ -6,12 +6,18 @@ add_core = TUR
 culture = turkish
 religion = sunni
 capital = "Biga"
-trade_goods = naval_supplies			#Unclear, going with naval supplies because of the large forests around here
+trade_goods = marble			#changed from naval supplies to marble
 hre = no
 base_tax = 4 #3
 base_production = 4 #3
 base_manpower = 3 #2
 is_city = yes
+center_of_trade = 1
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
 
 discovered_by = western
 discovered_by = eastern

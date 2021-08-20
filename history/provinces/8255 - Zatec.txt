@@ -18,7 +18,7 @@ base_production = 1
 base_manpower = 1
 trade_goods = glass
 latent_trade_goods = { coal }
-center_of_trade = 1
+
 
 #Cores and Occupation (Alphabetical after current)
 add_core = BOH

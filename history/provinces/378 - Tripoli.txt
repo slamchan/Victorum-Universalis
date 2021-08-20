@@ -14,10 +14,14 @@ base_manpower = 4
 is_city = yes
 add_core = LEB
 add_core = SYR
-
+center_of_trade = 2
 extra_cost = 10
+#Driaocht added, Tripoli was massively important for trade until about the 20th century
 
-center_of_trade = 2	#Driaocht added, Tripoli was massively important for trade until about the 20th century
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
 
 discovered_by = muslim
 discovered_by = ottoman

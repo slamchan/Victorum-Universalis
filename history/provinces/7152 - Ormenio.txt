@@ -6,11 +6,11 @@ add_core = BYZ
 add_core = BUL
 culture = bulgarian			#Tough call... could just as easily be greek or turkish.
 religion = orthodox
-capital = "Çirmen"
+capital = "ï¿½irmen"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = cloth			#Major provincial centre under the Ottomans, so a generic rich city good.
+trade_goods = cloth			#Major provincial center under the Ottomans, so a generic rich city good.
 is_city = yes
 hre = no
 fort_15th = yes
@@ -41,7 +41,7 @@ discovered_by = western
 	controller = TUR
 	add_core = TUR
 	remove_core = BYZ
-	capital = "Çirmen"
+	capital = "ï¿½irmen"
 } #falls to Turkey, but doesn't seem to have been devastated
 #1402.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Interregnum
 1404.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB }

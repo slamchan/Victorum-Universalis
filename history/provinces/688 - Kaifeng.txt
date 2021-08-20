@@ -13,6 +13,7 @@ base_production = 14
 base_manpower = 8
 is_city = yes
 add_core = LNG
+center_of_trade = 3
 
 discovered_by = chinese
 discovered_by = nomad_group

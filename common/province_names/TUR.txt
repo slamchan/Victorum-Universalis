@@ -1,3 +1,16 @@
 282 = "Özü"
+316 = { "Kocaeli" "Izmit" }
+322 = "Eskisehir"
 360 = "Circe"
+1846 = "Bayramli"
 2327 = { "Gayal" "Gayal" }
+4113 = "Çankiri"
+4312 = { "Bolu" "Bolu" }
+5135 = "Mersin"
+5137 = "Yozgut"
+5146 = "Nigde"
+5147 = { "Alayie" "Alayie" }
+5150 = "Göreme"
+5155 = "Gordiyon"
+5164 = "Karabük"
+5167 = "Çorum"

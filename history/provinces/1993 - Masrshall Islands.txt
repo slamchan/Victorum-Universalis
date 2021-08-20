@@ -18,3 +18,5 @@ native_hostileness = 1
 1788.6.1 = {
 	discovered_by = GBR	# John Charles Marshall and Thomas Gilbert
 }
+
+

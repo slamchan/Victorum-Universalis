@@ -14,6 +14,7 @@ base_manpower = 6
 capital	= "Regensburg" 
 is_city = yes
 hre = yes
+center_of_trade = 3
 
 discovered_by = western
 discovered_by = muslim
@@ -21,7 +22,7 @@ discovered_by = ottoman
 discovered_by = eastern
 extra_cost = 10
 
-center_of_trade = 1			#Added in vanilla patch 1.20, and a generally very good idea, though I previously held off because it faded in importance over our period.
+			#Added in vanilla patch 1.20, and a generally very good idea, though I previously held off because it faded in importance over our period.
 
 1486.1.1 = {
 	owner = BAV

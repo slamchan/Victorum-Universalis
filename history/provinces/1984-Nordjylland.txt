@@ -14,12 +14,16 @@ trade_goods = fish			#Changed from grain. North Jutland had a booming herring in
 base_manpower = 2
 capital = "Aalborg"
 is_city = yes
-
+center_of_trade = 1
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
 
 #Province history completed by - Draiocht
 #1st Shattering unused

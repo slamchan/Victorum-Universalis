@@ -507,10 +507,8 @@ peasants_2 = {
 		icon = mission_settlers_north_america
 		required_missions = { peasants_north_germany }
 		provinces_to_highlight = {
-			OR { 
 				area = frisia_area
 				area = north_brabant_area
-			}
 			NOT = {
 				owner = {
 					has_reform = peasants_republic

@@ -11,9 +11,14 @@ religion = catholic
 hre = yes
 base_tax = 2
 base_production = 3
-trade_goods = livestock 			#SUPERCOWS
+trade_goods = cheese 			#SUPERCOWS
 base_manpower = 2 
 add_core = FRI
+
+add_permanent_province_modifier = {
+	name = ijsselmeer_bay_modifier
+	duration = -1
+}
 
 discovered_by = western
 discovered_by = muslim

@@ -88,8 +88,6 @@ feudalism = {
 			culture = swahili
 			area = ningguta_area
 			area = jilin_area
-			culture = hejazi_arabic
-			culture = khaliji_arabic
 			culture_group = byzantine
 			culture_group = dravidian
 			culture_group = east_asian
@@ -112,7 +110,7 @@ feudalism = {
 			}
 			AND = {
 				culture = al_misr_arabic
-				NOT = { area = libyan_desert_area }
+				#NOT = { area = libyan_desert_area }
 				NOT = { area = cyrenaica_area }
 			}
 			AND = {
@@ -642,7 +640,6 @@ feudalism = {
 						loyalty = 40
 					}
 				}
-				has_estate = estate_nobles
 			}
 		}
 		modifier = {
@@ -1564,9 +1561,9 @@ renaissance = {
 			potential = {
 				OR = {
 					area = venetia_area
-					area = verona_area
+					#area = verona_area
 					area = tuscany_area
-					area = east_tuscany_area
+					#area = east_tuscany_area
 					area = south_tuscany_area
 					#area = lombardy_area
 					#area = piedmont_area
@@ -1584,9 +1581,9 @@ renaissance = {
 				tooltip = tooltip_flanders_tuscany_venetia
 				OR = {
 					area = venetia_area
-					area = verona_area
+					#area = verona_area
 					area = tuscany_area
-					area = east_tuscany_area
+					#area = east_tuscany_area
 					area = south_tuscany_area
 					#area = lombardy_area
 					#area = piedmont_area
@@ -1615,9 +1612,9 @@ renaissance = {
 						area = sicily_area
 						area = corsica_sardinia_area
 						area = sardinia_area
-						area = cagliari_area
-						area = demone_area
-						area = noto_area
+						#area = cagliari_area
+						#area = demone_area
+						#area = noto_area
 					}
 				}			#BTMiscAddOn note, blocking Sicily and Sardinia/Corsica to prevent spread to North Africa and Aragon too quickly. Also not horrible, neither was poor, but outside of perhaps Palermo, niether was as advanced as the rest of Italy at this point, either. Stronger Sicily and Sardinia came later, I believe
 			}
@@ -1629,9 +1626,9 @@ renaissance = {
 						area = sicily_area
 						area = corsica_sardinia_area
 						area = sardinia_area
-						area = cagliari_area
-						area = demone_area
-						area = noto_area
+						#area = cagliari_area
+						#area = demone_area
+						#area = noto_area
 					}
 				}
 			}
@@ -1865,7 +1862,9 @@ new_world_i = {
 				OR = {
 					AND = {
 						continent = europe
-						NOT = { technology_group = nomad_group }
+						owner = {
+							NOT = { technology_group = nomad_group }
+						}
 					}
 					owner = { technology_group = ottoman }
 				}
@@ -2590,6 +2589,7 @@ new_world_i = {
 						north_america = { has_discovered = PREV }
 						south_america = { has_discovered = PREV }
 						new_world = { has_discovered = PREV }
+						has_idea = quest_for_the_new_world
 					}
 				}
 				province_trade_power = 10
@@ -3426,7 +3426,6 @@ printing_press = {
 						loyalty = 40
 					}
 				}
-				has_estate = estate_church
 			}
 		}			#BTAddOn Note. I don't get it... why does clergy estate boost printing. Something to do with printing the Bible, maybe. Seems a bit thin... and Christian specific as well, maybe even Protestant specific. Anyhow, leaving it until I figure out what it is about, plus it still requires normal spread, so no harm
 		#BTAddOn notes - removing this factor entirely. I don't really like how circular it is... need tech for institution, need institution for tech... makes everything seem futile.
@@ -3655,7 +3654,7 @@ global_trade = {
 	    OR = {
 			AND = {
 				is_year = 1600
-				area = netherlands_area			#BTMiscAddonChange - Slows spread slightly for later start dates
+				area = holland_area			#BTMiscAddonChange - Slows spread slightly for later start dates
 			}
 			AND = {
 				is_year = 1625			#BTMiscAddon Note - 20 year penalty here, everyone was way behind the Dutch historically (VOC founded in 1602), but the English and Portuguese came next
@@ -3673,7 +3672,7 @@ global_trade = {
 					area = greater_london_area
 					area = south_east_area
 					area = east_anglia_area
-					area = mercia_area
+					#area = mercia_area
 					province_id = 248	#Edinburgh
 					province_id = 3019	#Glasgow
 					province_id = 373	#Dublin
@@ -4576,7 +4575,6 @@ global_trade = {
 						loyalty = 40
 					}
 				}
-				has_estate = estate_burghers
 			}
 		}
 
@@ -5779,11 +5777,11 @@ enlightenment = {
 		OR = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_bt_add_new_instituiton_details_k
-				owner = { has_advisor = natural_scientist }
+				owner = { advisor = natural_scientist }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_bt_add_new_instituiton_details_l
-				owner = { has_advisor = philosopher }
+				owner = { advisor = philosopher }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_bt_add_new_instituiton_details_m
